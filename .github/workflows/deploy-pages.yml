@@ -12,22 +12,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Debug - list workspace contents
-        run: |
-          echo "=== GITHUB_WORKSPACE ==="
-          echo "$GITHUB_WORKSPACE"
-          echo "=== Current dir ==="
-          pwd
-          echo "=== ls -la ==="
-          ls -la
-          echo "=== ls -la md/ (if exists) ==="
-          ls -la md/ || echo "md/ directory NOT FOUND"
-          echo "=== find . -name '*.md' ==="
-          find . -name "*.md" 2>/dev/null | head -20
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4.1.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./md
+          publish_dir: .
           force_orphan: true
