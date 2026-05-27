@@ -1,5 +1,18 @@
 ﻿[
-  { "path": "Gali/Gali_开荒文稿初稿.md", "name": "Gali - 开荒文稿初稿" },
-  { "path": "功夫胖cblock/功夫胖C-BLOCK音乐作品目录.md", "name": "功夫胖 - C-BLOCK音乐作品目录" },
-  { "path": "李佳隆/李佳隆音乐作品目录.md", "name": "李佳隆 - 音乐作品目录" }
+    {
+        "path":  "Gali/Gali_开荒文稿初稿.md",
+        "name":  "Gali - 开荒文稿初稿"
+    },
+    {
+        "path":  "功夫胖cblock/功夫胖C-BLOCK音乐作品目录.md",
+        "name":  "功夫胖cblock - 功夫胖C-BLOCK音乐作品目录"
+    },
+    {
+        "path":  "李佳隆/李佳隆音乐作品目录.md",
+        "name":  "李佳隆 - 李佳隆音乐作品目录"
+    },
+    {
+        "path":  "连麻/连麻_Swimming_完整文稿.md",
+        "name":  "连麻 - Swimming_完整文稿"
+    }
 ]
