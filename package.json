@@ -1,0 +1,20 @@
+{
+  "name": "chinese-rap-archive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "中文说唱档案 · 基于 VitePress 的说唱歌手开荒文稿静态站",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "images:compress": "node scripts/compress-images.mjs",
+    "validate": "node scripts/validate-data.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.5",
+    "sharp": "^0.33.5",
+    "typescript": "^5.6.0",
+    "vitepress": "^1.5.0"
+  }
+}
