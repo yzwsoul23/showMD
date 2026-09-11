@@ -1,0 +1,4 @@
+/* 强制平滑滚动，覆盖 VitePress 过渡动画中的 auto!important */
+html {
+  scroll-behavior: smooth !important;
+}
