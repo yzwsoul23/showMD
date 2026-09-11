@@ -11,7 +11,7 @@ description: 功夫胖（施逸凡）与 C-BLOCK 的生涯历程、早期经历�
 
 ## 功夫胖（施逸凡）
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/01-kungfu-pen.webp" alt="01-功夫胖.png" loading="lazy" title="功夫胖" />
+![01-功夫胖.png](/images/kungfu-pen/01-kungfu-pen.webp "功夫胖")
 
 于 1991 年出生于长沙，C-Block 组合成员。
 
@@ -39,7 +39,7 @@ description: 功夫胖（施逸凡）与 C-BLOCK 的生涯历程、早期经历�
 
 那一夜，聚光灯下的对手，正是日后与他并肩同行二十年的挚友盛宇。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/01-shengyu.webp" alt="01-盛宇" loading="lazy" title="盛宇" />
+![01-盛宇](/images/kungfu-pen/01-shengyu.webp "盛宇")
 
 此时 C-BLOCK 成员共七人，组合由功夫胖命名，"C"代表长沙（ChangSha）的简写，BLOCK 英文为街区。C-BLOCK 意味长沙自己的 HIPHOP 街区，自己的乌托邦。
 
@@ -51,7 +51,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 2008 年 4 月，C-BLOCK 发行第一张 mixtape **《湘 show》**
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/02-xiang-show-cover.webp" alt="02-湘show封面" loading="lazy" title="湘show封面" />
+![02-湘show封面](/images/kungfu-pen/02-xiang-show-cover.webp "湘show封面")
 
 这一时期，C-BLOCK 凭借具有本土特色的歌曲获得了主流媒体的赏识，他们开始频繁登上电视台，参加汪涵主持的"越策越开心"等节目。特别是 mixtape 中收录的《长沙策长沙》，几乎成为长沙市市歌。这张 mixtape 里，年仅 17 岁的功夫胖初现锋芒，字里行间流露出对社会现象初步的思考。
 
@@ -99,7 +99,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 ## 2010 年
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/03-c-block-group-photo-1.webp" alt="03-C-BLOCK合影1" loading="lazy" title="C-BLOCK合影1" />
+![03-C-BLOCK合影1](/images/kungfu-pen/03-c-block-group-photo-1.webp "C-BLOCK合影1")
 
 此时的 C-BLOCK 已成了本土说唱音乐扎根最深的血脉，但随着成员们的相继退出，组合的形式也产生了变化。
 
@@ -107,7 +107,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 在队长盛宇眼中，功夫胖承担 了 C-BLOCK 的精神向标和导师的角色（来源：盛宇 2018 年个人纪录片）
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/03-c-block-group-photo-2.webp" alt="03-C-BLOCK合影2" loading="lazy" title="C-BLOCK合影2" /><img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/03-c-block-group-photo-3.webp" alt="03-C-BLOCK合影3" loading="lazy" title="C-BLOCK合影3" />
+![03-C-BLOCK合影2](/images/kungfu-pen/03-c-block-group-photo-2.webp "C-BLOCK合影2")![03-C-BLOCK合影3](/images/kungfu-pen/03-c-block-group-photo-3.webp "C-BLOCK合影3")
 
 ---
 
@@ -126,7 +126,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 （SUP CYPHER 因内容原因不建议直播收听 MV：[BV1q4411C7xm](https://www.bilibili.com/video/BV1q4411C7xm)）
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/04-sup-label.webp" alt="04-SUP厂牌" loading="lazy" title="SUP厂牌" />
+![04-SUP厂牌](/images/kungfu-pen/04-sup-label.webp "SUP厂牌")
 厂牌名"SUP"——源自"Super Underground Player"的缩写，同样由功夫胖提出。
 
 厂牌由西奥及其好友 Tuff Blunt 在 11 年至 12 年召集，最终以六人成形，创始人"六位内阁"为 C-Block 三人、Tuff Blunt、西奥和 Ranzer。随后，随着老道等人的加入，SUP 逐渐形成了集制作人，导演，投资人于一体的完整团队。
@@ -167,7 +167,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 ## 2014 年
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/06-old-times-cover.webp" alt="06-老时光封面" loading="lazy" title="老时光封面" />
+![06-老时光封面](/images/kungfu-pen/06-old-times-cover.webp "老时光封面")
 
 这一时期的 C-BLOCK 尚处于从"地上男团"转型到"地下组合"的阵痛期
 
@@ -201,7 +201,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 （除下架歌曲全专都可以听听看）
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/07-bao-chu-kou-cover.webp" alt="07-爆出口封面" loading="lazy" title="爆出口封面" />
+![07-爆出口封面](/images/kungfu-pen/07-bao-chu-kou-cover.webp "爆出口封面")
 
 ### 《爆出口》
 
@@ -234,7 +234,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 ## 2015 年
 
-- <img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/08-san-que-yi-cover.webp" alt="08-三缺一封面" loading="lazy" title="三缺一封面" />
+- ![08-三缺一封面](/images/kungfu-pen/08-san-que-yi-cover.webp "三缺一封面")
 
   **2015 年，C-BLOCK 发布第二张专辑《三缺一》**
 
@@ -264,7 +264,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 ## 2016 年
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/09-straw-mushroom-soy-sauce-cover.webp" alt="09-草菇老抽封面" loading="lazy" title="草菇老抽封面" />
+![09-草菇老抽封面](/images/kungfu-pen/09-straw-mushroom-soy-sauce-cover.webp "草菇老抽封面")
 
 - **2016 年 1 月 31 日，功夫胖发布第一张个人 mixtape《草菇老抽》，由老道监制。**
 
@@ -288,7 +288,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 | 10 | 《Overdose》 | 不建议收听 |  |  |
 | 11 | 《灵魂列车》 | 推荐 |  | 可在 DEMO 合辑《随口记》中收听 |
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/09-three-thousand-miles-cover.webp" alt="09-三千里封面" loading="lazy" title="三千里封面" />
+![09-三千里封面](/images/kungfu-pen/09-three-thousand-miles-cover.webp "三千里封面")
 
 - **2016 年 12 月 7 日，功夫胖与西奥、刘聪合作单曲《三千里》（推荐收听）**
 
@@ -297,7 +297,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 这首歌是 SUP 厂牌去桂林团建时写下的，编曲 BBC 也是功夫胖经常合作的制作人之一，后改名 THE-BETA
 
 【三千里淘金怪盗采样解析：[BV17Axez6Erk](https://www.bilibili.com/video/BV17Axez6Erk)】
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/09-three-thousand-miles-group.webp" alt="09-三千里合影" loading="lazy" title="三千里合影" />
+![09-三千里合影](/images/kungfu-pen/09-three-thousand-miles-group.webp "三千里合影")
 
 ---
 
@@ -311,7 +311,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 - **2017 年 1 月 23 日，C-BLOCK 第三张专辑《以下范上》**
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/10-yi-xia-fan-shang-cover.webp" alt="10-以下范上封面" loading="lazy" title="以下范上封面" />
+![10-以下范上封面](/images/kungfu-pen/10-yi-xia-fan-shang-cover.webp "以下范上封面")
 
 《以下范上》专辑的诞生，是 C-Block 迸发崭新生命力的一道惊雷。用老道的话来说，《以下范上》是 C-Block 第一张合格的专辑。
 
@@ -349,7 +349,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 - 下：[BV1QNzxBpErf](https://www.bilibili.com/video/BV1QNzxBpErf)
 - 这个是应该是 2017 年以下范上发完之后他们进行了全国巡演的纪录片，上下加起来一共十二分钟，直播看或者私下补充都可以试试。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/11-yi-xia-fan-shang-tour.webp" alt="11-以下范上巡演" loading="lazy" title="以下范上巡演" />
+![11-以下范上巡演](/images/kungfu-pen/11-yi-xia-fan-shang-tour.webp "以下范上巡演")
 
 **2017 年年底 CDC vs CSC**
 
@@ -370,7 +370,7 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 ## 2018 年
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/12-kungfu-pen-li-sao.webp" alt="12-功夫胖离骚" loading="lazy" title="功夫胖离骚" />2017 年末—2018 年，中文说唱遭受了降维打击，历经第一次沉痛的挫骨：歌曲接连下架、演出报批受阻、综艺剪辑打码。
+![12-功夫胖离骚](/images/kungfu-pen/12-kungfu-pen-li-sao.webp "功夫胖离骚")2017 年末—2018 年，中文说唱遭受了降维打击，历经第一次沉痛的挫骨：歌曲接连下架、演出报批受阻、综艺剪辑打码。
 
 在这样的背景下，C-BLOCK 发布了第四张专辑《淘金日记》，其中功夫胖的 SOLO 歌曲《离骚》，便是写给正被围剿中的中文说唱。
 
@@ -404,7 +404,7 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 - **2018 年参加《中国新说唱》，发布《再见 Hiphop》**
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/13-goodbye-hiphop-cover.webp" alt="13-再见Hiphop封面" loading="lazy" title="再见Hiphop封面" />
+![13-再见Hiphop封面](/images/kungfu-pen/13-goodbye-hiphop-cover.webp "再见Hiphop封面")
 
 在发布《淘金日记》后，C-BLOCK 进行了一次短途的巡演，便纷纷踏上了节目海选的路程。但随着各种不明原因的退赛，最终真正步入节目历程的只有功夫胖。因为节目的曝光人气和知名度快速提高，他成了 CSC 跃入主流视线的领头羊。
 
@@ -418,7 +418,7 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 - **2018 年 7 月，C-BLOCK 单曲《很高兴认识你》** （推荐收听）
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/13-nice-to-meet-you-cover.webp" alt="13-很高兴认识你封面" loading="lazy" title="很高兴认识你封面" />
+![13-很高兴认识你封面](/images/kungfu-pen/13-nice-to-meet-you-cover.webp "很高兴认识你封面")
 
 2018 年 7 月开始，C-BLOCK 三人摄制了《陌路同途》的纪录片（纪录片：[BV1ft411Z73P](https://www.bilibili.com/video/BV1ft411Z73P)）
 
@@ -456,7 +456,7 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 - **2018 年 9 月，发布第一张个人专辑《D7STS》（《地气水土生》）**
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/14-d7sts-cover.webp" alt="14-D7STS封面" loading="lazy" title="D7STS封面" />
+![14-D7STS封面](/images/kungfu-pen/14-d7sts-cover.webp "D7STS封面")
 
 专辑名《地气水土生》源于"自然地理"成因必用的五个条件：地貌、气候、水文、土壤、生物
 
@@ -498,7 +498,7 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 - **参加《中国新说唱 2019》**
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/16-rap-of-china-2019.webp" alt="16-新说唱2019" loading="lazy" title="新说唱2019" />
+![16-新说唱2019](/images/kungfu-pen/16-rap-of-china-2019.webp "新说唱2019")
 
 2019 年 4 月 25 日，《中国新说唱 2019》海选开启，C-Block 三人又一起参加了节目。这一次，功夫胖早早被杨和苏淘汰，盛宇和刘聪则走到了最后几轮，而且都有不俗的表现。
 
@@ -520,7 +520,7 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 - **2020 年 8 月，功夫胖发布个人的第二张专辑《梦剧院》**
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/16-dream-theater-cover.webp" alt="16-梦剧院封面" loading="lazy" title="梦剧院封面" />
+![16-梦剧院封面](/images/kungfu-pen/16-dream-theater-cover.webp "梦剧院封面")
 
 这张专辑回归了功夫胖舒适圈，大部分作品回归了他最擅长的风格，但也尝试了一些之前并没有接触过的风格。
 
@@ -592,7 +592,7 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 在这一年，与咖啡胡和刘聪合作了《Chinese shh！》，也发布了 solo 单曲《红绿灯》《青春之歌 DEMO》《THANK ME》
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/18-soul-tone-cover.webp" alt="18-SOUL TONE封面" loading="lazy" title="SOUL TONE封面" />
+![18-SOUL TONE封面](/images/kungfu-pen/18-soul-tone-cover.webp "SOUL TONE封面")
 
 - **2021 年 12 月 发布第三张个人专辑《SOUL TONE》**
 
@@ -622,7 +622,7 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 ## 2022 年
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/19-peak-showdown.webp" alt="19-巅峰对决" loading="lazy" title="巅峰对决" />
+![19-巅峰对决](/images/kungfu-pen/19-peak-showdown.webp "巅峰对决")
 
 **2022 年，参加《中国说唱巅峰对决》**
 
@@ -677,7 +677,7 @@ solo 单曲《杨过 FREESTYLE》《过节》
 
 ## 2024 年
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/20-lin-tong-cover.webp" alt="20-林童封面" loading="lazy" title="林童封面" />
+![20-林童封面](/images/kungfu-pen/20-lin-tong-cover.webp "林童封面")
 
 **2023 年 4 月，发布个人第四章专辑《林童》**
 
@@ -719,7 +719,7 @@ solo 单曲《杨过 FREESTYLE》《过节》
 
 ## 2025 年
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/21-g-block-cover.webp" alt="21-G-BLOCK封面" loading="lazy" title="G-BLOCK封面" />
+![21-G-BLOCK封面](/images/kungfu-pen/21-g-block-cover.webp "G-BLOCK封面")
 
 **2025 年 6 月，《G-BLOCK Mixtape》诞生**
 
@@ -760,7 +760,7 @@ solo 单曲《杨过 FREESTYLE》《过节》
 
 ## 2026 年
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/22-family-portrait-cover.webp" alt="22-全家福封面" loading="lazy" title="全家福封面" />
+![22-全家福封面](/images/kungfu-pen/22-family-portrait-cover.webp "全家福封面")
 
 **2026 年 2 月，发布第五张个人专辑《全家福》**
 
@@ -789,7 +789,7 @@ solo 单曲《杨过 FREESTYLE》《过节》
 | 13 | 《天空之城》 |  |
 | 14 | 《终身自由（Outro.）》 |  |
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/kungfu-pen/22-special-thanks.webp" alt="22-特别感谢" loading="lazy" title="特别感谢" />
+![22-特别感谢](/images/kungfu-pen/22-special-thanks.webp "特别感谢")
 
 最后！特别感谢 dy：闪光变态菇老师、煎菠萝片老师、呼噜水巫师老师、我在电视里老师。
 

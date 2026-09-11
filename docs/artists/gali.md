@@ -19,9 +19,9 @@ description: GALI（蒋文涵）的个人资料、早期经历与代表作品。
 
 谢谢粉丝朋友们用爱发电写出如此详细的discography！
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/gali/Special-Thank-You.webp" alt="Special Thank You" loading="lazy" />
+![Special Thank You](/images/gali/Special-Thank-You.webp)
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/gali/Special-thanks-to-bili.webp" alt="Special thanks to bili" loading="lazy" />
+![Special thanks to bili](/images/gali/Special-thanks-to-bili.webp)
 
 <br />
 
@@ -109,7 +109,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 直至20年，GALI才把这两张专辑发布于网易云音乐（可见《1992/Lord Knows》或下张EP歌曲《悲伤飞行》下GALI的评论），但网易云的歌曲顺序和简介的歌曲排序不太一样，推荐按照以下表格（同简介）的歌曲顺序收听。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/gali/EP-Re-launched-Explanation.webp" alt="EP Re-launched Explanation" loading="lazy" />
+![EP Re-launched Explanation](/images/gali/EP-Re-launched-Explanation.webp)
 
 |  | 歌名 | 歌手 | MV | 备注 |
 | --- | --- | --- | --- | --- |
@@ -206,7 +206,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 \*视频1:19未消音提到了加拿大故人的原名，建议在那里拉低音量，不过网易云录音室版有消音。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/gali/05_Plagiarism-Controversy-Cloud.webp" alt="05_Plagiarism-Controversy-Cloud" loading="lazy" /><img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/gali/Comment-on-plagiarism.webp" alt="Comment-on-plagiarism" loading="lazy" /><img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/gali/07_70%25-Song-Lyrics-Screenshot-1.webp" alt="07_70%-Song-Lyrics-Screenshot-1" loading="lazy" />
+![05_Plagiarism-Controversy-Cloud](/images/gali/05_Plagiarism-Controversy-Cloud.webp)![Comment-on-plagiarism](/images/gali/Comment-on-plagiarism.webp)![07_70%-Song-Lyrics-Screenshot-1](/images/gali/07_70%25-Song-Lyrics-Screenshot-1.webp)
 
 《70%》发布后在圈内的热度极高，不少rapper也都转发或评论了这首歌曲表达了对GALI的支持，比如被cue到的雾都、连麻。
 

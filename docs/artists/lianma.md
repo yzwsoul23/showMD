@@ -18,7 +18,7 @@ description: 连麻 Swimming（孙一民）的人物志、早期经历与音乐�
 
 > 注：一张可能要问两位的妈妈才能分清是谁的照片
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/album_cover_area.webp" alt="童年照片" loading="lazy" />
+![童年照片](/images/lianma/album_cover_area.webp)
 
 ---
 
@@ -103,11 +103,11 @@ CQC头的败类不要继续犯罪
 
 注：Sasi 原名孙敏捷，网友戏称三孙为：孙敏捷、孙力量、孙智慧
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/song2_text_panel.webp" alt="song2_text_panel" loading="lazy" />
+![song2_text_panel](/images/lianma/song2_text_panel.webp)
 
 不久后 T-Mystic 阿清（后改名为 T-Clear）和改名为 Gibb-Z 的黄泽回到了成都，连麻和隼也退出了 Brand New Muzik，组了一个二人组 Twins King。四个人将 ANT 升级为了 RHBE 厂牌。这四个人也就是歌词里住在八平房字里的四个小子。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/song5_text_panel1.webp" alt="song5_text_panel1" loading="lazy" />
+![song5_text_panel1](/images/lianma/song5_text_panel1.webp)
 
 2014 年 8 月 14 日连麻 言味 T-Mystic Gibb-Z 发布单曲《在路上》，土豆网链接已失效，豆瓣小站无法播放。
 
@@ -117,13 +117,13 @@ CQC头的败类不要继续犯罪
 
 下页附上百度贴吧里的歌词。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/song5_text_panel.webp" alt="在路上歌词" loading="lazy" />
+![在路上歌词](/images/lianma/song5_text_panel.webp)
 
 ---
 
 2014 年 11 月 5 日 Twins King 发布单曲《Both King》，无音源，收录于厂牌混音带《RHBE Mixtape》。注：微博贴出的歌词图片已被和谐。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/Lian-Ma-2000-Album-Cover.webp" alt="RHBE Mixtape" loading="lazy" />
+![RHBE Mixtape](/images/lianma/Lian-Ma-2000-Album-Cover.webp)
 
 > 注：第 14、16 首是连麻的 featuring
 
@@ -152,7 +152,7 @@ CQC头的败类不要继续犯罪
 
 2016 年 7 月 24 日 Twins King 发布组合 Mixtape《纯真赤子》，酷狗音乐音源仅剩一首隼的个人单曲《纯真》。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/song6_text_panel.webp" alt="连麻演出照片" loading="lazy" />
+![连麻演出照片](/images/lianma/song6_text_panel.webp)
 
 ---
 
@@ -172,7 +172,7 @@ CQC头的败类不要继续犯罪
 | 4 | 我出剪刀你出布 | ft. Sasi & ICE 杨长青，酷狗音乐可听 |
 | 5 | Sorry (mix by LimBo 林) | ft. ICE 杨长青 |
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/Ivy-Album-Cover.webp" alt="Wake Up封面" loading="lazy" />
+![Wake Up封面](/images/lianma/Ivy-Album-Cover.webp)
 
 注：2017年左右，Core、ICE、Gibb-Z 三人组成组合亚洲捆绑 Asian SM，隶属于 UP Gang。随后三人一起参加《中国有嘻哈》。Core 和 Gibb-Z 没能获得链子，ICE 获得了链子却因发放链子过多而被收回。于是三人发布 diss track 《中国有嘻哈 diss》。被车澈称为那群众多对节目的 diss track 里唯唯二被记住的 diss，另一首则出自 Gali 之手。之后三人的组合也因此被声闻聚禁 Seven Gurus 厂牌签下。后 Core 改名为 Sasike，也就是我们熟知的 Sasi。
 
@@ -184,9 +184,9 @@ CQC头的败类不要继续犯罪
 
 2018 年连麻与声闻聚将 Seven Gurus 厂牌签约。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/song7_text_panel1.webp" alt="song7_text_panel1" loading="lazy" />
+![song7_text_panel1](/images/lianma/song7_text_panel1.webp)
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/song7_text_panel.webp" alt="Gibb-z SASIKE Swimming 连麻" loading="lazy" />
+![Gibb-z SASIKE Swimming 连麻](/images/lianma/song7_text_panel.webp)
 
 2018 年 1 月 20 日连麻和 Sasi 发布单曲《晚风里》注：网易云搜索SevenGurusFamily。
 
@@ -201,7 +201,7 @@ CQC头的败类不要继续犯罪
 
 同年，连麻和 Sasi 组成组合 OVERLXRD，开启高产模式，一年连发了 3 张混音带。并于 4 月 27 日发布组合第一张同名 Mixtape 《OVERLXRD》，全网网易云音源不全 ，b站可听 ：[BV1PJf4BhEwU](https://www.bilibili.com/video/BV1PJf4BhEwU)
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/OVERLXRD-Cover.webp" alt="OVERLXRD-Cover" loading="lazy" />
+![OVERLXRD-Cover](/images/lianma/OVERLXRD-Cover.webp)
 
 > 注：OVERLXRD 这个名字来源于动漫《OVERLORD》。Sasi 想将自己比作故事中的主角，冷酷、强大，还拥有着忠诚的守护者。此后 Sasioverlxd 全名出现。
 
@@ -219,7 +219,7 @@ CQC头的败类不要继续犯罪
 
 2018 年 7 月 19 日，组合 OVERLXRD 发布组合第二张同名 Mixtape《 OVERLXRD!!》，全专网易云云音源 不全 ， b站可听 ：[BV131A9zAEZ4](https://www.bilibili.com/video/BV131A9zAEZ4)
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/OVERLXRD%EF%BC%81%EF%BC%81-Cover.webp" alt="OVERLXRD！！-Cover" loading="lazy" />
+![OVERLXRD！！-Cover](/images/lianma/OVERLXRD%EF%BC%81%EF%BC%81-Cover.webp)
 
 | 序号 | 歌名 | 备注 |
 | --- | --- | --- |
@@ -241,15 +241,15 @@ CQC头的败类不要继续犯罪
 
 2018 年 8 月 14 日连麻和韩国歌手 YOONNO 发布单曲《拒绝》
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/Drama-Album-Cover.webp" alt="Drama-Album-Cover" loading="lazy" />注：在连麻网易云个人主页
+![Drama-Album-Cover](/images/lianma/Drama-Album-Cover.webp)注：在连麻网易云个人主页
 
 2018 年 8 月 21 日连麻发布个人单曲《CHEF》，无音源， B站可看MV：[BV19o4y1D7UD](https://www.bilibili.com/video/BV19o4y1D7UD)
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/CHEF-Cover.webp" alt="CHEF-Cover" loading="lazy" />
+![CHEF-Cover](/images/lianma/CHEF-Cover.webp)
 
 2018 年 9 月 27 日连麻发布个人单曲《为什么押韵》，酷狗音乐可听。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/whyforryhtm-Cover.webp" alt="whyforryhtm-Cover" loading="lazy" />
+![whyforryhtm-Cover](/images/lianma/whyforryhtm-Cover.webp)
 
 2018 年 11 月 21 日连麻 Sasi Gibb-Z 发布单曲《圈套》，QQ 音乐可听。
 
@@ -276,13 +276,13 @@ CQC头的败类不要继续犯罪
 
 2019 年 1 月 18 日连麻发布个人单曲《咩咩蚊》
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/iemiewen-Cover.webp" alt="iemiewen-Cover" loading="lazy" />2019 年 2 月 14 日连麻发布个人单曲《HOE》，酷狗音乐可听
+![iemiewen-Cover](/images/lianma/iemiewen-Cover.webp)2019 年 2 月 14 日连麻发布个人单曲《HOE》，酷狗音乐可听
 
 2019 年 3 月 4 日连麻发布个人单曲《Hormone》
 
 2019 年 5 月 10 日连麻发布个人第二张 Mixtape 《YELLER》
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/yellow-Cover.webp" alt="yellow-Cover" loading="lazy" />
+![yellow-Cover](/images/lianma/yellow-Cover.webp)
 
 | 序号 | 歌名 | 备注 |
 | --- | --- | --- |
@@ -300,7 +300,7 @@ CQC头的败类不要继续犯罪
 
 2019 年 7 月 17 日连麻 dhshsj 发布单曲《拗卵》。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/aoluan-Cover.webp" alt="aoluan-Cover" loading="lazy" />注："拗 ao 卵"是四川方言中的一个俚语表达，常与"犟"连用为"拗犟卵"，用于形容性格极其固执、油盐不进、喜欢抬杠、认死理的人。
+![aoluan-Cover](/images/lianma/aoluan-Cover.webp)注："拗 ao 卵"是四川方言中的一个俚语表达，常与"犟"连用为"拗犟卵"，用于形容性格极其固执、油盐不进、喜欢抬杠、认死理的人。
 
 2019 年 7 月 31 日连麻发布个人单曲《咋的哦》
 
@@ -312,7 +312,7 @@ CQC头的败类不要继续犯罪
 
 2019 年 11 月 21 日连麻发布个人单曲《瘾疙瘩宝》
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/aigebao-Cover.webp" alt="aigebao-Cover" loading="lazy" />
+![aigebao-Cover](/images/lianma/aigebao-Cover.webp)
 注：四川话蛤蟆的意思。在这首歌中，连麻开始尝试将旋律融入腔调，因此这首歌也被视为连麻的风格转变之作。
 
 2019 年 12 月 14 日连麻 Sasi 发布单曲《pussy out my room》
@@ -320,7 +320,7 @@ CQC头的败类不要继续犯罪
 
 2019年左右， Sasi 通过理发店老板的朋友圈认识到了来自甘肃甘南的藏族组合 RICHNOMADIC（意为富有的游牧民族），三人先是取得了联系，进行了线上合作，2020 年 Bako 和榨菜两人来到成都做说唱。至此五人组五名成员全部出现。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/wurenzu.webp" alt="wurenzu" loading="lazy" />
+![wurenzu](/images/lianma/wurenzu.webp)
 
 ---
 
@@ -336,9 +336,9 @@ CQC头的败类不要继续犯罪
 
 这里推荐现场版是因为隼参加《新说唱 2024》决赛时的舞台有呼应。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/diurenma.webp" alt="diurenma" loading="lazy" />2020 年 8 月 28 日，连麻发布个人首张专辑《Yuppie "雅痞"》，获得说唱圈内不错的口碑。
+![diurenma](/images/lianma/diurenma.webp)2020 年 8 月 28 日，连麻发布个人首张专辑《Yuppie "雅痞"》，获得说唱圈内不错的口碑。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/Yuppie-Cover.webp" alt="Yuppie-Cover" loading="lazy" />
+![Yuppie-Cover](/images/lianma/Yuppie-Cover.webp)
 
 | 序号 | 歌名 | 备注 |
 | --- | --- | --- |
@@ -358,7 +358,7 @@ CQC头的败类不要继续犯罪
 11 月 13 号，6 点零 9 分，星曜五，四人没钱开锁被锁在了门外。
 3 天后的 11 月 16 号，团队专辑《冰冷热带鱼》问世。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/blrdy-Cover.webp" alt="blrdy-Cover" loading="lazy" />连麻因为刚刚通过节目、专辑获得了一点的关注度，在忙着自己的巡演，所以只在专辑中和和隼。Sasi 合作了一首曲目《你要遭》。
+![blrdy-Cover](/images/lianma/blrdy-Cover.webp)连麻因为刚刚通过节目、专辑获得了一点的关注度，在忙着自己的巡演，所以只在专辑中和和隼。Sasi 合作了一首曲目《你要遭》。
 
 > 注：被锁门时的珍贵影像：[BV1MS421o7EH](https://www.bilibili.com/video/BV1MS421o7EH) 娱播可看。\
 > 传说最后是蝴蝶花项套现才有钱开的锁。\
@@ -379,9 +379,9 @@ CQC头的败类不要继续犯罪
 
 在专辑中的曲目《SHOOTING STAR》中，五人再度合体。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/SHOOTING-Cover.webp" alt="SHOOTING-Cover" loading="lazy" />2021 年 8 月 18 日，连麻发布个人第二张专辑《CHUNGWA》，QQ 音乐可听。
+![SHOOTING-Cover](/images/lianma/SHOOTING-Cover.webp)2021 年 8 月 18 日，连麻发布个人第二张专辑《CHUNGWA》，QQ 音乐可听。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/CHUNGHWA-Cover.webp" alt="CHUNGHWA-Cover" loading="lazy" />
+![CHUNGHWA-Cover](/images/lianma/CHUNGHWA-Cover.webp)
 
 | 序号 | 歌名 | 备注 |
 | --- | --- | --- |
@@ -412,27 +412,27 @@ CQC头的败类不要继续犯罪
 
 2022年4月17日，连麻发布对Jony J的diss track《笑版阿特》，B站可看MV: [BV1tY4y1h7vJ](https://www.bilibili.com/video/BV1tY4y1h7vJ)
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/xiaobanate-Cover.webp" alt="xiaobanate-Cover" loading="lazy" />注：阿特警官是孝感市公安局警察、哔哩哔哩UP主。第一人称视角拍摄的真实的执法现场等爆款短视频，让阿特警官收获众多粉丝。犯罪嫌疑人称经常刷到“阿特警官”的视频，让执法抓捕成为他的“粉丝”见面会。网友纷纷调侃称呼他为“抓粉丝的阿特”，同时，也正是越来越多的粉丝通过私信举报违法犯罪线索，成为了公安局的“粉丝天眼”。\
+![xiaobanate-Cover](/images/lianma/xiaobanate-Cover.webp)注：阿特警官是孝感市公安局警察、哔哩哔哩UP主。第一人称视角拍摄的真实的执法现场等爆款短视频，让阿特警官收获众多粉丝。犯罪嫌疑人称经常刷到“阿特警官”的视频，让执法抓捕成为他的“粉丝”见面会。网友纷纷调侃称呼他为“抓粉丝的阿特”，同时，也正是越来越多的粉丝通过私信举报违法犯罪线索，成为了公安局的“粉丝天眼”。\
 歌曲outro部分来自刀脚，刀脚2001年出生于贵州安顺，和混音师荨麻疹是老乡（和我也是）。少时热爱滑板，因受伤在修养期间爱上了说唱。认为自己很有Freestyle battle 的天赋，后参加贵州地区 battle 比赛一举拿下冠军。刀脚的名字是因为喜欢周星驰电影《逃学威龙》中的招数“夺命剪刀脚”。
 
 2022 年 5 月 14 日，ICE 发布单曲《小李飞刀》，ft. 连麻、隼，B站可看 MV：[BV1zT4y1B77J](https://www.bilibili.com/video/BV1zT4y1B77J)
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/xlfd-Cover.webp" alt="xlfd-Cover" loading="lazy" />
+![xlfd-Cover](/images/lianma/xlfd-Cover.webp)
 
 2022 年 8 月 6 日，mac ova seas、连麻 Swimming、SASIOVERLXRD、kkluv、艾志恒 Asen、那奇沃夫、CashTrippy 、斑比 Bambii 发布 cypher《P Cypher》
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/pCypher-Cover.webp" alt="pCypher-Cover" loading="lazy" />
+![pCypher-Cover](/images/lianma/pCypher-Cover.webp)
 
 2022 年 8 月 12 日，连麻发布又一大热单曲《谭 sir》
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/tansir-Cover.webp" alt="tansir-Cover" loading="lazy" />
+![tansir-Cover](/images/lianma/tansir-Cover.webp)
 
 注：谭 sir 指的是谭乔警官。《谭谈交通》是成都市公安局交通支队与成都市广播电视台联合推出的交通安全教节目，由原民警谭乔主持，以幽默风趣的执法风格闻名全国。节目于 2005 年 3 月 28 日首播，2018 年曾停播，2021 年 9 月 26 日正式完结，累计制作 3000 余期，衍生出多个全网热搜，最著名的是 "到二仙桥走成华大道"，源于谭乔与违规运载管材男子的骑骑对话。\
 梗起源：[BV16i4y1V7wW](https://www.bilibili.com/video/BV16i4y1V7wW)，娱播可看。
 
 2022 年 12 月 14 日，连麻和隼在生日这天发布联合 Mixtape《真假美猴王》，虽然只是 Mixtape，但姓孙的双胞胎兄弟和《真假美猴王》的概念浑然天成。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/hmhw-Cover.webp" alt="hmhw-Cover" loading="lazy" />
+![hmhw-Cover](/images/lianma/hmhw-Cover.webp)
 
 | 序号 | 歌名 | 备注 |
 | --- | --- | --- |
@@ -460,7 +460,7 @@ B 站可看：[BV1jd4y1v7Vz](https://www.bilibili.com/video/BV1jd4y1v7Vz)
 
 2023 年 3 月 18 日，连麻、Sasi、刀脚发布合作单曲《YUNBABA》，B站可看MV：[BV1Da411o7ez](https://www.bilibili.com/video/BV1Da411o7ez)
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/yunbaba-Cover.webp" alt="yunbaba-Cover" loading="lazy" />
+![yunbaba-Cover](/images/lianma/yunbaba-Cover.webp)
 
 > 注：云爸爸是一个男装品牌，因为直播间的叔叔伯伯展示衣服裤子弹力的动作很有喜感，成为当年的网络热梗。MV 内有单腿露出。
 
@@ -474,7 +474,7 @@ B 站可看：[BV1jd4y1v7Vz](https://www.bilibili.com/video/BV1jd4y1v7Vz)
 
 2024 年 3 月 1 日，五人组再度发布联合单曲《声色犬马》，B站可看 MV：[BV1Up4y1K7UC](https://www.bilibili.com/video/BV1Up4y1K7UC)
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/ssqm-Cover.webp" alt="ssqm-Cover" loading="lazy" />
+![ssqm-Cover](/images/lianma/ssqm-Cover.webp)
 
 2024 年 3 月 29 日，连麻和隼助阵 Sasi 专辑《那小子真帅》中的曲目《胸弟》。
 
@@ -482,7 +482,7 @@ B 站可看：[BV1jd4y1v7Vz](https://www.bilibili.com/video/BV1jd4y1v7Vz)
 
 2024 年 5 月 18 日，连麻发布个人第三张专辑《邻家小丈夫》
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/ljxzf-Cover.webp" alt="ljxzf-Cover" loading="lazy" />
+![ljxzf-Cover](/images/lianma/ljxzf-Cover.webp)
 
 > 注：连麻在参加《说唱听我的》节目之前，是最穷困潦倒的时候，但也是过得最开心的时候。连麻每天 8 点起床开始做饭，一直到佳佳下班之前开始做饭。这段时间连麻成为了家庭主夫，结婚之后，家里也是连麻做饭做多，《邻家小丈夫》的名字或许由此而来。
 
@@ -544,8 +544,8 @@ B站可看：[BV1YWKrzzEi7](https://www.bilibili.com/video/BV1YWKrzzEi7)
 
 2026 年 4 月，连麻在北京 club 商演中表演了新曲目。或许新专辑会很快到来。
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/swimming.webp" alt="swimming" loading="lazy" />
+![swimming](/images/lianma/swimming.webp)
 
 最后，特别鸣谢龙龙 Sivin（发梦版）老师用心制作的连麻 swimming 开荒人物志文稿稿，向老师表达由衷的感谢！
 
-<img src="https://cdn.jsdelivr.net/gh/yzwsoul23/showMD@main/docs/public/images/lianma/longlongdy.webp" alt="longlongdy" loading="lazy" />
+![longlongdy](/images/lianma/longlongdy.webp)
