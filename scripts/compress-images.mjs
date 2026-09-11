@@ -1,11 +1,14 @@
 /**
  * 图片批量压缩脚本
- * 遍历 docs/public/images 下所有 jpg/jpeg/png，统一转换为质量 80 的 WebP，
- * 转换成功后删除原图。已是 .webp 的文件保持不变。
+ * 遍历 docs/public/images 下所有图片（含已有 WebP），统一压缩：
+ *   - 正文图片：最大宽度 1000px，WebP 质量 60
+ *   - 头像（avatars 目录）：最大宽度 200px，WebP 质量 60
+ * 转换后删除原图。SVG 仅 favicon 保留。
  *
- * 用法：node scripts/compress-images.mjs
+ * 用法：node scripts/compress-images.mjs          # 增量（跳过已优化）
+ *       node scripts/compress-images.mjs --force  # 强制重新压缩全部
  */
-import { readdir, stat, unlink } from 'node:fs/promises'
+import { readdir, stat, unlink, writeFile, readFile } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { join, extname, dirname, basename } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -13,11 +16,16 @@ import sharp from 'sharp'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const IMAGES_DIR = join(__dirname, '..', 'docs', 'public', 'images')
-const WEBP_QUALITY = 80
+const AVATARS_DIR = join(IMAGES_DIR, 'avatars')
 
-const SOURCE_EXTS = new Set(['.jpg', '.jpeg', '.png', '.svg'])
-/** 保留为 SVG 的文件（如网站 favicon） */
+const QUALITY = 60
+const MAX_CONTENT_WIDTH = 1000
+const MAX_AVATAR_WIDTH = 200
+
+const SOURCE_EXTS = new Set(['.jpg', '.jpeg', '.png', '.svg', '.webp'])
 const KEEP_SVG = new Set(['favicon.svg'])
+
+const FORCE = process.argv.includes('--force')
 
 /** 删除文件，Windows 上可能遇到杀软/索引器占用（EBUSY/EPERM），带重试 */
 async function removeSource(filePath, retries = 5) {
@@ -50,6 +58,78 @@ async function collectImages(dir) {
   return files
 }
 
+/** 根据路径判断是否是头像 */
+function isAvatar(filePath) {
+  return filePath.startsWith(AVATARS_DIR)
+}
+
+/** 压缩单张图片，返回是否实际执行了写入 */
+async function compressImage(inputPath) {
+  const isAv = isAvatar(inputPath)
+  const maxWidth = isAv ? MAX_AVATAR_WIDTH : MAX_CONTENT_WIDTH
+  const outPath = join(
+    dirname(inputPath),
+    `${basename(inputPath, extname(inputPath))}.webp`
+  )
+
+  // 如果输入本身已是 webp 且无 --force，检查是否需要跳过
+  const isAlreadyWebp = extname(inputPath).toLowerCase() === '.webp'
+  if (isAlreadyWebp && !FORCE) {
+    const rawMeta = await readFile(inputPath)
+    const meta = await sharp(rawMeta).metadata()
+    if (meta.width <= maxWidth) {
+      return { skipped: true, outPath }
+    }
+  }
+
+  // 极小文件（<2KB）无需压缩
+  const inputStat = await stat(inputPath)
+  if (inputStat.size < 2048) {
+    return { skipped: true, outPath }
+  }
+
+  // 先读入内存再交给 sharp，确保文件句柄完全释放后再写入
+  const rawBuffer = await readFile(inputPath)
+  const buffer = await sharp(rawBuffer)
+    .resize({ width: maxWidth, withoutEnlargement: true })
+    .webp({ quality: QUALITY })
+    .toBuffer()
+
+  const afterSize = buffer.length
+
+  // 如果输入是 webp 且输出比原文件大（压缩无收益），保留原文件
+  if (isAlreadyWebp && afterSize >= inputStat.size) {
+    return { skipped: true, outPath }
+  }
+
+  // sharp 已释放句柄，直接覆写
+  for (let attempt = 1; attempt <= 5; attempt++) {
+    try {
+      await writeFile(outPath, buffer)
+      break
+    } catch (err) {
+      if (attempt === 5) throw err
+      await new Promise((resolve) => setTimeout(resolve, 300 * attempt))
+    }
+  }
+
+  // 删除非 webp 原图
+  if (!isAlreadyWebp) {
+    try {
+      await removeSource(inputPath)
+    } catch (err) {
+      console.warn(`  警告：原图暂被占用未能删除：${inputPath}（${err.code}）`)
+    }
+  }
+
+  return {
+    skipped: false,
+    outPath,
+    beforeKB: Math.round(inputStat.size / 1024),
+    afterKB: Math.round(afterSize / 1024)
+  }
+}
+
 async function main() {
   if (!existsSync(IMAGES_DIR)) {
     console.error(`[compress-images] 图片目录不存在：${IMAGES_DIR}`)
@@ -58,52 +138,36 @@ async function main() {
 
   const images = await collectImages(IMAGES_DIR)
   if (images.length === 0) {
-    console.log('[compress-images] 没有需要压缩的 jpg/jpeg/png 图片')
+    console.log('[compress-images] 没有需要处理的图片')
     return
   }
 
-  let converted = 0
+  let processed = 0
+  let skipped = 0
   let savedBytes = 0
 
   for (const inputPath of images) {
-    const outputPath = join(
-      dirname(inputPath),
-      `${basename(inputPath, extname(inputPath))}.webp`
-    )
-
-    const [inputStat, outputExists] = await Promise.all([
-      stat(inputPath),
-      existsSync(outputPath) ? stat(outputPath) : Promise.resolve(null)
-    ])
-
-    // 目标 webp 已存在且不旧于原图时跳过转换，但仍尝试清理残留原图
-    if (outputExists && outputExists.mtimeMs >= inputStat.mtimeMs) {
-      try {
-        await removeSource(inputPath)
-      } catch {
-        /* 原图被占用时忽略，下次运行再清理 */
-      }
-      continue
-    }
-
-    await sharp(inputPath).webp({ quality: WEBP_QUALITY }).toFile(outputPath)
-    const outputStat = await stat(outputPath)
-    savedBytes += inputStat.size - outputStat.size
-    converted += 1
-    console.log(
-      `[compress-images] ${inputPath.replace(IMAGES_DIR, '')} -> .webp ` +
-        `(${(inputStat.size / 1024).toFixed(0)}KB -> ${(outputStat.size / 1024).toFixed(0)}KB)`
-    )
-
+    const rel = inputPath.replace(IMAGES_DIR, '')
     try {
-      await removeSource(inputPath)
+      const result = await compressImage(inputPath)
+      if (result.skipped) {
+        skipped++
+        continue
+      }
+      processed++
+      savedBytes += (result.beforeKB - result.afterKB) * 1024
+      console.log(
+        `[compress-images] ${rel} ${result.beforeKB}KB -> ${result.afterKB}KB`
+      )
     } catch (err) {
-      console.warn(`[compress-images] 警告：原图暂被占用，未能删除，请稍后手动删除：${inputPath}（${err.code}）`)
+      console.error(`[compress-images] 跳过 ${rel}：${err.code || err.message}`)
+      skipped++
     }
   }
 
   console.log(
-    `[compress-images] 完成：转换 ${converted} 张，体积变化 ${(savedBytes / 1024).toFixed(0)}KB`
+    `[compress-images] 完成：处理 ${processed} 张，跳过 ${skipped} 张，` +
+    `体积变化 ${Math.round(savedBytes / 1024)}KB`
   )
 }
 
