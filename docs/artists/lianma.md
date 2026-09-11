@@ -345,10 +345,11 @@ CQC头的败类不要继续犯罪
 注：隼上了舞台助阵，但其实并不是为了去助演，是妈妈看连麻瘦了好多让隼去看看连麻，再给连麻拿 500 块钱。B站可看现场：[BV19W4y1y7cf](https://www.bilibili.com/video/BV19W4y1y7cf)
 
 这里推荐现场版是因为隼参加《新说唱 2024》决赛时的舞台有呼应。
+![diurenma](/images/lianma/diurenma.webp)
 
 ### 《Yuppie "雅痞"》
 
-![diurenma](/images/lianma/diurenma.webp)2020 年 8 月 28 日，连麻发布个人首张专辑《Yuppie "雅痞"》，获得说唱圈内不错的口碑。
+2020 年 8 月 28 日，连麻发布个人首张专辑《Yuppie "雅痞"》，获得说唱圈内不错的口碑。
 
 ![Yuppie-Cover](/images/lianma/Yuppie-Cover.webp)
 

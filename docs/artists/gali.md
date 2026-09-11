@@ -104,6 +104,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 4月19日，GALI合作KUAN发布歌曲 **《For You》** 。\*网易云搜索“KUAN For You”可收听，蓝色封面。歌曲貌似之前也在虾米的寻光计划，后来才在网易云上架。网易云无歌词，没有关联GALI的名字。
 
+### 《VINTAGE》
 - **5月4日，GALI发布了首张个人EP《VINTAGE》** 。
 
 18、19年，GALI在虾米独家先后发布了《VINTAGE》和《晚霞》两张EP，当时虾米音乐还没有倒闭。两张专辑当时也都参加了虾米的“寻光计划”，详细可见两专的简介。
@@ -156,6 +157,8 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 12月2日，GALI发布单曲 **《SOHO Freestyle》** ，Remix Jaden Smith《SOHO》。
 
 ## 2019年
+
+### 《晚霞After Light》
 
 **3月29日，GALI发布了他的第二张EP《晚霞After Light》** 。
 
@@ -321,6 +324,8 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 
 1月27日，GALI发布《亚特兰蒂斯》专辑前传，歌曲《悬浮术 (levitation)》​（[BV13Z4y1Z7NH](https://www.bilibili.com/video/BV13Z4y1Z7NH)）和 **《玛瑙 (AGATE)》** 。
 
+### 《亚特兰蒂斯》
+
 2月18日，GALI发布第一张全长专辑 **《亚特兰蒂斯》** 。
 
 亚特兰蒂斯相关采访：
@@ -444,6 +449,8 @@ GALI也是其中的成员，参与了部分歌曲：\
 4月3日，GALI发布 **专辑先行曲《Bagel》** 。
 
 这首歌在制作完的第二天就发布了。开头、结尾的男声除了制作人杨一YYKBZ和白耀坤Yoken，另外一个是（假扮GALI说话的）马思唯。
+
+### 《STRIPELIFE》
 
 4月7日，GALI发布 **Mixtape《STRIPELIFE(条纹生活)》** 。
 

@@ -54,7 +54,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 **4月4日和 Asen 发布联合 EP《Next Wave》**，收录三首单曲《Stay Right Here Pt.2》、《错不在我》、《ソニックソニック》
 
-### 单曲
+**单曲**
 
 下架歌曲《Wave Muzik 2018 Cypher》（b站：[BV1rHAbzrEnM](https://www.bilibili.com/video/BV1rHAbzrEnM) 视频是 asen和李佳隆的片段）
 
