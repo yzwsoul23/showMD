@@ -25,13 +25,14 @@ description: GALI（蒋文涵）的个人资料、早期经历与代表作品。
 
 <br />
 
-**GALI** ，本名蒋文涵，1992年4月14日生于上海。
+# GALI 
+本名蒋文涵，1992年4月14日生于上海。
 
 十三四岁时，GALI十分热爱篮球，也因此通过街球Mixtape接触到了说唱音乐。和当时许多国内的爱好者一样，他由此开始逐步了解HIP-HOP音乐。2008年，Kanye让GALI真正爱上了HIP-HOP。
 
 2009年，GALI于大连艺术学院航空服务专业毕业。毕业之初，他一边兼职，一边思考未来的路该怎么走。
 
-**2009-2016年**
+## 2009-2016年
 
 在朋友的服装店打工的GALI，渐渐结识了一群喜欢说唱、热爱HIP-HOP的同好。他们对GALI而言，既是顾客，又是朋友。
 
@@ -45,13 +46,13 @@ GALI做了一小段时间音乐，跑演出，收入却寥寥无几。为了维�
 
 但在2016年，GALI终究辞掉了公关的工作，重新回到音乐的怀抱。在体验过那种枯燥乏味的机械生活后，GALI这次更加笃定自己要走做音乐这条路。
 
-2016年
+## 2016年
 
 年底，GALI与俞天时KOZAY在上海组建了 **BASE** 厂牌，并于11月1日合作发布第一首单曲 《真棒》​ ，拍摄了[MV](https://www.bilibili.com/video/BV1rs41147Ar)。这个时候就已经出现了一些质疑GALI抄袭的评论。
 
 Kozay同样来自上海，2007年左右开始做说唱，对GALI影响颇深。
 
-2017年
+## 2017年
 
 这一年的夏天，GALI和很多rapper一样参加了节目 **《中国有嘻哈》** 。
 
@@ -93,7 +94,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 11月25日，GALI发布歌曲 **《Mama's Cry》** ，Remix了J Cole的歌曲《Love Yourz》。
 
-2018年
+## 2018年
 
 1月10日，GALI合作江映蓉发布歌曲 **《坏天使2.1》** 。\*网易云无音源，QQ音乐可收听。
 
@@ -154,7 +155,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 12月2日，GALI发布单曲 **《SOHO Freestyle》** ，Remix Jaden Smith《SOHO》。
 
-**2019年**
+## 2019年
 
 **3月29日，GALI发布了他的第二张EP《晚霞After Light》** 。
 
@@ -248,7 +249,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 \*可在网易云搜索收听。
 
-**2020年**
+## 2020年
 
 2月8日，GALI参与了JACKWAVY的Beat Tape，合作歌曲 **《"No Chance"// with hook(Prod.JACKWAVY)》** 献唱了hook（剩余部分无人声）。
 
@@ -286,7 +287,7 @@ GALI在节目中的自我介绍视频：[BV1X54y1U7ti](https://www.bilibili.com/
 
 11月10日，GALI参与了满舒克专辑中的歌曲 **《稀有潇洒》** 。\*可在网易云搜索收听。
 
-**2021年**
+## 2021年
 
 21年的GALI发布了很多合作，但基本没有发布自己的个人单曲，可能是在准备下一年将要发布的专辑。
 
@@ -312,7 +313,7 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 
 12月13日，Complex 中文发布GALI \*\* 51分钟\*\* 采访（电台）“哈圈男模Gali来做客：其实蛮烦《70%》！-《黑泡泡电台》第三十集 完整版”[BV1vu411S7hg​](https://www.bilibili.com/video/BV1vu411S7hg/)
 
-**2022年**
+## 2022年
 
 1月5日，GALI发布歌曲 **《孤独面店》** ，收录于拥有五位歌手的五首同名单曲的EP《孤独面店》中。孤独面店是车澈创立的INDE COMPANY在这一年推出的IP。
 
@@ -374,7 +375,7 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 
 12月31日，GALI合作yihuik苡慧发布韩剧OST《Stay With Me》中文版歌曲 **《因你而在》** 。
 
-**2023年**
+## 2023年
 
 这一年和21年一样，GALI基本没有发布个人单曲，正在准备自己的下一张专辑（mixtape）。
 
@@ -426,7 +427,7 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 12月31日，GALI合作满舒克发布歌曲 **《陪你过冬天》** 。\*可在网易云搜索收听。
 
-**2024年**
+## 2024年
 
 1月7日，GALI参与了诺曼德Nxmad专辑中的歌曲 **《圣心Holy Within》** 。
 
@@ -496,7 +497,7 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 12月26日，GALI合作NINEONE乃万（nous成员）发布歌曲 **《一知半解》** 。
 
-**2025年**
+## 2025年
 
 1月21日，GALI参与无畏契约新春CYPHER《绕蛇小队》​（[BV1YVwae3ErQ](https://www.bilibili.com/video/BV1YVwae3ErQ)）。
 

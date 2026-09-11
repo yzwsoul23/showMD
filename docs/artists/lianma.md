@@ -162,6 +162,8 @@ CQC头的败类不要继续犯罪
 
 2017 年连麻拍摄了个人纪录片， B 站可看：[BV16C4y1t756](https://www.bilibili.com/video/BV16C4y1t756) 注：时长 4 分 23 秒。
 
+### 《Wake Up》
+
 2017 年 8 月 5 日连麻发布首张个人 Mixtape《Wake Up》。
 
 | 序号 | 歌名 | 备注 |
@@ -199,6 +201,8 @@ CQC头的败类不要继续犯罪
 2018 年 4 月 16 日连麻发布个人单曲《垃圾袋》
 2018 年 4 月 20 日连麻和 Sasi 发布单曲《偷心》
 
+### 《OVERLXRD》
+
 同年，连麻和 Sasi 组成组合 OVERLXRD，开启高产模式，一年连发了 3 张混音带。并于 4 月 27 日发布组合第一张同名 Mixtape 《OVERLXRD》，全网网易云音源不全 ，b站可听 ：[BV1PJf4BhEwU](https://www.bilibili.com/video/BV1PJf4BhEwU)
 
 ![OVERLXRD-Cover](/images/lianma/OVERLXRD-Cover.webp)
@@ -217,7 +221,9 @@ CQC头的败类不要继续犯罪
 
 注：Jinjibewater 的 AKA 在此 Mixtape 中第一次出现，Jinji 来自《道德经》中的第三十三章：尽己。Bewater 则是出自李小龙的著名言论 "Be water, my friend."
 
-2018 年 7 月 19 日，组合 OVERLXRD 发布组合第二张同名 Mixtape《 OVERLXRD!!》，全专网易云云音源 不全 ， b站可听 ：[BV131A9zAEZ4](https://www.bilibili.com/video/BV131A9zAEZ4)
+### 《OVERLXRD!!》
+
+2018 年 7 月 19 日，组合 OVERLXRD 发布组合第二张同名 Mixtape《OVERLXRD!!》，全专网易云云音源 不全 ， b站可听 ：[BV131A9zAEZ4](https://www.bilibili.com/video/BV131A9zAEZ4)
 
 ![OVERLXRD！！-Cover](/images/lianma/OVERLXRD%EF%BC%81%EF%BC%81-Cover.webp)
 
@@ -253,6 +259,8 @@ CQC头的败类不要继续犯罪
 
 2018 年 11 月 21 日连麻 Sasi Gibb-Z 发布单曲《圈套》，QQ 音乐可听。
 
+### 《OVERLXRD III》
+
 2018 年 12 月 30 日，组合 OVERLXRD 发布组合第三张同名 Mixtape《OVERLXRD III》，全专网易云音源不全，b站可听：[BV1f5wNzNEYw](https://www.bilibili.com/video/BV1f5wNzNEYw/)
 
 | 序号 | 歌名 | 备注 |
@@ -279,6 +287,8 @@ CQC头的败类不要继续犯罪
 ![iemiewen-Cover](/images/lianma/iemiewen-Cover.webp)2019 年 2 月 14 日连麻发布个人单曲《HOE》，酷狗音乐可听
 
 2019 年 3 月 4 日连麻发布个人单曲《Hormone》
+
+### 《YELLER》
 
 2019 年 5 月 10 日连麻发布个人第二张 Mixtape 《YELLER》
 
@@ -336,6 +346,8 @@ CQC头的败类不要继续犯罪
 
 这里推荐现场版是因为隼参加《新说唱 2024》决赛时的舞台有呼应。
 
+### 《Yuppie "雅痞"》
+
 ![diurenma](/images/lianma/diurenma.webp)2020 年 8 月 28 日，连麻发布个人首张专辑《Yuppie "雅痞"》，获得说唱圈内不错的口碑。
 
 ![Yuppie-Cover](/images/lianma/Yuppie-Cover.webp)
@@ -376,6 +388,8 @@ CQC头的败类不要继续犯罪
 2021 年 4 月 19 日，隼发布首张个人专辑《树敌 SHOOTING》，收录了兄第二人的经典曲目《街头智慧》，QQ 音乐音可听。 B 站 可 看 MV ：[BV14y4y1u7TH](https://www.bilibili.com/video/BV14y4y1u7TH)
 
 > 注：MV 中出演二人父母的，其实是他们的大舅和大舅妈。里面的水产市场是二人长大的地方。
+
+### 《SHOOTING STAR》
 
 在专辑中的曲目《SHOOTING STAR》中，五人再度合体。
 
@@ -430,6 +444,8 @@ CQC头的败类不要继续犯罪
 注：谭 sir 指的是谭乔警官。《谭谈交通》是成都市公安局交通支队与成都市广播电视台联合推出的交通安全教节目，由原民警谭乔主持，以幽默风趣的执法风格闻名全国。节目于 2005 年 3 月 28 日首播，2018 年曾停播，2021 年 9 月 26 日正式完结，累计制作 3000 余期，衍生出多个全网热搜，最著名的是 "到二仙桥走成华大道"，源于谭乔与违规运载管材男子的骑骑对话。\
 梗起源：[BV16i4y1V7wW](https://www.bilibili.com/video/BV16i4y1V7wW)，娱播可看。
 
+### 《真假美猴王》
+
 2022 年 12 月 14 日，连麻和隼在生日这天发布联合 Mixtape《真假美猴王》，虽然只是 Mixtape，但姓孙的双胞胎兄弟和《真假美猴王》的概念浑然天成。
 
 ![hmhw-Cover](/images/lianma/hmhw-Cover.webp)
@@ -479,6 +495,8 @@ B 站可看：[BV1jd4y1v7Vz](https://www.bilibili.com/video/BV1jd4y1v7Vz)
 2024 年 3 月 29 日，连麻和隼助阵 Sasi 专辑《那小子真帅》中的曲目《胸弟》。
 
 2024 年 4 月 12 日，杭异凡发布 ft.连麻的单曲《马兰开花二十一》
+
+### 《邻家小丈夫》
 
 2024 年 5 月 18 日，连麻发布个人第三张专辑《邻家小丈夫》
 
