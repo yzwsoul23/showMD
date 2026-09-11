@@ -23,6 +23,7 @@ export default defineConfig({
       level: [2, 3],
       label: '目录导航'
     },
+    smoothScroll: true,
     docFooter: {
       prev: '上一篇',
       next: '下一篇'
