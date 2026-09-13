@@ -9,11 +9,13 @@ export default defineConfig({
   base: '/showMD/',
   cleanUrls: true,
   lastUpdated: true,
+  // 唱片店主题为纯浅色设计，禁用暗色模式避免两套变量打架
+  appearance: false,
   // 模板文件仅作新建艺人时的脚手架，不参与构建发布
   srcExclude: ['artists/_template.md'],
 
   head: [
-    ['meta', { name: 'theme-color', content: '#111827' }],
+    ['meta', { name: 'theme-color', content: '#f6efe1' }],
     ['link', { rel: 'icon', href: '/showMD/images/favicon.svg', type: 'image/svg+xml' }]
   ],
 
@@ -58,6 +60,13 @@ export default defineConfig({
           { text: '功夫胖 KungFu-Pen', link: '/artists/kungfu-pen' },
           { text: '李佳隆 JelloRio', link: '/artists/jellorio' },
           { text: '连麻 Swimming', link: '/artists/swimming' }
+        ]
+      },
+      {
+        text: '站点维护',
+        collapsed: false,
+        items: [
+          { text: '内容维护教程', link: '/guide/maintenance' }
         ]
       }
     ],
