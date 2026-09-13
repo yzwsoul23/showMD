@@ -5,7 +5,9 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 # 李佳隆音乐生涯 & 作品目录
 
-![jelloRio1](/images/jellorio/jelloRio1.webp)**李佳隆**，1997年1月9日出生于四川省南充市蓬安县；初中开始接触说唱音乐，高中尝试创作，大学就读于四川文化艺术学院美术系。英文名字 **JelloRio**，Jello 是佳隆的谐音，Rio 意为 Real。是个十分内向的游戏宅男。
+![jelloRio1](/images/jellorio/jelloRio1.webp)
+
+**李佳隆**，1997年1月9日出生于四川省南充市蓬安县；初中开始接触说唱音乐，高中尝试创作，大学就读于四川文化艺术学院美术系。英文名字 **JelloRio**，Jello 是佳隆的谐音，Rio 意为 Real。是个十分内向的游戏宅男。
 
 ---
 

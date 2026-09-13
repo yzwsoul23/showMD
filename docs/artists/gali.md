@@ -210,7 +210,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 \*视频1:19未消音提到了加拿大故人的原名，建议在那里拉低音量，不过网易云录音室版有消音。
 
-![05_Plagiarism-Controversy-Cloud](/images/gali/05_Plagiarism-Controversy-Cloud.webp)![Comment-on-plagiarism](/images/gali/Comment-on-plagiarism.webp)![07_70%-Song-Lyrics-Screenshot-1](/images/gali/07_70%25-Song-Lyrics-Screenshot-1.webp)
+![05_Plagiarism-Controversy-Cloud](/images/gali/05_Plagiarism-Controversy-Cloud.webp)![Comment-on-plagiarism](/images/gali/Comment-on-plagiarism.webp)![07_70%-Song-Lyrics-Screenshot-1](/images/gali/07_70pct-Song-Lyrics-Screenshot-1.webp)
 
 《70%》发布后在圈内的热度极高，不少rapper也都转发或评论了这首歌曲表达了对GALI的支持，比如被cue到的雾都、连麻。
 

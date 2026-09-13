@@ -14,8 +14,10 @@
  *    表格自身保持 display:table / width:100%（宽屏时深色表头铺满卡片
  *    不留右侧白底，窄屏时表比容器宽、由 wrapper 出横向滚动条）。
  *
- * VitePress 是 SPA，路由切换会整块替换 .vp-doc 内容，
- * 用 MutationObserver 持续监听，无需在每个页面手动调用。
+ * VitePress 是 SPA：路由切换时 .vp-doc 外壳保留、内部页面组件
+ * 整块替换（新插入的是 h1/p/table 等正文块本身）。
+ * 用 MutationObserver 持续监听新增节点，向上找到所属 .vp-doc
+ * 后重新增强，无需在每个页面手动调用。
  */
 
 function markImgBlocks(root: ParentNode) {
@@ -96,15 +98,21 @@ export function setupImgBlocks() {
   enhance(document.body)
 
   const observer = new MutationObserver((mutations) => {
+    // 同一批变动可能插入多个正文块，收集它们所属的 .vp-doc 去重后统一增强
+    const scopes = new Set<ParentNode>()
     for (const mutation of mutations) {
       mutation.addedNodes.forEach((node) => {
         if (!(node instanceof HTMLElement)) return
-        // 新增节点本身或其内部都可能带 .vp-doc
-        if (node.classList.contains('vp-doc') || node.querySelector('.vp-doc')) {
-          enhance(node.parentElement ?? node)
-        }
+        // 1) 新增节点本身就是 .vp-doc；
+        // 2) 路由切换：正文块被直接插入保留的 .vp-doc 内部，向上找祖先；
+        // 3) 首页 ↔ 文档页切换：整棵子树（内部含 .vp-doc）被插入
+        const doc = node.classList.contains('vp-doc')
+          ? node
+          : (node.closest<HTMLElement>('.vp-doc') ?? node.querySelector('.vp-doc'))
+        if (doc) scopes.add(doc)
       })
     }
+    scopes.forEach(enhance)
   })
   observer.observe(document.body, { childList: true, subtree: true })
 }
