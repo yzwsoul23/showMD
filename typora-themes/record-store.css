@@ -421,6 +421,8 @@ body {
   width: 282px;
   aspect-ratio: 1 / 1;
   margin: 2.4em auto;
+  /* 黑胶向右外探 45% 封套宽，整体左移一半使组合视觉居中 */
+  transform: translateX(-22.5%);
 }
 
 /* 黑胶唱片本体（暗纹 + 光泽 + 红色厂牌纸标 + 中心轴孔） */

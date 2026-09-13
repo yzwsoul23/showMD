@@ -10,6 +10,10 @@
  *    .col-idx / .col-name / .col-link / .col-note 之一，CSS 据此决定
  *    谁不换行、谁可以折行，避免歌名/歌手在窄屏被逐字挤断。
  *
+ * 3. wrapTables —— 每张表外包一层 .rs-table-wrap 作为横向滚动容器。
+ *    表格自身保持 display:table / width:100%（宽屏时深色表头铺满卡片
+ *    不留右侧白底，窄屏时表比容器宽、由 wrapper 出横向滚动条）。
+ *
  * VitePress 是 SPA，路由切换会整块替换 .vp-doc 内容，
  * 用 MutationObserver 持续监听，无需在每个页面手动调用。
  */
@@ -68,8 +72,20 @@ function markTableColumns(root: ParentNode) {
   })
 }
 
+function wrapTables(root: ParentNode) {
+  const tables = root.querySelectorAll<HTMLTableElement>('.vp-doc table')
+  tables.forEach((table) => {
+    if (table.parentElement?.classList.contains('rs-table-wrap')) return
+    const wrap = document.createElement('div')
+    wrap.className = 'rs-table-wrap'
+    table.parentNode?.insertBefore(wrap, table)
+    wrap.appendChild(table)
+  })
+}
+
 function enhance(root: ParentNode) {
   markImgBlocks(root)
+  wrapTables(root)
   markTableColumns(root)
 }
 

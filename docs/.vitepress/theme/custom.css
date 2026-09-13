@@ -233,53 +233,60 @@ html {
   font-weight: 700;
 }
 
-/* ---------- 表格：曲目单，宽松不挤、超宽在底部横向滚动 ---------- */
+/* ---------- 表格：曲目单。外层 wrapper 负责卡片外观与横向滚动，
+   表格自身保持正常 table 布局并铺满宽度（宽屏不漏白底、窄屏可横滑） ---------- */
 
-.vp-doc table {
-  display: block;
-  /* 不设 width/max-width：block 化后宽度自动填满正文，
-     内部表格比容器宽时由 overflow-x 在底部出滚动条；
-     nowrap 短列（歌名/歌手）不可压缩，保证不会被逐字挤断。
-     内容放得下时表格自动铺满，无需额外设置。 */
+.vp-doc .rs-table-wrap {
   margin: 1.7em auto;
   border: 1px solid var(--rs-line);
   border-radius: 12px;
   overflow-x: auto;
   overscroll-behavior-x: contain;
   -webkit-overflow-scrolling: touch;
-  border-collapse: separate;
-  border-spacing: 0;
   background: var(--rs-card);
   box-shadow: var(--rs-shadow);
-  font-size: 0.93em;
-  line-height: 1.7;
   /* Firefox 细滚动条 */
   scrollbar-width: thin;
   scrollbar-color: var(--rs-gold) var(--rs-paper-deep);
 }
 
+.vp-doc .rs-table-wrap > table {
+  display: table;
+  /* 内容放得下时铺满 wrapper（深色表头盖住整个卡片顶）；
+     nowrap 短列要求的宽度更大时，table 自动撑破 wrapper 触发滚动 */
+  width: 100%;
+  min-width: max-content;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  font-size: 0.93em;
+  line-height: 1.7;
+}
+
 /* WebKit 滚动条：常驻轨道 + 金色滑块，提示可以横滑 */
-.vp-doc table::-webkit-scrollbar {
+.vp-doc .rs-table-wrap::-webkit-scrollbar {
   height: 10px;
 }
 
-.vp-doc table::-webkit-scrollbar-track {
+.vp-doc .rs-table-wrap::-webkit-scrollbar-track {
   background: var(--rs-paper-deep);
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
 }
 
-.vp-doc table::-webkit-scrollbar-thumb {
+.vp-doc .rs-table-wrap::-webkit-scrollbar-thumb {
   border-radius: 6px;
   border: 2px solid var(--rs-paper-deep);
   background: var(--rs-gold);
 }
 
-.vp-doc table::-webkit-scrollbar-thumb:hover {
+.vp-doc .rs-table-wrap::-webkit-scrollbar-thumb:hover {
   background: var(--rs-red);
 }
 
-.vp-doc table th {
+.vp-doc .rs-table-wrap > table th {
   padding: 12px 22px;
   border: none;
   border-bottom: 2px solid var(--rs-gold);
@@ -291,7 +298,7 @@ html {
   white-space: nowrap;
 }
 
-.vp-doc table td {
+.vp-doc .rs-table-wrap > table td {
   padding: 11px 22px;
   border: none;
   border-bottom: 1px solid var(--rs-line);
@@ -301,11 +308,11 @@ html {
 }
 
 /* 序号 / 年份列：窄列居中、等宽数字 */
-.vp-doc table th.col-idx {
+.vp-doc .rs-table-wrap > table th.col-idx {
   text-align: center;
 }
 
-.vp-doc table tbody td.col-idx {
+.vp-doc .rs-table-wrap > table tbody td.col-idx {
   width: 3.4em;
   text-align: center;
   color: var(--rs-faint);
@@ -313,46 +320,32 @@ html {
 }
 
 /* MV / 链接列：居中 */
-.vp-doc table .col-link {
+.vp-doc .rs-table-wrap > table .col-link {
   text-align: center;
 }
 
 /* 备注等长文本列：全站唯一允许折行的列，限制在舒适阅读宽度内；
    长链接 / 长英文串可在词中断开，中文正常换行 */
-.vp-doc table .col-note {
+.vp-doc .rs-table-wrap > table .col-note {
   white-space: normal;
   min-width: 15em;
   max-width: 26em;
   overflow-wrap: anywhere;
 }
 
-.vp-doc table tbody tr:nth-child(even) td {
+.vp-doc .rs-table-wrap > table tbody tr:nth-child(even) td {
   background: rgba(183, 138, 53, 0.14);
 }
 
-.vp-doc table tbody tr:hover td {
+.vp-doc .rs-table-wrap > table tbody tr:hover td {
   background: rgba(162, 53, 37, 0.07);
 }
 
-.vp-doc table tbody tr:last-child td {
+.vp-doc .rs-table-wrap > table tbody tr:last-child td {
   border-bottom: none;
 }
 
-.vp-doc table th:first-child {
-  border-top-left-radius: 12px;
-}
-
-.vp-doc table th:last-child {
-  border-top-right-radius: 12px;
-}
-
-.vp-doc table tbody tr:last-child td:first-child {
-  border-bottom-left-radius: 12px;
-}
-
-.vp-doc table tbody tr:last-child td:last-child {
-  border-bottom-right-radius: 12px;
-}
+/* 四角圆角由 wrapper 的 overflow 裁切，无需单元格圆角 */
 
 /* ---------- 图片：照片墙 + 封套白边 ---------- */
 
@@ -405,6 +398,9 @@ html {
   width: 282px;
   aspect-ratio: 1 / 1;
   margin: 2.4em auto;
+  /* 黑胶向右外探 45% 封套宽；整体左移外探量的一半，
+     让「封套 + 黑胶」组合在正文中视觉居中，而不是只有封套居中 */
+  transform: translateX(-22.5%);
 }
 
 /* 黑胶唱片本体（暗纹 + 光泽 + 红色厂牌纸标 + 中心轴孔） */
@@ -558,16 +554,16 @@ html {
 
 @media (max-width: 640px) {
   /* 表格：窄屏收紧内边距，宽表靠底部滚动条横滑，不挤压列内容 */
-  .vp-doc table {
+  .vp-doc .rs-table-wrap > table {
     font-size: 0.88em;
   }
 
-  .vp-doc table th,
-  .vp-doc table td {
+  .vp-doc .rs-table-wrap > table th,
+  .vp-doc .rs-table-wrap > table td {
     padding: 9px 14px;
   }
 
-  .vp-doc table .col-note {
+  .vp-doc .rs-table-wrap > table .col-note {
     min-width: 12em;
     max-width: 18em;
   }
@@ -600,10 +596,14 @@ html {
   z-index: 9999;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* safe center：放得下时居中；图片比视口大时回退到 start，
+     保证四周都能滚到、不会只偏向一侧（移动端竖图尤其需要） */
+  align-items: safe center;
+  justify-content: safe center;
   padding: 48px 24px 24px;
   overflow: auto;
+  /* 两侧对称预留滚动条位，Windows 经典滚动条出现时图片仍严格居中 */
+  scrollbar-gutter: stable both-edges;
   background: rgba(15, 12, 8, .94);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
@@ -616,7 +616,29 @@ html {
   to { opacity: 1; }
 }
 
+/* 深色遮罩上的细滚动条（不抢视觉、不挤压居中） */
+.img-lightbox::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.img-lightbox::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: rgba(255, 255, 255, .28);
+}
+
+.img-lightbox::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, .45);
+}
+
+.img-lightbox::-webkit-scrollbar-track {
+  background: transparent;
+}
+
 .img-lightbox__img {
+  flex: 0 0 auto;
+  /* auto 外边距在 flex 里负责剩余空间居中，溢出时不产生偏移 */
+  margin: 0 auto;
   cursor: zoom-in;
   max-width: min(94vw, 1600px);
   max-height: 86vh;
@@ -702,6 +724,14 @@ html {
 }
 
 @media (max-width: 640px) {
+  .img-lightbox {
+    padding: 52px 12px 20px;
+  }
+
+  .img-lightbox__img {
+    max-width: calc(100vw - 24px);
+  }
+
   .img-lightbox__hint {
     display: none;
   }

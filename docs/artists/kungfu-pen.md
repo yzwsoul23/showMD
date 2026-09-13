@@ -8,6 +8,7 @@ description: 功夫胖（施逸凡）与 C-BLOCK 的生涯历程、早期经历�
 ---
 
 ![01-功夫胖.png](/images/kungfu-pen/01-kungfu-pen.webp "功夫胖")
+
 **功夫胖（施逸凡）**
 于 1991 年出生于长沙，C-Block 组合成员。
 从小施逸凡就对音乐产生了十足的热爱。
@@ -121,6 +122,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 （SUP CYPHER 因内容原因不建议直播收听 MV：[BV1q4411C7xm](https://www.bilibili.com/video/BV1q4411C7xm)）
 
 ![04-SUP厂牌](/images/kungfu-pen/04-sup-label.webp "SUP厂牌")
+
 厂牌名"SUP"——源自"Super Underground Player"的缩写，同样由功夫胖提出。
 
 厂牌由西奥及其好友 Tuff Blunt 在 11 年至 12 年召集，最终以六人成形，创始人"六位内阁"为 C-Block 三人、Tuff Blunt、西奥和 Ranzer。随后，随着老道等人的加入，SUP 逐渐形成了集制作人，导演，投资人于一体的完整团队。
@@ -364,7 +366,9 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 ## 2018 年
 
-![12-功夫胖离骚](/images/kungfu-pen/12-kungfu-pen-li-sao.webp "功夫胖离骚")2017 年末—2018 年，中文说唱遭受了降维打击，历经第一次沉痛的挫骨：歌曲接连下架、演出报批受阻、综艺剪辑打码。
+![12-功夫胖离骚](/images/kungfu-pen/12-kungfu-pen-li-sao.webp "功夫胖离骚")
+
+2017 年末—2018 年，中文说唱遭受了降维打击，历经第一次沉痛的挫骨：歌曲接连下架、演出报批受阻、综艺剪辑打码。
 
 在这样的背景下，C-BLOCK 发布了第四张专辑《淘金日记》，其中功夫胖的 SOLO 歌曲《离骚》，便是写给正被围剿中的中文说唱。
 
