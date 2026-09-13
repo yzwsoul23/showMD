@@ -11,6 +11,18 @@ html {
    .vp-doc 内容样式移植自 Typora 主题。
    ============================================================ */
 
+/* 数字专用字体：ASCII 数字与数字连用符号走系统无衬线
+   （Windows 的 Segoe UI 数字现代清晰，宋体数字发虚显旧），
+   其余字符仍回退到下面的衬线栈，中文排版风格不变。 */
+@font-face {
+  font-family: 'RS Numeric';
+  src: local('Segoe UI Variable'), local('Segoe UI'),
+    local('Helvetica Neue'), local('Arial');
+  unicode-range: U+0030-0039, U+002E, U+0025, U+0023, U+002B,
+    U+002D, U+002F, U+003A;
+  font-display: swap;
+}
+
 :root {
   /* --- VitePress 变量 → 唱片店配色 --- */
   --vp-c-brand-1: #a23525;
@@ -38,7 +50,7 @@ html {
   --vp-code-tab-active-text-color: #e9dec6;
   --vp-code-tab-active-bar-color: #b78a35;
 
-  --vp-font-family-base: Georgia, 'Times New Roman', 'Noto Serif SC',
+  --vp-font-family-base: 'RS Numeric', Georgia, 'Times New Roman', 'Noto Serif SC',
     'Source Han Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
   --vp-font-family-mono: Consolas, 'JetBrains Mono', 'Courier New', monospace;
 
@@ -221,31 +233,50 @@ html {
   font-weight: 700;
 }
 
-/* ---------- 表格：曲目单，宽松不挤、超宽可横滑 ---------- */
+/* ---------- 表格：曲目单，宽松不挤、超宽在底部横向滚动 ---------- */
 
 .vp-doc table {
   display: block;
-  width: max-content;
-  max-width: 100%;
+  /* 不设 width/max-width：block 化后宽度自动填满正文，
+     内部表格比容器宽时由 overflow-x 在底部出滚动条；
+     nowrap 短列（歌名/歌手）不可压缩，保证不会被逐字挤断。
+     内容放得下时表格自动铺满，无需额外设置。 */
   margin: 1.7em auto;
   border: 1px solid var(--rs-line);
   border-radius: 12px;
   overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
   border-collapse: separate;
   border-spacing: 0;
   background: var(--rs-card);
   box-shadow: var(--rs-shadow);
   font-size: 0.93em;
   line-height: 1.7;
+  /* Firefox 细滚动条 */
+  scrollbar-width: thin;
+  scrollbar-color: var(--rs-gold) var(--rs-paper-deep);
 }
 
+/* WebKit 滚动条：常驻轨道 + 金色滑块，提示可以横滑 */
 .vp-doc table::-webkit-scrollbar {
-  height: 8px;
+  height: 10px;
+}
+
+.vp-doc table::-webkit-scrollbar-track {
+  background: var(--rs-paper-deep);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 .vp-doc table::-webkit-scrollbar-thumb {
-  border-radius: 4px;
-  background: var(--rs-line);
+  border-radius: 6px;
+  border: 2px solid var(--rs-paper-deep);
+  background: var(--rs-gold);
+}
+
+.vp-doc table::-webkit-scrollbar-thumb:hover {
+  background: var(--rs-red);
 }
 
 .vp-doc table th {
@@ -264,9 +295,34 @@ html {
   padding: 11px 22px;
   border: none;
   border-bottom: 1px solid var(--rs-line);
-  max-width: 520px;
   vertical-align: top;
-  word-break: break-word;
+  /* 默认按短列处理：歌名、歌手等一律不折行；表比正文宽就横向滚动 */
+  white-space: nowrap;
+}
+
+/* 序号 / 年份列：窄列居中、等宽数字 */
+.vp-doc table th.col-idx {
+  text-align: center;
+}
+
+.vp-doc table tbody td.col-idx {
+  width: 3.4em;
+  text-align: center;
+  color: var(--rs-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+/* MV / 链接列：居中 */
+.vp-doc table .col-link {
+  text-align: center;
+}
+
+/* 备注等长文本列：全站唯一允许折行的列，限制在舒适阅读宽度内；
+   长链接 / 长英文串可在词中断开，中文正常换行 */
+.vp-doc table .col-note {
+  white-space: normal;
+  min-width: 15em;
+  max-width: 26em;
   overflow-wrap: anywhere;
 }
 
@@ -501,6 +557,21 @@ html {
 }
 
 @media (max-width: 640px) {
+  /* 表格：窄屏收紧内边距，宽表靠底部滚动条横滑，不挤压列内容 */
+  .vp-doc table {
+    font-size: 0.88em;
+  }
+
+  .vp-doc table th,
+  .vp-doc table td {
+    padding: 9px 14px;
+  }
+
+  .vp-doc table .col-note {
+    min-width: 12em;
+    max-width: 18em;
+  }
+
   .vp-doc p.has-block-img > img {
     max-width: 88%;
   }

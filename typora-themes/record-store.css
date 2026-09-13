@@ -21,6 +21,10 @@
  */
 
 :root {
+  /* 数字走系统无衬线（Segoe UI / Helvetica），宋体数字发虚显旧；
+     其余字符仍回退到衬线栈，中文排版风格不变。 */
+  --rs-numfont: "RS Numeric", Georgia, "Times New Roman", "Noto Serif SC",
+    "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
   --rs-paper: #f6efe1;        /* 牛皮纸底色 */
   --rs-paper-deep: #efe4cd;   /* 深一档纸面（侧栏 / 引文） */
   --rs-card: #fffdf6;         /* 卡片 / 表格底 */
@@ -36,6 +40,16 @@
     "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
 }
 
+/* 数字专用字体：只接管 ASCII 数字及数字连用符号 */
+@font-face {
+  font-family: "RS Numeric";
+  src: local("Segoe UI Variable"), local("Segoe UI"),
+    local("Helvetica Neue"), local("Arial");
+  unicode-range: U+0030-0039, U+002E, U+0025, U+0023, U+002B,
+    U+002D, U+002F, U+003A;
+  font-display: swap;
+}
+
 html,
 body {
   background: var(--rs-paper);
@@ -46,7 +60,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   padding: 52px 56px 110px;
-  font-family: var(--rs-serif);
+  font-family: var(--rs-numfont);
   font-size: 16px;
   line-height: 1.9;
   color: var(--rs-ink);
@@ -288,8 +302,6 @@ body {
 
 #write table {
   display: block;
-  width: max-content;
-  max-width: 100%;
   margin: 1.7em auto;
   border: 1px solid var(--rs-line);
   border-radius: 12px;
@@ -303,12 +315,19 @@ body {
 }
 
 #write table::-webkit-scrollbar {
-  height: 8px;
+  height: 10px;
+}
+
+#write table::-webkit-scrollbar-track {
+  background: var(--rs-paper-deep);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 #write table::-webkit-scrollbar-thumb {
-  border-radius: 4px;
-  background: var(--rs-line);
+  border-radius: 6px;
+  border: 2px solid var(--rs-paper-deep);
+  background: var(--rs-gold);
 }
 
 #write table th {
@@ -325,10 +344,10 @@ body {
 #write table td {
   padding: 11px 22px;
   border-bottom: 1px solid var(--rs-line);
-  max-width: 520px;
   vertical-align: top;
-  word-break: break-word;
-  overflow-wrap: anywhere;
+  /* Typora 无 JS 列分类，短列一律不折行；表超宽在底部横向滚动，
+     长备注也保持整行不断，避免歌名/歌手被逐字挤断 */
+  white-space: nowrap;
 }
 
 #write table tbody tr:nth-child(even) td {
