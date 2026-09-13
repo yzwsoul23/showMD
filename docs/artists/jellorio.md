@@ -5,7 +5,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 # 李佳隆音乐生涯 & 作品目录
 
-![jelloRio1](/images/lijialong/jelloRio1.webp)**李佳隆**，1997年1月9日出生于四川省南充市蓬安县；初中开始接触说唱音乐，高中尝试创作，大学就读于四川文化艺术学院美术系。英文名字 **JelloRio**，Jello 是佳隆的谐音，Rio 意为 Real。是个十分内向的游戏宅男。
+![jelloRio1](/images/jellorio/jelloRio1.webp)**李佳隆**，1997年1月9日出生于四川省南充市蓬安县；初中开始接触说唱音乐，高中尝试创作，大学就读于四川文化艺术学院美术系。英文名字 **JelloRio**，Jello 是佳隆的谐音，Rio 意为 Real。是个十分内向的游戏宅男。
 
 ---
 
@@ -90,7 +90,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 封面：
 
-![3-JELLO-Cover](/images/lijialong/3-JELLO-Cover.webp)
+![3-JELLO-Cover](/images/jellorio/3-JELLO-Cover.webp)
 
 | 歌曲名称 | 备注 |
 | --- | --- |
@@ -117,7 +117,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 11月28日，发布首张个人中国风 EP《壹》，收录5首单曲。展现了非常强烈的个人风格和李佳隆对于中国风的独特诠释。（这张EP多首混音来自 Asen）
 
-![YI-Cover](/images/lijialong/YI-Cover.webp)
+![YI-Cover](/images/jellorio/YI-Cover.webp)
 
 | 歌曲名称 | 备注 |
 | --- | --- |
@@ -193,7 +193,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 离开出人头地回到成都，和女友恶恶以及经纪人 vb 一起成立了 Bornlegend Music 音乐工作室和 BornLegend 的服装品牌。logo：
 
-![BornLegend-logo](/images/lijialong/BornLegend-logo.webp)
+![BornLegend-logo](/images/jellorio/BornLegend-logo.webp)
 
 - 1-30 单曲《JELLO FEAT.REAL》，这首歌讲述了自己从上节目爆火后的心境，在迎合市场和自我之间反复拉扯，最后还是选择了离开出人头地组建自己的音乐工作室（后面有发《JELLO FEAT.REAL + 绝》的 mv，可以在听完《绝》后再看）
 
@@ -201,7 +201,9 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 4月**发布第二张个人 EP《贰》**（QQ音乐试听），收录了三首单曲：《堵》、《U》、《绝》（q音可看 mv）
 
-![TWO-Cover](/images/lijialong/TWO-Cover.webp)这张 EP 算是专辑的开胃菜。
+![TWO-Cover](/images/jellorio/TWO-Cover.webp)
+
+这张 EP 算是专辑的开胃菜。
 
 - 5-19 和邓典果 DDG 合作曲《RAVEN》，网易云可看 mv（中国说唱巅峰对决2022节目有这首歌和 PSY.P 的版本《C位渡鸦》，可选择是否观看现场：[BV1s7XkBxExA](https://www.bilibili.com/video/BV1s7XkBxExA)）
 - 9-17 和邓典果 DDG 合作曲《懒汉全席》
@@ -214,7 +216,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 专辑花费了很多心血，李佳隆操刀整专制作，投入了大量的金钱（做说唱赚到的所有钱剩下的全拿来拿专辑了），但评价呈现出明显的两极分化，在当年的热度也很低。
 
-![Legend-Cover](/images/lijialong/Legend-Cover.webp)
+![Legend-Cover](/images/jellorio/Legend-Cover.webp)
 
 | 歌曲名称 | 备注 |
 | --- | --- |
@@ -280,7 +282,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 4月12日**发布个人 EP《叁》**，收录3首单曲，同样是专辑预热 EP。
 
-![SAN-Cover](/images/lijialong/SAN-Cover.webp)
+![SAN-Cover](/images/jellorio/SAN-Cover.webp)
 
 | 歌曲名称 | 备注 |
 | --- | --- |
@@ -300,7 +302,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 - 专辑名字《GUOXIA》是过下，四川方言，GUO 指用什么什么方式，比如"我吃饺子过吞"、"我喝酒过抿"；XIA 是动词，使用在任何流体动势很大的情况下，比如"这个血滴得太多了像在下一样"。放在这张专辑里的特定含义就是：血出得多且猛。
 
-![GUOXIA-Cover](/images/lijialong/GUOXIA-Cover.webp)
+![GUOXIA-Cover](/images/jellorio/GUOXIA-Cover.webp)
 
 | 歌曲名称 | 备注 |
 | --- | --- |
@@ -340,7 +342,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 **2月14日，没有预热发布《出人头地 2025 Dreams Come True Mixtape》**，收录12首单曲。涵盖多种风格，展示了李佳隆在音乐制作和旋律创作上的高水准。专辑名称致敬他曾经在厦门加入的出人头地厂牌。这张专辑不仅是对过去音乐的总结，也是新起点的开始，并预告了3月1日广州第一场个人演唱会。这张专辑获得了网易云 2025最佳流行说唱专辑奖。
 
-![2025DreamsComeTrueMixtape-Cover](/images/lijialong/2025DreamsComeTrueMixtape-Cover.webp)
+![2025DreamsComeTrueMixtape-Cover](/images/jellorio/2025DreamsComeTrueMixtape-Cover.webp)
 
 | 歌曲名称 | 备注 |
 | --- | --- |
@@ -361,7 +363,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 - 3-1 李佳隆在广州亚运城综合体育馆举办“出人头地”演唱会，成为中国第一个将弦乐团搬上现场舞台的说唱歌手 嘉宾 ASEN、王以太（b站有现场视频：BV1bk9fYoE5w 推荐开场OMG、林中游（和加拿大故人在2020年节目里合作的歌曲也是时隔很多年在节目外演唱，也有和ASEN合体版的GUOXIA和说唱钱）
 
-![2025DreamsComeTrueMixtape](/images/lijialong/2025DreamsComeTrueMixtape.webp)![2025DreamsComeTrueMixtape1](/images/lijialong/2025DreamsComeTrueMixtape1.webp)
+![2025DreamsComeTrueMixtape](/images/jellorio/2025DreamsComeTrueMixtape.webp)![2025DreamsComeTrueMixtape1](/images/jellorio/2025DreamsComeTrueMixtape1.webp)
 
 - 3-4 做SoulSense TWH Freestyle 演唱《加速 Freestyle》(b站有：[BV18r9iYFEEK](https://www.bilibili.com/video/BV18r9iYFEEK)）
 - 3-7 做客SoulSense TWH LIVE 演唱《我不是说唱歌手》《Top Talk》（b站有：[BV1pGRMYuEKa](https://www.bilibili.com/video/BV1pGRMYuEKa)）
@@ -387,7 +389,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 - Born Legend，译为生来传奇，花名兔厂/Bunny，厂牌 logo 三兔共耳，在佛教里意为前生、今生、来世，有因果观和轮回观的含义。厂牌成员：李佳隆、等一下就回家（真名叶宇桢，小名天天/小天）、Sillygami、ZenithLuvYou、陈俊岐、Yoanko Futura（小名安安）。其中除了等一下就回家，剩下基本是新人出道。
 
-![SAGGING-Cover](/images/lijialong/SAGGING-Cover.webp)
+![SAGGING-Cover](/images/jellorio/SAGGING-Cover.webp)
 
 | 歌曲名称 | 备注 |
 | --- | --- |
@@ -420,7 +422,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 文稿撰写主笔：@苹果气泡美式
 
-![thinks](/images/lijialong/thinks.webp)文稿撰写修改：
+![thinks](/images/jellorio/thinks.webp)文稿撰写修改：
 
 抖子粉丝：果冻鸡尾酒、髙伊點、加拿大奔跑少年
 

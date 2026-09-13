@@ -26,10 +26,11 @@ description: '{{name}} 的个人资料、早期经历与代表作品。'
 <!--
 新建艺人检查清单：
 1. 本文件命名为 <id>.md，放入 docs/artists/
-2. 图片放入 docs/public/images/<id>/，运行 npm run images:compress 转为 WebP
-3. 正文中的图片使用站内路径：![描述](/images/<id>/文件名.webp)
-4. 头像放 docs/public/images/avatars/<id>.webp（建议 200x200）
-5. 在 docs/data/artists.ts 中补充对应的 Artist 数据项
-6. 在 docs/.vitepress/config.ts 的 nav 与 sidebar 中补充入口
-7. 运行 npm run validate 确认数据完整
+2. 高清原图放 docs/public/images/originals/<id>/（jpg/png 等保留原格式，点击图片时弹出查看，不会被压缩）
+3. 缩略图放 docs/public/images/<id>/，可用 scripts/make-thumbs.bat 把 originals 文件夹拖入批量生成 webp，再拷入对应目录；或运行 npm run images:compress
+4. 正文中的图片使用站内路径：![描述](/images/<id>/文件名.webp)（原图与缩略图同名、扩展名不同即可）
+5. 头像放 docs/public/images/avatars/<id>.webp（建议 200x200）
+6. 在 docs/data/artists.ts 中补充对应的 Artist 数据项
+7. 在 docs/.vitepress/config.ts 的 nav 与 sidebar 中补充入口
+8. 运行 npm run validate 确认数据完整
 -->

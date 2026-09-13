@@ -1,0 +1,662 @@
+/*
+ * Record Store（唱片店）—— 歌手档案向 Typora 主题
+ * 暖纸、浓墨、厂牌红、烫金与黑胶元素；重点优化图片与曲目表格排版。
+ *
+ * 安装：Typora → 偏好设置 → 外观 → 打开主题文件夹，
+ *       把本文件复制进去（文件名 record-store 即主题名），
+ *       重启 Typora，在「主题」菜单选择 Record Store。
+ *
+ * 图片尺寸会按图片语法里的 alt 文字自动区分（不区分大小写）：
+ *   专辑封面：alt 含 cover / 封面       → 黑胶封套（唱片半藏右侧，悬停抽出）
+ *   海报：    alt 含 poster / 海报      → 竖版窄图
+ *   演出照：  alt 含 live / show / 演出 / 现场 / 节目 / 舞台 / 剧照 → 横向大图
+ *   歌手照片：alt 含 photo / 照片 / 写真 → 适中人像
+ *   歌词截图：alt 含 panel / 歌词       → 窄长图
+ *   头像：    alt 含 头像               → 圆形小头像
+ *   其他图片：默认居中、不超过正文宽度的 66%，不会独占整页
+ *
+ * 本仓库 md 的图片以 /images 开头（VitePress 根路径），
+ * 如在 Typora 中看不到图：偏好设置 → 图片 → 图片根路径，
+ * 选择本仓库的 docs/public 目录即可。
+ */
+
+:root {
+  --rs-paper: #f6efe1;        /* 牛皮纸底色 */
+  --rs-paper-deep: #efe4cd;   /* 深一档纸面（侧栏 / 引文） */
+  --rs-card: #fffdf6;         /* 卡片 / 表格底 */
+  --rs-ink: #2b2117;          /* 浓墨棕黑 */
+  --rs-ink-2: #57483a;        /* 次级文字 */
+  --rs-faint: #8a7861;        /* 弱化文字 */
+  --rs-line: #ddcdae;         /* 分隔线 */
+  --rs-red: #a23525;          /* 厂牌红 */
+  --rs-gold: #b78a35;         /* 烫金 */
+  --rs-vinyl: #211a14;        /* 黑胶 */
+  --rs-shadow: 0 14px 30px -14px rgba(70, 45, 18, .45);
+  --rs-serif: Georgia, "Times New Roman", "Noto Serif SC",
+    "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif;
+}
+
+html,
+body {
+  background: var(--rs-paper);
+  color: var(--rs-ink);
+}
+
+#write {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 52px 56px 110px;
+  font-family: var(--rs-serif);
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--rs-ink);
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+#write p {
+  margin: .8em 0;
+}
+
+#write ::selection {
+  background: rgba(162, 53, 37, .18);
+}
+
+/* ---------- 标题：专辑名 / 年份 / 作品 ---------- */
+
+#write h1 {
+  display: table;
+  margin: .2em auto .9em;
+  padding-bottom: .35em;
+  border-bottom: 3px double var(--rs-gold);
+  color: var(--rs-vinyl);
+  font-size: 2em;
+  line-height: 1.4;
+  letter-spacing: .14em;
+  text-align: center;
+}
+
+#write h2 {
+  margin: 2em 0 .9em;
+  padding: .28em .6em .34em .8em;
+  border-left: 6px solid var(--rs-red);
+  border-radius: 0 6px 6px 0;
+  background: linear-gradient(90deg, rgba(183, 138, 53, .16), rgba(183, 138, 53, 0) 65%);
+  color: var(--rs-vinyl);
+  font-size: 1.45em;
+  line-height: 1.5;
+}
+
+/* 标题前的小黑胶圆点 */
+#write h2::before {
+  content: "";
+  display: inline-block;
+  width: .66em;
+  height: .66em;
+  margin-right: .5em;
+  vertical-align: -0.06em;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, var(--rs-paper) 0 20%, transparent 21%),
+    radial-gradient(circle, var(--rs-gold) 0 32%, var(--rs-vinyl) 33%);
+}
+
+#write h3 {
+  margin: 1.7em 0 .7em;
+  color: var(--rs-red);
+  font-size: 1.17em;
+}
+
+#write h3::before {
+  content: "\266A  ";
+  color: var(--rs-gold);
+}
+
+#write h4 {
+  margin: 1.4em 0 .6em;
+  color: var(--rs-vinyl);
+  font-size: 1.05em;
+}
+
+#write h5,
+#write h6 {
+  color: var(--rs-ink-2);
+}
+
+/* ---------- 链接 / 强调 ---------- */
+
+#write a {
+  color: var(--rs-red);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rs-red);
+  word-break: break-all;
+}
+
+#write a:hover {
+  border-bottom-style: solid;
+}
+
+#write strong {
+  color: var(--rs-vinyl);
+  font-weight: 700;
+}
+
+#write mark {
+  background: rgba(183, 138, 53, .28);
+  color: var(--rs-ink);
+  padding: .05em .3em;
+  border-radius: 3px;
+}
+
+/* ---------- 分隔线：封套压线 + 菱标 ---------- */
+
+#write hr {
+  position: relative;
+  width: 86%;
+  height: 5px;
+  margin: 2.3em auto;
+  border: 0;
+  border-top: 2px solid var(--rs-gold);
+  border-bottom: 1px solid var(--rs-gold);
+  opacity: .6;
+  text-align: center;
+}
+
+#write hr::after {
+  content: "\25C6";
+  position: absolute;
+  top: -1.05em;
+  left: 50%;
+  margin-left: -.55em;
+  width: 1.1em;
+  background: var(--rs-paper);
+  color: var(--rs-gold);
+  font-size: .75em;
+  line-height: 2;
+  text-align: center;
+}
+
+/* ---------- 引文（编者注）：内页说明卡 ---------- */
+
+#write blockquote {
+  margin: 1.5em 0;
+  padding: 13px 20px;
+  border-left: 5px solid var(--rs-gold);
+  border-radius: 0 10px 10px 0;
+  background: var(--rs-paper-deep);
+  color: var(--rs-ink-2);
+  font-size: .94em;
+}
+
+#write blockquote p {
+  margin: .35em 0;
+}
+
+#write blockquote a {
+  word-break: break-all;
+}
+
+/* ---------- 列表 ---------- */
+
+#write ul,
+#write ol {
+  padding-left: 1.7em;
+}
+
+#write li {
+  margin: .32em 0;
+}
+
+#write li::marker {
+  color: var(--rs-red);
+}
+
+#write ol li::marker {
+  font-weight: 700;
+}
+
+#write .task-list-item {
+  list-style: none;
+}
+
+#write .task-list-item input {
+  width: 1.05em;
+  height: 1.05em;
+  margin-right: .45em;
+  accent-color: var(--rs-red);
+}
+
+/* ---------- 代码：黑色唱片内袋 ---------- */
+
+#write code,
+#write tt {
+  font-family: Consolas, "JetBrains Mono", "Courier New", monospace;
+  font-size: .88em;
+  padding: .12em .42em;
+  border-radius: 4px;
+  background: rgba(162, 53, 37, .09);
+  color: #8a2a1e;
+}
+
+#write .md-fences {
+  margin: 1.5em 0;
+  padding: 15px 18px;
+  border: 1px solid #3a2f23;
+  border-radius: 10px;
+  background: #231c16;
+  color: #e9dec6;
+  box-shadow: var(--rs-shadow);
+  font-size: 13px;
+  line-height: 1.75;
+}
+
+#write .md-fences code,
+#write .md-fences .CodeMirror,
+#write .md-fences .CodeMirror-code {
+  background: transparent;
+  color: inherit;
+}
+
+.cm-s-inner .cm-comment,
+.cm-s-inner.cm-comment {
+  color: #9c8c72;
+  font-style: italic;
+}
+
+.cm-s-inner .cm-keyword { color: #e0935f; }
+.cm-s-inner .cm-string,
+.cm-s-inner.cm-string { color: #cda86b; }
+.cm-s-inner .cm-number { color: #d18a7a; }
+.cm-s-inner .cm-tag { color: #d9a566; }
+.cm-s-inner .cm-attribute { color: #c9a25f; }
+.cm-s-inner .CodeMirror-cursor {
+  border-left: 1px solid var(--rs-gold) !important;
+}
+
+/* YAML front-matter */
+#write pre.md-meta-block {
+  margin: 1.2em 0;
+  padding: 12px 16px;
+  border: 1px dashed var(--rs-line);
+  border-radius: 8px;
+  background: var(--rs-paper-deep);
+  color: var(--rs-faint);
+  font-size: 13px;
+}
+
+/* ---------- 表格：曲目单，宽松不挤、超宽可横滑 ---------- */
+
+#write table {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  margin: 1.7em auto;
+  border: 1px solid var(--rs-line);
+  border-radius: 12px;
+  overflow-x: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--rs-card);
+  box-shadow: var(--rs-shadow);
+  font-size: .93em;
+  line-height: 1.7;
+}
+
+#write table::-webkit-scrollbar {
+  height: 8px;
+}
+
+#write table::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: var(--rs-line);
+}
+
+#write table th {
+  padding: 12px 22px;
+  border-bottom: 2px solid var(--rs-gold);
+  background: var(--rs-vinyl);
+  color: #f3e6c8;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-align: left;
+  white-space: nowrap;
+}
+
+#write table td {
+  padding: 11px 22px;
+  border-bottom: 1px solid var(--rs-line);
+  max-width: 520px;
+  vertical-align: top;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+#write table tbody tr:nth-child(even) td {
+  background: rgba(183, 138, 53, .14);
+}
+
+#write table tbody tr:hover td {
+  background: rgba(162, 53, 37, .07);
+}
+
+#write table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+#write table th:first-child {
+  border-top-left-radius: 12px;
+}
+
+#write table th:last-child {
+  border-top-right-radius: 12px;
+}
+
+#write table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+}
+
+#write table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+}
+
+#write table a {
+  word-break: break-all;
+}
+
+/* ---------- 图片：照片墙 + 封套白边，默认不独占整页 ---------- */
+
+#write .md-image {
+  display: block;
+}
+
+#write img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 66%;
+  max-height: 540px;
+  margin: 1.6em auto;
+  padding: 8px 8px 10px;
+  border: 1px solid var(--rs-line);
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: var(--rs-shadow);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+#write img:hover {
+  transform: translateY(-3px) rotate(-.4deg);
+  box-shadow: 0 22px 38px -16px rgba(70, 45, 18, .55);
+}
+
+/* 专辑封面：黑胶封套。封面是方形白边封套，黑胶半藏在右侧，
+   悬停时唱片从封套中抽出并轻微旋转。
+   兼容 Typora 编辑器（span.md-image > img）与导出 HTML（p > img）。 */
+#write .md-image:has(> img[alt*="cover" i]),
+#write .md-image:has(> img[alt*="封面"]),
+#write p:has(> img[alt*="cover" i]),
+#write p:has(> img[alt*="封面"]) {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 282px;
+  aspect-ratio: 1 / 1;
+  margin: 2.4em auto;
+}
+
+/* 黑胶唱片本体（暗纹 + 光泽 + 红色厂牌纸标 + 中心轴孔） */
+#write .md-image:has(> img[alt*="cover" i])::before,
+#write .md-image:has(> img[alt*="封面"])::before,
+#write p:has(> img[alt*="cover" i])::before,
+#write p:has(> img[alt*="封面"])::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -45%;
+  width: 96%;
+  height: 96%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 50% 50%,
+      #0c0907 0 2.8%,
+      rgba(183, 138, 53, .95) 3.0% 4.3%,
+      transparent 4.6%),
+    radial-gradient(circle at 50% 50%,
+      #c64a35 0 14%,
+      #8f2d1d 14.5% 17%,
+      rgba(183, 138, 53, .95) 17.3% 18.6%,
+      transparent 19%),
+    conic-gradient(from 0deg,
+      rgba(255, 255, 255, 0) 0 6%,
+      rgba(255, 255, 255, .16) 16%,
+      rgba(255, 255, 255, .05) 26%,
+      rgba(255, 255, 255, 0) 38% 100%),
+    repeating-radial-gradient(circle at 50% 50%,
+      rgba(255, 255, 255, .08) 0 1px,
+      rgba(0, 0, 0, .38) 1px 3px),
+    #150f0a;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, .12),
+    inset 0 0 30px rgba(0, 0, 0, .8),
+    0 16px 30px -12px rgba(40, 25, 10, .65);
+  transition: right .5s cubic-bezier(.22, .9, .26, 1),
+    transform .5s cubic-bezier(.22, .9, .26, 1);
+}
+
+/* 封套右侧开口的内侧阴影 */
+#write .md-image:has(> img[alt*="cover" i])::after,
+#write .md-image:has(> img[alt*="封面"])::after,
+#write p:has(> img[alt*="cover" i])::after,
+#write p:has(> img[alt*="封面"])::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  right: 9px;
+  width: 10px;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(to right, rgba(0, 0, 0, .22), rgba(0, 0, 0, 0));
+}
+
+/* 悬停：唱片抽出封套并旋转。
+   触发源放在整张封套所在的段落上（唱片露出部分在封套盒外，
+   且 pointer-events:none，只有段落盒能接到这部分的悬停）。 */
+#write p:has(> .md-image > img[alt*="cover" i]):hover .md-image::before,
+#write p:has(> .md-image > img[alt*="封面"]):hover .md-image::before,
+#write p:has(> img[alt*="cover" i]):hover::before,
+#write p:has(> img[alt*="封面"]):hover::before,
+#write .md-image:has(> img[alt*="cover" i]):hover::before,
+#write .md-image:has(> img[alt*="封面"]):hover::before {
+  right: -62%;
+  transform: translateY(-50%) rotate(22deg);
+}
+
+/* 封面图本身：方形白边封套，非方图自动居中裁剪 */
+#write .md-image > img[alt*="cover" i],
+#write .md-image > img[alt*="封面"],
+#write p > img[alt*="cover" i],
+#write p > img[alt*="封面"] {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  border: 9px solid #fff;
+  border-radius: 3px;
+  box-shadow: 0 18px 32px -14px rgba(70, 45, 18, .6);
+  transition: box-shadow .25s ease;
+}
+
+#write .md-image > img[alt*="cover" i]:hover,
+#write .md-image > img[alt*="封面"]:hover,
+#write p > img[alt*="cover" i]:hover,
+#write p > img[alt*="封面"]:hover {
+  transform: none;
+  box-shadow: 0 22px 38px -14px rgba(70, 45, 18, .65);
+}
+
+@media (max-width: 640px) {
+  #write .md-image:has(> img[alt*="cover" i]),
+  #write .md-image:has(> img[alt*="封面"]),
+  #write p:has(> img[alt*="cover" i]),
+  #write p:has(> img[alt*="封面"]) {
+    width: 224px;
+  }
+}
+
+/* 海报：竖版 */
+#write img[alt*="poster" i],
+#write img[alt*="海报"] {
+  max-width: 320px;
+  max-height: 640px;
+}
+
+/* 演出 / 节目照：横向大图 */
+#write img[alt*="live" i],
+#write img[alt*="show" i],
+#write img[alt*="演出"],
+#write img[alt*="现场"],
+#write img[alt*="节目"],
+#write img[alt*="舞台"],
+#write img[alt*="剧照"] {
+  max-width: 560px;
+  max-height: none;
+}
+
+/* 歌手照片：适中人像 */
+#write img[alt*="photo" i],
+#write img[alt*="照片"],
+#write img[alt*="写真"] {
+  max-width: 380px;
+  max-height: 480px;
+}
+
+/* 歌词 / 长截图：窄长 */
+#write img[alt*="panel" i],
+#write img[alt*="歌词"] {
+  max-width: 360px;
+  max-height: 620px;
+}
+
+/* 头像：圆形小图（非方形原图自动居中裁剪） */
+#write img[alt*="头像"] {
+  width: 130px;
+  height: 130px;
+  max-width: 130px;
+  max-height: 130px;
+  padding: 3px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* 表格内图片：缩略图尺寸，且不被上面的 alt 规则放大 */
+#write table img,
+#write table img[alt] {
+  max-width: 120px !important;
+  max-height: 120px !important;
+  margin: 6px auto;
+  padding: 3px !important;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+#write table img:hover {
+  transform: none;
+}
+
+/* ---------- 侧栏：同色系唱片店氛围 ---------- */
+
+#typora-sidebar {
+  background: var(--rs-paper-deep);
+  color: var(--rs-ink-2);
+  border-right: 1px solid var(--rs-line);
+}
+
+#typora-sidebar .sidebar-tabs {
+  border-bottom: 1px solid var(--rs-line);
+}
+
+.file-list-item,
+.outline-list-item,
+.outline-item {
+  border-radius: 6px;
+}
+
+.file-list-item.active,
+.file-list-item:hover,
+.outline-list-item-active,
+.outline-active,
+#typora-sidebar .active {
+  background: rgba(162, 53, 37, .1);
+  color: var(--rs-red);
+}
+
+/* ---------- 打印 / 导出 PDF ---------- */
+
+@media print {
+  body,
+  #write {
+    background: #fff;
+  }
+
+  #write {
+    max-width: none;
+    padding: 0;
+  }
+
+  #write h2 {
+    background: none;
+  }
+
+  #write img,
+  #write img[alt] {
+    max-width: 60% !important;
+    max-height: none;
+    box-shadow: none;
+  }
+
+  /* 唱片封套：打印时只保留方形封面，隐藏黑胶与开口阴影 */
+  #write .md-image:has(> img[alt*="cover" i]),
+  #write .md-image:has(> img[alt*="封面"]),
+  #write p:has(> img[alt*="cover" i]),
+  #write p:has(> img[alt*="封面"]) {
+    width: 210px;
+  }
+
+  #write .md-image:has(> img[alt*="cover" i])::before,
+  #write .md-image:has(> img[alt*="cover" i])::after,
+  #write .md-image:has(> img[alt*="封面"])::before,
+  #write .md-image:has(> img[alt*="封面"])::after,
+  #write p:has(> img[alt*="cover" i])::before,
+  #write p:has(> img[alt*="cover" i])::after,
+  #write p:has(> img[alt*="封面"])::before,
+  #write p:has(> img[alt*="封面"])::after {
+    display: none;
+  }
+
+  #write .md-image > img[alt*="cover" i],
+  #write .md-image > img[alt*="封面"],
+  #write p > img[alt*="cover" i],
+  #write p > img[alt*="封面"] {
+    max-width: 100% !important;
+    border-width: 6px;
+  }
+
+  #write table {
+    display: table;
+    width: 100%;
+    max-width: 100%;
+    overflow: visible;
+    box-shadow: none;
+  }
+}

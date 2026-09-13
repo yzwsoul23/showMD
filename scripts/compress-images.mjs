@@ -24,6 +24,8 @@ const MAX_AVATAR_WIDTH = 200
 
 const SOURCE_EXTS = new Set(['.jpg', '.jpeg', '.png', '.svg', '.webp'])
 const KEEP_SVG = new Set(['favicon.svg'])
+/** 原图目录：灯箱点击查看的高清源，永不压缩、永不删除 */
+const ORIGINALS_DIR = join(IMAGES_DIR, 'originals')
 
 const FORCE = process.argv.includes('--force')
 
@@ -47,6 +49,8 @@ async function collectImages(dir) {
   for (const entry of entries) {
     const fullPath = join(dir, entry.name)
     if (entry.isDirectory()) {
+      // originals 保存高清原图（灯箱查看），不参与压缩
+      if (fullPath === ORIGINALS_DIR) continue
       files.push(...(await collectImages(fullPath)))
     } else if (
       SOURCE_EXTS.has(extname(entry.name).toLowerCase()) &&

@@ -2,3 +2,137 @@
 html {
   scroll-behavior: smooth !important;
 }
+
+/* ============================================================
+   图片灯箱：正文缩略图点击查看高清原图
+   ============================================================ */
+
+.vp-doc img {
+  cursor: zoom-in;
+}
+
+.img-lightbox[hidden] {
+  display: none;
+}
+
+.img-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px 24px;
+  overflow: auto;
+  background: rgba(15, 12, 8, .94);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  animation: img-lightbox-fade .18s ease;
+  overscroll-behavior: contain;
+}
+
+@keyframes img-lightbox-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.img-lightbox__img {
+  cursor: zoom-in;
+  max-width: min(94vw, 1600px);
+  max-height: 86vh;
+  object-fit: contain;
+  border-radius: 4px;
+  background: #000;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, .65);
+  opacity: .7;
+  transition: opacity .25s ease;
+}
+
+.img-lightbox__img.is-loaded {
+  opacity: 1;
+}
+
+.img-lightbox.is-zoomed {
+  justify-content: flex-start;
+  padding: 32px;
+}
+
+.img-lightbox.is-zoomed .img-lightbox__img {
+  cursor: zoom-out;
+  max-width: none;
+  max-height: none;
+}
+
+.img-lightbox__spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 42px;
+  height: 42px;
+  margin: -21px 0 0 -21px;
+  border: 3px solid rgba(255, 255, 255, .18);
+  border-top-color: rgba(183, 138, 53, .9);
+  border-radius: 50%;
+  animation: img-lightbox-spin .8s linear infinite;
+}
+
+.img-lightbox.is-ready .img-lightbox__spinner {
+  display: none;
+}
+
+@keyframes img-lightbox-spin {
+  to { transform: rotate(360deg); }
+}
+
+.img-lightbox__caption {
+  margin: 14px 0 0;
+  max-width: 80vw;
+  color: rgba(255, 255, 255, .78);
+  font-size: 13px;
+  line-height: 1.6;
+  text-align: center;
+  word-break: break-all;
+}
+
+.img-lightbox__hint {
+  margin-top: 4px;
+  color: rgba(255, 255, 255, .4);
+  font-size: 12px;
+}
+
+.img-lightbox__close {
+  position: fixed;
+  top: 18px;
+  right: 22px;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(255, 255, 255, .3);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, .25);
+  color: #fff;
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background .2s ease, border-color .2s ease;
+}
+
+.img-lightbox__close:hover {
+  background: rgba(255, 255, 255, .14);
+  border-color: rgba(255, 255, 255, .6);
+}
+
+@media (max-width: 640px) {
+  .img-lightbox__hint {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .img-lightbox,
+  .img-lightbox__img,
+  .img-lightbox__spinner {
+    animation: none;
+    transition: none;
+  }
+}

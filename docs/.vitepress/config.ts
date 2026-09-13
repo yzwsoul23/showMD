@@ -39,8 +39,8 @@ export default defineConfig({
         items: [
           { text: 'GALI', link: '/artists/gali' },
           { text: '功夫胖 KungFu-Pen', link: '/artists/kungfu-pen' },
-          { text: '李佳隆 JelloRio', link: '/artists/lijialong' },
-          { text: '连麻 Swimming', link: '/artists/lianma' }
+          { text: '李佳隆 JelloRio', link: '/artists/jellorio' },
+          { text: '连麻 Swimming', link: '/artists/swimming' }
         ]
       },
       {
@@ -56,8 +56,8 @@ export default defineConfig({
         items: [
           { text: 'GALI', link: '/artists/gali' },
           { text: '功夫胖 KungFu-Pen', link: '/artists/kungfu-pen' },
-          { text: '李佳隆 JelloRio', link: '/artists/lijialong' },
-          { text: '连麻 Swimming', link: '/artists/lianma' }
+          { text: '李佳隆 JelloRio', link: '/artists/jellorio' },
+          { text: '连麻 Swimming', link: '/artists/swimming' }
         ]
       }
     ],

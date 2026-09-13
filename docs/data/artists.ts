@@ -65,12 +65,12 @@ export const artists: Artist[] = [
     ]
   },
   {
-    id: 'lijialong',
+    id: 'jellorio',
     name: '李佳隆 JelloRio',
     alias: ['JelloRio'],
     region: '四川南充',
     label: 'Born Legend',
-    avatar: '/images/avatars/lijialong.webp',
+    avatar: '/images/avatars/jellorio.webp',
     debutYear: 2015,
     bio: '《中国新说唱 2020》总冠军，国内 Auto-tune 代表人物，《星球坠落》原唱之一。',
     songs: [
@@ -83,12 +83,12 @@ export const artists: Artist[] = [
     ]
   },
   {
-    id: 'lianma',
+    id: 'swimming',
     name: '连麻 Swimming',
     alias: ['孙一民'],
     region: '成都',
     label: '声闻聚将',
-    avatar: '/images/avatars/lianma.webp',
+    avatar: '/images/avatars/swimming.webp',
     debutYear: 2013,
     bio: '成都说唱歌手，与双胞胎弟弟隼 JinJiBeWater 并称，代表作《丢人吗》《Yuppie》。',
     songs: [
