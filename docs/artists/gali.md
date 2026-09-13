@@ -5,27 +5,7 @@ description: GALI（蒋文涵）的个人资料、早期经历与代表作品。
 
 # Gali 开荒文稿初稿
 
-**作者**: 阿菲是Afee
-
----
-
-今晚20点开始开荒Gali（亚特兰蒂斯之前单独re过直播开荒不听了）
-
-预计三场直播
-
-直播时间：0517/0520/0521
-
-感谢此次文稿撰写者：此方KNT
-
-谢谢粉丝朋友们用爱发电写出如此详细的discography！
-
-![Special Thank You](/images/gali/Special-Thank-You.webp)
-
-![Special thanks to bili](/images/gali/Special-thanks-to-bili.webp)
-
-<br />
-
-# GALI 
+**GALI** 
 本名蒋文涵，1992年4月14日生于上海。
 
 十三四岁时，GALI十分热爱篮球，也因此通过街球Mixtape接触到了说唱音乐。和当时许多国内的爱好者一样，他由此开始逐步了解HIP-HOP音乐。2008年，Kanye让GALI真正爱上了HIP-HOP。
@@ -57,6 +37,8 @@ Kozay同样来自上海，2007年左右开始做说唱，对GALI影响颇深。
 这一年的夏天，GALI和很多rapper一样参加了节目 **《中国有嘻哈》** 。
 
 海选环节，GALI本来已经轻松拿到链子晋级，但因为“发放过多”，链子被节目组强制收回。GALI对此感到十分不爽，认为自己受到了不公正的待遇。
+
+![Illusion-Freestyle-Cover](/images/gali/Illusion-Freestyle-Cover.webp)
 
 于是，在5月9日，他发布了针对节目的diss **《Illusion Freestyle(C Jamm Remix)》** 。歌曲又名珍珠幻象，remix C Jamm《신기루(illusion)》。
 
@@ -105,13 +87,16 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 4月19日，GALI合作KUAN发布歌曲 **《For You》** 。\*网易云搜索“KUAN For You”可收听，蓝色封面。歌曲貌似之前也在虾米的寻光计划，后来才在网易云上架。网易云无歌词，没有关联GALI的名字。
 
 ### 《VINTAGE》
+
+![VINTAGE-Cover](/images/gali/VINTAGE-Cover.webp)
+
 - **5月4日，GALI发布了首张个人EP《VINTAGE》** 。
 
 18、19年，GALI在虾米独家先后发布了《VINTAGE》和《晚霞》两张EP，当时虾米音乐还没有倒闭。两张专辑当时也都参加了虾米的“寻光计划”，详细可见两专的简介。
 
-直至20年，GALI才把这两张专辑发布于网易云音乐（可见《1992/Lord Knows》或下张EP歌曲《悲伤飞行》下GALI的评论），但网易云的歌曲顺序和简介的歌曲排序不太一样，推荐按照以下表格（同简介）的歌曲顺序收听。
-
 ![EP Re-launched Explanation](/images/gali/EP-Re-launched-Explanation.webp)
+
+直至20年，GALI才把这两张专辑发布于网易云音乐（可见《1992/Lord Knows》或下张EP歌曲《悲伤飞行》下GALI的评论），但网易云的歌曲顺序和简介的歌曲排序不太一样，推荐按照以下表格（同简介）的歌曲顺序收听。
 
 |  | 歌名 | 歌手 | MV | 备注 |
 | --- | --- | --- | --- | --- |
@@ -160,6 +145,8 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 ### 《晚霞After Light》
 
+![AFTERLIGHT-Cover](/images/gali/AFTERLIGHT-Cover.webp)
+
 **3月29日，GALI发布了他的第二张EP《晚霞After Light》** 。
 
 \*如果感兴趣，可以阅读一下专辑简介。网易云的歌曲顺序和简介的歌曲顺序不太一样，推荐按照下表（同简介）的歌曲顺序收听。
@@ -173,7 +160,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 | 5 | Whippin' | GALI |  |  |
 | 6 | 航线 | GALI/HAMA |  |  |
 
-\
+
 4月11日，GALI参与了Gibb-Z黄泽专辑中的歌曲 **《Muchlove》** 。
 
 \*可在网易云搜索收听。
@@ -207,6 +194,8 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 6月30日，GALI合作王嗣尧TURBO发布歌曲 **《Auto》** 。
 
 7月6日，GALI发布单曲 《70%》​ （[BV1Mt411G7KA](https://www.bilibili.com/video/BV1Mt411G7KA)），用歌曲回应了多年来各种质疑他“抄袭”的言论，歌词提及了大量他欣赏的同行的名字。
+
+![70percent-Cover](/images/gali/70percent-Cover.webp)
 
 \*视频1:19未消音提到了加拿大故人的原名，建议在那里拉低音量，不过网易云录音室版有消音。
 
@@ -268,6 +257,8 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 6月13日，GALI正式发布歌曲 **《琥珀(AmberStone)》** ， 为他的矿物质系列说唱拉开了序幕 。
 
+![AmberStone-Cover](/images/gali/AmberStone-Cover.webp)
+
 7月12日，GALI合作李长庚发布歌曲 **《Day Dream》** 。
 
 8月10日，GALI合作ANT1BOI发布歌曲 **《Think So》** 。\*可在网易云搜索收听。
@@ -280,7 +271,19 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 GALI在节目中的自我介绍视频：[BV1X54y1U7ti](https://www.bilibili.com/video/BV1X54y1U7ti)（娱乐向，可跳）
 
-【此处有节目演出列表表格，B站导入不进来】
+| 序号 | 歌名 | 合作歌手 | 现场视频 | 备注 |
+| --- | --- | --- | --- | --- |
+| 1 | 水晶(Live) |  | [链接](https://www.bilibili.com/video/BV1Bt4y1u7QU/?t=1) | 无录音室版本;节目播出后爆火; |
+| 2 | 无人深空(Live) | REGI 陈彦希 | [链接](https://www.bilibili.com/video/BV1qm4y1c7ym/?t=534) | "GALI 唱完这首歌被淘汰后 | 被导师张靓颖复活" |
+| 3 | 70%(live) |  | [链接](https://www.bilibili.com/video/BV1jkfJBaEq5/?t=1) |  |
+| 4 | What Is Love (Live) | Saber 梁维嘉/ODD 陈思键/万妮达 | [链接](https://www.bilibili.com/video/BV1qm4y1c7ym/?t=746) | 不太推荐收听 |
+| 5 | Liber Tango(Live) | 张靓颖/万妮达 | [链接](https://www.bilibili.com/video/BV1Bt4y1u7QU/?t=402) |  |
+| 6 | 偏执猎豹(live) |  | [链接](https://www.bilibili.com/video/BV1je4y1t7zM/?t=511) | 原曲为《Paranoid.》+《Jaguar》 |
+| 7 | 珍珠幻象(live) |  | [链接](https://www.bilibili.com/video/BV1Bt4y1u7QU/?t=628) | 即此前 GALI 对有嘻哈节目的 diss《Illusion Freestyle》 |
+| 8 | 琥珀(live) |  | [链接](https://www.bilibili.com/video/BV1je4y1t7zM/?t=1) |  |
+| 9 | 1992(live) |  | [链接](https://www.bilibili.com/video/BV1qm4y1c7ym/?t=1) |  |
+| 10 | Fighting Shadows | 张靓颖等人 | [链接](https://www.bilibili.com/video/BV1qm4y1c7ym/?t=290) | 网易云无音源;不太推荐收听 |
+| 11 | 天选之子(live) |  | [链接](https://www.bilibili.com/video/BV1je4y1t7zM/?t=220) | 这段 verse 后来被用在 GALI 于 2022 年发布的专辑《亚特兰蒂斯》中 |
 
 这一年的冠军李佳隆和亚军王齐铭，都因为各种因素在 **当时** 被很多观众称为“最弱冠军”和“最弱亚军”（现在认同这个说法的人变得很少了），作为季军的GALI是很多人心中的无冕之王。参加完节目的GALI粉丝暴涨，人气直线上升。
 
@@ -326,7 +329,27 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 
 ### 《亚特兰蒂斯》
 
+![Atlantis-Cover](/images/gali/Atlantis-Cover.webp)
+
 2月18日，GALI发布第一张全长专辑 **《亚特兰蒂斯》** 。
+
+| 序号 | 歌名 | 歌手 | MV | 备注 |
+| 1 | CRITIAS | GALI/芯竹 |  | "《CRITIAS》是柏拉图晚年的一本书 | 讲述了亚特兰蒂斯沉没的故事" |
+| 2 | 亚特兰蒂斯之心 | GALI |  |  |
+| 3 | WhenSmokeClears | GALI/黄之仪 Kyra Zilver | [链接](https://www.bilibili.com/video/BV1e44y1n7Gj) | 开头女性的笑声是 Sahara 的制作人水印 |
+| 4 | 卡通 (CARTOON) | GALI/李大奔 |  | "开头水印“YBM” | 来自 YYKBZ(YBM 代表杨一 YYKBZ 和白耀坤 Yoken | Yang+Bai+Music | 也叫洋帮音乐)" |
+| 5 | Color: Teriyaki | GALI | MV 同上 3 | "开头水印“Malone”来自制作人 Todd Malone;teriyaki 是照烧酱的意思 | 此处也指日本说唱厂牌 teriyaki boyz" |
+| 6 | 6ackPack | GALI |  |  |
+| 7 | 屠宰室 | GALI/芯竹 |  | 开头水印来自制作人 Chief Maloney |
+| 8 | Priceless (Interlude) | GALI |  |  |
+| 9 | YYKBZ | GALI |  | 歌名、制作人均为 YYKBZ |
+| 10 | TAGs | GALI/Mckdaddy |  |  |
+| 11 | 胎记 | GALI/Cee |  | Cee 也是上海说唱老前辈老 OG |
+| 12 | 天选之子 (Special Ver.) | GALI |  |  |
+| 13 | 优雅妖精 | GALI |  |  |
+| 14 | WILDROSE. | GALI |  |  |
+| 15 | 迷宫 (MAZE) | GALI/艾志恒Asen/派克特 |  | "其中 GALI 和派克特的两段歌词 | 最后六句是相呼应的(我们一样......-都一样...... | ...... | man what's going on-That's where I'm from.)" |
+| 16 | 悬浮术 II | GALI |  |  |
 
 亚特兰蒂斯相关采访：
 
@@ -352,7 +375,18 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 
 \*节目备注同上新说唱2020，网易云可直接搜索收听，可以全部跳过。
 
-【此处有节目演出列表表格，B站导入不进来】
+|  | 歌名 | 合作歌手 | 现场视频 | 备注 |
+| 1 | 亚特兰蒂斯之心(LIVE版) |  | [链接](https://www.bilibili.com/video/BV1sg411m7Zq/?t=1) |  |
+| 2 | 晒(LIVE版) | TizzyT | [链接](https://www.bilibili.com/video/BV1ZW4y1Y7xJ/?t=1) | GALI忘词失误 |
+| 3 | 礼拜日Life goes on(LIVE版) | Capper/MCHotDog热狗 | [链接](https://www.bilibili.com/video/BV1sg411m7Zq/?t=217) |  |
+| 4 | 神奇宝贝的Cypher(LIVE版) | Capper/热狗/TizzyT | [链接](https://www.bilibili.com/video/BV1sg411m7Zq/?t=463) |  |
+| 5 | 悬浮术II(LIVE版) |  | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=7) |  |
+| 6 | 达摩克利斯之剑(LIVE版) | Capper | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=526) | 原曲是Capper、CREAMD合作的《达摩克利斯之剑》 |
+| 7 | 够了够了(LIVE版) | 黑豹乐队/热狗 | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=292) | 改编自黑豹乐队《够了够了》 |
+| 8 | 我只在乎你2.0(LIVE版) | 热狗/Capper/刘炫廷/TizzyT | [链接](https://www.bilibili.com/video/BV1ZW4y1Y7xJ/?t=220) | 最终联盟排名第二 |
+| 9 | BackPack(LIVE版) |  | 未找到搬运视频 |  |
+| 10 | DROPTOP!(LIVE版) | Capper/刘炫廷/TizzyT | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=740) |  |
+| 11 | 玛瑙/The House(暗室)(LIVE版) |  | [链接](https://www.bilibili.com/video/BV1WR4y1y756/?t=1) |  |
 
 同年12月5日，小强蜀熟发布GALI 21分钟采访：我好像不适合综艺节目（[BV1FG4y137Jb​](https://www.bilibili.com/video/BV1FG4y137Jb%E2%80%8B)）。访谈中讨论了节目、《亚特兰蒂斯》、上海说唱等话题。
 
@@ -452,13 +486,27 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 ### 《STRIPELIFE》
 
+![STRIPELIFE-Cover](/images/gali/STRIPELIFE-Cover.webp)
+
 4月7日，GALI发布 **Mixtape《STRIPELIFE(条纹生活)》** 。
+
+|  | 歌名 | 歌手 | MV | 备注 |
+| 1 | 阿那亚Aranya | GALI |  | "开头水印来自制作人JIMI天赐 | 中间水印来自制作人Todd Malone;结尾采样Kanye West在2005年格莱美颁奖典礼上的发言;GALI认为最能代表自己的一首歌" |
+| 2 | MURDERTHISBEAT | GALI/BrAnTB白景屹/KnowKnow/李大奔BENZO |  | "制作人水印YBM代表杨一YYKBZ和白耀坤Yoken，Yang+Bai+Music，也叫洋帮音乐;我项链粗得像..." |
+| 3 | 翱翔后流浪 | GALI/KANNA BUSH(孟子坤) |  | "“当我回忆起那次之后再也不看提词器”可能指22年巅峰，GALI在合作TT的《晒》的舞台上忘词的事件" |
+| 4 | Chrome Heart Freestyle | GALI | [链接](https://www.bilibili.com/video/BV1nx421Q7xH) | 专辑先行曲之一 |
+| 5 | 心率捕获 | GALI/step.jad依加 |  |  |
+| 6 | QUARTERBACK | GALI/离合 |  |  |
+| 7 | MONET. | GALI |  |  |
+| 8 | 你画我猜(Draw&Guess) | GALI/Froggy/黄建威 |  |  |
+| 9 | RoseGoldRollie | GALI | [链接](https://www.bilibili.com/video/BV18m421N7YP) | 采样AZ《City of Gods》 |
+| 10 | Bring'Em Out | GALI | MV同上 | "歌曲中GALI又难得地使用了上海话" |
+| 11 | STRIPELIF3 | GALI |  | 歌曲开头采样了自己的《你画我猜》;歌曲中段采样了陈冠希的采访片段 |
+| 12 | Jeremy Scott Freestyle | GALI |  | "Jeremy Scott是美国鬼才时装设计师Moschino前创意总监;“我在我脚后跟安上了翅膀Jeremy Scott shit”指08年Adidas和scott当时引爆市场的联名系列。在adidas联名球鞋后面做了翅膀，如今已是天价(来自评论区);“70%?我应该重新调整比例”指GALI老歌《70%》中提到的很多名字塌房，上节目演唱被大面积改词;鹿晨辉是退役的前职业健美运动员，也是健身短视频博主，带过很多国内rapper(如谢帝、杨和苏)健身，也被一些rapper写进歌词玩梗、致敬;歌曲中段采样了Dmx的声音。" |
 
 “早在2022年GALI就对外宣布了这张Mixtape的存在，但发行时间却一拖再拖。究其原因，最主要的还是他一直不断在往里面添加内容。起初，《条纹生活》的预想不过是一张四到五首歌的小Tape，但在创作过程中新的灵感不断涌现，有时甚至刚做完的一首歌也会启发下一首歌的创作，最终呈现在我们面前的成品，体量已经接近一张正式专辑。其中收录的十二首歌绝大多数是在距离发行日期很近的一段时间内诞生的，最核心的理念，还是记录当下的状态与思考。”
 
 （——来自文章[StreetVoice街声GALI专访](https://dashi.streetvoice.cn/article/20240412/001/?use_xbridge3=true&loader_name=forest&need_sec_link=1&sec_link_scene=im&theme=dark)）
-
-【此处有专辑列表表格，B站导入不进来】
 
 6月20日，ex_press发布GALI「Rolling Now!」打歌现场，GALI演唱了Mixtape中的四首歌曲， 《心律捕获》《STRIPLIF3》《MURDERTHISBEAT》《Bring 'Em Out》​（[BV1Xi421e72a](https://www.bilibili.com/video/BV1Xi421e72a/)）。
 
@@ -554,9 +602,13 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 6月17日，GALI在电台演唱并发布了歌曲《SoulSense TWH Freestyle（Live）》​（[BV1owMwzMEh8](https://www.bilibili.com/video/BV1owMwzMEh8)），爆火。
 
+![SoulSense-TWH-Freestyle-Cover](/images/gali/SoulSense-TWH-Freestyle-Cover.webp)
+
 8月20日，GALI参与了Melo专辑中的歌曲 **《Up & Down》** 。\*可在网易云搜索收听。
 
 8月30日，GALI合作徐明浩发布歌曲 **《Star Crossing Night 》** ，意外出圈爆火。
+
+![Star-Crossing-Night-Cover](/images/gali/Star-Crossing-Night-Cover.webp)
 
 10月15日，GALI、Ro1、Rapeter参与了派克特专辑中的歌曲 **《So What》** 。
 
@@ -595,3 +647,7 @@ GALI也是其中的成员，参与了部分歌曲：\
 4月1日，GALI参与了CHOCKEY有三专辑中的歌曲 **《潜入你的梦》** 。
 
 截止5月，GALI在2026年发布的歌曲并不多，新专辑还在筹备中，有可能会在今年发布。
+
+最后！感谢此方粉丝老师自发主动地梳理此次gali开荒文稿，向老师表达由衷的感谢！也请大家多多支持此方Knt老师！谢谢！
+![Special Thank You](/images/gali/Special-Thank-You.webp)
+![Special thanks to bili](/images/gali/Special-thanks-to-bili.webp)
