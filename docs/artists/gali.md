@@ -271,7 +271,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 GALI在节目中的自我介绍视频：[BV1X54y1U7ti](https://www.bilibili.com/video/BV1X54y1U7ti)（娱乐向，可跳）
 
-| 序号 | 歌名 | 合作歌手 | 现场视频 | 备注 |
+|  | 歌名 | 合作歌手 | 现场视频 | 备注 |
 | --- | --- | --- | --- | --- |
 | 1 | 水晶(Live) |  | [链接](https://www.bilibili.com/video/BV1Bt4y1u7QU/?t=1) | 无录音室版本;节目播出后爆火; |
 | 2 | 无人深空(Live) | REGI 陈彦希 | [链接](https://www.bilibili.com/video/BV1qm4y1c7ym/?t=534) | "GALI 唱完这首歌被淘汰后 | 被导师张靓颖复活" |
@@ -333,7 +333,8 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 
 2月18日，GALI发布第一张全长专辑 **《亚特兰蒂斯》** 。
 
-| 序号 | 歌名 | 歌手 | MV | 备注 |
+|  | 歌名 | 歌手 | MV | 备注 |
+| --- | --- | --- | --- | --- |
 | 1 | CRITIAS | GALI/芯竹 |  | "《CRITIAS》是柏拉图晚年的一本书 | 讲述了亚特兰蒂斯沉没的故事" |
 | 2 | 亚特兰蒂斯之心 | GALI |  |  |
 | 3 | WhenSmokeClears | GALI/黄之仪 Kyra Zilver | [链接](https://www.bilibili.com/video/BV1e44y1n7Gj) | 开头女性的笑声是 Sahara 的制作人水印 |
@@ -376,6 +377,7 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 \*节目备注同上新说唱2020，网易云可直接搜索收听，可以全部跳过。
 
 |  | 歌名 | 合作歌手 | 现场视频 | 备注 |
+| --- | --- | --- | --- | --- |
 | 1 | 亚特兰蒂斯之心(LIVE版) |  | [链接](https://www.bilibili.com/video/BV1sg411m7Zq/?t=1) |  |
 | 2 | 晒(LIVE版) | TizzyT | [链接](https://www.bilibili.com/video/BV1ZW4y1Y7xJ/?t=1) | GALI忘词失误 |
 | 3 | 礼拜日Life goes on(LIVE版) | Capper/MCHotDog热狗 | [链接](https://www.bilibili.com/video/BV1sg411m7Zq/?t=217) |  |
@@ -491,6 +493,7 @@ GALI也是其中的成员，参与了部分歌曲：\
 4月7日，GALI发布 **Mixtape《STRIPELIFE(条纹生活)》** 。
 
 |  | 歌名 | 歌手 | MV | 备注 |
+| --- | --- | --- | --- | --- |
 | 1 | 阿那亚Aranya | GALI |  | "开头水印来自制作人JIMI天赐 | 中间水印来自制作人Todd Malone;结尾采样Kanye West在2005年格莱美颁奖典礼上的发言;GALI认为最能代表自己的一首歌" |
 | 2 | MURDERTHISBEAT | GALI/BrAnTB白景屹/KnowKnow/李大奔BENZO |  | "制作人水印YBM代表杨一YYKBZ和白耀坤Yoken，Yang+Bai+Music，也叫洋帮音乐;我项链粗得像..." |
 | 3 | 翱翔后流浪 | GALI/KANNA BUSH(孟子坤) |  | "“当我回忆起那次之后再也不看提词器”可能指22年巅峰，GALI在合作TT的《晒》的舞台上忘词的事件" |
@@ -649,5 +652,6 @@ GALI也是其中的成员，参与了部分歌曲：\
 截止5月，GALI在2026年发布的歌曲并不多，新专辑还在筹备中，有可能会在今年发布。
 
 最后！感谢此方粉丝老师自发主动地梳理此次gali开荒文稿，向老师表达由衷的感谢！也请大家多多支持此方Knt老师！谢谢！
+
 ![Special Thank You](/images/gali/Special-Thank-You.webp)
 ![Special thanks to bili](/images/gali/Special-thanks-to-bili.webp)
