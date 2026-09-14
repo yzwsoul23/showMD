@@ -580,3 +580,5 @@ B站可看：[BV1YWKrzzEi7](https://www.bilibili.com/video/BV1YWKrzzEi7)
 最后，特别鸣谢龙龙 Sivin（发梦版）老师用心制作的连麻 swimming 开荒人物志文稿稿，向老师表达由衷的感谢！
 
 ![longlongdy](/images/swimming/longlongdy.webp)
+
+[AFEE“赐座”中文说唱歌单](orpheus://playlist/17422019298)
