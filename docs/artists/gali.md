@@ -349,7 +349,7 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 | 12 | 天选之子 (Special Ver.) | GALI |  |  |
 | 13 | 优雅妖精 | GALI |  |  |
 | 14 | WILDROSE. | GALI |  |  |
-| 15 | 迷宫 (MAZE) | GALI/艾志恒Asen/派克特 |  | "其中 GALI 和派克特的两段歌词 | 最后六句是相呼应的(我们一样......都一样......，......，man what's going on That's where I'm from.)" |
+| 15 | 迷宫 (MAZE) | GALI/艾志恒Asen/派克特 |  | "其中 GALI 和派克特的两段歌词，最后六句是相呼应的(我们一样......都一样......，......，man what's going on That's where I'm from.)" |
 | 16 | 悬浮术 II | GALI |  |  |
 
 亚特兰蒂斯相关采访：

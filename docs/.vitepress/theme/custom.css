@@ -204,17 +204,19 @@ html {
   text-align: center;
 }
 
-/* ---------- 代码块：深色底 + 亮色文字，确保可读 ---------- */
+/* ---------- 代码块：牛皮纸深一档底 + 浓墨字。
+   语法 token 由 Shiki 内联 --shiki-light 着色（见 vp-code.css），
+   这里只给未着色的默认文字兜底，绝不能再用米色（会和纸底糊在一起） ---------- */
 
 .vp-doc div[class*='language-'],
 .vp-doc pre {
-  color: #e9dec6 !important;
-  background: var(--vp-code-block-bg) !important;
+  color: var(--vp-code-block-color);
+  background: var(--vp-code-block-bg);
 }
 
 .vp-doc div[class*='language-'] code,
 .vp-doc pre code {
-  color: #e9dec6;
+  color: var(--vp-code-block-color);
   background: transparent;
   padding: 0;
   font-size: 0.9em;
@@ -228,59 +230,6 @@ html {
   padding: 0.15em 0.4em;
   border-radius: 4px;
   font-size: 0.9em;
-}
-
-/* 语法高亮配色（暗色底） */
-.vp-doc .vp-code-block .line,
-.vp-doc .token.comment,
-.vp-doc .token.prolog,
-.vp-doc .token.doctype,
-.vp-doc .token.cdata {
-  color: #9c8c72;
-}
-
-.vp-doc .token.punctuation {
-  color: #c9a25f;
-}
-
-.vp-doc .token.property,
-.vp-doc .token.tag,
-.vp-doc .token.boolean,
-.vp-doc .token.number,
-.vp-doc .token.constant,
-.vp-doc .token.symbol {
-  color: #d98c6a;
-}
-
-.vp-doc .token.selector,
-.vp-doc .token.attr-name,
-.vp-doc .token.string,
-.vp-doc .token.char,
-.vp-doc .token.builtin {
-  color: #a8c97f;
-}
-
-.vp-doc .token.operator,
-.vp-doc .token.entity,
-.vp-doc .token.url {
-  color: #6cb6d6;
-}
-
-.vp-doc .token.atrule,
-.vp-doc .token.attr-value,
-.vp-doc .token.keyword {
-  color: #c64a35;
-}
-
-.vp-doc .token.function,
-.vp-doc .token.class-name {
-  color: #e9dec6;
-}
-
-.vp-doc .token.regex,
-.vp-doc .token.important,
-.vp-doc .token.variable {
-  color: #d98c6a;
 }
 
 /* ---------- 引文（编者注）：内页说明卡 ---------- */
