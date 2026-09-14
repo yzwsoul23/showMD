@@ -85,10 +85,56 @@ function wrapTables(root: ParentNode) {
   })
 }
 
+/** 给表格滚动容器加鼠标拖拽滚动，比捏滚动条方便 */
+function enableDragScroll(root: ParentNode) {
+  const wraps = root.querySelectorAll<HTMLElement>('.rs-table-wrap')
+  wraps.forEach((wrap) => {
+    if (wrap.dataset.dragEnabled) return
+    wrap.dataset.dragEnabled = '1'
+
+    let startX = 0
+    let scrollLeft = 0
+    let dragging = false
+
+    // 鼠标按下时记录起始位置
+    wrap.addEventListener('mousedown', (e) => {
+      // 点链接 / 图片 / 文本不拦截
+      const target = e.target as HTMLElement
+      if (target.closest('a, img')) return
+
+      dragging = true
+      startX = e.pageX - wrap.offsetLeft
+      scrollLeft = wrap.scrollLeft
+      wrap.classList.add('rs-dragging')
+    })
+
+    // 鼠标离开或松开时停止
+    const stop = () => {
+      if (!dragging) return
+      dragging = false
+      wrap.classList.remove('rs-dragging')
+      // 短暂保留光标还原，防止鼠标已在别处时残留 grab 状态
+      wrap.style.removeProperty('cursor')
+    }
+    wrap.addEventListener('mouseleave', stop)
+    wrap.addEventListener('mouseup', stop)
+
+    // 拖拽中跟随鼠标移动
+    wrap.addEventListener('mousemove', (e) => {
+      if (!dragging) return
+      e.preventDefault()
+      const x = e.pageX - wrap.offsetLeft
+      const walk = x - startX
+      wrap.scrollLeft = scrollLeft - walk
+    })
+  })
+}
+
 function enhance(root: ParentNode) {
   markImgBlocks(root)
   wrapTables(root)
   markTableColumns(root)
+  enableDragScroll(root)
 }
 
 export function setupImgBlocks() {

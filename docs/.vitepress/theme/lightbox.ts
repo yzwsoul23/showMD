@@ -121,12 +121,18 @@ function buildOverlay(): LightboxRefs {
 
   let lastFocused: HTMLElement | null = null
 
+  // 滚轮缩放：在灯箱内用鼠标滚轮直接放大/缩小图片
+  let wheelScale = 1
+  const resetWheelScale = () => { wheelScale = 1 }
+
   const close = () => {
     overlay.hidden = true
     overlay.classList.remove('is-zoomed', 'is-ready')
     img.classList.remove('is-loaded')
     img.style.removeProperty('width')
     img.style.removeProperty('height')
+    img.style.removeProperty('transform')
+    resetWheelScale()
     document.body.style.overflow = ''
     lastFocused?.focus?.()
   }
@@ -147,8 +153,28 @@ function buildOverlay(): LightboxRefs {
     } else {
       img.style.removeProperty('width')
       img.style.removeProperty('height')
+      img.style.removeProperty('transform')
+      resetWheelScale()
     }
   })
+
+  // 鼠标滚轮缩放：滚轮上滚放大、下滚缩小，0.15 步进
+  overlay.addEventListener('wheel', (event) => {
+    if (overlay.hidden || !img.classList.contains('is-loaded')) return
+    event.preventDefault()
+
+    const delta = event.deltaY > 0 ? -0.15 : 0.15
+    wheelScale = Math.max(0.3, Math.min(8, wheelScale + delta))
+    img.style.transform = `scale(${wheelScale})`
+    // 缩放 > 1 时确保大图可滚动
+    if (wheelScale > 1) {
+      overlay.classList.add('is-zoomed')
+      if (!img.style.width) {
+        img.style.width = `${img.naturalWidth}px`
+        img.style.height = `${img.naturalHeight}px`
+      }
+    }
+  }, { passive: false })
 
   document.addEventListener('keydown', (event) => {
     if (!overlay.hidden && event.key === 'Escape') {

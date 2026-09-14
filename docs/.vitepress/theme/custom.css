@@ -745,3 +745,104 @@ html {
     transition: none;
   }
 }
+
+/* ============================================================
+   「放大 RE」阅读模式：收起左侧栏、缩窄右侧目录、正文撑满
+   ============================================================ */
+
+.rs-reading-toggle {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 18px;
+  border: 1px solid var(--rs-gold);
+  border-radius: 28px;
+  background: var(--rs-card);
+  color: var(--rs-ink);
+  font-family: var(--vp-font-family-base);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 6px 20px -8px rgba(70, 45, 18, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.rs-reading-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px -8px rgba(70, 45, 18, 0.5);
+}
+
+.rs-reading-toggle.is-active {
+  background: var(--rs-red);
+  border-color: var(--rs-red);
+  color: #fff;
+}
+
+.rs-reading-toggle__icon {
+  font-size: 18px;
+  line-height: 1;
+}
+
+/* 阅读模式：隐藏左侧边栏 */
+.rs-reading-mode .VPSidebar {
+  display: none !important;
+}
+
+/* 阅读模式：正文区域不再为侧栏留 margin */
+.rs-reading-mode .VPContent.has-sidebar {
+  padding-left: 0 !important;
+}
+
+/* 阅读模式：右侧目录缩窄到 180px */
+.rs-reading-mode .VPDoc .VPDocAside {
+  width: 180px !important;
+  min-width: 180px !important;
+}
+
+/* 阅读模式：正文容器撑满可用宽度 */
+.rs-reading-mode .VPDoc .container .content {
+  max-width: 100% !important;
+}
+
+.rs-reading-mode .VPDoc .container {
+  max-width: calc(100vw - 220px - 64px) !important;
+}
+
+@media (max-width: 1280px) {
+  /* 阅读模式下右侧目录只在宽屏出现 */
+  .rs-reading-mode .VPDocAsideOutline {
+    display: none !important;
+  }
+
+  .rs-reading-mode .VPDoc .container {
+    max-width: calc(100vw - 64px) !important;
+  }
+}
+
+/* ============================================================
+   表格拖拽滚动：grab 光标提示可拖
+   ============================================================ */
+
+.vp-doc .rs-table-wrap {
+  cursor: grab;
+}
+
+.vp-doc .rs-table-wrap.rs-dragging {
+  cursor: grabbing;
+  user-select: none;
+}
+
+/* 阅读模式下的按钮文字（小屏隐藏文字只留图标） */
+@media (max-width: 640px) {
+  .rs-reading-toggle__text {
+    display: none;
+  }
+
+  .rs-reading-toggle {
+    padding: 10px 14px;
+  }
+}
