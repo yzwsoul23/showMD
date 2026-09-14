@@ -108,7 +108,7 @@ function buildOverlay(): LightboxRefs {
 
   const hint = document.createElement('span')
   hint.className = 'img-lightbox__hint'
-  hint.textContent = '点击图片切换原始尺寸 · ESC 关闭'
+  hint.textContent = '滚轮缩放 · 拖拽移动 · 双击放大 · ESC 关闭'
 
   const closeBtn = document.createElement('button')
   closeBtn.className = 'img-lightbox__close'
@@ -121,9 +121,30 @@ function buildOverlay(): LightboxRefs {
 
   let lastFocused: HTMLElement | null = null
 
-  // 滚轮缩放：在灯箱内用鼠标滚轮直接放大/缩小图片
-  let wheelScale = 1
-  const resetWheelScale = () => { wheelScale = 1 }
+  // 缩放与平移的持久状态（统一驱动 transform，避免事件/布局互相覆盖）
+  let scale = 1
+  let offsetX = 0
+  let offsetY = 0
+  const MIN_SCALE = 0.3
+  const MAX_SCALE = 8
+
+  const applyTransform = () => {
+    img.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${scale})`
+  }
+
+  const resetTransform = () => {
+    scale = 1
+    offsetX = 0
+    offsetY = 0
+    img.style.removeProperty('transform')
+  }
+
+  const ensureNaturalSize = () => {
+    if (!img.style.width) {
+      img.style.width = `${img.naturalWidth}px`
+      img.style.height = `${img.naturalHeight}px`
+    }
+  }
 
   const close = () => {
     overlay.hidden = true
@@ -131,30 +152,69 @@ function buildOverlay(): LightboxRefs {
     img.classList.remove('is-loaded')
     img.style.removeProperty('width')
     img.style.removeProperty('height')
-    img.style.removeProperty('transform')
-    resetWheelScale()
+    resetTransform()
     document.body.style.overflow = ''
     lastFocused?.focus?.()
   }
 
-  // 点遮罩空白处关闭；点图片切换原始尺寸 / 适应屏幕
+  // 点遮罩空白处关闭
   overlay.addEventListener('click', (event) => {
     if (event.target === overlay) close()
   })
   closeBtn.addEventListener('click', close)
+
+  // ---- 点击 vs 拖拽区分（移动 >3px 视为拖拽，不触发点击切换缩放） ----
+  let dragMoved = false
+  let isDragging = false
+  let startX = 0
+  let startY = 0
+  let startOffsetX = 0
+  let startOffsetY = 0
+
+  img.addEventListener('mousedown', (event) => {
+    if (!img.classList.contains('is-loaded')) return
+    isDragging = true
+    dragMoved = false
+    startX = event.clientX
+    startY = event.clientY
+    startOffsetX = offsetX
+    startOffsetY = offsetY
+    img.style.cursor = 'grabbing'
+  })
+
+  document.addEventListener('mousemove', (event) => {
+    if (!isDragging) return
+    const dx = event.clientX - startX
+    const dy = event.clientY - startY
+    if (!dragMoved && Math.hypot(dx, dy) > 3) dragMoved = true
+    if (dragMoved) {
+      offsetX = startOffsetX + dx
+      offsetY = startOffsetY + dy
+      applyTransform()
+    }
+  })
+
+  document.addEventListener('mouseup', () => {
+    if (!isDragging) return
+    isDragging = false
+    img.style.cursor = scale > 1 ? 'zoom-out' : 'grab'
+  })
+
+  // 点击图片切换原始尺寸 / 适应屏幕（拖拽过则跳过）
   img.addEventListener('click', (event) => {
     event.stopPropagation()
-    if (!img.classList.contains('is-loaded')) return
+    if (dragMoved || !img.classList.contains('is-loaded')) return
     const zoomed = overlay.classList.toggle('is-zoomed')
     if (zoomed) {
-      // 用原图真实像素撑开，超出视口时由遮罩滚动
-      img.style.width = `${img.naturalWidth}px`
-      img.style.height = `${img.naturalHeight}px`
+      ensureNaturalSize()
+      scale = 1
+      offsetX = 0
+      offsetY = 0
+      applyTransform()
     } else {
       img.style.removeProperty('width')
       img.style.removeProperty('height')
-      img.style.removeProperty('transform')
-      resetWheelScale()
+      resetTransform()
     }
   })
 
@@ -164,17 +224,33 @@ function buildOverlay(): LightboxRefs {
     event.preventDefault()
 
     const delta = event.deltaY > 0 ? -0.15 : 0.15
-    wheelScale = Math.max(0.3, Math.min(8, wheelScale + delta))
-    img.style.transform = `scale(${wheelScale})`
-    // 缩放 > 1 时确保大图可滚动
-    if (wheelScale > 1) {
-      overlay.classList.add('is-zoomed')
-      if (!img.style.width) {
-        img.style.width = `${img.naturalWidth}px`
-        img.style.height = `${img.naturalHeight}px`
-      }
-    }
+    scale = Math.max(MIN_SCALE, Math.min(MAX_SCALE, scale + delta))
+    ensureNaturalSize()
+    overlay.classList.add('is-zoomed')
+    applyTransform()
   }, { passive: false })
+
+  // 双击图片：在 1x（适应屏幕）和 2x 之间快速切换，方便查看细节
+  img.addEventListener('dblclick', (event) => {
+    event.stopPropagation()
+    if (!img.classList.contains('is-loaded')) return
+    if (scale !== 1) {
+      scale = 1
+      offsetX = 0
+      offsetY = 0
+      overlay.classList.remove('is-zoomed')
+      img.style.removeProperty('width')
+      img.style.removeProperty('height')
+      resetTransform()
+    } else {
+      scale = 2
+      offsetX = 0
+      offsetY = 0
+      ensureNaturalSize()
+      overlay.classList.add('is-zoomed')
+      applyTransform()
+    }
+  })
 
   document.addEventListener('keydown', (event) => {
     if (!overlay.hidden && event.key === 'Escape') {
@@ -210,6 +286,9 @@ async function openLightbox(thumb: HTMLImageElement) {
   lb.caption.textContent = thumb.alt
   lb.overlay.classList.remove('is-zoomed', 'is-ready')
   lb.img.classList.remove('is-loaded')
+  lb.img.style.removeProperty('width')
+  lb.img.style.removeProperty('height')
+  lb.img.style.removeProperty('transform')
   lb.overlay.hidden = false
   document.body.style.overflow = 'hidden'
 

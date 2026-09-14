@@ -660,7 +660,7 @@ html {
 }
 
 .img-lightbox.is-zoomed .img-lightbox__img {
-  cursor: zoom-out;
+  cursor: grab;
   max-width: none;
   max-height: none;
 }
@@ -801,20 +801,68 @@ html {
 .rs-reading-mode .VPDoc .VPDocAside {
   width: 180px !important;
   min-width: 180px !important;
+  flex: 0 0 180px !important;
 }
 
-/* 阅读模式：正文容器撑满可用宽度 */
-.rs-reading-mode .VPDoc .container .content {
-  max-width: 100% !important;
-}
-
+/* 阅读模式：正文容器撑满可用宽度，去掉侧栏偏移 */
 .rs-reading-mode .VPDoc .container {
-  max-width: calc(100vw - 220px - 64px) !important;
+  max-width: calc(100vw - 180px - 64px) !important;
+}
+
+/* 覆盖 VitePress 默认 .content 的 max-width:752px 和左侧 284px 侧栏 padding
+   .content-container 还有 max-width:688px，必须一并放开，否则正文依旧窄 */
+.rs-reading-mode .VPDoc .container .content,
+.rs-reading-mode .VPDoc .container .content-container {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.rs-reading-mode .VPDoc .container .content {
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+
+/* 阅读模式：放大正文字号，做 RE 视频时右下角小窗也能看清 */
+.rs-reading-mode .vp-doc {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.rs-reading-mode .vp-doc h1 {
+  font-size: 2.2em;
+}
+
+.rs-reading-mode .vp-doc h2 {
+  font-size: 1.55em;
+}
+
+.rs-reading-mode .vp-doc h3 {
+  font-size: 1.25em;
+}
+
+.rs-reading-mode .vp-doc blockquote {
+  font-size: 1em;
+}
+
+.rs-reading-mode .vp-doc .rs-table-wrap > table {
+  font-size: 1em;
+}
+
+/* 阅读模式下封面图也适当放大 */
+.rs-reading-mode .vp-doc p.has-block-img:has(> img[alt*='cover' i]),
+.rs-reading-mode .vp-doc p.has-block-img:has(> img[alt*='封面']) {
+  width: 320px;
+}
+
+.rs-reading-mode .vp-doc p.has-block-img > img {
+  max-width: 80%;
+  max-height: 600px;
 }
 
 @media (max-width: 1280px) {
   /* 阅读模式下右侧目录只在宽屏出现 */
-  .rs-reading-mode .VPDocAsideOutline {
+  .rs-reading-mode .VPDocAsideOutline,
+  .rs-reading-mode .VPDocAside {
     display: none !important;
   }
 
