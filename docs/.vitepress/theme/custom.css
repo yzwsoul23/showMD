@@ -198,6 +198,85 @@ html {
   text-align: center;
 }
 
+/* ---------- 代码块：深色底 + 亮色文字，确保可读 ---------- */
+
+.vp-doc div[class*='language-'],
+.vp-doc pre {
+  color: #e9dec6 !important;
+  background: var(--vp-code-block-bg) !important;
+}
+
+.vp-doc div[class*='language-'] code,
+.vp-doc pre code {
+  color: #e9dec6;
+  background: transparent;
+  padding: 0;
+  font-size: 0.9em;
+  line-height: 1.7;
+}
+
+/* 行内代码：浅底深字 */
+.vp-doc :not(pre) > code {
+  color: var(--vp-code-color);
+  background: var(--vp-code-bg);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* 语法高亮配色（暗色底） */
+.vp-doc .vp-code-block .line,
+.vp-doc .token.comment,
+.vp-doc .token.prolog,
+.vp-doc .token.doctype,
+.vp-doc .token.cdata {
+  color: #9c8c72;
+}
+
+.vp-doc .token.punctuation {
+  color: #c9a25f;
+}
+
+.vp-doc .token.property,
+.vp-doc .token.tag,
+.vp-doc .token.boolean,
+.vp-doc .token.number,
+.vp-doc .token.constant,
+.vp-doc .token.symbol {
+  color: #d98c6a;
+}
+
+.vp-doc .token.selector,
+.vp-doc .token.attr-name,
+.vp-doc .token.string,
+.vp-doc .token.char,
+.vp-doc .token.builtin {
+  color: #a8c97f;
+}
+
+.vp-doc .token.operator,
+.vp-doc .token.entity,
+.vp-doc .token.url {
+  color: #6cb6d6;
+}
+
+.vp-doc .token.atrule,
+.vp-doc .token.attr-value,
+.vp-doc .token.keyword {
+  color: #c64a35;
+}
+
+.vp-doc .token.function,
+.vp-doc .token.class-name {
+  color: #e9dec6;
+}
+
+.vp-doc .token.regex,
+.vp-doc .token.important,
+.vp-doc .token.variable {
+  color: #d98c6a;
+}
+
 /* ---------- 引文（编者注）：内页说明卡 ---------- */
 
 .vp-doc blockquote {
@@ -848,15 +927,23 @@ html {
   font-size: 1em;
 }
 
-/* 阅读模式下封面图也适当放大 */
+/* 阅读模式下封面图也适当放大（保持正方形，不被 max-width 压扁） */
 .rs-reading-mode .vp-doc p.has-block-img:has(> img[alt*='cover' i]),
 .rs-reading-mode .vp-doc p.has-block-img:has(> img[alt*='封面']) {
   width: 320px;
 }
 
-.rs-reading-mode .vp-doc p.has-block-img > img {
+/* 普通独占图片放大，但封面图除外（封面由上面的规则控制宽高比） */
+.rs-reading-mode .vp-doc p.has-block-img:not(:has(> img[alt*='cover' i])):not(:has(> img[alt*='封面'])) > img {
   max-width: 80%;
   max-height: 600px;
+}
+
+/* 阅读模式下封面图保持正方形填充 */
+.rs-reading-mode .vp-doc p.has-block-img > img[alt*='cover' i],
+.rs-reading-mode .vp-doc p.has-block-img > img[alt*='封面'] {
+  max-width: 100% !important;
+  max-height: 100% !important;
 }
 
 @media (max-width: 1280px) {
