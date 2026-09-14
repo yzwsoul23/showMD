@@ -332,6 +332,7 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 ![Atlantis-Cover](/images/gali/Atlantis-Cover.webp)
 
 2月18日，GALI发布第一张全长专辑 **《亚特兰蒂斯》** 。
+[《亚特兰蒂斯》](orpheus://album/140566771?autoplay=1)
 
 |  | 歌名 | 歌手 | MV | 备注 |
 | --- | --- | --- | --- | --- |

@@ -950,3 +950,67 @@ html {
     padding: 10px 14px;
   }
 }
+
+/* ============================================================
+   网易云跳转播放链接：orpheus://song/<id>
+   markdown 里 [歌名](orpheus://song/123) 即自动变成播放胶囊
+   ============================================================ */
+
+.vp-doc a[href^='orpheus://'] {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  margin: 0 0.12em;
+  padding: 0.04em 0.6em 0.04em 0.45em;
+  border: 1px solid rgba(162, 53, 37, 0.35);
+  border-radius: 999px;
+  background: rgba(162, 53, 37, 0.07);
+  color: var(--rs-red);
+  font-weight: 400;
+  white-space: nowrap;
+  transition:
+    background-color 0.2s,
+    border-color 0.2s;
+}
+
+.vp-doc a[href^='orpheus://']::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.32em 0 0.32em 0.55em;
+  border-color: transparent transparent transparent var(--rs-red);
+}
+
+.vp-doc a[href^='orpheus://']:hover {
+  border-color: var(--rs-red);
+  background: rgba(162, 53, 37, 0.14);
+}
+
+/* 唤起客户端时的提示条 */
+.rs-ncm-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 48px;
+  z-index: 99;
+  padding: 10px 22px;
+  border: 1px solid var(--rs-line);
+  border-radius: 999px;
+  background: var(--rs-card);
+  box-shadow: var(--rs-shadow);
+  color: var(--rs-ink);
+  font-family: var(--vp-font-family-base);
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 12px);
+  transition:
+    opacity 0.25s,
+    transform 0.25s;
+}
+
+.rs-ncm-toast.is-show {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}

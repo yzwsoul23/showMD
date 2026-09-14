@@ -7,6 +7,7 @@ import { setupLightbox } from './lightbox'
 import { setupImgBlocks } from './doc-enhance'
 import { setupReadingMode } from './reading-mode'
 import { setupSidebarCollapse } from './sidebar-collapse'
+import { setupNcmJump } from './ncm-jump'
 
 export default {
   extends: DefaultTheme,
@@ -16,6 +17,7 @@ export default {
       setupLightbox()
       setupReadingMode()
       setupSidebarCollapse(router)
+      setupNcmJump()
     }
   }
 }
