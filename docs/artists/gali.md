@@ -338,8 +338,8 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 | 1 | CRITIAS | GALI/芯竹 |  | "《CRITIAS》是柏拉图晚年的一本书 | 讲述了亚特兰蒂斯沉没的故事" |
 | 2 | 亚特兰蒂斯之心 | GALI |  |  |
 | 3 | WhenSmokeClears | GALI/黄之仪 Kyra Zilver | [链接](https://www.bilibili.com/video/BV1e44y1n7Gj) | 开头女性的笑声是 Sahara 的制作人水印 |
-| 4 | 卡通 (CARTOON) | GALI/李大奔 |  | "开头水印“YBM” | 来自 YYKBZ(YBM 代表杨一 YYKBZ 和白耀坤 Yoken | Yang+Bai+Music | 也叫洋帮音乐)" |
-| 5 | Color: Teriyaki | GALI | MV 同上 3 | "开头水印“Malone”来自制作人 Todd Malone;teriyaki 是照烧酱的意思 | 此处也指日本说唱厂牌 teriyaki boyz" |
+| 4 | 卡通 (CARTOON) | GALI/李大奔 |  | "开头水印“YBM” | 来自 YYKBZ(YBM 代表杨一 YYKBZ 和白耀坤 Yoken，Yang+Bai+Music，也叫洋帮音乐)" |
+| 5 | Color: Teriyaki | GALI | MV 同上 | "开头水印“Malone”来自制作人 Todd Malone；teriyaki 是照烧酱的意思，此处也指日本说唱厂牌 teriyaki boyz" |
 | 6 | 6ackPack | GALI |  |  |
 | 7 | 屠宰室 | GALI/芯竹 |  | 开头水印来自制作人 Chief Maloney |
 | 8 | Priceless (Interlude) | GALI |  |  |
@@ -349,7 +349,7 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 | 12 | 天选之子 (Special Ver.) | GALI |  |  |
 | 13 | 优雅妖精 | GALI |  |  |
 | 14 | WILDROSE. | GALI |  |  |
-| 15 | 迷宫 (MAZE) | GALI/艾志恒Asen/派克特 |  | "其中 GALI 和派克特的两段歌词 | 最后六句是相呼应的(我们一样......-都一样...... | ...... | man what's going on-That's where I'm from.)" |
+| 15 | 迷宫 (MAZE) | GALI/艾志恒Asen/派克特 |  | "其中 GALI 和派克特的两段歌词 | 最后六句是相呼应的(我们一样......都一样......，......，man what's going on That's where I'm from.)" |
 | 16 | 悬浮术 II | GALI |  |  |
 
 亚特兰蒂斯相关采访：
@@ -504,8 +504,8 @@ GALI也是其中的成员，参与了部分歌曲：\
 | 8 | 你画我猜(Draw&Guess) | GALI/Froggy/黄建威 |  |  |
 | 9 | RoseGoldRollie | GALI | [链接](https://www.bilibili.com/video/BV18m421N7YP) | 采样AZ《City of Gods》 |
 | 10 | Bring'Em Out | GALI | MV同上 | "歌曲中GALI又难得地使用了上海话" |
-| 11 | STRIPELIF3 | GALI |  | 歌曲开头采样了自己的《你画我猜》;歌曲中段采样了陈冠希的采访片段 |
-| 12 | Jeremy Scott Freestyle | GALI |  | "Jeremy Scott是美国鬼才时装设计师Moschino前创意总监;“我在我脚后跟安上了翅膀Jeremy Scott shit”指08年Adidas和scott当时引爆市场的联名系列。在adidas联名球鞋后面做了翅膀，如今已是天价(来自评论区);“70%?我应该重新调整比例”指GALI老歌《70%》中提到的很多名字塌房，上节目演唱被大面积改词;鹿晨辉是退役的前职业健美运动员，也是健身短视频博主，带过很多国内rapper(如谢帝、杨和苏)健身，也被一些rapper写进歌词玩梗、致敬;歌曲中段采样了Dmx的声音。" |
+| 11 | STRIPELIF3 | GALI |  | 歌曲开头采样了自己的《你画我猜》；歌曲中段采样了陈冠希的采访片段 |
+| 12 | Jeremy Scott Freestyle | GALI |  | "Jeremy Scott是美国鬼才时装设计师Moschino前创意总监；“我在我脚后跟安上了翅膀Jeremy Scott shit”指08年Adidas和scott当时引爆市场的联名系列。在adidas联名球鞋后面做了翅膀，如今已是天价(来自评论区)；“70%?我应该重新调整比例”指GALI老歌《70%》中提到的很多名字塌房，上节目演唱被大面积改词；鹿晨辉是退役的前职业健美运动员，也是健身短视频博主，带过很多国内rapper(如谢帝、杨和苏)健身，也被一些rapper写进歌词玩梗、致敬;歌曲中段采样了Dmx的声音。" |
 
 “早在2022年GALI就对外宣布了这张Mixtape的存在，但发行时间却一拖再拖。究其原因，最主要的还是他一直不断在往里面添加内容。起初，《条纹生活》的预想不过是一张四到五首歌的小Tape，但在创作过程中新的灵感不断涌现，有时甚至刚做完的一首歌也会启发下一首歌的创作，最终呈现在我们面前的成品，体量已经接近一张正式专辑。其中收录的十二首歌绝大多数是在距离发行日期很近的一段时间内诞生的，最核心的理念，还是记录当下的状态与思考。”
 
