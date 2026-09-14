@@ -95,18 +95,14 @@ html {
   }
 }
 
-/* ---------- 首页 Hero：站酷庆科黄油体（嘻哈艺术风） ---------- */
+/* ---------- 顶栏站名：站酷庆科黄油体（嘻哈艺术风） ---------- */
 
-.VPHomeHero .name,
-.VPHomeHero .text {
+.VPNavBarTitle.VPNavBarTitle .title {
   font-family: 'ZCOOL QingKe HuangYou', Georgia, 'Times New Roman',
     'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', serif;
+  font-size: 19px;
   font-weight: 400;
-  letter-spacing: 0.06em;
-}
-
-.VPHomeHero .text {
-  color: var(--rs-red);
+  letter-spacing: 0.08em;
 }
 
 /* ---------- 正文排版 ---------- */
@@ -132,12 +128,9 @@ html {
   border: none;
   border-bottom: 3px double var(--rs-gold);
   color: var(--rs-vinyl);
-  font-family: 'ZCOOL QingKe HuangYou', Georgia, 'Times New Roman',
-    'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', serif;
-  font-size: 2.15em;
-  font-weight: 400;
+  font-size: 2em;
   line-height: 1.4;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.14em;
   text-align: center;
 }
 
@@ -149,10 +142,7 @@ html {
   border-radius: 0 6px 6px 0;
   background: linear-gradient(90deg, rgba(183, 138, 53, 0.16), rgba(183, 138, 53, 0) 65%);
   color: var(--rs-vinyl);
-  font-family: 'ZCOOL QingKe HuangYou', Georgia, 'Times New Roman',
-    'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', serif;
-  font-size: 1.55em;
-  font-weight: 400;
+  font-size: 1.45em;
   line-height: 1.5;
 }
 
@@ -837,16 +827,16 @@ html {
   padding-left: 0 !important;
 }
 
-/* 阅读模式：右侧目录缩窄到 180px */
+/* 阅读模式：右侧目录加宽到 260px，方便查看大纲 */
 .rs-reading-mode .VPDoc .VPDocAside {
-  width: 180px !important;
-  min-width: 180px !important;
-  flex: 0 0 180px !important;
+  width: 260px !important;
+  min-width: 260px !important;
+  flex: 0 0 260px !important;
 }
 
 /* 阅读模式：正文容器撑满可用宽度，去掉侧栏偏移 */
 .rs-reading-mode .VPDoc .container {
-  max-width: calc(100vw - 180px - 64px) !important;
+  max-width: calc(100vw - 260px - 64px) !important;
 }
 
 /* 覆盖 VitePress 默认 .content 的 max-width:752px 和左侧 284px 侧栏 padding
@@ -878,6 +868,16 @@ html {
 
 .rs-reading-mode .vp-doc h3 {
   font-size: 1.25em;
+}
+
+/* 阅读模式：右侧目录标题与条目字号同步放大 */
+.rs-reading-mode .VPDocAsideOutline .outline-title {
+  font-size: 15px;
+}
+
+.rs-reading-mode .VPDocAsideOutline .outline-link {
+  font-size: 15px;
+  line-height: 1.8;
 }
 
 .rs-reading-mode .vp-doc blockquote {
