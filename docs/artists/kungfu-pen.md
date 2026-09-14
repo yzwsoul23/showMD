@@ -38,7 +38,7 @@ description: 功夫胖（施逸凡）与 C-BLOCK 的生涯历程、早期经历�
 
 此时 C-BLOCK 成员共七人，组合由功夫胖命名，"C"代表长沙（ChangSha）的简写，BLOCK 英文为街区。C-BLOCK 意味长沙自己的 HIPHOP 街区，自己的乌托邦。
 
-C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音乐人一起出的一张专辑里[《CSC》](https://163cn.tv/45pFY6y) (来自@网易云音乐)
+C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音乐人一起出的一张专辑里[《CSC》](orpheus://song/5252838/?autoplay=1)
 
 ---
 
