@@ -927,7 +927,15 @@ html {
   cursor: grab;
 }
 
-.vp-doc .rs-table-wrap.rs-dragging {
+/* 单元格是文字区：I 型光标提示可拖选复制；真正的拖拽只在空白处生效 */
+.vp-doc .rs-table-wrap th,
+.vp-doc .rs-table-wrap td {
+  cursor: text;
+}
+
+.vp-doc .rs-table-wrap.rs-dragging,
+.vp-doc .rs-table-wrap.rs-dragging th,
+.vp-doc .rs-table-wrap.rs-dragging td {
   cursor: grabbing;
   user-select: none;
 }

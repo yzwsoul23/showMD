@@ -293,6 +293,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 这首歌是 SUP 厂牌去桂林团建时写下的，编曲 BBC 也是功夫胖经常合作的制作人之一，后改名 THE-BETA
 
 【三千里淘金怪盗采样解析：[BV17Axez6Erk](https://www.bilibili.com/video/BV17Axez6Erk)】
+
 ![09-三千里合影](/images/kungfu-pen/09-three-thousand-miles-group.webp "三千里合影")
 
 ---

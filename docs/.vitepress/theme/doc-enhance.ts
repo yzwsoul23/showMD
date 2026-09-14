@@ -85,47 +85,91 @@ function wrapTables(root: ParentNode) {
   })
 }
 
-/** 给表格滚动容器加鼠标拖拽滚动，比捏滚动条方便 */
+/**
+ * 给表格滚动容器加鼠标拖拽滚动，比捏滚动条方便。
+ *
+ * 文字选择优先：mousedown 时不立刻进入拖拽（否则 user-select:none 会让
+ * 表格文字完全无法选中复制）。移动超过阈值后再判定——此时若浏览器已经
+ * 建立了文字选区（说明按在文字墨迹上），就完全让位于原生选择；只有按在
+ * 单元格 padding、表格留白等无文字区域拖动时，才接管为横向滚动。
+ */
 function enableDragScroll(root: ParentNode) {
   const wraps = root.querySelectorAll<HTMLElement>('.rs-table-wrap')
   wraps.forEach((wrap) => {
     if (wrap.dataset.dragEnabled) return
     wrap.dataset.dragEnabled = '1'
 
+    let mode: 'idle' | 'pending' | 'drag' | 'select' = 'idle'
+    let armed = false
     let startX = 0
-    let scrollLeft = 0
-    let dragging = false
+    let startY = 0
+    let baseScrollLeft = 0
 
-    // 鼠标按下时记录起始位置
-    wrap.addEventListener('mousedown', (e) => {
-      // 点链接 / 图片 / 文本不拦截
-      const target = e.target as HTMLElement
-      if (target.closest('a, img')) return
-
-      dragging = true
-      startX = e.pageX - wrap.offsetLeft
-      scrollLeft = wrap.scrollLeft
-      wrap.classList.add('rs-dragging')
-    })
-
-    // 鼠标离开或松开时停止
-    const stop = () => {
-      if (!dragging) return
-      dragging = false
-      wrap.classList.remove('rs-dragging')
-      // 短暂保留光标还原，防止鼠标已在别处时残留 grab 状态
-      wrap.style.removeProperty('cursor')
+    /** 避开原生滚动条区域，交给浏览器自身的滚动条行为 */
+    const isOverScrollbar = (clientX: number, clientY: number) => {
+      const rect = wrap.getBoundingClientRect()
+      const SCROLLBAR = 16
+      return (
+        clientX - rect.left >= rect.width - SCROLLBAR ||
+        clientY - rect.top >= rect.height - SCROLLBAR
+      )
     }
-    wrap.addEventListener('mouseleave', stop)
-    wrap.addEventListener('mouseup', stop)
 
-    // 拖拽中跟随鼠标移动
-    wrap.addEventListener('mousemove', (e) => {
-      if (!dragging) return
-      e.preventDefault()
-      const x = e.pageX - wrap.offsetLeft
-      const walk = x - startX
-      wrap.scrollLeft = scrollLeft - walk
+    const hasTextSelectionInWrap = () => {
+      const sel = document.getSelection()
+      return !!sel && !sel.isCollapsed && !!sel.anchorNode && wrap.contains(sel.anchorNode)
+    }
+
+    const onMouseMove = (e: MouseEvent) => {
+      if (mode === 'pending') {
+        // 留几像素阈值：单击、双击选词不受影响
+        if (Math.abs(e.clientX - startX) < 6 && Math.abs(e.clientY - startY) < 6) return
+        // 移动过程中浏览器已开始选文字 → 选择优先，拖拽让行
+        if (hasTextSelectionInWrap()) {
+          mode = 'select'
+          return
+        }
+        // mousemove 的原生"扩展选区"默认动作在本监听器之后才执行，
+        // 第一次超阈值时先放行、再观察一个事件：若仍无选区才确认是拖空白
+        if (!armed) {
+          armed = true
+          return
+        }
+        mode = 'drag'
+        wrap.classList.add('rs-dragging')
+        document.getSelection()?.removeAllRanges()
+      }
+
+      if (mode === 'drag') {
+        e.preventDefault()
+        wrap.scrollLeft = baseScrollLeft - (e.clientX - startX)
+      }
+    }
+
+    const cleanup = () => {
+      if (mode === 'drag') wrap.classList.remove('rs-dragging')
+      mode = 'idle'
+      window.removeEventListener('mousemove', onMouseMove, true)
+      window.removeEventListener('mouseup', cleanup, true)
+      document.documentElement.removeEventListener('mouseleave', cleanup)
+    }
+
+    wrap.addEventListener('mousedown', (e) => {
+      if (e.button !== 0) return
+      // 链接 / 图片 / 表单控件完全不介入
+      const target = e.target as HTMLElement
+      if (target.closest('a, img, input, button, textarea, select')) return
+      if (isOverScrollbar(e.clientX, e.clientY)) return
+
+      mode = 'pending'
+      armed = false
+      startX = e.clientX
+      startY = e.clientY
+      baseScrollLeft = wrap.scrollLeft
+      // 监听挂 window 捕获阶段：拖出表格区域也能继续滚、能正常收尾
+      window.addEventListener('mousemove', onMouseMove, true)
+      window.addEventListener('mouseup', cleanup, true)
+      document.documentElement.addEventListener('mouseleave', cleanup)
     })
   })
 }
