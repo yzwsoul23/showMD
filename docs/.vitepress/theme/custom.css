@@ -43,11 +43,17 @@ html {
 
   --vp-code-color: #8a2a1e;
   --vp-code-bg: rgba(162, 53, 37, 0.09);
-  --vp-code-block-bg: #231c16;
-  --vp-code-lang-color: #9c8c72;
-  --vp-code-tab-divider: #3a2f23;
-  --vp-code-tab-text-color: #c9a25f;
-  --vp-code-tab-active-text-color: #e9dec6;
+  /* 代码块：深一档牛皮纸底。语法色用 Shiki 的 github-light 浅色主题
+     （本站 appearance:false，始终走 --shiki-light），深底会让深色
+     语法字看不清，所以这里绝不能再用近黑背景 */
+  --vp-code-block-bg: #e8dabf;
+  --vp-code-block-color: #2b2117;
+  --vp-code-lang-color: #85715a;
+  --vp-code-block-divider-color: #d3c19c;
+  --vp-code-line-number-color: rgba(93, 74, 48, 0.45);
+  --vp-code-tab-divider: #d3c19c;
+  --vp-code-tab-text-color: #85715a;
+  --vp-code-tab-active-text-color: #2b2117;
   --vp-code-tab-active-bar-color: #b78a35;
 
   --vp-font-family-base: 'RS Numeric', Georgia, 'Times New Roman', 'Noto Serif SC',
@@ -675,14 +681,13 @@ html {
   z-index: 9999;
   display: flex;
   flex-direction: column;
-  /* safe center：放得下时居中；图片比视口大时回退到 start，
-     保证四周都能滚到、不会只偏向一侧（移动端竖图尤其需要） */
-  align-items: safe center;
-  justify-content: safe center;
+  align-items: center;
+  justify-content: center;
   padding: 48px 24px 24px;
-  overflow: auto;
-  /* 两侧对称预留滚动条位，Windows 经典滚动条出现时图片仍严格居中 */
-  scrollbar-gutter: stable both-edges;
+  /* 缩放与平移全部由 pointer/wheel 自行处理，禁掉浏览器原生滚动与触摸手势，
+     否则移动端会触发系统滚动、桌面会和滚轮缩放抢事件 */
+  overflow: hidden;
+  touch-action: none;
   background: rgba(15, 12, 8, .94);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
@@ -695,30 +700,10 @@ html {
   to { opacity: 1; }
 }
 
-/* 深色遮罩上的细滚动条（不抢视觉、不挤压居中） */
-.img-lightbox::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-.img-lightbox::-webkit-scrollbar-thumb {
-  border-radius: 4px;
-  background: rgba(255, 255, 255, .28);
-}
-
-.img-lightbox::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, .45);
-}
-
-.img-lightbox::-webkit-scrollbar-track {
-  background: transparent;
-}
-
 .img-lightbox__img {
   flex: 0 0 auto;
-  /* auto 外边距在 flex 里负责剩余空间居中，溢出时不产生偏移 */
   margin: 0 auto;
-  cursor: zoom-in;
+  /* 适应屏幕为初始状态；放大后靠 transform 移动，不再依赖遮罩滚动 */
   max-width: min(94vw, 1600px);
   max-height: 86vh;
   object-fit: contain;
@@ -727,21 +712,21 @@ html {
   box-shadow: 0 24px 70px rgba(0, 0, 0, .65);
   opacity: .7;
   transition: opacity .25s ease;
+  /* 平移 / 缩放光标；禁止选中文本与原生幽灵拖拽 */
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  transform-origin: center center;
+  will-change: transform;
+}
+
+.img-lightbox.is-panning .img-lightbox__img {
+  cursor: grabbing;
 }
 
 .img-lightbox__img.is-loaded {
   opacity: 1;
-}
-
-.img-lightbox.is-zoomed {
-  justify-content: flex-start;
-  padding: 32px;
-}
-
-.img-lightbox.is-zoomed .img-lightbox__img {
-  cursor: grab;
-  max-width: none;
-  max-height: none;
 }
 
 .img-lightbox__spinner {
