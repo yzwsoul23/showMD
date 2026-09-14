@@ -1,5 +1,5 @@
 ---
-title: 连麻 Swimming - 中文说唱档案
+title: 连麻 Swimming
 description: 连麻 Swimming（孙一民）的人物志、早期经历与音乐作品目录。
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 李佳隆 JelloRio - 中文说唱档案
+title: 李佳隆 JelloRio
 description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作品目录。
 ---
 

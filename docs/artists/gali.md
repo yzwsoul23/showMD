@@ -1,5 +1,5 @@
 ---
-title: GALI - 中文说唱档案
+title: GALI
 description: GALI（蒋文涵）的个人资料、早期经历与代表作品。
 ---
 

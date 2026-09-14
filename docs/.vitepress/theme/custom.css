@@ -74,6 +74,41 @@ html {
   --rs-shadow: 0 14px 30px -14px rgba(70, 45, 18, 0.45);
 }
 
+/* ---------- 顶栏：完整一条，不与左侧栏融合 ----------
+   默认主题在桌面端（≥960px）带侧边栏时会做三件事让站名「融进」侧栏：
+   侧栏里的 .curtain 块用侧栏底色（深纸色）填满顶栏高度、站名区透明、
+   分隔线从侧栏右缘才开始。于是「中文说唱档案」看起来像侧栏的标题。
+   这里全部反转：curtain 与站名区都用顶栏纸色，分隔线通栏——
+   顶栏和首页一样是独立完整的一条，侧栏从分隔线下方开始。 */
+
+@media (min-width: 960px) {
+  .VPSidebar.VPSidebar .curtain {
+    background-color: var(--vp-nav-bg-color);
+  }
+
+  .VPNavBar.VPNavBar.has-sidebar .title {
+    background-color: var(--vp-nav-bg-color);
+  }
+
+  .VPNavBar.VPNavBar.has-sidebar .divider {
+    padding-left: 0;
+  }
+}
+
+/* ---------- 首页 Hero：站酷庆科黄油体（嘻哈艺术风） ---------- */
+
+.VPHomeHero .name,
+.VPHomeHero .text {
+  font-family: 'ZCOOL QingKe HuangYou', Georgia, 'Times New Roman',
+    'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', serif;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+}
+
+.VPHomeHero .text {
+  color: var(--rs-red);
+}
+
 /* ---------- 正文排版 ---------- */
 
 .vp-doc {
@@ -97,9 +132,12 @@ html {
   border: none;
   border-bottom: 3px double var(--rs-gold);
   color: var(--rs-vinyl);
-  font-size: 2em;
+  font-family: 'ZCOOL QingKe HuangYou', Georgia, 'Times New Roman',
+    'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', serif;
+  font-size: 2.15em;
+  font-weight: 400;
   line-height: 1.4;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.1em;
   text-align: center;
 }
 
@@ -111,7 +149,10 @@ html {
   border-radius: 0 6px 6px 0;
   background: linear-gradient(90deg, rgba(183, 138, 53, 0.16), rgba(183, 138, 53, 0) 65%);
   color: var(--rs-vinyl);
-  font-size: 1.45em;
+  font-family: 'ZCOOL QingKe HuangYou', Georgia, 'Times New Roman',
+    'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', serif;
+  font-size: 1.55em;
+  font-weight: 400;
   line-height: 1.5;
 }
 
@@ -421,7 +462,7 @@ html {
   vertical-align: middle;
 }
 
-/* 专辑封面：黑胶封套。封面是方形白边封套，黑胶半藏在右侧，
+/* 专辑封面：黑胶封套。封面为方形图，黑胶半藏在右侧，
    悬停时唱片从封套中抽出并轻微旋转。
    仅作用于独占一段（.has-block-img）且 alt 含 cover / 封面的图。 */
 .vp-doc p.has-block-img:has(> img[alt*='cover' i]),
@@ -477,20 +518,6 @@ html {
     transform 0.5s cubic-bezier(0.22, 0.9, 0.26, 1);
 }
 
-/* 封套右侧开口的内侧阴影 */
-.vp-doc p.has-block-img:has(> img[alt*='cover' i])::after,
-.vp-doc p.has-block-img:has(> img[alt*='封面'])::after {
-  content: '';
-  position: absolute;
-  top: 10px;
-  bottom: 10px;
-  right: 9px;
-  width: 10px;
-  z-index: 2;
-  pointer-events: none;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0));
-}
-
 /* 悬停：唱片抽出封套并旋转 */
 .vp-doc p.has-block-img:has(> img[alt*='cover' i]):hover::before,
 .vp-doc p.has-block-img:has(> img[alt*='封面']):hover::before {
@@ -498,7 +525,7 @@ html {
   transform: translateY(-50%) rotate(22deg);
 }
 
-/* 封面图本身：方形白边封套，非方图自动居中裁剪 */
+/* 封面图本身：方形封面，非方图自动居中裁剪（无白边框） */
 .vp-doc p.has-block-img > img[alt*='cover' i],
 .vp-doc p.has-block-img > img[alt*='封面'] {
   position: relative;
@@ -512,7 +539,7 @@ html {
   margin: 0;
   padding: 0;
   object-fit: cover;
-  border: 9px solid #fff;
+  border: none;
   border-radius: 3px;
   box-shadow: 0 18px 32px -14px rgba(70, 45, 18, 0.6);
   transition: box-shadow 0.25s ease;

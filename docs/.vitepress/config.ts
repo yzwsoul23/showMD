@@ -54,7 +54,7 @@ export default defineConfig({
     sidebar: [
       {
         text: '艺人档案',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: 'GALI', link: '/artists/gali' },
           { text: '功夫胖 KungFu-Pen', link: '/artists/kungfu-pen' },
@@ -64,7 +64,7 @@ export default defineConfig({
       },
       {
         text: '站点维护',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '内容维护教程', link: '/guide/maintenance' }
         ]

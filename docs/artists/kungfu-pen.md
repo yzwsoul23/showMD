@@ -1,5 +1,5 @@
 ---
-title: 功夫胖 KungFu-Pen - 中文说唱档案
+title: 功夫胖 KungFu-Pen
 description: 功夫胖（施逸凡）与 C-BLOCK 的生涯历程、早期经历与音乐作品目录。
 ---
 
