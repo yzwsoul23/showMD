@@ -90,7 +90,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 ![VINTAGE-Cover](/images/gali/VINTAGE-Cover.webp)
 
-- **5月4日，GALI发布了首张个人EP《VINTAGE》** 。
+5月4日，GALI发布了首张个人EP **[《VINTAGE》](orpheus://album/88135194)** 。
 
 18、19年，GALI在虾米独家先后发布了《VINTAGE》和《晚霞》两张EP，当时虾米音乐还没有倒闭。两张专辑当时也都参加了虾米的“寻光计划”，详细可见两专的简介。
 
@@ -147,7 +147,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 ![AFTERLIGHT-Cover](/images/gali/AFTERLIGHT-Cover.webp)
 
-**3月29日，GALI发布了他的第二张EP《晚霞After Light》** 。
+3月29日，GALI发布了他的第二张EP**[《晚霞After Light》](orpheus://album/88135306)** 。
 
 \*如果感兴趣，可以阅读一下专辑简介。网易云的歌曲顺序和简介的歌曲顺序不太一样，推荐按照下表（同简介）的歌曲顺序收听。
 
@@ -331,8 +331,7 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 
 ![Atlantis-Cover](/images/gali/Atlantis-Cover.webp)
 
-2月18日，GALI发布第一张全长专辑 **《亚特兰蒂斯》** 。
-[《亚特兰蒂斯》](orpheus://album/140566771)
+2月18日，GALI发布第一张全长专辑 **[《亚特兰蒂斯》](orpheus://album/140566771)** 。
 
 |  | 歌名 | 歌手 | MV | 备注 |
 | --- | --- | --- | --- | --- |
@@ -491,7 +490,7 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 ![STRIPELIFE-Cover](/images/gali/STRIPELIFE-Cover.webp)
 
-4月7日，GALI发布 **Mixtape《STRIPELIFE(条纹生活)》** 。
+4月7日，GALI发布Mixtape**[《STRIPELIFE(条纹生活)》](orpheus://album/190896190)** 。
 
 |  | 歌名 | 歌手 | MV | 备注 |
 | --- | --- | --- | --- | --- |

@@ -44,13 +44,13 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 ## 2008 年
 
+### 《湘 show》
+
 2008 年 4 月，C-BLOCK 发行第一张 mixtape **《湘 show》**
 
 ![02-湘show封面](/images/kungfu-pen/02-xiang-show-cover.webp "湘show封面")
 
 这一时期，C-BLOCK 凭借具有本土特色的歌曲获得了主流媒体的赏识，他们开始频繁登上电视台，参加汪涵主持的"越策越开心"等节目。特别是 mixtape 中收录的《长沙策长沙》，几乎成为长沙市市歌。这张 mixtape 里，年仅 17 岁的功夫胖初现锋芒，字里行间流露出对社会现象初步的思考。
-
-### 《湘 show》
 
 （多数歌曲已下架，[完整版](https://www.bilibili.com/video/BV1vR4y1Q7Lp/)）
 
@@ -80,9 +80,9 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 在武汉求学期间，认识了和此后与他多次合作的音乐人李沫萱，以及香港制作人萧启道（老道）。
 
-- 同年，C-BLOCK 发布第二张 mixtape **《旧日笔记》**
-
 ### 《旧日笔记》
+
+- 同年，C-BLOCK 发布第二张 mixtape **《旧日笔记》**
 
 | 序号 | 歌曲名 | 收听建议 | MV | 备注 |
 | --- | --- | --- | --- | --- |
@@ -108,11 +108,11 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 ## 2012 年
 
-- **2012 年，功夫胖与老道合作了第一首单曲《灵魂列车》**
+- **2012 年，功夫胖与老道合作了第一首单曲[《灵魂列车》](orpheus://song/481783845)**
 
 这首歌的创作，老道与功夫胖事前并无沟通，beat 与词却意外地严丝合缝，仿佛命中注定的契合。
 
-这首歌也收录在功夫胖 2016 年的 mixtape《草菇老抽》中，后收录进合辑《随口记》。
+这首歌也收录在功夫胖 2016 年的 mixtape《草菇老抽》中，后收录进合辑[《随口记》](orpheus://album/35571093)。
 
 淘金怪盗采样解析：[BV1CvtqzwE67](https://www.bilibili.com/video/BV1CvtqzwE67)
 
@@ -127,11 +127,11 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 厂牌由西奥及其好友 Tuff Blunt 在 11 年至 12 年召集，最终以六人成形，创始人"六位内阁"为 C-Block 三人、Tuff Blunt、西奥和 Ranzer。随后，随着老道等人的加入，SUP 逐渐形成了集制作人，导演，投资人于一体的完整团队。
 
+### 《SUPertape》
+
 - **2012.10.14，SUP 推出了第一张 Mixtape《SUPertape》**
 
 在这张 MIXTAPE 中功夫胖不仅有了更稳定的发挥，在内容的创作上也展现出较为深刻的社会洞察力
-
-### 《SUPertape》
 
 | 序号 | 歌曲名 | 歌手 | MV | 备注 |
 | --- | --- | --- | --- | --- |
@@ -163,13 +163,13 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 ## 2014 年
 
-![06-老时光封面](/images/kungfu-pen/06-old-times-cover.webp "老时光封面")
+### 《老时光》
 
-这一时期的 C-BLOCK 尚处于从"地上男团"转型到"地下组合"的阵痛期
+![06-老时光封面](/images/kungfu-pen/06-old-times-cover.webp "老时光封面")
 
 - **2014 年 4 月 4 日，C-BLOCK 发布精选集《老时光》**
 
-### 《老时光》
+这一时期的 C-BLOCK 尚处于从"地上男团"转型到"地下组合"的阵痛期
 
 （备注：网易云 C-BLOCK 专辑列表有不完整专辑，不过都是以前的曲目，如果之前听了的可以不听）
 
@@ -193,13 +193,13 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 | 16 | 《The Second Love》 |  |  | 2008 年 FROM《湘 SHOW》 |
 | 17 | 《十年长沙》 |  | [BV1Rt411V7KL](https://www.bilibili.com/video/BV1Rt411V7KL) | 2011 年单曲 |
 
-- **2014 年 4 月 18 日，C-BLOCK 发布第一张专辑《爆出口》**
-
-（除下架歌曲全专都可以听听看）
+### 《爆出口》
 
 ![07-爆出口封面](/images/kungfu-pen/07-bao-chu-kou-cover.webp "爆出口封面")
 
-### 《爆出口》
+- **2014 年 4 月 18 日，C-BLOCK 发布第一张专辑《爆出口》**
+
+（除下架歌曲全专都可以听听看）
 
 （备注：网易云 C-BLOCK 专辑列表有除下架歌曲外的全专）
 
@@ -230,6 +230,8 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 ## 2015 年
 
+### 《三缺一》
+
 - ![08-三缺一封面](/images/kungfu-pen/08-san-que-yi-cover.webp "三缺一封面")
 
   **2015 年，C-BLOCK 发布第二张专辑《三缺一》**
@@ -237,8 +239,6 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 专辑内大部分都是方言歌曲
 
 区别于相对易懂的西南官话，长沙话给非本方言区的听众造成了不小的理解障碍。因此，这张极具地域特色的专辑，其影响力也更多地停留在湖湘文化圈内部。地域标签似乎成了一把双刃剑，C-Block 已经拿到了湖南地区当之无愧的头把交椅，却始终难以走向全国。
-
-### 《三缺一》
 
 （备注：网易云 C-BLOCK 专辑列表有全专）
 
@@ -260,13 +260,13 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 ## 2016 年
 
+### 《草菇老抽》
+
 ![09-草菇老抽封面](/images/kungfu-pen/09-straw-mushroom-soy-sauce-cover.webp "草菇老抽封面")
 
 - **2016 年 1 月 31 日，功夫胖发布第一张个人 mixtape《草菇老抽》，由老道监制。**
 
 这张是由武汉的厂牌自由窝参与的一张 mixtape，自由窝是老道的原厂牌，很多歌曲由大雕 DOC feat，大雕是一位来自深圳的 OG。
-
-### 《草菇老抽》
 
 （备注：全专已下架，因为内容原因不建议收听）
 
@@ -280,9 +280,9 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 | 6 | 《再留一天》 | 不建议收听 |  |  |
 | 7 | 《Mountains》 | 不建议收听 |  |  |
 | 8 | 《Mountains remix》 | 不建议收听 |  |  |
-| 9 | 《cold world》 | 推荐 |  | 可在 DEMO 合辑《随口记》中收听 |
+| 9 | 《cold world》 | 推荐 |  | 可在 DEMO 合辑[《随口记》](orpheus://album/35571093)中收听 |
 | 10 | 《Overdose》 | 不建议收听 |  |  |
-| 11 | 《灵魂列车》 | 推荐 |  | 可在 DEMO 合辑《随口记》中收听 |
+| 11 | 《灵魂列车》 | 推荐 |  | 可在 DEMO 合辑[《随口记》](orpheus://album/35571093)中收听 |
 
 ![09-三千里封面](/images/kungfu-pen/09-three-thousand-miles-cover.webp "三千里封面")
 
@@ -306,9 +306,11 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 歌手包括 C-Block 三人、西奥、当时的长沙新星于意 YEE，以及实力毫不逊色的两位制作人 JIO 和云别（同时也负责本首歌的编曲和混音）。每一个人都贡献了十分精彩的 verse，是 CSC 有史以来最为经典的 CYPHER。
 
-- **2017 年 1 月 23 日，C-BLOCK 第三张专辑《以下范上》**
+### 《以下范上》
 
 ![10-以下范上封面](/images/kungfu-pen/10-yi-xia-fan-shang-cover.webp "以下范上封面")
+
+- **2017 年 1 月 23 日，C-BLOCK 第三张专辑《以下范上》**
 
 《以下范上》专辑的诞生，是 C-Block 迸发崭新生命力的一道惊雷。用老道的话来说，《以下范上》是 C-Block 第一张合格的专辑。
 
@@ -317,8 +319,6 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 功夫专辑立足本土，在这个并不存在"匪帮"文化，却有着绵延千年的江湖道义的国度，创新性的给 C-Block 多年来独特的音乐风格找到了一个贴切的形容词：江湖流。吸引了大批认可他们的听众，为组合的长盛不衰打下了坚实的基础。
 
 而功夫胖本人也在此彻底释放了"重炮手"的威力，音色的厚重感与歌词的锐利度相得益彰。
-
-### 《以下范上》
 
 （备注：网易云 C-BLOCK 专辑列表有除下架歌曲外的全专，但存在消音问题）
 
@@ -377,9 +377,9 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 不过，在这张专辑中严格意义上的组合曲目只有四首，其中也只有《三人行》是全新的作品。C-Block 作为一个整体的创作状态，似乎正悄然发生变化。
 
-- **2018 年 4 月，C-BLOCK 第四张专辑《淘金日记》（全专推荐）**
-
 ### 《淘金日记》
+
+- **2018 年 4 月，C-BLOCK 第四张专辑《淘金日记》（全专推荐）**
 
 （备注：网易云 C-BLOCK 专辑列表有全专，但存在消音问题）
 
@@ -388,11 +388,11 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 | 1 | 《Black Hoodie》 |  |  | 有消音但不影响 |
 | 2 | 《同路人》 |  | 网易云可看 |  |
 | 3 | 《无涯》 |  |  |  |
-| 4 | 《淘金日记》 |  | [BV1ux411x7Qn ](https://www.bilibili.com/video/BV1ux411x7Qn)没啥可看的 | 淘金怪盗：[BV12prhBAEJe](https://www.bilibili.com/video/BV12prhBAEJe) |
+| 4 | [《淘金日记》](orpheus://song/507179079) |  | [BV1ux411x7Qn ](https://www.bilibili.com/video/BV1ux411x7Qn)没啥可看的 | 淘金怪盗：[BV12prhBAEJe](https://www.bilibili.com/video/BV12prhBAEJe) |
 | 5 | 《1More》 | 直播可收听消音版 | [BV1vZ4y1G7xw](https://www.bilibili.com/video/BV1vZ4y1G7xw) | 涉及政治敏感因素网易云已消音 MV 跳过 04:57—05:00淘金怪盗：[BV1iT4bzsEw8](https://www.bilibili.com/video/BV1iT4bzsEw8) |
 | 6 | 《离骚》 |  | [BV1mp4y1k7mK](https://www.bilibili.com/video/BV1mp4y1k7mK) | 网易云可看 没有歌词不建议观看 |
 | 7 | 《港口》 |  | [BV1dx411f7P3](https://www.bilibili.com/video/BV1dx411f7P3) | 纯歌词 MV 没必要看 有消音但不影响 |
-| 8 | 《百乐门》 |  | [油管 mv](https://www.youtube.com/watch?v=LgwLxBcuYaA&list=RDLgwLxBcuYaA&start_radio=1) | 有消音但不影响 |
+| 8 | [《百乐门》](orpheus://song/543841013) |  | [油管 mv](https://www.youtube.com/watch?v=LgwLxBcuYaA&list=RDLgwLxBcuYaA&start_radio=1) | 有消音但不影响 |
 | 9 | 《绿林好汉》 | 无功夫胖,可不听 |  |  |
 | 10 | 《醒来》 |  |  |  |
 | 11 | 《庐山》 |  | [BV1A94y127qG](https://www.bilibili.com/video/BV1A94y127qG) 网易云可看 | 淘金怪盗：[BV1TTzYBNEkg](https://www.bilibili.com/video/BV1TTzYBNEkg) |
@@ -401,7 +401,7 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 | 14 | 《行运一条龙》 | 无功夫胖,可不听 |  |  |
 | 15 | 《三人行》 |  |  | 有消音但不影响 |
 
-- **2018 年参加《中国新说唱》，发布《再见 Hiphop》**
+- **2018 年参加《中国新说唱》，发布[《再见 Hiphop》](orpheus://song/1306507665)**
 
 ![13-再见Hiphop封面](/images/kungfu-pen/13-goodbye-hiphop-cover.webp "再见Hiphop封面")
 
@@ -413,7 +413,7 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 - **2018 年 4 月，与 ranzer、east 合作《豆子芝麻茶》** （推荐收听）
 
-豆子芝麻茶——湖南特有茶，此茶在《山歌王》中亦有记载。
+豆子芝麻茶——湖南特有茶，此茶在[《山歌王》](orpheus://song/3349945534)中亦有记载。
 
 - **2018 年 7 月，C-BLOCK 单曲《很高兴认识你》** （推荐收听）
 
@@ -434,25 +434,28 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 2021 年表演过的一个未发布团歌《涨价》，无音源只有现场版：[BV1pf4y1s7V3](https://www.bilibili.com/video/BV1pf4y1s7V3)
 
 ### 《随口记》
-这是一张比较随意的 DEMO 合辑，既收录了 2012 年就创作出的《灵魂列车》，也包含了 2019 年才上传的《野百合》，涵盖的时间跨度很长。《随口记》中收录的《孤独症 DEMO》是更多听众喜欢的一版，喜爱的程度远高于 C-BLOCK 三人版的《孤独症》。
+
+**[《随口记》](orpheus://album/35571093)**是一张比较随意的 DEMO 合辑，既收录了 2012 年就创作出的[《灵魂列车》](orpheus://song/481783845)，也包含了 2019 年才上传的[《野百合》](orpheus://song/1367259091)，涵盖的时间跨度很长。《随口记》中收录的[《孤独症 DEMO》](orpheus://song/485508366)是更多听众喜欢的一版，喜爱的程度远高于 C-BLOCK 三人版的《孤独症》。
 
 （备注：网易云功夫胖专辑列表有全部）
 
 | 序号 | 歌曲名 | 备注 |
 | --- | --- | --- |
-| 1 | 《ONLY》 |  |
-| 2 | 《野百合》 |  |
-| 3 | 《COLD WORLD》 | 曾收录于《草菇老抽》 |
-| 4 | 《灵魂列车》 | 曾收录于《草菇老抽》 |
-| 5 | 《孤独症 DEMO》 | 淘金怪盗：[BV1CWnMzhEjV](https://www.bilibili.com/video/BV1CWnMzhEjV) |
+| 1 | [《ONLY》](orpheus://song/481781747) |  |
+| 2 | [《野百合》](orpheus://song/1367259091) |  |
+| 3 | [《COLD WORLD》](orpheus://song/481781949) | 曾收录于《草菇老抽》 |
+| 4 | [《灵魂列车》](orpheus://song/481783845) | 曾收录于《草菇老抽》 |
+| 5 | [《孤独症 DEMO》](orpheus://song/485508366) | 淘金怪盗：[BV1CWnMzhEjV](https://www.bilibili.com/video/BV1CWnMzhEjV) |
 
 2018 年，功夫胖开始了他的 solo 之路，一直到 2026 年，出道即将 20 年的他依然保持着蓬勃的创造力，solo8 年，五张专辑，英雄钢笔，从未停歇。在 solo 中，会有更多有关自我表达、对爱、对理想、对自由的追求，也更能感觉到他的音乐人格，以及他心中最纯粹的对黑怕的情感。"音乐让有心的耳朵都听得见"，关于功夫胖的音乐，不需要任何刻意的解读和分析，能说的、应该说的、必须说的都在他的歌里。
 
 除此之外，英雄钢笔也时常关心时事为社会发声，比如三色幼儿园事件、辱华事件等等。
 
-- **2018 年 9 月，发布第一张个人专辑《D7STS》（《地气水土生》）**
+### 《D7STS》
 
 ![14-D7STS封面](/images/kungfu-pen/14-d7sts-cover.webp "D7STS封面")
+
+- **2018 年 9 月，发布第一张个人专辑[《D7STS》](orpheus://album/73485967)（《地气水土生》）**
 
 专辑名《地气水土生》源于"自然地理"成因必用的五个条件：地貌、气候、水文、土壤、生物
 
@@ -460,27 +463,24 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 这张专辑题材非常丰富，不仅对人生意义的探索，对 LGBT 群体的关注，也有对回归自然的自省……但习惯了功夫胖大刀阔斧式输出的听众，对这张专辑并不太买账。
 
-在音乐风格上，不只是 HIP-HOP，还有很多他从小受影响的音乐，他都想把它们融入到自己的音乐风格中，专辑中的《海盗船长》就是一首民谣歌曲。
-
-### 《D7STS》
-
+在音乐风格上，不只是 HIP-HOP，还有很多他从小受影响的音乐，他都想把它们融入到自己的音乐风格中，专辑中的[《海盗船长》](orpheus://song/1312021972)就是一首民谣歌曲。
 （备注：备注：网易云功夫胖专辑列表全专可收听）
 
 | 序号 | 歌曲名 | MV | 备注 |
 | --- | --- | --- | --- |
-| 1 | 《蛋》 |  |  |
-| 2 | 《Butterfly》 |  |  |
-| 3 | 《0731》 |  |  |
-| 4 | 《跳跳蛙 2.0》 | [BV1PV411a7Yx](https://www.bilibili.com/video/BV1PV411a7Yx) |  |
-| 5 | 《躺椅》 | 不要看 MV [BV1et41117oh](https://www.bilibili.com/video/BV1et41117oh) |  |
-| 6 | 《CLOSE YOUR EYES》 |  |  |
-| 7 | 《七色光》 |  |  |
-| 8 | 《绝可》 |  |  |
-| 9 | 《外婆桥》 |  | 有一个综合的 MV：BUTTERFLY+一封信（[BV1Tt411m78D](https://www.bilibili.com/video/BV1Tt411m78D)）可以不看 |
-| 10 | 《狮子王》 |  |  |
-| 11 | 《GOOD TRIP》 |  |  |
-| 12 | 《一封信》 |  | 歌词"十年前写的信"是 Call Back十年前给汶川地震写的歌《生命的声音》里的词"我拿起纸笔给世界写信" |
-| 13 | 《海盗船长！》 |  |  |
+| 1 | [《蛋》](orpheus://song/1312148449) |  |  |
+| 2 | [《Butterfly》](orpheus://song/1312022268) |  |  |
+| 3 | [《0731》](orpheus://song/1312017784) |  |  |
+| 4 | [《跳跳蛙 2.0》](orpheus://song/1312018576) | [BV1PV411a7Yx](https://www.bilibili.com/video/BV1PV411a7Yx) |  |
+| 5 | [《躺椅》](orpheus://song/1312023391) | 不要看 MV [BV1et41117oh](https://www.bilibili.com/video/BV1et41117oh) |  |
+| 6 | [《CLOSE YOUR EYES》](orpheus://song/1312026119) |  |  |
+| 7 | [《七色光》](orpheus://song/1312018889) |  |  |
+| 8 | [《绝可》](orpheus://song/1312021783) |  |  |
+| 9 | [《外婆桥》](orpheus://song/1312018944) |  | 有一个综合的 MV：BUTTERFLY+一封信（[BV1Tt411m78D](https://www.bilibili.com/video/BV1Tt411m78D)）可以不看 |
+| 10 | [《狮子王》](orpheus://song/1312022815) |  |  |
+| 11 | [《GOOD TRIP》](orpheus://song/1312021893) |  |  |
+| 12 | [《一封信》](orpheus://song/1312027286) |  | 歌词"十年前写的信"是 Call Back十年前给汶川地震写的歌《生命的声音》里的词"我拿起纸笔给世界写信" |
+| 13 | [《海盗船长！》](orpheus://song/1312021972) |  |  |
 
 - **《海盗船长》纪录片（[BV1Z741187ah ](https://www.bilibili.com/video/BV1Z741187ah)请跳过 1:15:36—1:15:55）**
 
@@ -506,7 +506,7 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 - **发布多首单曲**
 
-这一年，功夫胖还与 Ranzer 合作了《YUNG LIT WAY》《海底捞月》，发布 solo 单曲《筋斗云》《驳壳枪》《WUSUP》。
+这一年，功夫胖还与 Ranzer 合作了[《YUNG LIT WAY》](orpheus://song/1356219685)[《海底捞月》](orpheus://song/1378207031)，发布 solo 单曲[《筋斗云》](orpheus://song/1377125863)[《驳壳枪》](orpheus://song/1381380627)[《WUSUP》](orpheus://song/1412541190)。
 
 【筋斗云采样解析淘金怪盗：[BV1r9kSBmEhG](https://www.bilibili.com/video/BV1r9kSBmEhG)】
 
@@ -514,9 +514,11 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 ## 2020 年
 
-- **2020 年 8 月，功夫胖发布个人的第二张专辑《梦剧院》**
+### 《梦剧院》
 
 ![16-梦剧院封面](/images/kungfu-pen/16-dream-theater-cover.webp "梦剧院封面")
+
+- **2020 年 8 月，功夫胖发布个人的第二张专辑[《梦剧院》](orpheus://album/93439661)**
 
 这张专辑回归了功夫胖舒适圈，大部分作品回归了他最擅长的风格，但也尝试了一些之前并没有接触过的风格。
 
@@ -524,27 +526,25 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 （第一集：[BV19v411k7EM](https://www.bilibili.com/video/BV19v411k7EM)）
 
-并发布迷你剧主题曲《BLACKMAIL》
-
-### 《梦剧院》
+并发布迷你剧主题曲[《BLACKMAIL》](orpheus://song/1500441947)
 
 （备注：网易云功夫胖专辑列表全专可收听）
 
 | 序号 | 歌曲名 | MV | 备注 |
 | --- | --- | --- | --- |
-| 1 | 《INTRO:影君子》 |  |  |
-| 2 | 《梦剧院》 |  | 淘金怪盗：[BV1AQmxBhEWc](https://www.bilibili.com/video/BV1AQmxBhEWc) |
-| 3 | 《OHMAMA》 |  |  |
-| 4 | 《热得冒烟》 | 强烈不推荐看 [BV1Ct4y1Q74v](https://www.bilibili.com/video/BV1Ct4y1Q74v) |  |
-| 5 | 《侠盗飞歌》 | 网易云可观看 [BV1ZK411A7qA](https://www.bilibili.com/video/BV1ZK411A7qA) |  |
-| 6 | 《海底捞月(脏南低切)》 |  |  |
-| 7 | 《复活》 |  |  |
-| 8 | 《狭路相逢》 |  |  |
-| 9 | 《浪客行》 |  |  |
-| 10 | 《SIMPLE TOWN》 |  | 2020 年有发布重新制作的单曲版本 即《简朴寨》，建议直接听那个版本的 |
-| 11 | 《一半海水一半是火》 |  |  |
-| 12 | 《阿修罗》 |  |  |
-| 13 | 《锦霞》 |  | 淘金怪盗：[BV15mtYzqEFC](https://www.bilibili.com/video/BV15mtYzqEFC) |
+| 1 | [《INTRO:影君子》](orpheus://song/1468157336) |  |  |
+| 2 | [《梦剧院》](orpheus://song/1468158074) |  | 淘金怪盗：[BV1AQmxBhEWc](https://www.bilibili.com/video/BV1AQmxBhEWc) |
+| 3 | [《OHMAMA》](orpheus://song/1468158075) |  |  |
+| 4 | [《热得冒烟》](orpheus://song/1461760128) | 强烈不推荐看 [BV1Ct4y1Q74v](https://www.bilibili.com/video/BV1Ct4y1Q74v) |  |
+| 5 | [《侠盗飞歌》](orpheus://song/1468158080) | 网易云可观看 [BV1ZK411A7qA](https://www.bilibili.com/video/BV1ZK411A7qA) |  |
+| 6 | [《海底捞月(脏南低切)》](orpheus://song/1468157342) |  |  |
+| 7 | [《复活》](orpheus://song/1468158078) |  |  |
+| 8 | [《狭路相逢》](orpheus://song/1468158072) |  |  |
+| 9 | [《浪客行》](orpheus://song/1468158070) |  |  |
+| 10 | [《SIMPLE TOWN》](orpheus://song/1468158073) |  | 2020 年有发布重新制作的单曲版本 即[《简朴寨》](orpheus://song/1417299232)，建议直接听那个版本的 |
+| 11 | [《一半海水一半是火》](orpheus://song/1468158077) |  |  |
+| 12 | [《阿修罗》](orpheus://song/1468158079) |  |  |
+| 13 | [《锦霞》](orpheus://song/1468213972) |  | 淘金怪盗：[BV15mtYzqEFC](https://www.bilibili.com/video/BV15mtYzqEFC) |
 
 梦剧院，还拍了一个微电影，挺有意思的
 
@@ -572,13 +572,13 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 - **2020 年，发布多首单曲**
 
-2020 年，功夫胖发布单曲《简朴寨》、《太阳照常升起》、《RIGHT NOW》
+2020 年，功夫胖发布单曲[《简朴寨》](orpheus://song/1417299232)、[《太阳照常升起》](orpheus://song/1429012640)、[《RIGHT NOW》](orpheus://song/1808086042)
 
 ---
 
 ## 2021 年
 
-- **2021 年 4 月，发布单曲《无赖》**
+- **2021 年 4 月，发布单曲[《无赖》](orpheus://song/1834075703)**
 
 （网易云可观看 MV）[BV1o54y1t7fa](https://www.bilibili.com/video/BV1o54y1t7fa)
 
@@ -586,33 +586,33 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 - **2021 年，发布多首单曲**
 
-在这一年，与咖啡胡和刘聪合作了《Chinese shh！》，也发布了 solo 单曲《红绿灯》《青春之歌 DEMO》《THANK ME》
+在这一年，与咖啡胡和刘聪合作了[《Chinese shh！》](orpheus://song/1821465431)，也发布了 solo 单曲[《红绿灯》](orpheus://song/1856735170)[《青春之歌 DEMO》](orpheus://song/1880215899)[《THANK ME》](orpheus://song/1890467951)
+
+### 《SOUL TONE》
 
 ![18-SOUL TONE封面](/images/kungfu-pen/18-soul-tone-cover.webp "SOUL TONE封面")
 
-- **2021 年 12 月 发布第三张个人专辑《SOUL TONE》**
+- **2021 年 12 月 发布第三张个人专辑[《SOUL TONE》](orpheus://album/137246774)	**
 
 这张专辑是功夫胖个人三部曲的开篇，是出于胚胎时期意识混沌的自己。
 
 虽然这张专辑结构较为松散，内容和主题也并无太多契合之处。但从这张专辑可以看出功夫胖在腔调和曲风上正在尝试转型，但也因此收到了更多批评。不过他的说唱生涯走到这个阶段，如何更好的突破自己、延长自己的音乐生命也是他一直要寻找的答案。他希望自己能尽量避免带着别人对他的印象去做音乐，也不想用任何一种风格来定义自己。
 
-### 《SOUL TONE》
-
 （备注：网易云功夫胖专辑列表全专可收听）
 
 | 序号 | 歌曲名 | MV |
 | --- | --- | --- |
-| 1 | 《一代》 | 网易云可观看 [BV1iq4y1z7v8](https://www.bilibili.com/video/BV1iq4y1z7v8) |
-| 2 | 《正点》 |  |
-| 3 | 《绿巨人》 |  |
-| 4 | 《堕落街》 |  |
-| 5 | 《凯旋》 | 网易云可观看 [BV17b4y1B7Z1](https://www.bilibili.com/video/BV17b4y1B7Z1) |
-| 6 | 《枕头》 |  |
-| 7 | 《小背篓》 |  |
-| 8 | 《暴雨中》 |  |
-| 9 | 《花园》 |  |
-| 10 | 《"灵魂的声音"SKIT》 |  |
-| 11 | 《末日派对》 | 网易云可观看 [BV1zP4y1J7Xk](https://www.bilibili.com/video/BV1zP4y1J7Xk) |
+| 1 | [《一代》](orpheus://song/1901372570) | 网易云可观看 [BV1iq4y1z7v8](https://www.bilibili.com/video/BV1iq4y1z7v8) |
+| 2 | [《正点》](orpheus://song/1901913723) |  |
+| 3 | [《绿巨人》](orpheus://song/1901913844) |  |
+| 4 | [《堕落街》](orpheus://song/1901911415) |  |
+| 5 | [《凯旋》](orpheus://song/1894288015) | 网易云可观看 [BV17b4y1B7Z1](https://www.bilibili.com/video/BV17b4y1B7Z1) |
+| 6 | [《枕头》](orpheus://song/1898528954) |  |
+| 7 | [《小背篓》](orpheus://song/1901911420) |  |
+| 8 | [《暴雨中》](orpheus://song/1892850946) |  |
+| 9 | [《花园》](orpheus://song/1901911431) |  |
+| 10 | [《"灵魂的声音"SKIT》](orpheus://song/1901911517) |  |
+| 11 | [《末日派对》](orpheus://song/1901913970) | 网易云可观看 [BV1zP4y1J7Xk](https://www.bilibili.com/video/BV1zP4y1J7Xk) |
 
 ---
 
@@ -622,7 +622,7 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 **2022 年，参加《中国说唱巅峰对决》**
 
-- **并在节目期间发布单曲《BIG HOMIE》**
+- **并在节目期间发布单曲[《BIG HOMIE》](orpheus://song/1974686155)**
 
 这一年，C-BLOCK 一起参加了节目，但选择单独作战。这次对于功夫胖来说应该算一次舒适的节目经历，留下了《一代》《花园》等经典舞台，《孤独症 DEMO》和《江湖流》首次在节目上完整展现也满足了很多人的愿望。
 
@@ -630,7 +630,7 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 - **发布多首单曲**
 
-2022 年，功夫胖发布 solo 单曲《PLAN B》、《flow.》、《New Wu-Tang》、《庇护所》、《下不得地》（广告曲）
+2022 年，功夫胖发布 solo 单曲[《PLAN B》](orpheus://song/1932524091)、[《flow.》](orpheus://song/1941999038)、[《New Wu-Tang》](orpheus://song/1994493129)、[《庇护所》](orpheus://song/2009046232)、[《下不得地》](orpheus://song/1961511210)（广告曲）
 
 淘金怪盗：[BV13YbbzsEDm ](https://www.bilibili.com/video/BV13YbbzsEDm)【FLOW，采样解析】
 
@@ -638,22 +638,22 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 ## 2023 年
 
-- **2023 年 4 月，参加 CSC 2023 CYPHER**
+- **2023 年 4 月，参加 [CSC 2023 CYPHER](orpheus://album/164464029)**
 
 （网易云可直接观看完整版 MV）[BV1WM4y187cu](https://www.bilibili.com/video/BV1WM4y187cu)
 
-时隔 6 年，CSC 终于又发布了地域 CYPHER，共 13 人参与，包含 4 种曲风，功夫胖在 PART4. BOOMBAP 部分。MV 中也有 CSC 的主要制作人出镜。
+时隔 6 年，CSC 终于又发布了地域 CYPHER，共 13 人参与，包含 4 种曲风，功夫胖在 [PART4. BOOMBAP](orpheus://song/2042583534) 部分。MV 中也有 CSC 的主要制作人出镜。
 
 - **2023 年，参加参加《中国说唱巅峰对决 2》**
-- **并在节目期间发布单曲《BACK TO SCHOOL》**
+- **并在节目期间发布单曲[《BACK TO SCHOOL》](orpheus://song/2068154585)**
 
 （网易云可直接观看完整版 MV）[BV1V14y167RF](https://www.bilibili.com/video/BV1V14y167RF)
 
-这一次，功夫胖和盛宇代表 SUP 出战，以 CSC VS CDC 为噱头，功夫胖贡献了一个十分经典的舞台《昆仑》，这首歌也收录在之后他的个人专辑《林童》中。
+这一次，功夫胖和盛宇代表 SUP 出战，以 CSC VS CDC 为噱头，功夫胖贡献了一个十分经典的舞台[《昆仑》](orpheus://song/2166486017)，这首歌也收录在之后他的个人专辑《林童》中。
 
 不过这一次功夫胖的节目运便没有那么顺利，在舞台上演唱完《BACK TO SCHOOL》便被淘汰，因为这首歌的失利，他也对自己到底要做什么样的音乐展开了更多的思考。
 
-- **2023 年 9 月，发布专辑《923》**
+- **2023 年 9 月，发布专辑[《923》](orpheus://album/174767494)**
 
 （备注：网易云功夫胖专辑列表全专可收听，如果可以的话这张跳过也没关系的。。。）
 
@@ -661,11 +661,11 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 - **2023 年，发布多首单曲**
 
-2023 年，功夫胖与刘聪合作《阿丽莎》《飞飞》（网易云可观看 MV）[BV1gH4y127A2](https://www.bilibili.com/video/BV1gH4y127A2)、
+2023 年，功夫胖与刘聪合作[《阿丽莎》](orpheus://song/2021363719)[《飞飞》](orpheus://song/2100624065)（网易云可观看 MV）[BV1gH4y127A2](https://www.bilibili.com/video/BV1gH4y127A2)、
 
-与 RANZER/于意/东别合作《MY DAWG》、
+与 RANZER/于意/东别合作[《MY DAWG》](orpheus://song/2110953026)、
 
-solo 单曲《杨过 FREESTYLE》《过节》
+solo 单曲[《杨过 FREESTYLE》](orpheus://song/2013467122)[《过节》](orpheus://song/2112752671)
 
 【飞飞采样解析淘金怪盗：[BV1hr2cBTE3z](https://www.bilibili.com/video/BV1hr2cBTE3z)】
 
@@ -673,117 +673,117 @@ solo 单曲《杨过 FREESTYLE》《过节》
 
 ## 2024 年
 
+### 《林童》
+
 ![20-林童封面](/images/kungfu-pen/20-lin-tong-cover.webp "林童封面")
 
-**2023 年 4 月，发布个人第四章专辑《林童》**
+**2023 年 4 月，发布个人第四章专辑[《林童》](orpheus://album/199357827)**
 
 走完两届比赛历程，功夫胖的新专辑又问世了，也是三部曲的第二张，讲述了从胚胎来到人世的这一段历程。这张专辑他更敞开自己，表达了一些以前大家并不知道的个人经历和感受。比如小时候被霸凌的经历、作为团队里人气相对靠后成员的焦虑。
-
-### 《林童》
 
 （备注：网易云功夫胖专辑列表有全专）
 
 | 序号 | 歌曲名 | MV |
 | --- | --- | --- |
-| 1 | 《INTRO：林童》 | 网易云可看[ BV1xb421H7Eq](https://www.bilibili.com/video/BV1xb421H7Eq) |
-| 2 | 《路漫漫》 |  |
-| 3 | 《九月》 |  |
-| 4 | 《逆帆》 | 网易云可看（没什么好看的）[BV1Hn4y1d7FK](https://www.bilibili.com/video/BV1Hn4y1d7FK) |
-| 5 | 《将敬酒》 |  |
-| 6 | 《辛德瑞拉》 |  |
-| 7 | 《体温》 |  |
-| 8 | 《LIVEHOUSE》 | 网易云可看（没什么好看的）[BV1Wi421m7i1](https://www.bilibili.com/video/BV1Wi421m7i1) |
-| 9 | 《OLD BOY》 | 网易云可看 [BV1jH4y1c7V7](https://www.bilibili.com/video/BV1jH4y1c7V7) |
-| 10 | 《无限列车》 |  |
-| 11 | 《野风筝》 | 网易云可看 [BV1WE421N7kH](https://www.bilibili.com/video/BV1WE421N7kH) |
-| 12 | 《出师表》 |  |
-| 13 | 《昆仑》 |  |
+| 1 | [《INTRO：林童》](orpheus://song/2166484989) | 网易云可看[ BV1xb421H7Eq](https://www.bilibili.com/video/BV1xb421H7Eq) |
+| 2 | [《路漫漫》](orpheus://song/2166485067) |  |
+| 3 | [《九月》](orpheus://song/2166485072) |  |
+| 4 | [《逆帆》](orpheus://song/2161185447) | 网易云可看（没什么好看的）[BV1Hn4y1d7FK](https://www.bilibili.com/video/BV1Hn4y1d7FK) |
+| 5 | [《将敬酒》](orpheus://song/2156205899) |  |
+| 6 | [《辛德瑞拉》](orpheus://song/2166485975) |  |
+| 7 | [《体温》](orpheus://song/2166485090) |  |
+| 8 | [《LIVEHOUSE》](orpheus://song/2159356169) | 网易云可看（没什么好看的）[BV1Wi421m7i1](https://www.bilibili.com/video/BV1Wi421m7i1) |
+| 9 | [《OLD BOY》](orpheus://song/2166485129) | 网易云可看 [BV1jH4y1c7V7](https://www.bilibili.com/video/BV1jH4y1c7V7) |
+| 10 | [《无限列车》](orpheus://song/2166485998) |  |
+| 11 | [《野风筝》](orpheus://song/2166486002) | 网易云可看 [BV1WE421N7kH](https://www.bilibili.com/video/BV1WE421N7kH) |
+| 12 | [《出师表》](orpheus://song/2166485110) |  |
+| 13 | [《昆仑》](orpheus://song/2166486017) |  |
 
 - **其他作品**
 
-与泰格西合作单曲《一半一半》
+与泰格西合作单曲[《一半一半》](orpheus://song/2115392098)
 
 其实功夫胖是组合中和新生代 rapper 合作相对较多的一个，不止泰格西，和陈一豪、河南说唱之神甚至是有过 beef 的 upneverdown 都合作过，从中也拓宽着他对音乐的理解。
 
 备注：
 
-专辑列表中的《顺流逆流》只有一首功夫胖参与的歌曲《昨日未了》（可以不听）
+专辑列表中的《顺流逆流》只有一首功夫胖参与的歌曲[《昨日未了》](orpheus://song/2626699046)（可以不听）
 
-专辑列表中的《龙》是 C-BLOCK 和奥运冠军合作的歌曲（也可以不听）
+专辑列表中的[《龙》](orpheus://song/2631925209)是 C-BLOCK 和奥运冠军合作的歌曲（也可以不听）
 
 ---
 
 ## 2025 年
 
+### 《G-BLOCK Mixtape》
+
 ![21-G-BLOCK封面](/images/kungfu-pen/21-g-block-cover.webp "G-BLOCK封面")
 
-**2025 年 6 月，《G-BLOCK Mixtape》诞生**
+**2025 年 6 月，[《G-BLOCK Mixtape》](orpheus://album/274706820)	诞生**
 
 经历过 2017 年和 CDC 的 beef，也经历过节目中和活死人的冲突，C-BLOCK 三人与 GAI 长期以来一直处于舆论的风口浪尖。正因如此，当他们宣布要合作这张专辑时，就受到了大量的关注，最终成品无论是热度和质量也不负众望。回归组合和"江湖记忆"的功夫胖又展现出与 SOLO 时不同的样貌，在不同的叙事和风格中都适应的很好，产出了很多令人印象深刻的段落。
 
 这张 Mixtape 中，署名"的是老道。
 
-### 《G-BLOCK Mixtape》
-
 （备注：网易云功夫胖专辑列表有全专）
 
 | 序号 | 歌曲名 | 收听建议 | MV |
 | --- | --- | --- | --- |
-| 1 | 《G-BLOCK INTRO》 |  |  |
-| 2 | 《三个字》 |  | 淘金怪盗：[BV1nTtEzBETr](https://www.bilibili.com/video/BV1nTtEzBETr) |
-| 3 | 《人海》 | [BV1S8jqzLEEP](https://www.bilibili.com/video/BV1S8jqzLEEP) | 网易云可观看 |
-| 4 | 《仁义茶楼》 |  | 网易云可观看 淘金怪盗：[BV1XDnyzUEhW](https://www.bilibili.com/video/BV1XDnyzUEhW) |
-| 5 | 《一夜》 | 无功夫胖可不听 |  |
-| 6 | 《神仙》 | 无功夫胖可不听 |  |
-| 7 | 《站台》 |  | 淘金怪盗：[BV1qhagz9E4a](https://www.bilibili.com/video/BV1qhagz9E4a) |
-| 8 | 《浮萍》 |  | 淘金怪盗：[BV1iWt1zrEvd](https://www.bilibili.com/video/BV1iWt1zrEvd) |
-| 9 | 《如剑》 |  |  |
-| 10 | 《吊二两》 |  |  |
-| 11 | 《无期》 |  | 淘金怪盗：[BV1P7e3zgECs](https://www.bilibili.com/video/BV1P7e3zgECs) |
-| 12 | 《愚人码头》 | [BV1vbGEzbEBC](https://www.bilibili.com/video/BV1vbGEzbEBC) | 网易云可观看 |
-| 13 | 《我们的歌》 |  |  |
-| 14 | 《G-BLOCK CYPHER》 | [BV1M4EfzyEFS](https://www.bilibili.com/video/BV1M4EfzyEFS) | 网易云可观看 |
+| 1 | [《G-BLOCK INTRO》](orpheus://song/2713976727) |  |  |
+| 2 | [《三个字》](orpheus://song/2713976728) |  | 淘金怪盗：[BV1nTtEzBETr](https://www.bilibili.com/video/BV1nTtEzBETr) |
+| 3 | [《人海》](orpheus://song/2713977622) | [BV1S8jqzLEEP](https://www.bilibili.com/video/BV1S8jqzLEEP) | 网易云可观看 |
+| 4 | [《仁义茶楼》](orpheus://song/2713976729) |  | 网易云可观看 淘金怪盗：[BV1XDnyzUEhW](https://www.bilibili.com/video/BV1XDnyzUEhW) |
+| 5 | [《一夜》](orpheus://song/2713976730) | 无功夫胖可不听 |  |
+| 6 | [《神仙》](orpheus://song/2713976731) | 无功夫胖可不听 |  |
+| 7 | [《站台》](orpheus://song/2713976732) |  | 淘金怪盗：[BV1qhagz9E4a](https://www.bilibili.com/video/BV1qhagz9E4a) |
+| 8 | [《浮萍》](orpheus://song/2713977623) |  | 淘金怪盗：[BV1iWt1zrEvd](https://www.bilibili.com/video/BV1iWt1zrEvd) |
+| 9 | [《如剑》](orpheus://song/2713977624) |  |  |
+| 10 | [《吊二两》](orpheus://song/2713977625) |  |  |
+| 11 | [《无期》](orpheus://song/2713976733) |  | 淘金怪盗：[BV1P7e3zgECs](https://www.bilibili.com/video/BV1P7e3zgECs) |
+| 12 | [《愚人码头》](orpheus://song/2713976734) | [BV1vbGEzbEBC](https://www.bilibili.com/video/BV1vbGEzbEBC) | 网易云可观看 |
+| 13 | [《我们的歌》](orpheus://song/2713976735) |  |  |
+| 14 | [《G-BLOCK CYPHER》](orpheus://song/2713976736) | [BV1M4EfzyEFS](https://www.bilibili.com/video/BV1M4EfzyEFS) | 网易云可观看 |
 
 - **其他作品**
 
-2025 年，发布 solo 单曲《livvve》《河西·乡里别》，与盛宇合作《亮剑》（有 MV）[BV1e1CuBRE7r](https://www.bilibili.com/video/BV1e1CuBRE7r)
+2025 年，发布 solo 单曲[《livvve》](orpheus://song/2679391298)[《河西·乡里别》](orpheus://song/2732280845)，与盛宇合作[《亮剑》](orpheus://song/3318010850)（有 MV）[BV1e1CuBRE7r](https://www.bilibili.com/video/BV1e1CuBRE7r)
 
 其中《livvve》为专辑《林童》中《LIVEHOUSE》这首歌的重制。
 
-专辑列表中的《湖湘浪子》为 RANZER 的专辑，功夫胖与他合作了《杯莫停》和《故·湘风》，体验了一次古风小生的感觉。
+专辑列表中的《湖湘浪子》为 RANZER 的专辑，功夫胖与他合作了[《杯莫停》](orpheus://song/2726937594)和[《故·湘风》](orpheus://song/2726937593)，体验了一次古风小生的感觉。
 
 ---
 
 ## 2026 年
 
+### 《全家福》
+
 ![22-全家福封面](/images/kungfu-pen/22-family-portrait-cover.webp "全家福封面")
 
-**2026 年 2 月，发布第五张个人专辑《全家福》**
+**2026 年 2 月，发布第五张个人专辑[《全家福》](orpheus://album/362202999)	**
 
 这张专辑也是他三部曲的最后一张专辑，这张专辑上半张都是功夫胖擅长的风格，下半张更偏向自我，也更加敞开自己的想法，让人意想不到的展现出了自己幸福人生的一些缺口。功夫胖在这张专辑有意的向外拓展，和不同的制作人合作，并不只局限于 CSC 的制作人。
 
 在这张专辑中，也有对个人音乐生涯的回顾，有四首歌采样了之前的老歌，可以听听看都采样了哪几首。
 
-### 《全家福》
-
 （备注：网易云功夫胖专辑列表有全专）
 
 | 序号 | 歌曲名 | MV |
 | --- | --- | --- |
-| 1 | 《游子吟（Intro.）》 | 网易云可观看 [BV1B9zfBZEGo](https://www.bilibili.com/video/BV1B9zfBZEGo) |
-| 2 | 《三脚猫功夫》 |  |
-| 3 | 《回家吧，孩子》 |  |
-| 4 | 《山歌王》 |  |
-| 5 | 《兜风》 |  |
-| 6 | 《烟囱》 |  |
-| 7 | 《娭毑说（Skit.）》 |  |
-| 8 | 《玉兰》 | 网易云可观看 [BV1Wcc7zzE4m](https://www.bilibili.com/video/BV1Wcc7zzE4m) |
-| 9 | 《VINTAGE》 |  |
-| 10 | 《老兄》 |  |
-| 11 | 《孩子》 |  |
-| 12 | 《全家福》 | 网易云可观看 [BV1bDcjzjEbL](https://www.bilibili.com/video/BV1bDcjzjEbL) |
-| 13 | 《天空之城》 |  |
-| 14 | 《终身自由（Outro.）》 |  |
+| 1 | [《游子吟（Intro.）》](orpheus://song/3343667133) | 网易云可观看 [BV1B9zfBZEGo](https://www.bilibili.com/video/BV1B9zfBZEGo) |
+| 2 | [《三脚猫功夫》](orpheus://song/3349945486) |  |
+| 3 | [《回家吧，孩子》](orpheus://song/3349945508) |  |
+| 4 | [《山歌王》](orpheus://song/3349945534) |  |
+| 5 | [《兜风》](orpheus://song/3349944449) |  |
+| 6 | [《烟囱》](orpheus://song/3349945556) |  |
+| 7 | [《娭毑说（Skit.）》](orpheus://song/3349944480) |  |
+| 8 | [《玉兰》](orpheus://song/3348854477) | 网易云可观看 [BV1Wcc7zzE4m](https://www.bilibili.com/video/BV1Wcc7zzE4m) |
+| 9 | [《VINTAGE》](orpheus://song/3349944595) |  |
+| 10 | [《老兄》](orpheus://song/3349944614) |  |
+| 11 | [《孩子》](orpheus://song/3349945709) |  |
+| 12 | [《全家福》](orpheus://song/3349231363) | 网易云可观看 [BV1bDcjzjEbL](https://www.bilibili.com/video/BV1bDcjzjEbL) |
+| 13 | [《天空之城》](orpheus://song/3349944691) |  |
+| 14 | [《终身自由（Outro.）》](orpheus://song/3349949795) |  |
 
 ![22-特别感谢](/images/kungfu-pen/22-special-thanks.webp "特别感谢")
 

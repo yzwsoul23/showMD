@@ -164,7 +164,7 @@ CQC头的败类不要继续犯罪
 
 ### 《Wake Up》
 
-2017 年 8 月 5 日连麻发布首张个人 Mixtape《Wake Up》。
+2017 年 8 月 5 日连麻发布首张个人 Mixtape **[《Wake Up》](orpheus://album/35879652)**。
 
 | 序号 | 歌名 | 备注 |
 | --- | --- | --- |
@@ -294,7 +294,7 @@ CQC头的败类不要继续犯罪
 
 ### 《YELLER》
 
-2019 年 5 月 10 日连麻发布个人第二张 Mixtape 《YELLER》
+2019 年 5 月 10 日连麻发布个人第二张 Mixtape **[《YELLER》](orpheus://album/79018776)**
 
 ![yellow-Cover](/images/swimming/yellow-Cover.webp)
 
@@ -355,7 +355,7 @@ CQC头的败类不要继续犯罪
 
 ### 《Yuppie "雅痞"》
 
-2020 年 8 月 28 日，连麻发布个人首张专辑《Yuppie "雅痞"》，获得说唱圈内不错的口碑。
+2020 年 8 月 28 日，连麻发布个人首张专辑**[《Yuppie“雅痞”》](orpheus://album/94513292)**，获得说唱圈内不错的口碑。
 
 ![Yuppie-Cover](/images/swimming/Yuppie-Cover.webp)
 
@@ -404,7 +404,7 @@ CQC头的败类不要继续犯罪
 
 ![SHOOTING-Cover](/images/swimming/SHOOTING-Cover.webp)
 
-2021 年 8 月 18 日，连麻发布个人第二张专辑《CHUNGWA》，QQ 音乐可听。
+2021 年 8 月 18 日，连麻发布个人第二张专辑**[《CHUNGHWA》](orpheus://album/131027226)**，QQ 音乐可听。
 
 ![CHUNGHWA-Cover](/images/swimming/CHUNGHWA-Cover.webp)
 
@@ -459,7 +459,7 @@ CQC头的败类不要继续犯罪
 
 ### 《真假美猴王》
 
-2022 年 12 月 14 日，连麻和隼在生日这天发布联合 Mixtape《真假美猴王》，虽然只是 Mixtape，但姓孙的双胞胎兄弟和《真假美猴王》的概念浑然天成。
+2022 年 12 月 14 日，连麻和隼在生日这天发布联合 Mixtape**[《真假美猴王》](orpheus://album/140566771)**，虽然只是 Mixtape，但姓孙的双胞胎兄弟和《真假美猴王》的概念浑然天成。
 
 ![hmhw-Cover](/images/swimming/hmhw-Cover.webp)
 
@@ -511,7 +511,7 @@ B 站可看：[BV1jd4y1v7Vz](https://www.bilibili.com/video/BV1jd4y1v7Vz)
 
 ### 《邻家小丈夫》
 
-2024 年 5 月 18 日，连麻发布个人第三张专辑《邻家小丈夫》
+2024 年 5 月 18 日，连麻发布个人第三张专辑**[《邻家小丈夫》](orpheus://album/195875404)**
 
 ![ljxzf-Cover](/images/swimming/ljxzf-Cover.webp)
 

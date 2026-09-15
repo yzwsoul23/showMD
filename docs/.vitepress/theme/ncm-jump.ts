@@ -13,10 +13,12 @@
  *   Base64 JSON 指令：orpheus://<base64({type,id,cmd:'play'})>。
  *   song / playlist 已被实测支持；album 指令为同构推断，个别客户端版本
  *   若不支持自动播放也会正常打开专辑详情页；
- * - 未安装客户端时用 blur / visibilitychange 心跳检测，超时后回退网页版，
- *   避免点击后页面毫无反应。桌面端窗口放宽到 4s：协议已被「始终允许」时
- *   客户端冷启动要数秒才夺走浏览器焦点，窗口太短会把已唤起误判为未安装；
- *   跳网页版前一刻还会再校验一次焦点，客户端刚唤起的场景直接取消跳转。
+ * - 未安装客户端时用 blur / visibilitychange 心跳检测。桌面端窗口放宽到
+ *   4s：协议已被「始终允许」时客户端冷启动要数秒才夺走浏览器焦点，窗口
+ *   太短会把已唤起误判为未安装；
+ * - 检测不到唤起时不再自动跳网页版，而是弹一个 5 秒的确认气泡，点击
+ *   「转到网页版」才会跳，不点过时自动消失——把跳不跳的选择权交给用户，
+ *   也兜住「客户端其实已唤起、只是焦点检测误判」的场景。
  *
  * 事件委托挂在 document 上（与灯箱同一套思路），SPA 路由切换无需重绑。
  */
@@ -27,11 +29,11 @@ const LINK_RE = /^orpheus:\/\/(song|album|playlist)\/(\d+)/i
 const TOAST_ID = 'rs-ncm-toast'
 const LAUNCH_LOCK_MS = 3000
 
-/** 唤起检测窗口：期间页面没失焦就视为未安装，回退网页版 */
+/** 唤起检测窗口：期间页面没失焦就视为未安装，弹网页版确认气泡 */
 const MOBILE_DETECT_MS = 2500
 const DESKTOP_DETECT_MS = 4000
-/** 显示「未检测到客户端」到真正跳网页版的缓冲，期间客户端唤起仍可取消 */
-const FALLBACK_DELAY_MS = 600
+/** 网页版确认气泡停留时长：不点「转到网页版」就自动消失 */
+const FALLBACK_TOAST_MS = 5000
 
 /** 各类型的网页版回退地址与中文叫法 */
 const KIND_META: Record<NcmKind, { webPath: string; label: string }> = {
@@ -41,6 +43,15 @@ const KIND_META: Record<NcmKind, { webPath: string; label: string }> = {
 }
 
 let lastLaunchAt = 0
+/** 网页版确认气泡的自动消失定时器（新气泡顶掉旧气泡前先清掉） */
+let fallbackTimer: ReturnType<typeof setTimeout> | undefined
+
+function clearFallbackTimer() {
+  if (fallbackTimer !== undefined) {
+    clearTimeout(fallbackTimer)
+    fallbackTimer = undefined
+  }
+}
 
 function isMobile() {
   return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)
@@ -60,6 +71,7 @@ function buildDesktopUri(kind: NcmKind, id: string) {
 }
 
 function showToast(text: string) {
+  clearFallbackTimer()
   let toast = document.getElementById(TOAST_ID)
   if (!toast) {
     toast = document.createElement('div')
@@ -78,13 +90,45 @@ function hideToast() {
 }
 
 /**
+ * 「未检测到客户端」确认气泡：不自动跳转，点按钮才去网页版，
+ * FALLBACK_TOAST_MS 内不点就自动消失。
+ */
+function showFallbackToast(webUrl: string) {
+  clearFallbackTimer()
+  let toast = document.getElementById(TOAST_ID)
+  if (!toast) {
+    toast = document.createElement('div')
+    toast.id = TOAST_ID
+    toast.className = 'rs-ncm-toast'
+    document.body.appendChild(toast)
+  }
+  toast.textContent = ''
+  const msg = document.createElement('span')
+  msg.textContent = '未检测到网易云音乐客户端'
+  const btn = document.createElement('button')
+  btn.type = 'button'
+  btn.className = 'rs-ncm-toast-btn'
+  btn.textContent = '转到网页版'
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation()
+    clearFallbackTimer()
+    window.location.href = webUrl
+  })
+  toast.append(msg, btn)
+  // 强制一次重排后再加类，保证进场上浮动画能触发
+  void toast.offsetHeight
+  toast.classList.add('is-show')
+  fallbackTimer = setTimeout(hideToast, FALLBACK_TOAST_MS)
+}
+
+/**
  * 唤起客户端并做网页版回退。
  * - 页面失焦/隐藏 = 系统弹出了「打开网易云音乐？」对话框或已切到 App；
  * - PC 客户端冷启动要数秒才夺走浏览器焦点，桌面端检测窗口放宽到 4s，
  *   移动端切 App 很快，保持 2.5s；
  * - 判定时除事件标志外，再用 document.hidden / hasFocus() 实时兜底
- *   （blur 可能因浏览器差异延迟或不触发）；真正跳网页版前一刻还会再
- *   校验一次，客户端刚唤起的场景直接取消跳转，避免双跳。
+ *   （blur 可能因浏览器差异延迟或不触发）；判定为未安装时也不自动跳
+ *   网页版，而是弹确认气泡让用户决定，误判场景下不点即可。
  */
 function launch(kind: NcmKind, id: string) {
   const now = Date.now()
@@ -131,21 +175,15 @@ function launch(kind: NcmKind, id: string) {
   window.location.href = appUrl
 
   window.setTimeout(() => {
+    cleanup()
     if (leftNow()) {
-      cleanup()
       hideToastWhenBack()
       return
     }
-    showToast('未检测到客户端，正在打开网页版…')
-    window.setTimeout(() => {
-      cleanup()
-      // 最后一刻再确认：这段缓冲里客户端可能刚好完成唤起
-      if (leftNow()) {
-        hideToastWhenBack()
-        return
-      }
-      window.location.href = webUrl
-    }, FALLBACK_DELAY_MS)
+    // 不自动跳网页版：弹 5 秒确认气泡，点击才转；若客户端其实刚被
+    // 唤起、稍后才夺走焦点，用户切回浏览器时气泡会被自动收起
+    showFallbackToast(webUrl)
+    hideToastWhenBack()
   }, isMobile() ? MOBILE_DETECT_MS : DESKTOP_DETECT_MS)
 }
 
