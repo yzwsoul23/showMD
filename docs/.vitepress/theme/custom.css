@@ -1014,3 +1014,23 @@ html {
   opacity: 1;
   transform: translate(-50%, 0);
 }
+
+/* 气泡里的「转到网页版」按钮：容器整体 pointer-events: none，按钮要单独放开 */
+.rs-ncm-toast .rs-ncm-toast-btn {
+  pointer-events: auto;
+  margin-left: 14px;
+  padding: 4px 14px;
+  border: 1px solid var(--rs-red);
+  border-radius: 999px;
+  background: var(--rs-red);
+  color: var(--rs-card);
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.rs-ncm-toast .rs-ncm-toast-btn:hover {
+  opacity: 0.85;
+}
