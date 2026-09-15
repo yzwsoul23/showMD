@@ -147,7 +147,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 ![AFTERLIGHT-Cover](/images/gali/AFTERLIGHT-Cover.webp)
 
-3月29日，GALI发布了他的第二张EP**[《晚霞After Light》](orpheus://album/88135306)** 。
+3月29日，GALI发布了他的第二张EP [《晚霞After Light》](orpheus://album/88135306) 。
 
 \*如果感兴趣，可以阅读一下专辑简介。网易云的歌曲顺序和简介的歌曲顺序不太一样，推荐按照下表（同简介）的歌曲顺序收听。
 
@@ -167,13 +167,13 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 4月22日，GALI参与了90sBABY专辑中的歌曲 **《Smile》** 。
 
-4月24日，Mr.Trouble麻烦先生、Naggy、GALI、AThree合作发布了歌曲 [《Nice To Meet Y'all》​](https://www.bilibili.com/video/BV1KK41157GE%22%20/o%20%22https://www.bilibili.com/video/BV1KK41157GE?spm_id_from=333.1369.0.0) 以及MV（[BV1KK41157GE）](https://www.bilibili.com/video/BV1KK41157GE)）（[网易云](orpheus://song/1360863674)）
+4月24日，Mr.Trouble麻烦先生、Naggy、GALI、AThree合作发布了歌曲[《Nice To Meet Y'all》​](orpheus://song/1360863674)以及MV（[BV1KK41157GE](https://www.bilibili.com/video/BV1KK41157GE)）
 
 歌曲的 **AThree** 来自新疆，在上海发展了一段时间。 **Naggy** 和 **Trouble** 都是玩得很早的上海说唱歌手，也是影响了GALI的前辈。四人都是好友。
 
-4月26日，GALI与众多说唱歌手合作发布 **[《挑战challenge(刺猬兄弟2019cypher)》](https://www.bilibili.com/video/BV1Ff4y167oU/?t=432)**（[网易云](orpheus://song/1359717856)），刺猬兄弟是当时新说唱节目四十强必须签约一年的经纪公司。
+4月26日，GALI与众多说唱歌手合作发布[《挑战challenge(刺猬兄弟2019cypher)》](orpheus://song/1359717856)，以及[MV](https://www.bilibili.com/video/BV1Ff4y167oU/?t=432)，刺猬兄弟是当时新说唱节目四十强必须签约一年的经纪公司。
 
-5月15日，BASE厂牌的GALI、CATI2（2018年，经朋友GALI推荐签约BASE）、俞天时合作发布Cypher [《U.M.F》](orpheus://song/1365209928)​ 以及MV（[BV18f4y1x7Cw）](https://www.bilibili.com/video/BV18f4y1x7Cw)
+5月15日，BASE厂牌的GALI、CATI2（2018年，经朋友GALI推荐签约BASE）、俞天时合作发布Cypher [《U.M.F》](orpheus://song/1365209928)​ 以及MV（[BV18f4y1x7Cw](https://www.bilibili.com/video/BV18f4y1x7Cw)）
 
 5月19日，GALI发布了歌曲 **《Jaguar (猎豹)》** 。该歌曲收录于一张集结了19位中文说唱歌手的中文说唱音乐合集《壹九》中，可在网易云搜索收听。
 
@@ -490,7 +490,7 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 ![STRIPELIFE-Cover](/images/gali/STRIPELIFE-Cover.webp)
 
-4月7日，GALI发布Mixtape**[《STRIPELIFE(条纹生活)》](orpheus://album/190896190)** 。
+4月7日，GALI发布Mixtape[《STRIPELIFE(条纹生活)》](orpheus://album/190896190) 。
 
 |  | 歌名 | 歌手 | MV | 备注 |
 | --- | --- | --- | --- | --- |
