@@ -13,8 +13,10 @@
  *   Base64 JSON 指令：orpheus://<base64({type,id,cmd:'play'})>。
  *   song / playlist 已被实测支持；album 指令为同构推断，个别客户端版本
  *   若不支持自动播放也会正常打开专辑详情页；
- * - 未安装客户端时用 blur / visibilitychange 心跳检测，2.5s 后回退网页版，
- *   避免点击后页面毫无反应。
+ * - 未安装客户端时用 blur / visibilitychange 心跳检测，超时后回退网页版，
+ *   避免点击后页面毫无反应。桌面端窗口放宽到 4s：协议已被「始终允许」时
+ *   客户端冷启动要数秒才夺走浏览器焦点，窗口太短会把已唤起误判为未安装；
+ *   跳网页版前一刻还会再校验一次焦点，客户端刚唤起的场景直接取消跳转。
  *
  * 事件委托挂在 document 上（与灯箱同一套思路），SPA 路由切换无需重绑。
  */
@@ -24,6 +26,12 @@ type NcmKind = 'song' | 'album' | 'playlist'
 const LINK_RE = /^orpheus:\/\/(song|album|playlist)\/(\d+)/i
 const TOAST_ID = 'rs-ncm-toast'
 const LAUNCH_LOCK_MS = 3000
+
+/** 唤起检测窗口：期间页面没失焦就视为未安装，回退网页版 */
+const MOBILE_DETECT_MS = 2500
+const DESKTOP_DETECT_MS = 4000
+/** 显示「未检测到客户端」到真正跳网页版的缓冲，期间客户端唤起仍可取消 */
+const FALLBACK_DELAY_MS = 600
 
 /** 各类型的网页版回退地址与中文叫法 */
 const KIND_META: Record<NcmKind, { webPath: string; label: string }> = {
@@ -71,8 +79,12 @@ function hideToast() {
 
 /**
  * 唤起客户端并做网页版回退。
- * 页面失焦/隐藏说明系统弹出了「打开网易云音乐？」对话框或已切到 App；
- * 2.5s 内页面始终在前台 = 大概率没装客户端，跳网页版。
+ * - 页面失焦/隐藏 = 系统弹出了「打开网易云音乐？」对话框或已切到 App；
+ * - PC 客户端冷启动要数秒才夺走浏览器焦点，桌面端检测窗口放宽到 4s，
+ *   移动端切 App 很快，保持 2.5s；
+ * - 判定时除事件标志外，再用 document.hidden / hasFocus() 实时兜底
+ *   （blur 可能因浏览器差异延迟或不触发）；真正跳网页版前一刻还会再
+ *   校验一次，客户端刚唤起的场景直接取消跳转，避免双跳。
  */
 function launch(kind: NcmKind, id: string) {
   const now = Date.now()
@@ -86,39 +98,55 @@ function launch(kind: NcmKind, id: string) {
   const webUrl = `https://music.163.com/#/${meta.webPath}?id=${id}`
 
   showToast('正在唤起网易云音乐客户端…')
-  const start = Date.now()
   let hasLeft = false
-  const onLeave = () => {
+  const markLeft = () => {
     hasLeft = true
   }
-  window.addEventListener('blur', onLeave, { once: true })
-  document.addEventListener('visibilitychange', onLeave, { once: true })
+  window.addEventListener('blur', markLeft)
+  document.addEventListener('visibilitychange', markLeft)
+
+  const cleanup = () => {
+    window.removeEventListener('blur', markLeft)
+    document.removeEventListener('visibilitychange', markLeft)
+  }
+
+  /** 实时兜底判断：页面是否已因唤起客户端而离开前台 */
+  const leftNow = () => hasLeft || document.hidden || !document.hasFocus()
+
+  /** 已唤起：用户切回浏览器时再收起提示 */
+  const hideToastWhenBack = () => {
+    if (document.visibilityState === 'visible') {
+      hideToast()
+      return
+    }
+    const onVisible = () => {
+      if (document.visibilityState === 'visible') {
+        hideToast()
+        document.removeEventListener('visibilitychange', onVisible)
+      }
+    }
+    document.addEventListener('visibilitychange', onVisible)
+  }
 
   window.location.href = appUrl
 
   window.setTimeout(() => {
-    window.removeEventListener('blur', onLeave)
-    document.removeEventListener('visibilitychange', onLeave)
-    if (!hasLeft && Date.now() - start < 3500) {
-      showToast('未检测到客户端，正在打开网页版…')
-      window.setTimeout(() => {
-        window.location.href = webUrl
-      }, 800)
-    } else {
-      // 已唤起：用户切回浏览器时再收起提示
-      if (document.visibilityState === 'visible') {
-        hideToast()
-      } else {
-        const onVisible = () => {
-          if (document.visibilityState === 'visible') {
-            hideToast()
-            document.removeEventListener('visibilitychange', onVisible)
-          }
-        }
-        document.addEventListener('visibilitychange', onVisible)
-      }
+    if (leftNow()) {
+      cleanup()
+      hideToastWhenBack()
+      return
     }
-  }, 2500)
+    showToast('未检测到客户端，正在打开网页版…')
+    window.setTimeout(() => {
+      cleanup()
+      // 最后一刻再确认：这段缓冲里客户端可能刚好完成唤起
+      if (leftNow()) {
+        hideToastWhenBack()
+        return
+      }
+      window.location.href = webUrl
+    }, FALLBACK_DELAY_MS)
+  }, isMobile() ? MOBILE_DETECT_MS : DESKTOP_DETECT_MS)
 }
 
 export function setupNcmJump() {

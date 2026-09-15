@@ -168,11 +168,11 @@ CQC头的败类不要继续犯罪
 
 | 序号 | 歌名 | 备注 |
 | --- | --- | --- |
-| 1 | CD City | 酷狗音乐可听 |
-| 2 | Wake Up | ft. R.Z 言味 |
-| 3 | Trouble | ft. ICE 杨长青，酷狗音乐可听 |
-| 4 | 我出剪刀你出布 | ft. Sasi & ICE 杨长青，酷狗音乐可听 |
-| 5 | Sorry (mix by LimBo 林) | ft. ICE 杨长青 |
+| 1 | [CD City](orpheus://song/495753074) | 酷狗音乐可听 |
+| 2 | [Wake Up](orpheus://song/498012243) | ft. R.Z 言味 |
+| 3 | [Trouble](orpheus://song/499016929) | ft. ICE 杨长青，酷狗音乐可听 |
+| 4 | [我出剪刀你出布](orpheus://song/509523063) | ft. Sasi & ICE 杨长青，酷狗音乐可听 |
+| 5 | [Sorry (mix by LimBo 林)](orpheus://song/512196328) | ft. ICE 杨长青 |
 
 ![Wake Up封面](/images/swimming/Ivy-Album-Cover.webp)
 
@@ -245,17 +245,17 @@ CQC头的败类不要继续犯罪
 
 2018 年 8 月 4 日 Gibb-Z 发布个人 Mixtape《糖果星球》，连麻在《无可奉告》中 featuring，B站可看 MV：[BV1L64y1x7gU](https://www.bilibili.com/video/BV1L64y1x7gU)
 
-2018 年 8 月 14 日连麻和韩国歌手 YOONNO 发布单曲《拒绝》
+2018 年 8 月 14 日连麻和韩国歌手 YOONNO 发布单曲[《拒绝》](orpheus://song/1301609368)
 
 ![Drama-Album-Cover](/images/swimming/Drama-Album-Cover.webp)
 
 注：在连麻网易云个人主页
 
-2018 年 8 月 21 日连麻发布个人单曲《CHEF》，无音源， B站可看MV：[BV19o4y1D7UD](https://www.bilibili.com/video/BV19o4y1D7UD)
+2018 年 8 月 21 日连麻发布个人单曲[《CHEF》](orpheus://song/1303523434)，无音源， B站可看MV：[BV19o4y1D7UD](https://www.bilibili.com/video/BV19o4y1D7UD)
 
 ![CHEF-Cover](/images/swimming/CHEF-Cover.webp)
 
-2018 年 9 月 27 日连麻发布个人单曲《为什么押韵》，酷狗音乐可听。
+2018 年 9 月 27 日连麻发布个人单曲[《为什么押韵》](orpheus://song/1313189142)，酷狗音乐可听。
 
 ![whyforryhtm-Cover](/images/swimming/whyforryhtm-Cover.webp)
 
@@ -284,13 +284,13 @@ CQC头的败类不要继续犯罪
 
 ## 2019 年
 
-2019 年 1 月 18 日连麻发布个人单曲《咩咩蚊》
+2019 年 1 月 18 日连麻发布个人单曲[《咩咩蚊》](orpheus://song/1340693038)
 
 ![iemiewen-Cover](/images/swimming/iemiewen-Cover.webp)
 
-2019 年 2 月 14 日连麻发布个人单曲《HOE》，酷狗音乐可听
+2019 年 2 月 14 日连麻发布个人单曲[《HOE》](orpheus://song/1345933441)，酷狗音乐可听
 
-2019 年 3 月 4 日连麻发布个人单曲《Hormone》
+2019 年 3 月 4 日连麻发布个人单曲[《Hormone》](orpheus://song/1350015955)
 
 ### 《YELLER》
 
@@ -300,39 +300,39 @@ CQC头的败类不要继续犯罪
 
 | 序号 | 歌名 | 备注 |
 | --- | --- | --- |
-| 1 | GO RAP(intro) |  |
-| 2 | DRAMA(by.eskry) |  |
-| 3 | 你梦见我不告诉我 |  |
-| 4 | 160块(kevin) | B 站可听： |
-| 5 | 龘(by: Deadeyes) |  |
-| 6 | MOVE(by: cxdy) |  |
-| 7 | 南柯一梦 | 无音源 |
-| 8 | 丢人 |  |
-| 9 | the end(by YZ) |  |
+| 1 | [GO RAP(intro)](orpheus://song/1364411975) |  |
+| 2 | [DRAMA(by.eskry)](orpheus://song/1364412017) |  |
+| 3 | [你梦见我不告诉我](orpheus://song/1364418033) |  |
+| 4 | [160块(kevin)](orpheus://song/1364412000) | B 站可听： |
+| 5 | [龘(by: Deadeyes)](orpheus://song/1364412016) |  |
+| 6 | [MOVE(by: cxdy)](orpheus://song/1364417233) |  |
+| 7 | [南柯一梦](orpheus://song/1364418035) | 无音源 |
+| 8 | [丢人](orpheus://song/1364418034) |  |
+| 9 | [the end(by YZ)](orpheus://song/1364411994) |  |
 
-2019 年 6 月 3 日连麻 Sasi 2KC_AAA 发布单曲《DAWG》，无音源。
+2019 年 6 月 3 日连麻 Sasi 2KC_AAA 发布单曲[《DAWG》](orpheus://song/1369394242)，无音源。
 
-2019 年 7 月 17 日连麻 dhshsj 发布单曲《拗卵》。
+2019 年 7 月 17 日连麻 dhshsj 发布单曲[《拗卵》](orpheus://song/1378441915)。
 
 ![aoluan-Cover](/images/swimming/aoluan-Cover.webp)
 
 注："拗 ao 卵"是四川方言中的一个俚语表达，常与"犟"连用为"拗犟卵"，用于形容性格极其固执、油盐不进、喜欢抬杠、认死理的人。
 
-2019 年 7 月 31 日连麻发布个人单曲《咋的哦》
+2019 年 7 月 31 日连麻发布个人单曲[《咋的哦》](orpheus://song/1381350541)
 
 2019 年 8 月 9 日连麻 Doooboi ANT1- BOI 发布单曲《玩火》，QQ 音乐可听。
 
-2019 年 9 月 16 日连麻发布个人单曲《BINGO》
+2019 年 9 月 16 日连麻发布个人单曲[《BINGO》](orpheus://song/1391224986)
 
-2019 年 9 月 19 日连麻 Tony KillaR 发布单曲《Famous》
+2019 年 9 月 19 日连麻 Tony KillaR 发布单曲[《Famous》](orpheus://song/1391925784)
 
-2019 年 11 月 21 日连麻发布个人单曲《瘾疙瘩宝》
+2019 年 11 月 21 日连麻发布个人单曲[《瘾疙瘩宝》](orpheus://song/1405327459)
 
 ![aigebao-Cover](/images/swimming/aigebao-Cover.webp)
 注：四川话蛤蟆的意思。在这首歌中，连麻开始尝试将旋律融入腔调，因此这首歌也被视为连麻的风格转变之作。
 
-2019 年 12 月 14 日连麻 Sasi 发布单曲《pussy out my room》
-2019 年 12 月 28 日连麻 刘明宇 Lil-7 发布单曲《90S LOVE U》
+2019 年 12 月 14 日连麻 Sasi 发布单曲[《pussy out my room》](orpheus://song/1409533277)
+2019 年 12 月 28 日连麻 刘明宇 Lil-7 发布单曲[《90S LOVE U》](orpheus://song/1412486350)
 
 2019年左右， Sasi 通过理发店老板的朋友圈认识到了来自甘肃甘南的藏族组合 RICHNOMADIC（意为富有的游牧民族），三人先是取得了联系，进行了线上合作，2020 年 Bako 和榨菜两人来到成都做说唱。至此五人组五名成员全部出现。
 
@@ -361,17 +361,17 @@ CQC头的败类不要继续犯罪
 
 | 序号 | 歌名 | 备注 |
 | --- | --- | --- |
-| 1 | 林弯弯(Prod K eleven) | 评论区有 DJ BigCat 对于一些方言的解释 B 站可看 MV：[BV13V41177aG](https://www.bilibili.com/video/BV13V41177aG) |
-| 2 | 鸿星尔克(Feat. |  |
-| 3 | 锤子 (Feat. | 阿里嘎多摆锤子早有预兆（bushi） |
-| 4 | shit 94 shit |  |
-| 5 | 郑伊健(Feat.JR | 香港演员，代表作有电影《古惑仔》系列、《风云》 |
-| 6 | Bow Bow (Prod. |  |
-| 7 | 真资格 (Feat. 盛 | "盛宇带连麻"说法的出处 |
-| 8 | 魔幻手机 | 2008年的同名电视剧讲述了来自2060年的幻幻手机机傻妞来到2006年结识陆小千等人，穿越时空，保 |
-| 9 | rap 清明 rap 鬼节 | 本人本专最爱，且第一次听的时候，当天正好是 |
-| 10 | 包剪锤(Prod. |  |
-| 11 | 切得到 |  |
+| 1 | [林弯弯(Prod K eleven)](orpheus://song/1436520262) | 评论区有 DJ BigCat 对于一些方言的解释 B 站可看 MV：[BV13V41177aG](https://www.bilibili.com/video/BV13V41177aG) |
+| 2 | [鸿星尔克](orpheus://song/1474178484)(Feat. |  |
+| 3 | [锤子](orpheus://song/1474181053) (Feat. | 阿里嘎多摆锤子早有预兆（bushi） |
+| 4 | [shit 94 shit](orpheus://song/1474181052) |  |
+| 5 | [郑伊健](orpheus://song/1474181054)(Feat.JR | 香港演员，代表作有电影《古惑仔》系列、《风云》 |
+| 6 | [Bow Bow](orpheus://song/1440148356) (Prod. |  |
+| 7 | [真资格](orpheus://song/1474178481) (Feat. 盛 | "盛宇带连麻"说法的出处 |
+| 8 | [魔幻手机](orpheus://song/1474178480) | 2008年的同名电视剧讲述了来自2060年的幻幻手机机傻妞来到2006年结识陆小千等人，穿越时空，保 |
+| 9 | [rap 清明 rap 鬼节](orpheus://song/1474178485) | 本人本专最爱，且第一次听的时候，当天正好是 |
+| 10 | [包剪锤](orpheus://song/1474181051)(Prod. |  |
+| 11 | [切得到](orpheus://song/1474178482) |  |
 
 同年，坚决定回到成都继续说唱事业。Sasi 也在合约到期之后离开了声闻聚将厂牌。二人和 RICHNOMADIC 在成都八里阳光小区租了间房子，开始没日没夜地钻研作品。
 11 月 13 号，6 点零 9 分，星曜五，四人没钱开锁被锁在了门外。
@@ -410,16 +410,16 @@ CQC头的败类不要继续犯罪
 
 | 序号 | 歌名 | 备注 |
 | --- | --- | --- |
-| 1 | 还是闹以(prod Oakerdidit) |  |
-| 2 | 三圣乡(prod Vickyferri) | 2 分 44 秒的声音来自刀脚，这是刀脚第一次从幕后混音师来到台前。 |
-| 3 | 自立巷(prod RokitReady) | 现象级 track，MV：[BV1PP4y1b7Zx](https://www.bilibili.com/video/BV1PP4y1b7Zx) |
-| 4 | 厚街(prod Vickyferri) | 五人组全员 |
-| 5 | 县份说唱(prod.Waterboy) |  |
-| 6 | 冰河时代(prod TriggaFZ) |  |
-| 7 | 小麻(prod 黄河) |  |
-| 8 | High Life (prod Timeline) |  |
-| 9 | Why u do that shxt (prod HoodwithAnotha1) |  |
-| 10 | Outro(prod 黄河) |  |
+| 1 | [还是闹以(prod Oakerdidit)](orpheus://song/1870878817) |  |
+| 2 | [三圣乡(prod Vickyferri)](orpheus://song/1870878816) | 2 分 44 秒的声音来自刀脚，这是刀脚第一次从幕后混音师来到台前。 |
+| 3 | [自立巷(prod RokitReady)](orpheus://song/1864871516) | 现象级 track，MV：[BV1PP4y1b7Zx](https://www.bilibili.com/video/BV1PP4y1b7Zx) |
+| 4 | [厚街(prod Vickyferri)](orpheus://song/1870878818) | 五人组全员 |
+| 5 | [县份说唱(prod.Waterboy)](orpheus://song/1870878819) |  |
+| 6 | [冰河时代(prod TriggaFZ)](orpheus://song/1870875924) |  |
+| 7 | [小麻(prod 黄河)](orpheus://song/2078013213) |  |
+| 8 | [High Life (prod Timeline)](orpheus://song/1870875926) |  |
+| 9 | [Why u do that shxt (prod HoodwithAnotha1)](orpheus://song/1870875923) |  |
+| 10 | [Outro(prod 黄河)](orpheus://song/1870878814) |  |
 
 2021 年 11 月 22 日，连麻发布个人单曲《比心》，QQ 音乐可听。
 
@@ -435,22 +435,22 @@ CQC头的败类不要继续犯罪
 
 2022年2月9日，连麻、隼、Sasi登上Mercy的访谈节目，18分钟， [BV1Ka41117ms](https://www.bilibili.com/video/BV1Ka41117ms)，其中谈到了五人组和DIGI GHETTO两个组合之间的竞争关系。三人则表示良性竞争是好事，组合之间也会互相欣赏彼此的音乐。Sasi则评价DIGI的作品更时尚，自己的更黑暗。弹幕也将两个组合比作中文说唱的漫威和DC。
 
-2022年4月17日，连麻发布对Jony J的diss track《笑版阿特》，B站可看MV: [BV1tY4y1h7vJ](https://www.bilibili.com/video/BV1tY4y1h7vJ)
+2022年4月17日，连麻发布对Jony J的diss track[《笑版阿特》](orpheus://song/1939008552)，B站可看MV: [BV1tY4y1h7vJ](https://www.bilibili.com/video/BV1tY4y1h7vJ)
 
 ![xiaobanate-Cover](/images/swimming/xiaobanate-Cover.webp)
 
 注：阿特警官是孝感市公安局警察、哔哩哔哩UP主。第一人称视角拍摄的真实的执法现场等爆款短视频，让阿特警官收获众多粉丝。犯罪嫌疑人称经常刷到“阿特警官”的视频，让执法抓捕成为他的“粉丝”见面会。网友纷纷调侃称呼他为“抓粉丝的阿特”，同时，也正是越来越多的粉丝通过私信举报违法犯罪线索，成为了公安局的“粉丝天眼”。\
 歌曲outro部分来自刀脚，刀脚2001年出生于贵州安顺，和混音师荨麻疹是老乡（和我也是）。少时热爱滑板，因受伤在修养期间爱上了说唱。认为自己很有Freestyle battle 的天赋，后参加贵州地区 battle 比赛一举拿下冠军。刀脚的名字是因为喜欢周星驰电影《逃学威龙》中的招数“夺命剪刀脚”。
 
-2022 年 5 月 14 日，ICE 发布单曲《小李飞刀》，ft. 连麻、隼，B站可看 MV：[BV1zT4y1B77J](https://www.bilibili.com/video/BV1zT4y1B77J)
+2022 年 5 月 14 日，ICE 发布单曲[《小李飞刀》](orpheus://song/1946802010)，ft. 连麻、隼，B站可看 MV：[BV1zT4y1B77J](https://www.bilibili.com/video/BV1zT4y1B77J)
 
 ![xlfd-Cover](/images/swimming/xlfd-Cover.webp)
 
-2022 年 8 月 6 日，mac ova seas、连麻 Swimming、SASIOVERLXRD、kkluv、艾志恒 Asen、那奇沃夫、CashTrippy 、斑比 Bambii 发布 cypher《P Cypher》
+2022 年 8 月 6 日，mac ova seas、连麻 Swimming、SASIOVERLXRD、kkluv、艾志恒 Asen、那奇沃夫、CashTrippy 、斑比 Bambii 发布 cypher[《P Cypher》](orpheus://song/1969101201)
 
 ![pCypher-Cover](/images/swimming/pCypher-Cover.webp)
 
-2022 年 8 月 12 日，连麻发布又一大热单曲《谭 sir》
+2022 年 8 月 12 日，连麻发布又一大热单曲[《谭 sir》](orpheus://song/1970528609)
 
 ![tansir-Cover](/images/swimming/tansir-Cover.webp)
 
@@ -465,11 +465,11 @@ CQC头的败类不要继续犯罪
 
 | 序号 | 歌名 | 备注 |
 | --- | --- | --- |
-| 1 | 真假美猴王               |  |
-| 2 | 数钱的女孩 | 连麻写给自己老婆佳佳的歌，二人从高中开始相恋，直到22年结婚。她虽然不听说唱，但对连麻的说唱事业非常支持。 |
-| 3 | 下水道蚂蚁 | 8平房子里的4个小子：划船兄弟&Gibb-Z 黄泽&阿清蚂蚁是几人曾经所在的说唱团体 ANT |
-| 4 | 毛骗 | 讲述了一群各种骗术游走在城市间的边缘人物，以诈骗为生的同名古装网剧。虽然剧组很穷但是剧情超神。豆瓣评分第一季8.8，第二季9.5，终绪篇9.7，强烈推荐。 |
-| 5 | 最终幻想 |  |
+| 1 | [真假美猴王](orpheus://song/2006224434)               |  |
+| 2 | [数钱的女孩](orpheus://song/2006229677) | 连麻写给自己老婆佳佳的歌，二人从高中开始相恋，直到22年结婚。她虽然不听说唱，但对连麻的说唱事业非常支持。 |
+| 3 | [下水道蚂蚁](orpheus://song/2006229678) | 8平房子里的4个小子：划船兄弟&Gibb-Z 黄泽&阿清蚂蚁是几人曾经所在的说唱团体 ANT |
+| 4 | [毛骗](orpheus://song/2006224438) | 讲述了一群各种骗术游走在城市间的边缘人物，以诈骗为生的同名古装网剧。虽然剧组很穷但是剧情超神。豆瓣评分第一季8.8，第二季9.5，终绪篇9.7，强烈推荐。 |
+| 5 | [最终幻想](orpheus://song/2006229679) |  |
 
 2022 年 12 月 16 日，五人组视觉项目《SINSHXT Vol.2》发布。其中包含 Sasi 的曲目：《死亡不是生命的终点》、《镜像人》、《OPPS》(ft.刀脚)；刀脚的曲目：《刀麻发鬓角》；RICHNOMADIC 的曲目《游牧主义》、《LIFE STYLE》、《SNOW MAKER》；连麻和隼的曲目：《真假美猴王》、《毛骗》、《下水道蚂蚁》\
 B 站可看：[BV1jd4y1v7Vz](https://www.bilibili.com/video/BV1jd4y1v7Vz)
@@ -487,7 +487,7 @@ B 站可看：[BV1jd4y1v7Vz](https://www.bilibili.com/video/BV1jd4y1v7Vz)
 [BV1UV4y1F7a7](https://www.bilibili.com/video/BV1UV4y1F7a7)、[BV1ZY411Z7tZ](https://www.bilibili.com/video/BV1ZY411Z7tZ)\
 1 期 13 分钟的喝酒闲聊节目 [BV1C14y1378K](https://www.bilibili.com/video/BV1C14y1378K)
 
-2023 年 3 月 18 日，连麻、Sasi、刀脚发布合作单曲《YUNBABA》，B站可看MV：[BV1Da411o7ez](https://www.bilibili.com/video/BV1Da411o7ez)
+2023 年 3 月 18 日，连麻、Sasi、刀脚发布合作单曲[《YUNBABA》](orpheus://song/2031077379)，B站可看MV：[BV1Da411o7ez](https://www.bilibili.com/video/BV1Da411o7ez)
 
 ![yunbaba-Cover](/images/swimming/yunbaba-Cover.webp)
 
@@ -501,7 +501,7 @@ B 站可看：[BV1jd4y1v7Vz](https://www.bilibili.com/video/BV1jd4y1v7Vz)
 
 2024 年 2 月 14 日，连麻和刀脚登上社区 Rapper，表演曲目《不要装十三》、《哦》， B 站：[BV1J6421g7WY](https://www.bilibili.com/video/BV1J6421g7WY)
 
-2024 年 3 月 1 日，五人组再度发布联合单曲《声色犬马》，B站可看 MV：[BV1Up4y1K7UC](https://www.bilibili.com/video/BV1Up4y1K7UC)
+2024 年 3 月 1 日，五人组再度发布联合单曲[《声色犬马》](orpheus://song/2131401467)，B站可看 MV：[BV1Up4y1K7UC](https://www.bilibili.com/video/BV1Up4y1K7UC)
 
 ![ssqm-Cover](/images/swimming/ssqm-Cover.webp)
 
@@ -519,18 +519,18 @@ B 站可看：[BV1jd4y1v7Vz](https://www.bilibili.com/video/BV1jd4y1v7Vz)
 
 | 序号 | 歌名 | 备注 |
 | --- | --- | --- |
-| 1 | 恶中之恶 | 同名韩剧讲述了在 1990 年代，为了推翻跨国毒品垄断集团，警察朴俊默伪装成权胜浩潜入毒品交易中心江南联合组织展开调查的故事。 |
-| 2 | 超雄综合症 |  |
-| 3 | 无良道长 | Ft.谢帝，MV：[BV1Ds421M7Xk](https://www.bilibili.com/video/BV1Ds421M7Xk) |
-| 4 | 哦（That' it） | Ft.刀脚，专辑先行曲，MV：[BV1jm411f7hx](https://www.bilibili.com/video/BV1jm411f7hx) |
-| 5 | 滑成宝马 |  |
-| 6 | U Don' t Like Sh!t |  |
-| 7 | 逆术家 | Ft. PlayerJ、阿牛、步步高先生 |
-| 8 | 降级生 | 题目取材于连麻的真实经历，连麻在应该升入初二的年纪，被降级读了六年级。彼时隼在读初二。 |
-| 9 | 舔狗 | 题目是连麻对自己高中时追了半年才追到女朋友佳佳的调侃。甚至call back到了上一首，虽然连麻比佳佳大，但是佳佳高二的时候，连麻高一。 |
-| 10 | 漫长的季节 | Ft RICHNOMADIC，MV：[BV1Ew4m1S7kg](https://www.bilibili.com/video/BV1Ew4m1S7kg) |
-| 11 | 镜像人 | 连麻直播时说是写给隼的 |
-| 12 | 灯下黑 | MV：[BV1HU411f7Ln](https://www.bilibili.com/video/BV1HU411f7Ln) |
+| 1 | [恶中之恶](orpheus://song/2155975886) | 同名韩剧讲述了在 1990 年代，为了推翻跨国毒品垄断集团，警察朴俊默伪装成权胜浩潜入毒品交易中心江南联合组织展开调查的故事。 |
+| 2 | [超雄综合症](orpheus://song/2155972624) |  |
+| 3 | [无良道长](orpheus://song/2155975887) | Ft.谢帝，MV：[BV1Ds421M7Xk](https://www.bilibili.com/video/BV1Ds421M7Xk) |
+| 4 | [哦（That' it）](orpheus://song/2155972625) | Ft.刀脚，专辑先行曲，MV：[BV1jm411f7hx](https://www.bilibili.com/video/BV1jm411f7hx) |
+| 5 | [滑成宝马](orpheus://song/2155975888) |  |
+| 6 | [U Don' t Like Sh!t](orpheus://song/2155975890) |  |
+| 7 | [逆术家](orpheus://song/2155975889) | Ft. PlayerJ、阿牛、步步高先生 |
+| 8 | [降级生](orpheus://song/2155972626) | 题目取材于连麻的真实经历，连麻在应该升入初二的年纪，被降级读了六年级。彼时隼在读初二。 |
+| 9 | [舔狗](orpheus://song/2155972622) | 题目是连麻对自己高中时追了半年才追到女朋友佳佳的调侃。甚至call back到了上一首，虽然连麻比佳佳大，但是佳佳高二的时候，连麻高一。 |
+| 10 | [漫长的季节](orpheus://song/2155975891) | Ft RICHNOMADIC，MV：[BV1Ew4m1S7kg](https://www.bilibili.com/video/BV1Ew4m1S7kg) |
+| 11 | [镜像人](orpheus://song/2155972623) | 连麻直播时说是写给隼的 |
+| 12 | [灯下黑](orpheus://song/2155972627) | MV：[BV1HU411f7Ln](https://www.bilibili.com/video/BV1HU411f7Ln) |
 
 > 注：《漫长的季节》为同名电视剧，讲述了出租车司机王响的儿子多年前跟一桩命案相关，死于非命。因为一起意外的套牌案，逃逸多年的凶手再次出现在桦林、王响和他的老伙计龚彪、辞职的老刑警马德胜组成民间探案三人组，踏上寻凶之旅。本人心中中国近十年最好的电视剧，强烈推荐
 
@@ -558,7 +558,7 @@ B 站可看：[BV1jd4y1v7Vz](https://www.bilibili.com/video/BV1jd4y1v7Vz)
 
 2025 年 6 月 28 日，刀脚 ft.连麻& popogo & V DUGG 发布《踹门抓小三》，收录于刀脚个人专辑《脚殺传》中。
 
-同一天，连麻作为首位嘉宾，登上热单间 Heatroom，表演了 3 首全新编曲的经典曲目：《谭 sir》《下水道蚂蚁》《数钱的女孩》。\
+同一天，连麻作为首位嘉宾，登上热单间 Heatroom，表演了 3 首全新编曲的经典曲目：[《谭 sir》](orpheus://song/2720012714)[《下水道蚂蚁》](orpheus://song/2720014148)[《数钱的女孩》](orpheus://song/2720013908)。\
 B站可看：[BV1YWKrzzEi7](https://www.bilibili.com/video/BV1YWKrzzEi7)
 
 2025 年 8 月 23 日,谢帝 ft.连麻发布《土壤》,收录于谢帝个人 Mixtape《Couple Hunnid All Star Mixtape Vol.1》中。
