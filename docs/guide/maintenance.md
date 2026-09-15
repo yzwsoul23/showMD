@@ -40,6 +40,7 @@ showMD/
 | `npm run thumbs` | 原图 → 缩略图（增量，跳过已生成） | 每次往 originals 放了新图 |
 | `npm run thumbs -- --force` | 全部重新生成缩略图 | 换了原图或改了压缩参数 |
 | `npm run images:compress` | 原地压缩 images 目录 | 只有散图、不走 originals 时 |
+| `npm run ncm:songs` | 网易云歌单/歌手/专辑导出按发行时间排序的 CSV | 核对作品年表、挑 RE 素材时，见[网易云歌曲批量导出](#网易云歌曲批量导出ncm-songs) |
 | `npm run validate` | 校验艺人数据完整性 | 提交前必跑，CI 也会跑 |
 | `npm run docs:build` | 构建产物到 `docs/.vitepress/dist/` | 一般不用手动跑，见[发布](#发布与构建什么时候需要手动-build) |
 | `npm run docs:preview` | 本地预览构建结果 | 想复查和线上完全一致的效果时 |
@@ -286,6 +287,66 @@ npm run new-artist wang-mou 王某某 湖南 某厂牌 2019
 - 旧写法 `orpheus://song/5252838/?autoplay=1` 也能用，插件会自动归一化，新写一律用不带参数的简洁形式；
 - 只有 `orpheus://song|album|playlist/<数字ID>` 会接管，其他协议链接（歌手页等）保持原样。
 
+## 网易云歌曲批量导出（ncm-songs）
+
+`scripts/ncm-songs.mjs` 把网易云的**歌单 / 歌手 / 专辑**批量导出为 CSV：自动补全专辑发行时间 `al.publishTime`，按发行日期排序，`publishDate`/`publishMs` 两列直接可用来核对作品年表、整理 RE 时间线。
+
+### 基本用法
+
+```powershell
+# ① 先设置登录 cookie（每次新开 PowerShell 设置一次，窗口内一直有效）
+$env:NCM_COOKIE="MUSIC_U=你的MUSIC_U值"
+
+# ② 导出。第一个参数是链接，第二个是输出文件，第三个 asc 升序（默认）/ desc 降序
+node scripts/ncm-songs.mjs "https://music.163.com/m/playlist?id=17422019298&creatorId=594729410" 中文说唱歌单.csv asc
+node scripts/ncm-songs.mjs "http://music.163.com/artist?id=12453329" 功夫胖全歌曲.csv desc
+node scripts/ncm-songs.mjs "http://music.163.com/album/140566771/" GALI-亚特兰蒂斯.csv asc
+```
+
+也可用 npm 脚本：`npm run ncm:songs -- "<链接>" <输出文件> [asc|desc]`。
+
+- 链接支持完整分享链（如 `/m/playlist?id=xxx&creatorId=xxx&uiPlaylistType=UGC`）、地址栏短链、`/album/140566771/` 路径式三种形态；
+- 输出 CSV 带 UTF-8 BOM，Excel 直接双击打开不乱码；
+- 歌手模式会逐张请求其全部专辑（每张间隔 200ms），几十张专辑约 1-2 分钟，属正常速度。
+
+### CSV 列说明
+
+| 列 | 含义 |
+| :--- | :--- |
+| `publishDate` / `publishMs` | 发行日期（本地时区 YYYY-MM-DD）/ 毫秒时间戳 |
+| `songId` / `title` / `artists` | 歌曲 ID / 歌名 / 歌手（多人 `/` 分隔） |
+| `albumId` / `album` | 专辑 ID / 专辑名 |
+| `durationSec` | 时长（秒） |
+| `fee` | 1=免费，8=VIP |
+| `orpheus` | 客户端跳转播放链接，可直接粘进正文表格（见[上一节](#网易云跳转播放链接)） |
+| `webUrl` | 网页版链接 |
+
+### 三种链接的取数方式与登录要求
+
+| 链接类型 | 取数链路 | 无 cookie | 带 cookie |
+| :--- | :--- | :--- | :--- |
+| 歌单 | `v6/playlist/detail` 拿全量 trackIds → 500 首一批拉详情 | 公开歌单可用 | 私密歌单也可用 |
+| 歌手 | 遍历全部专辑逐张取歌（最全） | 回退热门 50 首 | 全量可用 |
+| 专辑 | 直接取专辑详情 | 不可用 | 可用 |
+
+### 获取 cookie
+
+1. 浏览器登录 music.163.com → F12 → Application（应用）→ Cookies → `https://music.163.com`；
+2. 复制 `MUSIC_U` 的值（一长串十六进制），拼成 `MUSIC_U=xxx` 填进 `$env:NCM_COOKIE`；
+3. cookie 有效期较长；失效特征是导出突然变 0 首或报 `-462`，重新复制一次即可。
+
+> `MUSIC_U` 等同账号凭证：不要提交进仓库、不要发给别人。
+
+### 异常排查（坑已内置处理，遇到异常按此对照）
+
+| 现象 | 原因与处理 |
+| :--- | :--- |
+| 报 `-462 请绑定手机` | 该接口要登录态，设置 `$env:NCM_COOKIE` |
+| 歌单报「歌单不存在」 | id 抄错了——分享短链里的 `id=` 是完整主键，从地址栏复制别漏末尾数字 |
+| 全部导出 0 首但无报错 | cookie 失效，重新复制 `MUSIC_U` |
+| 某些歌 `publishDate` 为空且排在最后 | 源头就没有发行时间（DJ 电台、外带资源），脚本自动沉底，不要硬按 id 补 |
+| `接口未找到 / 参数错误` | 网易云接口改版，检查 `scripts/ncm-songs.mjs` 里的 API 路径是否需要更新 |
+
 ## 批处理工具（不装 Node 也能用）
 
 `scripts/` 下有两个绿色批处理，适用于站点之外的日常转图：
@@ -327,5 +388,5 @@ npm run docs:preview  # 打开 http://localhost:4173/showMD/ 复查生产效果
 
 | 日期 | 更新内容 |
 | :--- | :--- |
-| 2026-09-15 | 新增网易云跳转播放链接写法（`orpheus://song/album/playlist/<ID>`，唤起客户端自动播放、未安装回退网页版） |
+| 2026-09-15 | 新增网易云歌曲批量导出工具 `ncm-songs`（歌单/歌手/专辑 → 补 `al.publishTime`、按发行时间排序的 CSV）；新增网易云跳转播放链接写法（`orpheus://song/album/playlist/<ID>`，唤起客户端自动播放、未安装回退网页版） |
 | 2026-09-14 | 补全「新增艺人」七步流程与「修改已有文档」工作流；新增图片文件命名规范（禁止 `%` 等特殊字符）、表格表头规范、本地构建时机说明 |
