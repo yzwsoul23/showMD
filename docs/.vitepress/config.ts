@@ -46,6 +46,7 @@ export default defineConfig({
           { text: '连麻 Swimming', link: '/artists/swimming' }
         ]
       },
+      { text: '站点维护', link: '/guide/maintenance' },
       {
         text: 'GitHub',
         link: 'https://github.com/yzwsoul23/showMD'
@@ -62,13 +63,6 @@ export default defineConfig({
           { text: '功夫胖 KungFu-Pen', link: '/artists/kungfu-pen' },
           { text: '李佳隆 JelloRio', link: '/artists/jellorio' },
           { text: '连麻 Swimming', link: '/artists/swimming' }
-        ]
-      },
-      {
-        text: '站点维护',
-        collapsed: true,
-        items: [
-          { text: '内容维护教程', link: '/guide/maintenance' }
         ]
       }
     ],

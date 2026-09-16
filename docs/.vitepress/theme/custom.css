@@ -118,6 +118,12 @@ html {
   .VPNavBar.VPNavBar.has-sidebar .divider {
     padding-left: 0;
   }
+
+  /* 页面在顶部时（.top）分隔线与首页一样保持透明；
+     一旦向下滚动、.top 类移除，细线自动出现——与首页行为完全同步 */
+  .VPNavBar.VPNavBar.has-sidebar.top .divider-line {
+    background-color: transparent;
+  }
 }
 
 /* ---------- 顶栏站名：沿用站点基础字体，不加载特殊字体 ---------- */
@@ -642,13 +648,39 @@ html {
     max-width: 18em;
   }
 
-  .vp-doc p.has-block-img > img {
-    max-width: 88%;
+  /* ---------- 图片全部收进屏幕宽度 ----------
+     桌面端海报/照片/面板/现场图都有固定像素上限（320~560px），
+     叠加相纸边框后在 375px 屏（内容区约 327px）会溢出。
+     窄屏统一只按内容宽度等比缩放，高度不做硬限制，保证不变形、不裁切。
+     桌面端按 alt 分类的规则带 !important 且特异性 (0,2,1)，这里用
+     p>img[alt]（0,2,2）确保压过它们；封面黑胶规则 (0,3,1) 更高，由下面单独接管。
+     头像（130px）的固定 width/height 不被打破；表格缩略图不在 p/li 内，保持 120px；
+     灯箱在 .vp-doc 之外，也不受影响。 */
+  .vp-doc p > img[alt],
+  .vp-doc li > img[alt] {
+    max-width: 100% !important;
+    max-height: none !important;
   }
 
+  /* 黑胶封套在窄屏退化为普通方形封面：不再整体左移，黑胶也不探出封套，
+     宽度取「桌面尺寸与内容宽度」的较小值，杜绝横向溢出 */
   .vp-doc p.has-block-img:has(> img[alt*='cover' i]),
   .vp-doc p.has-block-img:has(> img[alt*='封面']) {
-    width: 224px;
+    width: min(224px, 100%);
+    transform: none;
+  }
+
+  .vp-doc p.has-block-img:has(> img[alt*='cover' i])::before,
+  .vp-doc p.has-block-img:has(> img[alt*='封面'])::before {
+    display: none;
+  }
+
+  /* 外链胶囊允许在窄屏换行，长 BV 号不会把段落撑出屏幕。
+     基础胶囊规则在源文件更靠后，这里用 :is() 提一级特异性压过 nowrap */
+  .vp-doc :is(p, li, td) > a[href^='orpheus://'],
+  .vp-doc :is(p, li, td) > a[href*='bilibili.com/video/'] {
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 }
 
@@ -963,14 +995,11 @@ html {
   user-select: none;
 }
 
-/* 阅读模式下的按钮文字（小屏隐藏文字只留图标） */
-@media (max-width: 640px) {
-  .rs-reading-toggle__text {
-    display: none;
-  }
-
+/* 阅读模式是桌面端功能（收起侧栏、重排双栏，为录 RE 视频服务）；
+   960px 以下侧栏本就折叠成抽屉，按钮无意义，直接不显示 */
+@media (max-width: 959px) {
   .rs-reading-toggle {
-    padding: 10px 14px;
+    display: none;
   }
 }
 
