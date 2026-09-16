@@ -35,6 +35,26 @@ export interface Artist {
 
 export const artists: Artist[] = [
   {
+    id: 'gai',
+    name: 'GAI 周延',
+    alias: ['周延', 'Double G'],
+    region: '重庆',
+    label: '种梦音乐 D.M.G',
+    avatar: '/images/avatars/gai.webp',
+    debutYear: 2012,
+    bio: 'GOSH 初代成员，2017 年《中国有嘻哈》全国总冠军，江湖流说唱代表人物，代表作《苦行僧》《华夏》。',
+    songs: [
+      { title: '一百零八', year: 2016, role: '演唱' },
+      { title: '苦行僧', year: 2016, role: '演唱 (feat. 功夫胖)' },
+      { title: '空城计', year: 2016, role: '演唱' },
+      { title: '光宗耀祖', year: 2018, role: '专辑' },
+      { title: '华夏', year: 2019, role: '演唱' },
+      { title: '烻', year: 2020, role: '专辑' },
+      { title: '杜康', year: 2022, role: '专辑' },
+      { title: 'Real G', year: 2026, role: '专辑' }
+    ]
+  },
+  {
     id: 'gali',
     name: 'GALI',
     alias: ['蒋文涵'],

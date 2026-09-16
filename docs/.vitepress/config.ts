@@ -39,6 +39,7 @@ export default defineConfig({
       {
         text: '艺人档案',
         items: [
+          { text: 'GAI 周延', link: '/artists/gai' },
           { text: 'GALI', link: '/artists/gali' },
           { text: '功夫胖 KungFu-Pen', link: '/artists/kungfu-pen' },
           { text: '李佳隆 JelloRio', link: '/artists/jellorio' },
@@ -56,6 +57,7 @@ export default defineConfig({
         text: '艺人档案',
         collapsed: true,
         items: [
+          { text: 'GAI 周延', link: '/artists/gai' },
           { text: 'GALI', link: '/artists/gali' },
           { text: '功夫胖 KungFu-Pen', link: '/artists/kungfu-pen' },
           { text: '李佳隆 JelloRio', link: '/artists/jellorio' },
