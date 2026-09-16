@@ -72,13 +72,21 @@ html {
   --rs-gold: #b78a35;
   --rs-vinyl: #211a14;
   --rs-shadow: 0 14px 30px -14px rgba(70, 45, 18, 0.45);
+
+  /* 外链胶囊图标：内联 SVG，配合 CSS mask + currentColor 着色，
+     随文字颜色走，不产生任何网络请求 */
+  --rs-icon-headphone: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3'/%3E%3C/svg%3E");
+  --rs-icon-video: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='2.5' y='5' width='19' height='14' rx='4'/%3E%3Cpath d='M10.2 9.3v5.4l4.8-2.7z' fill='black' stroke='none'/%3E%3C/svg%3E");
 }
 
 /* ---------- 顶栏：完整一条，不与左侧栏融合 ----------
    默认主题在桌面端（≥960px）带侧边栏时会做三件事让站名「融进」侧栏：
-   侧栏里的 .curtain 块用侧栏底色（深纸色）填满顶栏高度、站名区透明、
-   分隔线从侧栏右缘才开始。于是「中文说唱档案」看起来像侧栏的标题。
-   这里全部反转：curtain 与站名区都用顶栏纸色，分隔线通栏——
+   侧栏里的 .curtain 块用侧栏底色（深纸色）填满顶栏高度、站名区绝对定位到
+   侧栏宽度内、导航项用 padding-left 让出整条侧栏、分隔线从侧栏右缘才开始。
+   于是「中文说唱档案」看起来像侧栏的标题；≥1440px 时 padding-left 还要再
+   加上 (100vw - 1440)/2，在站名与右侧导航项之间留出一大块空隙。
+   这里全部反转：恢复首页式的「wrapper 两侧留白 + container 居中限宽」，
+   标题回到文档流、导航项不再为侧栏让位，分隔线通栏——
    顶栏和首页一样是独立完整的一条，侧栏从分隔线下方开始。 */
 
 @media (min-width: 960px) {
@@ -86,8 +94,25 @@ html {
     background-color: var(--vp-nav-bg-color);
   }
 
+  .VPNavBar.VPNavBar.has-sidebar .wrapper {
+    padding: 0 32px;
+  }
+
+  .VPNavBar.VPNavBar.has-sidebar .container {
+    max-width: calc(var(--vp-layout-max-width) - 64px);
+  }
+
   .VPNavBar.VPNavBar.has-sidebar .title {
+    position: static;
+    width: auto;
+    height: calc(var(--vp-nav-height) - 1px);
+    padding: 0;
     background-color: var(--vp-nav-bg-color);
+  }
+
+  .VPNavBar.VPNavBar.has-sidebar .content {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .VPNavBar.VPNavBar.has-sidebar .divider {
@@ -95,13 +120,11 @@ html {
   }
 }
 
-/* ---------- 顶栏站名：站酷庆科黄油体（嘻哈艺术风） ---------- */
+/* ---------- 顶栏站名：沿用站点基础字体，不加载特殊字体 ---------- */
 
 .VPNavBarTitle.VPNavBarTitle .title {
-  font-family: 'ZCOOL QingKe HuangYou', Georgia, 'Times New Roman',
-    'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', serif;
   font-size: 19px;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.08em;
 }
 
@@ -952,39 +975,68 @@ html {
 }
 
 /* ============================================================
-   网易云跳转播放链接：orpheus://song|album|playlist/<id>
-   markdown 里 [歌名](orpheus://song/123) 即自动变成播放胶囊
+   外链胶囊：两类跳转链接共用同一套胶囊样式
+   - 网易云 orpheus:// 唤起链接：耳机图标
+   - B站视频 bilibili.com/video 链接：视频图标
+   markdown 里写普通链接即自动套样式，无需任何组件
    ============================================================ */
 
-.vp-doc a[href^='orpheus://'] {
+.vp-doc a[href^='orpheus://'],
+.vp-doc a[href*='bilibili.com/video/'] {
   display: inline-flex;
   align-items: center;
   gap: 0.4em;
   margin: 0 0.12em;
-  padding: 0.04em 0.6em 0.04em 0.45em;
+  padding: 0.06em 0.62em 0.06em 0.5em;
   border: 1px solid rgba(162, 53, 37, 0.35);
   border-radius: 999px;
   background: rgba(162, 53, 37, 0.07);
   color: var(--rs-red);
   font-weight: 400;
+  line-height: 1.5;
   white-space: nowrap;
+  word-break: normal;
   transition:
     background-color 0.2s,
     border-color 0.2s;
 }
 
-.vp-doc a[href^='orpheus://']::before {
-  content: '';
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0.32em 0 0.32em 0.55em;
-  border-color: transparent transparent transparent var(--rs-red);
-}
-
-.vp-doc a[href^='orpheus://']:hover {
+.vp-doc a[href^='orpheus://']:hover,
+.vp-doc a[href*='bilibili.com/video/']:hover {
   border-color: var(--rs-red);
   background: rgba(162, 53, 37, 0.14);
+}
+
+/* 图标：mask 内联 SVG，填充色跟随 currentColor（红色） */
+.vp-doc a[href^='orpheus://']::before,
+.vp-doc a[href*='bilibili.com/video/']::before {
+  content: '';
+  flex: 0 0 auto;
+  width: 1.08em;
+  height: 1.08em;
+  background-color: currentColor;
+}
+
+.vp-doc a[href^='orpheus://']::before {
+  -webkit-mask-image: var(--rs-icon-headphone);
+  mask-image: var(--rs-icon-headphone);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+.vp-doc a[href*='bilibili.com/video/']::before {
+  -webkit-mask-image: var(--rs-icon-video);
+  mask-image: var(--rs-icon-video);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
 }
 
 /* 唤起客户端时的提示条 */
