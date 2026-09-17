@@ -16,11 +16,13 @@ export default defineConfig({
 
   head: [
     ['meta', { name: 'theme-color', content: '#f6efe1' }],
-    ['link', { rel: 'icon', href: '/showMD/images/favicon.svg', type: 'image/svg+xml' }]
+    // SVG favicon 内嵌图形并跟随系统深浅色：浅色标签为黑色、深色标签反白；
+    // PNG 回退给不支持 SVG favicon 的旧浏览器
+    ['link', { rel: 'icon', href: '/showMD/images/favicon.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'icon', href: '/showMD/images/favicon.png', type: 'image/png', sizes: '128x128' }]
   ],
 
   themeConfig: {
-    logo: '/images/logo.png',
     siteTitle: '中文说唱档案',
     outline: {
       level: [2, 3],

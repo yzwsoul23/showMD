@@ -60,9 +60,6 @@ html {
     'Source Han Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
   --vp-font-family-mono: Consolas, 'JetBrains Mono', 'Courier New', monospace;
 
-  /* 顶栏 logo 高度（默认 24px 偏小，配 19px 站名取 28px） */
-  --vp-nav-logo-height: 28px;
-
   /* --- 唱片店自有变量 --- */
   --rs-paper: #f6efe1;
   --rs-paper-deep: #efe4cd;
@@ -135,14 +132,6 @@ html {
   font-size: 19px;
   font-weight: 600;
   letter-spacing: 0.08em;
-}
-
-/* logo 本身是黑色实心图形（透明底 PNG）：浅色牛皮纸上直接用黑色；
-   一旦进入深色模式（html.dark），整图反色为白色，保持清晰。
-   注：本站当前 appearance:false 全站禁用深色模式，此规则为预留，
-   将来开启深色模式时无需再换图。透明通道不受 invert 影响。 */
-.dark .VPNavBar .logo {
-  filter: invert(1);
 }
 
 /* ---------- 正文排版 ---------- */
@@ -644,11 +633,6 @@ html {
 }
 
 @media (max-width: 640px) {
-  /* 移动顶栏更矮，logo 相应收小 */
-  :root {
-    --vp-nav-logo-height: 24px;
-  }
-
   /* 表格：窄屏收紧内边距，宽表靠底部滚动条横滑，不挤压列内容 */
   .vp-doc .rs-table-wrap > table {
     font-size: 0.88em;
