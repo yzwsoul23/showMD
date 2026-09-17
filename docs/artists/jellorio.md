@@ -48,7 +48,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 ## 2018年
 
-3月《Feat_China 联合利华》纪录片第三集（b站：[BV1SW411 M7Ac](https://www.bilibili.com/video/BV1SW411M7Ac) 一共14分钟），和 bbno$ 合作发布歌曲《drip》。（这首歌音源在 qq音乐，b站 mv：[BV1pV41117ae](https://www.bilibili.com/video/BV1pV41117ae)）
+3月《Feat_China 联合利华》纪录片第三集（b站：[BV1SW411 M7Ac](https://www.bilibili.com/video/BV1SW411M7Ac) 一共14分钟），和 bbno$ 合作发布歌曲[《drip》](orpheus://song/1327111546)。（这首歌音源在 qq音乐，b站 mv：[BV1pV41117ae](https://www.bilibili.com/video/BV1pV41117ae)）
 
 在纪录片开头作为新人的李佳隆因为言论遭到了很大的争议和质疑。面对恶评，当时也出了一首《你不是我》来回应（后收录在个人首专《JELLO/REAL》中，b站有 mv：[BV1dt4y1e7MQ](https://www.bilibili.com/video/BV1dt4y1e7MQ)）
 
@@ -67,14 +67,14 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 - 8-4[《特别》](orpheus://song/1298898548)，老道编曲（b站 mv：[BV1RW411U73x](https://www.bilibili.com/video/BV1RW411U73x)），开头第一次出现恶恶配的日语 tag（后面歌曲还会经常出现）
 - 8-9[《星球坠落》](orpheus://song/1300104493)（只有节目 live 版音源可以直接搜）
 
-**下半年参加综艺节目《中国新说唱》**，60s 演唱《月儿圆》成功晋级，之后的 1v1 环节和艾热合作《星球坠落》（b站：[BV1Py421q7fT](https://www.bilibili.com/video/BV1Py421q7fT)）被淘汰。后面在场外人气投票投进复活赛演唱《特别》又惜败艾热。
+**下半年参加综艺节目《中国新说唱》**，60s 演唱《月儿圆》成功晋级，之后的 1v1 环节和艾热合作[《星球坠落》](orpheus://song/1296583188)（b站：[BV1Py421q7fT](https://www.bilibili.com/video/BV1Py421q7fT)）被淘汰。后面在场外人气投票投进复活赛演唱《特别》又惜败艾热。
 
 > 两人在上节目前各自发过写给自己恋人的歌曲《星球杯》和《falling》，恰好是同一个伴奏，所以在节目里就合二为一合作了《星球坠落》。这首歌是当年节目里真正意义上的大爆单。
 
 节目之后，李佳隆迎来了巨大的流量，大众给他贴上了"情歌王子"的标签。但他本人非常反感被贴上这个标签，"我不喜欢被贴上'情歌王子'的标签以及任何的标签，我不喜欢我成为爆款，包括我和女朋友的兔子"。在当时的采访中，他表示无论走到哪里大家都只记得这一首歌而不记住他的名字，"除了星球坠落，我还有很多好作品"
 
 - 9-6[《坠落》](orpheus://song/1306497504)
-- 9-26 和希介、梦徐、R3DDI 合作曲《Good Trip \[Keep On Movin'\] Prod.S.O》
+- 9-26 和希介、梦徐、R3DDI 合作曲[《Good Trip \[Keep On Movin'\] Prod.S.O》](orpheus://song/1312894164)
 - 9-27[《听懂没》](orpheus://song/1313082595)（参加节目爆火之后写下的歌）
 - 10-25[《嗨哈喂》](orpheus://song/1320100116)
 
@@ -108,11 +108,11 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 | [Lighting](orpheus://song/1351564259) | Feat 艾热 AIR 又是一首写给各自恋人的情歌 |
 | [Outro](orpheus://song/1351564260) |  |
 
-- 4-7 参与 Asen的首张mixtape《Nesa Tape》合作单曲《Like It》《Once Upon A Time Freestyle》《Know Me》
+- 4-7 参与 Asen的首张mixtape《Nesa Tape》合作单曲《Like It》[《Once Upon A Time Freestyle》](orpheus://song/1356842901)《Know Me》
 - 6-22 单曲[《月儿圆》](orpheus://song/1373387741)，是王以太 remix 版本
 - 7-2 单曲[《 I 》](orpheus://song/1375450585)（歌名是罗马数字1不是I）
-- 11-1 和于意 Yee 合作单曲《HIGHWAY》
-- 11-12 和罗轩合作单曲《Sunday》，qq音乐可听
+- 11-1 和于意 Yee 合作单曲[《HIGHWAY》](orpheus://song/1400063384)
+- 11-12 和罗轩合作单曲[《Sunday》](orpheus://song/1402896080)，qq音乐可听
 - 11-15 和 Asen 的合作单曲[《BERRY》](orpheus://song/1403756319)，是2020节目里演唱最出圈的一首情歌，当时 Asen 还默默无闻，加上有非常多说唱歌手来 remix，包括 sasloverlord、gali、mac ova seas、李大奔、黄之仪等等，所以很多人都不知道 Asen 是原唱
 
 ### 《壹》
@@ -134,12 +134,12 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 ## 2020年
 
 - 2-14 李佳隆做客 TWH 电台(b站有MV：[BV1N7411g7J6](https://www.bilibili.com/video/BV1N7411g7J6))
-- 4-18 和 mac ova seas 合作曲《闪电》，当年被称为"auto-tune的最佳使用说明书"，b站有 mv：[BV1v64y127Ew](https://www.bilibili.com/video/BV1v64y127Ew)
+- 4-18 和 mac ova seas 合作曲[《闪电》](orpheus://song/1441581262)，当年被称为"auto-tune的最佳使用说明书"，b站有 mv：[BV1v64y127Ew](https://www.bilibili.com/video/BV1v64y127Ew)
 - 5-20 和 KANNA BUSH（孟子坤）合作单曲[《世界末日》](orpheus://song/1449416554)
-- 6-19 和 90sBABY 合作单曲《SERPENT》
+- 6-19 和 90sBABY 合作单曲[《SERPENT》](orpheus://song/1456673506)
 - 7-27 单曲[《还没离开》](orpheus://song/1465948772)，网易云可看 mv
-- 7-29 和慕斯塔法合作单曲《Falling》
-- 8-7 和功夫胖合作单曲《复活》
+- 7-29 和慕斯塔法合作单曲[《Falling》](orpheus://song/1466349163)
+- 8-7 和功夫胖合作单曲[《复活》](orpheus://song/1468158078)
 
 **参加《中国新说唱2020》节目，获得总冠军**：在节目里加入了加拿大故人"X发电站"战队（mac ova seas 也是同战队的并且是当年的九强），展现了很多对 Auto-tune 的使用，也是大面积承受争议的开始
 
@@ -156,9 +156,9 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 | --- | --- |
 | 海选阿卡贝拉 | [跳1:54](https://www.bilibili.com/video/BV1b8G96vEHM/?t=112) |
 | 60s《嗨喽喂》 | [跳0:15](https://www.bilibili.com/video/BV1b8G96vEHM/?p=2&t=14) |
-| 双人合作《卫星》 | [跳0:50](https://www.bilibili.com/video/BV1b8G96vEHM/?p=3&t=49) |
+| 双人合作[《卫星》](orpheus://song/1476449942) | [跳0:50](https://www.bilibili.com/video/BV1b8G96vEHM/?p=3&t=49) |
 | 个人solo《我们》 | [跳0:50](https://www.bilibili.com/video/BV1b8G96vEHM/?p=4&t=49) |
-| 战队cypher《SuperX》 | [跳2:26](https://www.bilibili.com/video/BV1b8G96vEHM/?p=5&t=145) |
+| 战队cypher[《SuperX》](orpheus://song/1482146943) | [跳2:26](https://www.bilibili.com/video/BV1b8G96vEHM/?p=5&t=145) |
 | 导师帮唱《Juice》（有故人部分） | [跳1:14](https://www.bilibili.com/video/BV1b8G96vEHM/?p=6&t=73) |
 | 情歌专场《berry》 | [跳0:40](https://www.bilibili.com/video/BV163V86WE1D/?t=40) |
 | 淘汰赛1v1对决李大奔《听懂没2.0》 | [BV1Zs4y1h7qo](https://www.bilibili.com/video/BV1Zs4y1h7qo) |
@@ -171,7 +171,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 ## 2021年
 
-开年参加综艺《天赐的声音第二季》，在节目里和万妮达合作《月亮代表我的心》（老歌改编），和胡夏合作《千言万语》（陶喆专辑曲目）《思念是一种病》（老歌改编）。（两首在网易云部有音源，[BV19X4y1N7JC](https://www.bilibili.com/video/BV19X4y1N7JC)/[BV1yU4y1s7Sg](https://www.bilibili.com/video/BV1yU4y1s7Sg)，可看不看，想看的话有节目 cut，27分钟 b站：[BV1wU4y1W7qL](https://www.bilibili.com/video/BV1wU4y1W7qL)）
+开年参加综艺《天赐的声音第二季》，在节目里和万妮达合作[《月亮代表我的心》](orpheus://song/1816711403)（老歌改编），和胡夏合作《千言万语》（陶喆专辑曲目）[《思念是一种病》](orpheus://song/1818733937)（老歌改编）。（两首在网易云部有音源，[BV19X4y1N7JC](https://www.bilibili.com/video/BV19X4y1N7JC)/[BV1yU4y1s7Sg](https://www.bilibili.com/video/BV1yU4y1s7Sg)，可看不看，想看的话有节目 cut，27分钟 b站：[BV1wU4y1W7qL](https://www.bilibili.com/video/BV1wU4y1W7qL)）
 
 在两档节目结束之后，面对巨大的流量，李佳隆又选择了沉淀自己减少曝光，这一年主要是投入到专辑制作之中，也发布了很多单曲
 
@@ -180,9 +180,9 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 - 4-1 和刘思鉴合作曲[《纸上谈兵》](orpheus://song/1833792929)
 - 4-5 单曲[《DICE》](orpheus://song/1835038615)，混音和母带来自 Asen，此时 Asen 已离开出人头地（2020年李佳隆夺冠后 asen 离开出人头地）
 - 4-27 欧莱雅广告歌[《HYDRA POWER》](orpheus://song/1839455752)
-- 5-27 和 BLOWFEVER 合作单曲《Saucy》
+- 5-27 和 BLOWFEVER 合作单曲[《Saucy》](orpheus://song/1844355272)
 - 6-16 王源合作的歌曲《洄》(b站有MV：[BV1u44y187bD](https://www.bilibili.com/video/BV1u44y187bD))
-- 6-19 和布瑞吉合作单曲《全世界流浪》
+- 6-19 和布瑞吉合作单曲[《全世界流浪》](orpheus://song/1855124033)
 - 7-2 万妮达 TizzyT 李佳隆联手献礼100周年《百年》（b站MV：[BV1NM4y1M7zR](https://www.bilibili.com/video/BV1NM4y1M7zR) 这首qq音乐有版权）
 - 7-15 单曲[《偶像系列》](orpheus://song/1861084149)，歌名指的是游戏堡垒之夜的一个皮肤系列，网易云可看 mv（字幕 mv可不看）
 - 8-14 单曲[《抄袭》](orpheus://song/1868852479)（这首是情歌，封面的兔子是因为恶恶喜欢兔子），网易云可看 mv
@@ -207,8 +207,8 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 这张 EP 算是专辑的开胃菜。
 
-- 5-19 和邓典果 DDG 合作曲[《RAVEN》](orpheus://song/1947949506)，网易云可看 mv（中国说唱巅峰对决2022节目有这首歌和 PSY.P 的版本《C位渡鸦》，可选择是否观看现场：[BV1s7XkBxExA](https://www.bilibili.com/video/BV1s7XkBxExA)）
-- 9-17 和邓典果 DDG 合作曲《懒汉全席》
+- 5-19 和邓典果 DDG 合作曲[《RAVEN》](orpheus://song/1947949506)，网易云可看 mv（中国说唱巅峰对决2022节目有这首歌和 PSY.P 的版本[《C位渡鸦》](orpheus://song/1964443056)，可选择是否观看现场：[BV1s7XkBxExA](https://www.bilibili.com/video/BV1s7XkBxExA)）
+- 9-17 和邓典果 DDG 合作曲[《懒汉全席》](orpheus://song/1971679468)
 
 **同年参加了《中国说唱巅峰对决2022》**，因为觉得自己当下的状态不适合节目竞技节奏，所以在待定之后拒绝万妮达的组队邀请选择离开，但是贡献了很精彩的舞台推荐《传奇》（现场抖音搜），击败 gali 的《亚特兰蒂斯之心》
 
@@ -240,7 +240,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 - 10-13 做客 SoulSense TWH-Frestyle现场表演新作《囚》（b站有mv：[BV14d4y117qg](https://www.bilibili.com/video/BV14d4y117qg)）
 - 10-20 李佳隆做客 白板WhiteBoard  | 囚 Cage | 露西 LUCY | DICE（B站有MV：[BV1Wg411a7kM](https://www.bilibili.com/video/BV1Wg411a7kM)）
-- 11-5 和 Asen 合作曲《说唱钱》，网易云可看 mv
+- 11-5 和 Asen 合作曲[《说唱钱》](orpheus://song/1995339511)，网易云可看 mv
 
 ---
 
@@ -252,25 +252,25 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 - 4-1 单曲[《线》](orpheus://song/2034554735)
 - 5-13 单曲[《小小明星》](orpheus://song/2046764828)
 - 6-1 单曲[《嘉陵》](orpheus://song/2051582458)（也有节目版本）
-- 7-11 和等一下就回家合作单曲《小的们》
+- 7-11 和等一下就回家合作单曲[《小的们》](orpheus://song/2063964758)
 - 7-20 单曲[《杜鹃》](orpheus://song/2064487982)，有录音室普通/[升调](orpheus://song/2064488973)/[不插电](orpheus://song/2064488974)三个版本。网易云可看 mv。这首歌是写给自己的，把自己比作杜鹃鸟。李佳隆："流量和热度可能转瞬即逝，我抓不住它，杜鹃只是一只小小鸟，它可能没有办法飞得很高，但是当它用尽力气冲破云层缺氧坠下之前留下的最后一鸣你一定会记住"。（仔细听歌词有倒叙）
-- 9-14 和黄旭合作单曲《WHO'S NEXT》，网易云可看 mv
+- 9-14 和黄旭合作单曲[《WHO'S NEXT》](orpheus://song/2079429416)，网易云可看 mv
 
 **参加节目《中国说唱巅峰对决2023》**，和战队"小跑猪"走到最后一轮，成为这一年节目里个人 PK 战绩最佳选手。下面是节目歌曲（在网易云也都有音源可以直接搜）：
 
 | 歌曲名称 | 备注 |
 | --- | --- |
 | 嘉陵| Solo 歌曲，有录音室版本，现场有改编，推荐观看 b站：[BV1aG8NeNEww](https://www.bilibili.com/video/BV1aG8NeNEww) |
-| Hard to believe | 和佐加的合作曲，现场可看不看 |
-| Be Alright（心跳节拍） | 战队合作曲，可听可不听 |
-| 在 Cypher 里 | 战队 cypher，可听可不听 |
+| [Hard to believe](orpheus://song/2050717170) | 和佐加的合作曲，现场可看不看 |
+| [Be Alright（心跳节拍）](orpheus://song/2052405911) | 战队合作曲，可听可不听 |
+| [在 Cypher 里](orpheus://song/2054294503) | 战队 cypher，可听可不听 |
 | 续写传奇 | Solo 歌曲，**一首回击质疑的歌**，非常推荐观看现场，抖音搜 |
-| 小跑猪的新衣 | 战队 cypher，改编 vava《我的新衣》，可看不看 |
+| [小跑猪的新衣](orpheus://song/2058165915) | 战队 cypher，改编 vava《我的新衣》，可看不看 |
 | 小小明星| Solo 歌曲，有录音室版本，现场发挥也不错。但是这首挂电的歌因为在"回到街头"主题环节演唱击败黄旭被喷"不够街头"不该赢 b站：[BV17Z421p7mb](https://www.bilibili.com/video/BV17Z421p7mb)（视频画面比较小） |
 | 偶像系列 | Solo 歌曲，有录音室版本，现场可看不看。 |
-| 线（remix） | 合作曲，录音室版本是李佳隆自己的情歌爆单《线》。和黄旭的合作可听可不听 |
+| [线（remix）](orpheus://song/2063768244) | 合作曲，录音室版本是李佳隆自己的情歌爆单《线》。和黄旭的合作可听可不听 |
 | 杜鹃 | Solo 歌曲，有录音室普通/升调/不插电三个版本。现场可看不看。 |
-| 猪队友 | 战队合作曲，可看不看 |
+| [猪队友](orpheus://song/2065926895) | 战队合作曲，可看不看 |
 
 这一年参加节目依旧争议很大，核心还是2020时期争议的那几点（挂电、情歌、混子、最水冠军），与此同时在唱不挂电歌曲时也有人说"还是挂电好听应该挂电"。这个阶段也有"混的最差的冠军"的声音（这几年的音乐选择实际上真的影响到了李佳隆在大众层面的热度，在商业层面落后那几年节目其他冠军和热门选手的发展。25年还有过巡演门票没卖完的情况。）
 
@@ -278,7 +278,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 ## 2024年
 
-- 4-3 和 JACKWAVY 合作单曲《新世界》
+- 4-3 和 JACKWAVY 合作单曲[《新世界》](orpheus://song/2142256395)
 
 ### 《叁》
 
@@ -293,7 +293,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 | [OMG](orpheus://song/2143577835) | 出人头地演唱会开头曲，童声合唱非常震撼，现场是升调版本，一首适合在节目的大舞台上表演的歌，推荐观看演唱会版本： [5n5DF9y](https://b23.tv/5n5DF9y) |
 
 - 5-13 和 DRODUMANA 合作单曲[《枕边事》](orpheus://song/2155297812)，写给妈妈的歌
-- 6-30 和等一下回家合作单曲《Ocean》
+- 6-30 和等一下回家合作单曲[《Ocean》](orpheus://song/2603398746)
 - 7-13 和 NIAN424 合作单曲[《小马》](orpheus://song/2607268138)
 - 7-26 单曲《蛙》，写给去世外婆的歌曲
 - 8-10 乐堡啤酒广告曲[《LOVE SONG》](orpheus://song/2614406682)
@@ -326,11 +326,11 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 《闪客快打》《Safe Landing 安全着陆》《往上走》有电台 live b站：[BV1Tr421N7LH](https://www.bilibili.com/video/BV1Tr421N7LH)
 
-- 8-26 和 HEAT J 合作单曲《B DAY》
+- 8-26 和 HEAT J 合作单曲[《B DAY》](orpheus://song/2619814217)
 - 8-29 单曲[《奇怪》](orpheus://song/2620098690)
-- 9-13 和 KANNA BUSH 合作单曲《SPECIAL（特别）》
+- 9-13 和 KANNA BUSH 合作单曲[《SPECIAL（特别）》](orpheus://song/2644220812)
 - 10-20 做客离岛LIVE（B站MV：[BV1N4CZYXEL9](https://www.bilibili.com/video/BV1N4CZYXEL9)）
-- 12-6 和 SHIGGA SHAY 西阁 合作单曲《Shawty 晓得下》
+- 12-6 和 SHIGGA SHAY 西阁 合作单曲[《Shawty 晓得下》](orpheus://song/2647818498)
 - 12-17 和 step.jad 依加 合作单曲[《赶路的蝴蝶》](orpheus://song/2656534424)
 - 12-24 和刘聪合作单曲[《散心》](orpheus://song/2659654589)
 
@@ -338,7 +338,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 ## 2025年
 
-- 1-1 和 NIAN424 合作单曲《陈刀仔》
+- 1-1 和 NIAN424 合作单曲[《陈刀仔》](orpheus://song/2661657626)
 
 ### 《出人头地 2025 Dreams Come True Mixtape》
 
@@ -369,15 +369,15 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 - 3-4 做SoulSense TWH Freestyle 演唱《加速 Freestyle》(b站有：[BV18r9iYFEEK](https://www.bilibili.com/video/BV18r9iYFEEK)）
 - 3-7 做客SoulSense TWH LIVE 演唱《我不是说唱歌手》《Top Talk》（b站有：[BV1pGRMYuEKa](https://www.bilibili.com/video/BV1pGRMYuEKa)）
-- 3-15 和 Malkon Flocka Flame 合作单曲《Dirty（脏点）》
-- 3-25 和 CashTrippy 合作单曲《FLY SHXT ONLY》
+- 3-15 和 Malkon Flocka Flame 合作单曲[《Dirty（脏点）》](orpheus://song/2684591546)
+- 3-25 和 CashTrippy 合作单曲[《FLY SHXT ONLY》](orpheus://song/2686898671)
 - 4-11 单曲[《路下辙》](orpheus://song/2692963911)
-- 5-18 和黄旭合作单曲《FLOW FLOW》
+- 5-18 和黄旭合作单曲[《FLOW FLOW》](orpheus://song/2705348455)
 - 6-1 收录在制作人 TQ 专辑，单曲[《电话粥》](orpheus://song/2709844400)
-- 6-7 和 UDIGG 合作单曲《大师的心》
+- 6-7 和 UDIGG 合作单曲[《大师的心》](orpheus://song/2712265327)
 - 7-17 单曲[《满了》](orpheus://song/2725625222)为节目写的歌，讽刺 hater 说他"电满了"。现在巡演经常《GUOXIA》接《满了》连唱好几首，感兴趣可以搜一下巡演现场看，MV：[BV1VnHszaEXD](https://www.bilibili.com/video/BV1VnHszaEXD)（这个是李佳隆创立厂牌以后的SAGGING巡演视频）
-- 7-23 收录在制作人 G23 专辑，单曲《说唱》
-- 7-30 和 Rich4ever 合作单曲《Get Rich（顾从前）》，(b站有mv [BV1xN8AzrEsA](https://www.bilibili.com/video/BV1xN8AzrEsA))
+- 7-23 收录在制作人 G23 专辑，单曲[《说唱》](orpheus://song/2725586688)
+- 7-30 和 Rich4ever 合作单曲[《Get Rich（顾从前）》](orpheus://song/2727730366)，(b站有mv [BV1xN8AzrEsA](https://www.bilibili.com/video/BV1xN8AzrEsA))
 - 8-13 和张子墨 z!moo（男 idol）合作单曲[《TEACH ME HOW TO LOVE》](orpheus://song/2735521354)
 
 上半年作为"大魔王"和助唱嘉宾（以及帮黄子韬编曲制作）参加节目《中国新说唱2025》，被选称为"最强大魔王"。（节目里面除了助唱其他唱的都是发布过录音室版本的歌曲，在节目里会改词，现场可看不看吧）
@@ -406,8 +406,8 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 | [4K](orpheus://song/2740863164) | Yoanko Futura |
 
 - 2-12 推荐观看 views 纪录片《李佳隆&BornLegend：如何成为传奇？》（B站：[BV1LtcYzTEMC](https://www.bilibili.com/video/BV1LtcYzTEMC)）
-- 12-9 和 capper 合作单曲《兇狠類型:RoughTypeShxt》，(B站MV：[BV1YeBLBfEk8](https://www.bilibili.com/video/BV1YeBLBfEk8))
-- 12-21 参与艾热专辑《艾·思集》和艾热、王以太合作《天下无敌！》
+- 12-9 和 capper 合作单曲[《兇狠類型:RoughTypeShxt》](orpheus://song/3323826640)，(B站MV：[BV1YeBLBfEk8](https://www.bilibili.com/video/BV1YeBLBfEk8))
+- 12-21 参与艾热专辑《艾·思集》和艾热、王以太合作[《天下无敌！》](orpheus://song/3342254021)
 
 ---
 
@@ -416,7 +416,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 - 1-10 参与于意yee专辑合作曲《枪火》（网易云无版权，QQ音乐可听）
 - 1-16 和 KITO 合作单曲[《TOX2C》](orpheus://song/3336838857)
 - 3-10 和等一下就回家合作单曲《不是格列佛》
-- 3-25 和 Fendighee Ricch 合作单曲《水上漂》
+- 3-25 和 Fendighee Ricch 合作单曲[《水上漂》](orpheus://song/3345153545)
 
 今年即将发布全流行 EP
 

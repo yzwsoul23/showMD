@@ -409,6 +409,12 @@ html {
   white-space: nowrap;
 }
 
+/* markdown 表头里的 **加粗** 会被 .vp-doc strong 染成深胶色，与表头底色相同导致不可见 */
+.vp-doc .rs-table-wrap > table th strong {
+  color: inherit;
+  font-weight: inherit;
+}
+
 .vp-doc .rs-table-wrap > table td {
   padding: 11px 22px;
   border: none;
