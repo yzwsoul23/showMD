@@ -60,6 +60,9 @@ html {
     'Source Han Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
   --vp-font-family-mono: Consolas, 'JetBrains Mono', 'Courier New', monospace;
 
+  /* 顶栏 logo 高度（默认 24px 偏小，配 19px 站名取 28px） */
+  --vp-nav-logo-height: 28px;
+
   /* --- 唱片店自有变量 --- */
   --rs-paper: #f6efe1;
   --rs-paper-deep: #efe4cd;
@@ -91,6 +94,13 @@ html {
    顶栏和首页一样是独立完整的一条，侧栏从分隔线下方开始。 */
 
 @media (min-width: 960px) {
+  /* 默认主题为让站名融进侧栏，把整条 VPNavBar 设成透明，仅靠 title /
+     content-body / 侧栏 curtain 三块拼底色，衔接处容易露出侧栏深纸色。
+     这里直接让整条顶栏就是顶栏色，左侧缺口消失。 */
+  .VPNavBar.VPNavBar.has-sidebar {
+    background-color: var(--vp-nav-bg-color);
+  }
+
   .VPSidebar.VPSidebar .curtain {
     background-color: var(--vp-nav-bg-color);
   }
@@ -133,6 +143,13 @@ html {
   font-size: 19px;
   font-weight: 600;
   letter-spacing: 0.08em;
+}
+
+/* logo 为黑色实心图形（透明底 PNG）：浅色顶栏直接显示黑色；
+   进入深色模式（html.dark）时整图反白。本站当前 appearance:false
+   全站禁用深色模式，此规则为预留，将来开启深色模式无需换图。 */
+.dark .VPNavBar .logo {
+  filter: invert(1);
 }
 
 /* ---------- 正文排版 ---------- */
@@ -634,6 +651,11 @@ html {
 }
 
 @media (max-width: 640px) {
+  /* 移动顶栏更矮，logo 相应收小 */
+  :root {
+    --vp-nav-logo-height: 24px;
+  }
+
   /* 表格：窄屏收紧内边距，宽表靠底部滚动条横滑，不挤压列内容 */
   .vp-doc .rs-table-wrap > table {
     font-size: 0.88em;
