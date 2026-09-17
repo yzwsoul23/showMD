@@ -287,6 +287,26 @@ npm run new-artist wang-mou 王某某 湖南 某厂牌 2019
 - 旧写法 `orpheus://song/5252838/?autoplay=1` 也能用，插件会自动归一化，新写一律用不带参数的简洁形式；
 - 只有 `orpheus://song|album|playlist/<数字ID>` 会接管，其他协议链接（歌手页等）保持原样。
 
+## QQ音乐跳转播放链接
+
+网易云没有版权、只在 QQ 音乐上架的歌，直接粘贴 QQ 音乐的**网页/分享链接**即可，单曲 / 专辑 / 歌单三种都支持，会自动渲染成绿色音符小胶囊：
+
+```md
+# 专辑（albummid 混合字母数字）
+[《专辑名》](https://i2.y.qq.com/n3/other/pages/details/album.html?albummid=003MS8RP1GyP9f)
+# 单曲（数字 songid，来自 QQ 内部分享的 ryqq_v2 链接）
+[《单曲名》](https://y.qq.com/n/ryqq_v2/songDetail/394060996)
+# 单曲（songmid，桌面版详情页地址）
+[《单曲名》](https://y.qq.com/n/ryqq/songDetail/003qEkg70QpcY4)
+# 歌单（纯数字 ID）
+[歌单名](https://i2.y.qq.com/n3/other/pages/details/playlist.html?id=3632971993)
+```
+
+- 链接本身是正常 https 地址：禁用 JS、右键新标签页打开、搜索引擎抓取都不受影响；
+- 点击后先尝试唤起 QQ 音乐客户端（单曲走播放 JSON 指令，多数版本自动播放；专辑 / 歌单一般打开详情页），检测不到客户端会弹「转到网页版」确认气泡，不点 5 秒后自动消失，不会乱跳；
+- 微信内置浏览器拦截 `qqmusic://` 协议，微信内点击直接打开网页版；
+- 只接管单曲 / 专辑 / 歌单详情页链接，歌手页、`c6.y.qq.com` 分享短链等保持普通链接（短链先在浏览器打开一次，拿到跳转后的详情页地址再写进文档）。
+
 ## 网易云歌曲批量导出（ncm-songs）
 
 `scripts/ncm-songs.mjs` 把网易云的**歌单 / 歌手 / 专辑**批量导出为 CSV：自动补全专辑发行时间 `al.publishTime`，按发行日期排序，`publishDate`/`publishMs` 两列直接可用来核对作品年表、整理 RE 时间线。
@@ -388,5 +408,6 @@ npm run docs:preview  # 打开 http://localhost:4173/showMD/ 复查生产效果
 
 | 日期 | 更新内容 |
 | :--- | :--- |
+| 2026-09-17 | 新增 QQ 音乐跳转播放链接：正文直接粘贴 QQ 音乐单曲 / 专辑 / 歌单网页或分享链接，自动渲染绿色胶囊，点击先唤起客户端、失败回网页版，微信内直接走网页 |
 | 2026-09-15 | 新增网易云歌曲批量导出工具 `ncm-songs`（歌单/歌手/专辑 → 补 `al.publishTime`、按发行时间排序的 CSV）；新增网易云跳转播放链接写法（`orpheus://song/album/playlist/<ID>`，唤起客户端自动播放、未安装回退网页版） |
 | 2026-09-14 | 补全「新增艺人」七步流程与「修改已有文档」工作流；新增图片文件命名规范（禁止 `%` 等特殊字符）、表格表头规范、本地构建时机说明 |

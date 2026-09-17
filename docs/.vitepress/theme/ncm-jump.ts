@@ -157,33 +157,29 @@ function launch(kind: NcmKind, id: string) {
   /** 实时兜底判断：页面是否已因唤起客户端而离开前台 */
   const leftNow = () => hasLeft || document.hidden || !document.hasFocus()
 
-  /** 已唤起：用户切回浏览器时再收起提示 */
-  const hideToastWhenBack = () => {
-    if (document.visibilityState === 'visible') {
-      hideToast()
-      return
-    }
-    const onVisible = () => {
-      if (document.visibilityState === 'visible') {
-        hideToast()
-        document.removeEventListener('visibilitychange', onVisible)
-      }
-    }
-    document.addEventListener('visibilitychange', onVisible)
-  }
-
   window.location.href = appUrl
 
   window.setTimeout(() => {
     cleanup()
+    // 「从客户端切回浏览器」时收起提示/气泡。两种情形共用：
+    // ① 已切到 App（此刻页面 hidden）：用户回来时收起「正在唤起」；
+    // ② 判定未安装、气泡已显示：客户端若冷启动较慢、用户稍后切走又回来，
+    //    顺手收起气泡；一直停在页面则由 fallbackTimer 5 秒后自动消失。
+    const onVisible = () => {
+      if (document.visibilityState === 'visible') {
+        hideToast()
+        clearFallbackTimer()
+        document.removeEventListener('visibilitychange', onVisible)
+      }
+    }
     if (leftNow()) {
-      hideToastWhenBack()
+      document.addEventListener('visibilitychange', onVisible)
       return
     }
     // 不自动跳网页版：弹 5 秒确认气泡，点击才转；若客户端其实刚被
     // 唤起、稍后才夺走焦点，用户切回浏览器时气泡会被自动收起
     showFallbackToast(webUrl)
-    hideToastWhenBack()
+    document.addEventListener('visibilitychange', onVisible)
   }, isMobile() ? MOBILE_DETECT_MS : DESKTOP_DETECT_MS)
 }
 
