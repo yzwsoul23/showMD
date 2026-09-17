@@ -193,7 +193,9 @@ export function parseQqLink(rawHref: string): QqLink | null {
   return null
 }
 
-/** 构造客户端 scheme；花括号、引号全英文，不做整串 encode */
+/** 构造客户端 scheme；花括号、引号全英文，不做整串 encode。
+ *  单曲走 JSON 播放指令（多数版本可自动播）；专辑/歌单走简单 scheme，
+ *  个别客户端版本不支持时由网页兜底。 */
 function buildScheme({ kind, id, idType }: QqLink): string {
   if (kind === 'song') {
     // 自动播单曲：mid 用 type 0，纯数字 songid 用 type 1
@@ -204,9 +206,11 @@ function buildScheme({ kind, id, idType }: QqLink): string {
     return `qqmusic://qq.com/media/playSonglist?p={"song":[${item}],"action":"play"}`
   }
   if (kind === 'album') {
-    // 数字 ID / albummid 都试简单 scheme，个别版本不识别就靠网页兜底
-    return `qqmusic://album?id=${id}`
+    // 优先试媒体 JSON 指令（部分版本可直接打开专辑），不支持的版本会被
+    // 回退气泡引导到网页版。albumId 同时兼容 mid 与数字 id。
+    return `qqmusic://qq.com/media/playAlbum?p={"albumId":"${id}","action":"play"}`
   }
+  // 歌单：简单 scheme 社区常用，多数版本能打开歌单页
   return `qqmusic://playlist?id=${id}`
 }
 
@@ -277,7 +281,10 @@ function launch(link: QqLink) {
     document.removeEventListener('visibilitychange', markLeft)
   }
 
-  const leftNow = () => hasLeft || document.hidden || !document.hasFocus()
+  // 只用 document.hidden 判断是否真的切到了客户端；hasFocus() 在浏览器弹
+  // 「是否打开 QQ 音乐」对话框时会返回 false，会把未唤起误判为已唤起，
+  // 导致回退气泡不出现，所以这里不用它。
+  const leftNow = () => document.hidden
 
   window.location.href = appUrl
 

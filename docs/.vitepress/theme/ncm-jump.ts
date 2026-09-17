@@ -154,8 +154,10 @@ function launch(kind: NcmKind, id: string) {
     document.removeEventListener('visibilitychange', markLeft)
   }
 
-  /** 实时兜底判断：页面是否已因唤起客户端而离开前台 */
-  const leftNow = () => hasLeft || document.hidden || !document.hasFocus()
+  /** 实时兜底判断：只用 document.hidden，不用 hasFocus——浏览器弹外部协议
+     对话框时 hasFocus 会返回 false，会把未唤起误判为已唤起，导致回退气泡
+     不出现。切到客户端时 document.hidden 才为 true。 */
+  const leftNow = () => document.hidden
 
   window.location.href = appUrl
 
