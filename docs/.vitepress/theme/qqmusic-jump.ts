@@ -196,14 +196,9 @@ export function parseQqLink(rawHref: string): QqLink | null {
 /** 构造客户端 scheme；花括号、引号全英文，不做整串 encode。
  *  单曲走 JSON 播放指令（多数版本可自动播）；专辑/歌单走简单 scheme，
  *  个别客户端版本不支持时由网页兜底。 */
-function buildScheme({ kind, id, idType }: QqLink): string {
+function buildScheme({ kind, id }: QqLink): string {
   if (kind === 'song') {
-    // 自动播单曲：mid 用 type 0，纯数字 songid 用 type 1
-    const item =
-      idType === 'mid'
-        ? `{"type":"0","songmid":"${id}"}`
-        : `{"type":"1","songid":"${id}"}`
-    return `qqmusic://qq.com/media/playSonglist?p={"song":[${item}],"action":"play"}`
+    return `qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"${id}"}]}`
   }
   if (kind === 'album') {
     // 优先试媒体 JSON 指令（部分版本可直接打开专辑），不支持的版本会被
