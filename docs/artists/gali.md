@@ -66,7 +66,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 10月11日，GALI发布歌曲 **[《信任问题(Trust Issues)》](orpheus://song/512301530)** 。
 
-11月1日，GALI合作俞天时KOZAY发布歌曲 《成龙》​ （[MV](https://www.bilibili.com/video/BV1wx41177g1)）
+11月1日，GALI合作俞天时KOZAY发布歌曲 [《成龙》](orpheus://song/516818285)​ （[MV](https://www.bilibili.com/video/BV1wx41177g1)）
 
 \*可在网易云搜索收听。
 
@@ -80,7 +80,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 1月10日，GALI合作江映蓉发布歌曲 **《坏天使2.1》** 。\*网易云无音源，QQ音乐可收听。
 
-1月15日，GALI与孙瑄阳参与了说唱组合直火帮专辑中的一首歌曲 **《Anti-social》** 。\*可在网易云搜索收听。
+1月15日，GALI与孙瑄阳参与了说唱组合直火帮专辑中的一首歌曲 **[《Anti-social》](orpheus://song/529662099)** 。\*可在网易云搜索收听。
 
 1月15日，GALI合作mFindme发布歌曲 **[《Might Be》](orpheus://song/530817488)** 。\*网易云可观看歌词视频，可以不看。
 
@@ -109,7 +109,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 | 7 | [Paranoid. (Inst.)](orpheus://song/1441213177) | GALI |  |  |
 | 8 | [Yung Makaveli](orpheus://song/1441213178) | GALI |  |  |
 
-5月8日，GALI合作肖恩恩发布歌曲 **《差距》** 。\*可在网易云搜索收听。
+5月8日，GALI合作肖恩恩发布歌曲 **[《差距》](orpheus://song/558408053)** 。\*可在网易云搜索收听。
 
 7月11日，斗牛APP发布GALI 1分钟采访：嘻哈陪了我8年，我觉得她没做错什么，只是大家对她的解读太过分了（[BV1Es411H76L​](https://www.bilibili.com/video/BV1Es411H76L) ）。
 
@@ -119,7 +119,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 \*可跳过。如果不跳过，因为直播观看视频可能提示侵权，也可以在网易云搜索并收听。。
 
-8月7日，GALI参与了廖效浓专辑中的歌曲 **《降落》** 。\*可在网易云搜索收听。
+8月7日，GALI参与了廖效浓专辑中的歌曲 **[《降落》](orpheus://song/1297747296)** 。\*可在网易云搜索收听。
 
 8月22日， **GALI合作KenRobb、mac ova seas** 发布歌曲 **《Get Dat(prod.AYNJO)》** 。
 
@@ -129,11 +129,11 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 \*网易云无音源，QQ音乐可收听。
 
-10月6日，GALI参与了孙瑄阳Xtina专辑中的一首歌曲 **《睡前故事》** 。
+10月6日，GALI参与了孙瑄阳Xtina专辑中的一首歌曲 **[《睡前故事》](orpheus://song/1311345795)** 。
 
 \*可在网易云搜索收听。
 
-10月15日，GALI参与了张艺兴专辑中的歌曲 **《三昧真火》** 。
+10月15日，GALI参与了张艺兴专辑中的歌曲 **[《三昧真火》](orpheus://song/2083750828)** 。
 
 \*可在网易云搜索收听。
 
@@ -165,7 +165,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 \*可在网易云搜索收听。
 
-4月22日，GALI参与了90sBABY专辑中的歌曲 **《Smile》** 。
+4月22日，GALI参与了90sBABY专辑中的歌曲 **[《Smile》](orpheus://song/1360679640)** 。
 
 4月24日，Mr.Trouble麻烦先生、Naggy、GALI、AThree合作发布了歌曲[《Nice To Meet Y'all》​](orpheus://song/1360863674)以及MV（[BV1KK41157GE](https://www.bilibili.com/video/BV1KK41157GE)）
 
@@ -177,9 +177,9 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 5月19日，GALI发布了歌曲 **《Jaguar (猎豹)》** 。该歌曲收录于一张集结了19位中文说唱歌手的中文说唱音乐合集《壹九》中，可在网易云搜索收听。
 
-6月8日，GALI与栾卓忻发布歌曲 **《Trust Issues (栾卓忻 Remix)》** ，原曲即GALI的《Trust Issues》，主要是在编曲上与原曲不同。\*可在网易云搜索收听。可跳。
+6月8日，GALI与栾卓忻发布歌曲 **[《Trust Issues (栾卓忻 Remix)》](orpheus://song/1369739982)** ，原曲即GALI的《Trust Issues》，主要是在编曲上与原曲不同。\*可在网易云搜索收听。可跳。
 
-6月14日，GALI合作参与了说唱团体古怪因子AYA专辑中的歌曲 **《公园》** 。
+6月14日，GALI合作参与了说唱团体古怪因子AYA专辑中的歌曲 **[《公园》](orpheus://song/1371537692)** 。
 
 古怪因子也是声闻巨匠、Up Gang旗下的说唱团体，有T-clear、52%Vol（凹菠葵）、Qasa（Ayainc）三名成员，现在基本不活跃了。
 
@@ -187,11 +187,11 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 6月20日，GALI合作曾轩发布 **[《Drowning》](orpheus://song/1372763317)** 。
 
-6月27日，stik(StickBoi)、GALI、JACKWAVY发布歌曲 **《Overdose w/ GALl (prod+JACKWAVY)》** 。
+6月27日，stik(StickBoi)、GALI、JACKWAVY发布歌曲 **[《Overdose w/ GALl (prod+JACKWAVY)》](orpheus://song/1374446147)** 。
 
 \*可在网易云搜索收听。
 
-6月30日，GALI合作王嗣尧TURBO发布歌曲 **《Auto》** 。
+6月30日，GALI合作王嗣尧TURBO发布歌曲 **[《Auto》](orpheus://song/1375032915)** 。
 
 7月6日，GALI发布单曲 [《70%》](orpheus://song/1376125188)​ （[BV1Mt411G7KA](https://www.bilibili.com/video/BV1Mt411G7KA)），用歌曲回应了多年来各种质疑他“抄袭”的言论，歌词提及了大量他欣赏的同行的名字。
 
@@ -219,13 +219,13 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 \*由于原曲过长将近十分钟，建议跳过或者直接听gali部分（1:57～3:10）。只想看GALI部分可以点官方版链接，但官方版MV并不完整，想看完整版可以点完整版链接或者直接在网易云搜索音源。
 
-11月11日，GALI参与了肖恩恩SeanT专辑中的歌曲 **《BrownEyes粽眼睛》** 。
+11月11日，GALI参与了肖恩恩SeanT专辑中的歌曲 **[《BrownEyes粽眼睛》](orpheus://song/1402742772)** 。
 
 \*可在网易云搜索收听。
 
 11月16日，GALI发布 **[《Berry(GALI Remix)》](orpheus://song/1404095028)** ，参与了李佳隆于11月15日发起的《Berry》Remix活动，原曲来自李佳隆和艾志恒Asen。
 
-12月10日，GALI参与了黄旭专辑中的歌曲 **《月亮沙漏》** 。
+12月10日，GALI参与了黄旭专辑中的歌曲 **[《月亮沙漏》](orpheus://song/1408725013)** 。
 
 \*可在网易云搜索收听。
 
@@ -237,7 +237,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 \*可在网易云搜索收听。
 
-12月27日，GALI合作黄格雷发布歌曲 **《GIRLS ARE DRUGS》** 。
+12月27日，GALI合作黄格雷发布歌曲 **[《GIRLS ARE DRUGS》](orpheus://song/1412477551)** 。
 
 \*可在网易云搜索收听。
 
@@ -245,7 +245,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 2月8日，GALI参与了JACKWAVY的Beat Tape，合作歌曲 **《"No Chance"// with hook(Prod.JACKWAVY)》** 献唱了hook（剩余部分无人声）。
 
-4月1日，GALI合作阿克江Akin、Robins Lu发布歌曲 **《u know i'll do》** 。
+4月1日，GALI合作阿克江Akin、Robins Lu发布歌曲 **[《u know i'll do》](orpheus://song/1436383857)** 。
 
 5月，GALI作为模特代言男装品牌nice rice好饭。13日，nice rice发布 GALI微纪录片​ （[BV1agdGB8EHw](https://www.bilibili.com/video/BV1agdGB8EHw)，12分钟）。
 
@@ -261,7 +261,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 7月12日，GALI合作李长庚发布歌曲 **[《Day Dream》](orpheus://song/1461600180)** 。
 
-8月10日，GALI合作ANT1BOI发布歌曲 **《Think So》** 。\*可在网易云搜索收听。
+8月10日，GALI合作ANT1BOI发布歌曲 **[《Think So》](orpheus://song/1470703871)** 。\*可在网易云搜索收听。
 
 8月，曾经一直没有晋级到最后的GALI，再次参加了节目 **《中国新说唱2020》** （《有嘻哈》第四季）。
 
@@ -274,10 +274,10 @@ GALI在节目中的自我介绍视频：[BV1X54y1U7ti](https://www.bilibili.com/
 |  | 歌名 | 合作歌手 | 现场视频 | 备注 |
 | --- | --- | --- | --- | --- |
 | 1 | 水晶(Live) |  | [链接](https://www.bilibili.com/video/BV1Bt4y1u7QU/?t=1) | 无录音室版本;节目播出后爆火; |
-| 2 | 无人深空(Live) | REGI 陈彦希 | [链接](https://www.bilibili.com/video/BV1qm4y1c7ym/?t=534) | "GALI 唱完这首歌被淘汰后 | 被导师张靓颖复活" |
+| 2 | [无人深空(Live)](orpheus://song/1476449983) | REGI 陈彦希 | [链接](https://www.bilibili.com/video/BV1qm4y1c7ym/?t=534) | "GALI 唱完这首歌被淘汰后 | 被导师张靓颖复活" |
 | 3 | 70%(live) |  | [链接](https://www.bilibili.com/video/BV1jkfJBaEq5/?t=1) |  |
 | 4 | What Is Love (Live) | Saber 梁维嘉/ODD 陈思键/万妮达 | [链接](https://www.bilibili.com/video/BV1qm4y1c7ym/?t=746) | 不太推荐收听 |
-| 5 | Liber Tango(Live) | 张靓颖/万妮达 | [链接](https://www.bilibili.com/video/BV1Bt4y1u7QU/?t=402) |  |
+| 5 | [Liber Tango(Live)](orpheus://song/1484055543) | 张靓颖/万妮达 | [链接](https://www.bilibili.com/video/BV1Bt4y1u7QU/?t=402) |  |
 | 6 | 偏执猎豹(live) |  | [链接](https://www.bilibili.com/video/BV1je4y1t7zM/?t=511) | 原曲为《Paranoid.》+《Jaguar》 |
 | 7 | 珍珠幻象(live) |  | [链接](https://www.bilibili.com/video/BV1Bt4y1u7QU/?t=628) | 即此前 GALI 对有嘻哈节目的 diss《Illusion Freestyle》 |
 | 8 | 琥珀(live) |  | [链接](https://www.bilibili.com/video/BV1je4y1t7zM/?t=1) |  |
@@ -291,7 +291,7 @@ GALI在节目中的自我介绍视频：[BV1X54y1U7ti](https://www.bilibili.com/
 
 10月26日，GALI再次合作俞天时KOZAY发布歌曲 [《赤兔》](orpheus://song/1489331140)​ 以及MV（[BV1kK411A7nY](https://www.bilibili.com/video/BV1kK411A7nY)）。
 
-11月10日，GALI参与了满舒克专辑中的歌曲 **《稀有潇洒》** 。\*可在网易云搜索收听。
+11月10日，GALI参与了满舒克专辑中的歌曲 **[《稀有潇洒》](orpheus://song/1494233076)** 。\*可在网易云搜索收听。
 
 ## 2021年
 
@@ -299,15 +299,15 @@ GALI在节目中的自我介绍视频：[BV1X54y1U7ti](https://www.bilibili.com/
 
 1月22日，GALI发布歌曲 **《“PhoneCall”》** ，该歌曲收录于他在新说唱节目中所属战队的合辑。\*可在网易云搜索收听。
 
-4月3日，GALI参与了艾志恒Asen专辑中的歌曲 **《Legendary》** 。
+4月3日，GALI参与了艾志恒Asen专辑中的歌曲 **[《Legendary》](orpheus://song/1832633321)** 。
 
 \*可在网易云搜索收听，可跳过等到艾志恒开荒再收听。
 
-4月30日，GALI参与了范丞丞EP中的歌曲 **《Relationship》** 。\*可在网易云搜索收听。
+4月30日，GALI参与了范丞丞EP中的歌曲 **[《Relationship》](orpheus://song/1840728149)** 。\*可在网易云搜索收听。
 
-5月27日，GALI参与了BLOWFEVER EP中的歌曲 **《Talk To Me Nice》** 。\*可在网易云搜索收听。
+5月27日，GALI参与了BLOWFEVER EP中的歌曲 **[《Talk To Me Nice》](orpheus://song/1844354322)** 。\*可在网易云搜索收听。
 
-7月9日，GALI参与了来自LEGGO专辑中的歌曲 **《奥黛丽 Audrey》** 。\*可在网易云搜索收听。
+7月9日，GALI参与了来自LEGGO专辑中的歌曲 **[《奥黛丽 Audrey》](orpheus://song/1857287834)** 。\*可在网易云搜索收听。
 
 LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主要有LEGGO、黄之仪Kyra Zilver、4D等人。
 
@@ -360,11 +360,11 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 
 3月16日，谟西Mercy（谟门客栈）发布 **23分钟** GALI采访，二人对于专辑《亚特兰蒂斯》等话题进行了交流。（ [BV1oU4y1R7Vt​](https://www.bilibili.com/video/BV1oU4y1R7Vt%E2%80%8B)）。
 
-3月3日，GALI参与了肖恩恩合作专辑中的歌曲 **《呆着》** 。
+3月3日，GALI参与了肖恩恩合作专辑中的歌曲 **[《呆着》](orpheus://song/1924568340)** 。
 
-4月7日，GALI参与了云别合作专辑中的歌曲 **《OLD WAVE》** 。\*可在网易云搜索收听。
+4月7日，GALI参与了云别合作专辑中的歌曲 **[《OLD WAVE》](orpheus://song/1933960302)** 。\*可在网易云搜索收听。
 
-4月13日，GALI参与了马思唯专辑中的歌曲 **《亚特兰蒂斯》** 。\*可在网易云搜索收听。
+4月13日，GALI参与了马思唯专辑中的歌曲 **[《亚特兰蒂斯》](orpheus://song/1929062444)** 。\*可在网易云搜索收听。
 
 【此处有专辑列表表格，B站导入不进来】
 
@@ -379,40 +379,40 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 |  | 歌名 | 合作歌手 | 现场视频 | 备注 |
 | --- | --- | --- | --- | --- |
 | 1 | 亚特兰蒂斯之心(LIVE版) |  | [链接](https://www.bilibili.com/video/BV1sg411m7Zq/?t=1) |  |
-| 2 | 晒(LIVE版) | TizzyT | [链接](https://www.bilibili.com/video/BV1ZW4y1Y7xJ/?t=1) | GALI忘词失误 |
-| 3 | 礼拜日Life goes on(LIVE版) | Capper/MCHotDog热狗 | [链接](https://www.bilibili.com/video/BV1sg411m7Zq/?t=217) |  |
-| 4 | 神奇宝贝的Cypher(LIVE版) | Capper/热狗/TizzyT | [链接](https://www.bilibili.com/video/BV1sg411m7Zq/?t=463) |  |
+| 2 | [晒(LIVE版)](orpheus://song/1962368708) | TizzyT | [链接](https://www.bilibili.com/video/BV1ZW4y1Y7xJ/?t=1) | GALI忘词失误 |
+| 3 | [礼拜日Life goes on(LIVE版)](orpheus://song/1966263877) | Capper/MCHotDog热狗 | [链接](https://www.bilibili.com/video/BV1sg411m7Zq/?t=217) |  |
+| 4 | [神奇宝贝的Cypher(LIVE版)](orpheus://song/1968156124) | Capper/热狗/TizzyT | [链接](https://www.bilibili.com/video/BV1sg411m7Zq/?t=463) |  |
 | 5 | 悬浮术II(LIVE版) |  | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=7) |  |
-| 6 | 达摩克利斯之剑(LIVE版) | Capper | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=526) | 原曲是Capper、CREAMD合作的《达摩克利斯之剑》 |
-| 7 | 够了够了(LIVE版) | 黑豹乐队/热狗 | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=292) | 改编自黑豹乐队《够了够了》 |
-| 8 | 我只在乎你2.0(LIVE版) | 热狗/Capper/刘炫廷/TizzyT | [链接](https://www.bilibili.com/video/BV1ZW4y1Y7xJ/?t=220) | 最终联盟排名第二 |
+| 6 | [达摩克利斯之剑(LIVE版)](orpheus://song/1975802984) | Capper | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=526) | 原曲是Capper、CREAMD合作的《达摩克利斯之剑》 |
+| 7 | [够了够了(LIVE版)](orpheus://song/1971816935) | 黑豹乐队/热狗 | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=292) | 改编自黑豹乐队《够了够了》 |
+| 8 | [我只在乎你2.0(LIVE版)](orpheus://song/1980392063) | 热狗/Capper/刘炫廷/TizzyT | [链接](https://www.bilibili.com/video/BV1ZW4y1Y7xJ/?t=220) | 最终联盟排名第二 |
 | 9 | BackPack(LIVE版) |  | 未找到搬运视频 |  |
-| 10 | DROPTOP!(LIVE版) | Capper/刘炫廷/TizzyT | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=740) |  |
+| 10 | [DROPTOP!(LIVE版)](orpheus://song/1976485113) | Capper/刘炫廷/TizzyT | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=740) |  |
 | 11 | 玛瑙/The House(暗室)(LIVE版) |  | [链接](https://www.bilibili.com/video/BV1WR4y1y756/?t=1) |  |
 
 同年12月5日，小强蜀熟发布GALI 21分钟采访：我好像不适合综艺节目（[BV1FG4y137Jb​](https://www.bilibili.com/video/BV1FG4y137Jb%E2%80%8B)）。访谈中讨论了节目、《亚特兰蒂斯》、上海说唱等话题。
 
-7月10日，GALI参与了郑景曦专辑中的歌曲 **《81》** 。\*可在网易云搜索收听。
+7月10日，GALI参与了郑景曦专辑中的歌曲 **[《81》](orpheus://song/1961507366)** 。\*可在网易云搜索收听。
 
 7月12日，GALI合作徐梦圆发布歌曲 **[《戏偶》](orpheus://song/1963040542)** 。
 
-8月11日，GALI、Jony J、KIGGA与派克特合作了派克特专辑中的歌曲 **《02:50》** 。
+8月11日，GALI、Jony J、KIGGA与派克特合作了派克特专辑中的歌曲 **[《02:50》](orpheus://song/1969813282)** 。
 
 8月30日，刘炫廷、TizzyT、GALI、Capper合作发布歌曲 **[《DROPTOP!》](orpheus://song/1976485113)** 录音室版。这首歌是他们四位rapper在节目《中国说唱巅峰对决2022》中合作的歌曲，改编自原曲《DROPTOP!》。
 
-9月1日，GALI参与了谟西Mercy专辑中的第一首歌曲 **《Mastermind》** 。
+9月1日，GALI参与了谟西Mercy专辑中的第一首歌曲 **[《Mastermind》](orpheus://song/1976837961)** 。
 
 \*可在网易云搜索收听。
 
 10月23日，GALI合作万妮达Vinida Weng发布歌曲 **[《狂恋》](orpheus://song/1983464993)** ，上线后意外爆火破圈。
 
-11月5日，GALI、Caroline堵琳合作参与了艾志恒Asen专辑中的最后一首歌曲 **《落幕》** 。
+11月5日，GALI、Caroline堵琳合作参与了艾志恒Asen专辑中的最后一首歌曲 **[《落幕》](orpheus://song/1995339656)** 。
 
 \*可在网易云搜索收听。建议开荒Asen时再收听。
 
 12月11日，GALI发布《反恐精英Online》14周年主题曲 **[《永不迷失》](orpheus://song/2004349271)** 。
 
-12月24日，GALI合作参与了新人rapper三火flame专辑中的歌曲 **《沉默了太久》** 。
+12月24日，GALI合作参与了新人rapper三火flame专辑中的歌曲 **[《沉默了太久》](orpheus://song/2008969324)** 。
 
 12月31日，GALI合作yihuik苡慧发布韩剧OST《Stay With Me》中文版歌曲 **[《因你而在》](orpheus://song/2009820752)** 。
 
@@ -420,31 +420,31 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 
 这一年和21年一样，GALI基本没有发布个人单曲，正在准备自己的下一张专辑（mixtape）。
 
-3月1日，GALI参与了Capper专辑中的歌曲 **《礼拜日 Life goes on》** 。
+3月1日，GALI参与了Capper专辑中的歌曲 **[《礼拜日 Life goes on》](orpheus://song/2026222390)** 。
 
 \*可在网易云搜索收听。
 
-4月21日，GALI参与了李大奔专辑中的歌曲 **《PRETTY BOY SWAG》** 。
+4月21日，GALI参与了李大奔专辑中的歌曲 **[《PRETTY BOY SWAG》](orpheus://song/2040915736)** 。
 
 \*可在网易云搜索收听。
 
-5月13日，GALI参与了罗言专辑中的歌曲 **《成功罪》** 。
+5月13日，GALI参与了罗言专辑中的歌曲 **[《成功罪》](orpheus://song/2047034267)** 。
 
 \*可在网易云搜索收听。
 
-5月27日，GALI参与了黄格雷专辑中的歌曲 **《Emotion(情绪)》** 。
+5月27日，GALI参与了黄格雷专辑中的歌曲 **[《Emotion(情绪)》](orpheus://song/2045093937)** 。
 
 \*可在网易云搜索收听。
 
 7月13日，GALI发布个人单曲 **[《REDBEAST》](orpheus://song/2061305528)** 。
 
-8月18日，GALI参与了咖啡胡专辑中的专辑同名歌曲 **《国王降落伞》** 。
+8月18日，GALI参与了咖啡胡专辑中的专辑同名歌曲 **[《国王降落伞》](orpheus://song/2074467778)** 。
 
 \*可在网易云搜索收听。
 
 9月6日，GALI合作李大奔BENZO、也是福（制作人）发布歌曲 [《WOAHH》](orpheus://song/2076148521)​（[BV1KT4m1S7rX](https://www.bilibili.com/video/BV1KT4m1S7rX)）。
 
-9月16日，GALI参与了八口8uck专辑中的歌曲 《Copy Cat》​（[BV1hu4y1Y7WM](https://www.bilibili.com/video/BV1hu4y1Y7WM)）。
+9月16日，GALI参与了八口8uck专辑中的歌曲 [《Copy Cat》](orpheus://song/2081888689)​（[BV1hu4y1Y7WM](https://www.bilibili.com/video/BV1hu4y1Y7WM)）。
 
 \*可在网易云搜索收听。
 
@@ -456,13 +456,13 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 10月25日，GALI合作耀文Norman发布 **[《开枪后热吻》](orpheus://song/2091964232)** 。
 
-10月28日，GALI参与了D.Ark（有很多争议，建议不聊）专辑中的歌曲 **《Y&H》** 。
+10月28日，GALI参与了D.Ark（有很多争议，建议不聊）专辑中的歌曲 **[《Y&H》](orpheus://song/2083458328)** 。
 
 \*可在网易云搜索收听。
 
 12月6日，GALI合作ICE杨长青发布歌曲 **[《VIBEY》](orpheus://song/2105748206)** 。
 
-12月27日，GALI参与了yugo mixtape中的歌曲 **《共振(You&Me)》** 。yugo是ljz329（贝贝）于2022年组建的厂牌SSR的成员。
+12月27日，GALI参与了yugo mixtape中的歌曲 **[《共振(You&Me)》](orpheus://song/2106706988)** 。yugo是ljz329（贝贝）于2022年组建的厂牌SSR的成员。
 
 \*可在网易云搜索收听。
 
@@ -470,15 +470,15 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 ## 2024年
 
-1月7日，GALI参与了诺曼德Nxmad专辑中的歌曲 **《圣心Holy Within》** 。
+1月7日，GALI参与了诺曼德Nxmad专辑中的歌曲 **[《圣心Holy Within》](orpheus://song/2114979752)** 。
 
 \*可在网易云搜索收听。
 
-3月25日，GALI参与了刘炫廷专辑中的歌曲 **《挑剔性感(PICKY AND SEXY!)》** 。
+3月25日，GALI参与了刘炫廷专辑中的歌曲 **[《挑剔性感(PICKY AND SEXY!)》](orpheus://song/2138577915)** 。
 
 \*可在网易云搜索收听。
 
-3月28日，GALI参与了BrAnTB.白景屹专辑中的歌曲 **《鹰》** 。
+3月28日，GALI参与了BrAnTB.白景屹专辑中的歌曲 **[《鹰》](orpheus://song/2139759382)** 。
 
 \*可在网易云搜索收听。
 
@@ -517,15 +517,15 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 5月18日，GALI合作天津说唱歌手VOB发布歌曲 **[《老本行》](orpheus://song/2156464440)** 。\*可在网易云搜索收听。
 
-7月10日，GALI合作KUAN发布歌曲 **《Why》** 。\*网易云有MV，B站未搜索到搬运视频。也可以不看，GALI镜头较少。
+7月10日，GALI合作KUAN发布歌曲 **[《Why》](orpheus://song/2602329920)** 。\*网易云有MV，B站未搜索到搬运视频。也可以不看，GALI镜头较少。
 
-7月14日，GALI参与了TizzyT专辑中的歌曲 **《We Go(暴走)》** 。\*可在网易云搜索收听。
+7月14日，GALI参与了TizzyT专辑中的歌曲 **[《We Go(暴走)》](orpheus://song/2156229804)** 。\*可在网易云搜索收听。
 
-8月16日，GALI参与了李佳隆专辑中的歌曲 **《无法拯救》** 。
+8月16日，GALI参与了李佳隆专辑中的歌曲 **[《无法拯救》](orpheus://song/2617357013)** 。
 
 \*可在网易云搜索收听。可以在李佳隆开荒时收听。
 
-8月18日，GALI参与了西藏说唱歌手P-kid专辑中的歌曲 **《Smooth Criminal》** 。
+8月18日，GALI参与了西藏说唱歌手P-kid专辑中的歌曲 **[《Smooth Criminal》](orpheus://song/2618025638)** 。
 
 \*可在网易云搜索收听。
 
@@ -533,13 +533,13 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 \*可在网易云搜索收听。
 
-9月13日，GALI参与了之前合作过的KANNA BUSH（孟子坤）专辑中的歌曲 **《堆金积玉》** 。
+9月13日，GALI参与了之前合作过的KANNA BUSH（孟子坤）专辑中的歌曲 **[《堆金积玉》](orpheus://song/2626359795)** 。
 
 \*可在网易云搜索收听。
 
 9月25日，GALI合作新加坡说唱歌手SHIGGA SHAY 西阁发布歌曲 **[《Back Alive 卷土重来》](orpheus://song/2628344579)** 。\*网易云有MV，B站未搜索到搬运视频。
 
-10月20日，GALI参与了Tlatre特雷西专辑中的歌曲 **《嘉兴到上海》** 。
+10月20日，GALI参与了Tlatre特雷西专辑中的歌曲 **[《嘉兴到上海》](orpheus://song/2637675448)** 。
 
 \*可在网易云搜索收听。GALI无MV。
 
@@ -547,7 +547,7 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 \*无MV，网易云显示的MV是Sunny Lukas单人的。
 
-11月26日GALI参与了Toy王奕专辑中的歌曲 **《Go Back》** 。\*可在网易云搜索收听。
+11月26日GALI参与了Toy王奕专辑中的歌曲 **[《Go Back》](orpheus://song/2650171039)** 。\*可在网易云搜索收听。
 
 12月6日，GALI参与了西阁专辑中的歌曲 **[《Back Alive 卷土重来》](orpheus://song/2628344579)** 。\*可在网易云搜索收听。
 
@@ -565,21 +565,21 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 1月22日，GALI合作VaVa发布歌曲[《C.O.M Freestyle》](orpheus://song/2666596840)（[BV1m2wYeqEau](https://www.bilibili.com/video/BV1m2wYeqEau)）。
 
-1月22日，GALI、Naggy参与了Mr.Troble专辑中的歌曲 **《Good Axx Job》** 。
+1月22日，GALI、Naggy参与了Mr.Troble专辑中的歌曲 **[《Good Axx Job》](orpheus://song/2668010729)** 。
 
 \*可在网易云搜索收听。
 
-1月24日，GALI合作黄旭、西阁发布歌曲 **《You feel me or what》** 。
+1月24日，GALI合作黄旭、西阁发布歌曲 **[《You feel me or what》](orpheus://song/2119682622)** 。
 
-2月3日，GALI合作CATI2发布歌曲 **《Live Now Die Later》** 。CATI2曾于2023年在微博发布长文指责多年兄弟GALI的行为，后来二人和好，合作发布了这首歌。
-
-\*可在网易云搜索收听。
-
-2月22日，GALI参与了Rapeter吴嘉轩专辑中的歌曲 **《Step 2》** 。
+2月3日，GALI合作CATI2发布歌曲 **[《Live Now Die Later》](orpheus://song/2671538849)** 。CATI2曾于2023年在微博发布长文指责多年兄弟GALI的行为，后来二人和好，合作发布了这首歌。
 
 \*可在网易云搜索收听。
 
-3月7日，GALI参与了新人rapper路铭Dualkiller专辑中的歌曲 **《Pegasus (Intro)》** 。
+2月22日，GALI参与了Rapeter吴嘉轩专辑中的歌曲 **[《Step 2》](orpheus://song/2677398932)** 。
+
+\*可在网易云搜索收听。
+
+3月7日，GALI参与了新人rapper路铭Dualkiller专辑中的歌曲 **[《Pegasus (Intro)》](orpheus://song/2679057249)** 。
 
 \*可在网易云搜索收听。
 
@@ -599,7 +599,7 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 \*网易云无版权，仅可在QQ音乐收听。
 
-6月14日，GALI参与了新人李欣颖专辑中的歌曲 **《VELVET SKY(天鹅绒的夜空)》** 。
+6月14日，GALI参与了新人李欣颖专辑中的歌曲 **[《VELVET SKY(天鹅绒的夜空)》](orpheus://song/2715111164)** 。
 
 \*可在网易云搜索收听。
 
@@ -607,7 +607,7 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 ![SoulSense-TWH-Freestyle-Cover](/images/gali/SoulSense-TWH-Freestyle-Cover.webp)
 
-8月20日，GALI参与了Melo专辑中的歌曲 **《Up & Down》** 。\*可在网易云搜索收听。
+8月20日，GALI参与了Melo专辑中的歌曲 **[《Up & Down》](orpheus://song/2735190006)** 。\*可在网易云搜索收听。
 
 8月30日，GALI合作徐明浩发布歌曲 **[《Star Crossing Night 》](orpheus://song/2740858325)** ，意外出圈爆火。
 
@@ -617,9 +617,9 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 \*网易云无版权，仅可在QQ音乐收听。
 
-10月30日，GALI参与了潘玮柏专辑中的歌曲 《耍》​ （MV: [BV1qFWkzdEuT](https://www.bilibili.com/video/BV1qFWkzdEuT)）。
+10月30日，GALI参与了潘玮柏专辑中的歌曲 [《耍》](orpheus://song/2748708276)​ （MV: [BV1qFWkzdEuT](https://www.bilibili.com/video/BV1qFWkzdEuT)）。
 
-10月31日，GALI参与了APMOZART专辑中的歌曲 **《Like ovo》** 。\*可在网易云搜索收听。
+10月31日，GALI参与了APMOZART专辑中的歌曲 **[《Like ovo》](orpheus://song/3312623232)** 。\*可在网易云搜索收听。
 
 11月3日，GALI发布歌曲 [《BLACKBIRRRD》](orpheus://song/3312738881)​ **。MV** [BV1egkXByEMF](https://www.bilibili.com/video/BV1egkXByEMF)
 
@@ -627,17 +627,17 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 \*网易云无版权，仅可在QQ音乐收听。
 
-11月22日，雾都L4WUDU、GALI发布歌曲 《MOVE!》​ （MV:[BV1AZULBzE7U](https://www.bilibili.com/video/BV1AZULBzE7U)），这首歌曲收录于由 **DJ CELL** 发起并监制的WHOOSIS RECORDS第三张mixtape。Mixtape幕后记录视频： [BV1zXS4BvEfo](https://www.bilibili.com/video/BV1zXS4BvEfo/?t=183)（GALI雾都歌曲部分：3:03～9:25）。
+11月22日，雾都L4WUDU、GALI发布歌曲 [《MOVE!》](orpheus://song/3320331666)​ （MV:[BV1AZULBzE7U](https://www.bilibili.com/video/BV1AZULBzE7U)），这首歌曲收录于由 **DJ CELL** 发起并监制的WHOOSIS RECORDS第三张mixtape。Mixtape幕后记录视频： [BV1zXS4BvEfo](https://www.bilibili.com/video/BV1zXS4BvEfo/?t=183)（GALI雾都歌曲部分：3:03～9:25）。
 
 \*可在网易云搜索收听，幕后记录视频是以WHOOSIS RECORDS为主，可不看。
 
-12月9日，GALI参与了Capper专辑中的歌曲 **《聲名狼藉:ThenWeTalkSome》** 。
+12月9日，GALI参与了Capper专辑中的歌曲 **[《聲名狼藉:ThenWeTalkSome》](orpheus://song/3323827602)** 。
 
 12月12日，GALI发布上海大鲨鱼篮球俱乐部三十周年战歌[《鲨向未来(Go Sharks!)》](orpheus://song/3388955637)​（[BV1JemmBHEh3](https://www.bilibili.com/video/BV1JemmBHEh3)）。
 
-12月15日，GALI、马思唯参与了TizzyT专辑中的歌曲 **《潇洒》** 。\*可在网易云搜索收听。
+12月15日，GALI、马思唯参与了TizzyT专辑中的歌曲 **[《潇洒》](orpheus://song/3324846858)** 。\*可在网易云搜索收听。
 
-12月21日，GALI参与了艾热专辑中的歌曲 **《城市的嘴脸（City’s faces）》** 。
+12月21日，GALI参与了艾热专辑中的歌曲 **[《城市的嘴脸（City’s faces）》](orpheus://song/3342254019)** 。
 
 \*可在网易云搜索收听。
 
@@ -647,7 +647,7 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 3月11日，GALI参与了Brofa专辑中的歌曲 **《熊猫邮局（Geek）》** 。
 
-4月1日，GALI参与了CHOCKEY有三专辑中的歌曲 **《潜入你的梦》** 。
+4月1日，GALI参与了CHOCKEY有三专辑中的歌曲 **[《潜入你的梦》](orpheus://song/3362972099)** 。
 
 截止5月，GALI在2026年发布的歌曲并不多，新专辑还在筹备中，有可能会在今年发布。
 

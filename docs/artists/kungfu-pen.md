@@ -167,7 +167,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 ![06-老时光封面](/images/kungfu-pen/06-old-times-cover.webp "老时光封面")
 
-- **2014 年 4 月 4 日，C-BLOCK 发布精选集《老时光》**
+- **2014 年 4 月 4 日，C-BLOCK 发布精选集[《老时光》](orpheus://album/2901115)**
 
 这一时期的 C-BLOCK 尚处于从"地上男团"转型到"地下组合"的阵痛期
 
@@ -175,29 +175,29 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 | 序号 | 歌曲名 | 收听建议 | MV | 备注 |
 | --- | --- | --- | --- | --- |
-| 1 | 《上学堂》 | 推荐 |  | 2008 年 FROM《湘 SHOW》 |
-| 2 | 《校花心理学》 | 推荐 |  | 2012 年 FROM《SUPERTape》 |
+| 1 | [《上学堂》](orpheus://song/28830154) | 推荐 |  | 2008 年 FROM《湘 SHOW》 |
+| 2 | [《校花心理学》](orpheus://song/28830155) | 推荐 |  | 2012 年 FROM《SUPERTape》 |
 | 3 | 《醒来不如做梦》 | 不建议收听 |  | 已下架 2012 年功夫胖单曲 |
-| 4 | 《莫名我就喜欢你》 |  |  | 2009 年 FROM《旧日笔记》 |
+| 4 | [《莫名我就喜欢你》](orpheus://song/28830157) |  |  | 2009 年 FROM《旧日笔记》 |
 | 5 | 《你要哦改咯》 | 无功夫胖 |  | 已下架 2011 年盛宇单曲 |
-| 6 | 《我们恋爱吧》 | 推荐 |  | 2008 年 FROM《湘 SHOW》 |
-| 7 | 《长沙策长沙》 | 推荐 |  | 2008 年 FROM《湘 SHOW》 |
-| 8 | 《Fat Girl》 |  | [BV1gt41137fF](https://www.bilibili.com/video/BV1gt41137fF) | 2011 年单曲 |
-| 9 | 《我们毕业了》 |  | [BV1mx411f7FP](https://www.bilibili.com/video/BV1mx411f7FP) | 2011 年单曲 |
-| 10 | 《Goodbye》 | 无功夫胖 | [BV1mx411n7Yd](https://www.bilibili.com/video/BV1mx411n7Yd) | 2012 年 刘聪单曲 |
-| 11 | 《冠军》 |  |  | 2012 年 FROM《SUPERTape》 |
+| 6 | [《我们恋爱吧》](orpheus://song/28830159) | 推荐 |  | 2008 年 FROM《湘 SHOW》 |
+| 7 | [《长沙策长沙》](orpheus://song/28830160) | 推荐 |  | 2008 年 FROM《湘 SHOW》 |
+| 8 | [《Fat Girl》](orpheus://song/28830161) |  | [BV1gt41137fF](https://www.bilibili.com/video/BV1gt41137fF) | 2011 年单曲 |
+| 9 | [《我们毕业了》](orpheus://song/28830162) |  | [BV1mx411f7FP](https://www.bilibili.com/video/BV1mx411f7FP) | 2011 年单曲 |
+| 10 | [《Goodbye》](orpheus://song/28830163) | 无功夫胖 | [BV1mx411n7Yd](https://www.bilibili.com/video/BV1mx411n7Yd) | 2012 年 刘聪单曲 |
+| 11 | [《冠军》](orpheus://song/28830164) |  |  | 2012 年 FROM《SUPERTape》 |
 | 12 | 《带我回家》 | 推荐 | [BV1mx411n7Yd](https://www.bilibili.com/video/BV1mx411n7Yd/?p=6) | 已下架 2012 年单曲 |
-| 13 | 《Hakunamatata》 |  | [BV14t41157xf](https://www.bilibili.com/video/BV14t41157xf) | 2008 年单曲 |
-| 14 | 《Dear 妈妈》 |  | [BV1hx411V7Ei](https://www.bilibili.com/video/BV1hx411V7Ei) | 2008 年 FROM《湘 SHOW》 |
-| 15 | 《老时光》 |  |  | 2012 年 FROM《SUPERTape》 |
-| 16 | 《The Second Love》 |  |  | 2008 年 FROM《湘 SHOW》 |
-| 17 | 《十年长沙》 |  | [BV1Rt411V7KL](https://www.bilibili.com/video/BV1Rt411V7KL) | 2011 年单曲 |
+| 13 | [《Hakunamatata》](orpheus://song/28830166) |  | [BV14t41157xf](https://www.bilibili.com/video/BV14t41157xf) | 2008 年单曲 |
+| 14 | [《Dear 妈妈》](orpheus://song/28830167) |  | [BV1hx411V7Ei](https://www.bilibili.com/video/BV1hx411V7Ei) | 2008 年 FROM《湘 SHOW》 |
+| 15 | [《老时光》](orpheus://song/28830168) |  |  | 2012 年 FROM《SUPERTape》 |
+| 16 | [《The Second Love》](orpheus://song/28830169) |  |  | 2008 年 FROM《湘 SHOW》 |
+| 17 | [《十年长沙》](orpheus://song/28830170) |  | [BV1Rt411V7KL](https://www.bilibili.com/video/BV1Rt411V7KL) | 2011 年单曲 |
 
 ### 《爆出口》
 
 ![07-爆出口封面](/images/kungfu-pen/07-bao-chu-kou-cover.webp "爆出口封面")
 
-- **2014 年 4 月 18 日，C-BLOCK 发布第一张专辑《爆出口》**
+- **2014 年 4 月 18 日，C-BLOCK 发布第一张专辑[《爆出口》](orpheus://album/2901116)**
 
 （除下架歌曲全专都可以听听看）
 
@@ -205,22 +205,22 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 | 序号 | 歌曲名 | 收听建议 | MV | 备注 |
 | --- | --- | --- | --- | --- |
-| 1 | 《三镖客》 |  |  |  |
-| 2 | 《前戏》 |  |  |  |
-| 3 | 《初夜》 |  | [BV1P4411x7Sd](https://www.bilibili.com/video/BV1P4411x7Sd) |  |
+| 1 | [《三镖客》](orpheus://song/28830171) |  |  |  |
+| 2 | [《前戏》](orpheus://song/28830172) |  |  |  |
+| 3 | [《初夜》](orpheus://song/28830173) |  | [BV1P4411x7Sd](https://www.bilibili.com/video/BV1P4411x7Sd) |  |
 | 4 | 《Super Pow》 |  | [BV1ge4y177zt](https://www.bilibili.com/video/BV1ge4y177zt) | 已下架，没有特别的下架原因听不听都可以 |
-| 5 | 《Dorimi》 |  |  |  |
-| 6 | 《一切会 OK》 |  |  |  |
-| 7 | 《W.O.M.W》 |  | [BV1X4411p7S9](https://www.bilibili.com/video/BV1X4411p7S9) | hook 为李迪 Feiji（原名李沫萱）演唱开荒完 cb 也可以观看一下 2023 年的现场版10 年之后再唱再听或许会有不一样的感受[BV14C4y1o7xq ](https://www.bilibili.com/video/BV14C4y1o7xq/?share_source=copy_web&vd_source=5bea371b0f6772673280e64bf0a6b374&t=2236)直接跳转 37:16 |
-| 8 | 《艺术家》 |  |  |  |
-| 9 | 《零花鞋》 |  | [BV1Dx411f79F](https://www.bilibili.com/video/BV1Dx411f79F) |  |
-| 10 | 《罩着你》 |  | [BV1ot411V7ty](https://www.bilibili.com/video/BV1ot411V7ty) |  |
+| 5 | [《Dorimi》](orpheus://song/28830175) |  |  |  |
+| 6 | [《一切会 OK》](orpheus://song/28830176) |  |  |  |
+| 7 | [《W.O.M.W》](orpheus://song/28830177) |  | [BV1X4411p7S9](https://www.bilibili.com/video/BV1X4411p7S9) | hook 为李迪 Feiji（原名李沫萱）演唱开荒完 cb 也可以观看一下 2023 年的现场版10 年之后再唱再听或许会有不一样的感受[BV14C4y1o7xq ](https://www.bilibili.com/video/BV14C4y1o7xq/?share_source=copy_web&vd_source=5bea371b0f6772673280e64bf0a6b374&t=2236)直接跳转 37:16 |
+| 8 | [《艺术家》](orpheus://song/28830178) |  |  |  |
+| 9 | [《零花鞋》](orpheus://song/28830179) |  | [BV1Dx411f79F](https://www.bilibili.com/video/BV1Dx411f79F) |  |
+| 10 | [《罩着你》](orpheus://song/28830180) |  | [BV1ot411V7ty](https://www.bilibili.com/video/BV1ot411V7ty) |  |
 | 11 | 《戈乌恩》 | 不建议收听 |  | 已下架，敏感社会问题 |
-| 12 | 《Baby Baby》 |  |  |  |
-| 13 | 《白沙（Scratch Bonus）》 |  |  |  |
-| 14 | 《白沙》 |  |  |  |
-| 15 | 《就是咯里》 |  |  |  |
-| 16 | 《为明天而战》 |  |  |  |
+| 12 | [《Baby Baby》](orpheus://song/28830182) |  |  |  |
+| 13 | [《白沙（Scratch Bonus）》](orpheus://song/28830184) |  |  |  |
+| 14 | [《白沙》](orpheus://song/28830183) |  |  |  |
+| 15 | [《就是咯里》](orpheus://song/28830185) |  |  |  |
+| 16 | [《为明天而战》](orpheus://song/28830186) |  |  |  |
 
 - **2014 年 11 月，功夫胖与西奥、大雕发布《开点药》** （已下架不建议直播听！）
 
@@ -234,7 +234,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 - ![08-三缺一封面](/images/kungfu-pen/08-san-que-yi-cover.webp "三缺一封面")
 
-  **2015 年，C-BLOCK 发布第二张专辑《三缺一》**
+  **2015 年，C-BLOCK 发布第二张专辑[《三缺一》](orpheus://album/34894685)**
 
 专辑内大部分都是方言歌曲
 
@@ -244,17 +244,17 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 | 序号 | 歌曲名 | 收听建议 | MV | 备注 |
 | --- | --- | --- | --- | --- |
-| 1 | 《七里八里》 | 推荐 | [BV12x411f7NK](https://www.bilibili.com/video/BV12x411f7NK) |  |
-| 2 | 《策长沙》 | 推荐 | [BV1Ux411f7jd](https://www.bilibili.com/video/BV1Ux411f7jd) |  |
-| 3 | 《堵沉》 | 推荐 | [BV12x411f7tJ](https://www.bilibili.com/video/BV12x411f7tJ) |  |
-| 4 | 《水深》 |  | [BV1mx411f7mr](https://www.bilibili.com/video/BV1mx411f7mr) | MV 尺度大有 DOI 情节 |
-| 5 | 《dear mama》 |  |  |  |
-| 6 | 《我们恋爱吧》 |  |  |  |
-| 7 | 《球星加一边》 |  |  |  |
-| 8 | 《流光郎》 |  |  |  |
-| 9 | 《老街的味》 |  | [BV1mx411f7fk](https://www.bilibili.com/video/BV1mx411f7fk) |  |
-| 10 | 《沙码子》 |  | [BV1mx411f74A](https://www.bilibili.com/video/BV1mx411f74A) |  |
-| 11 | 《Outro skit》 |  |  |  |
+| 1 | [《七里八里》](orpheus://song/432430646) | 推荐 | [BV12x411f7NK](https://www.bilibili.com/video/BV12x411f7NK) |  |
+| 2 | [《策长沙》](orpheus://song/432430647) | 推荐 | [BV1Ux411f7jd](https://www.bilibili.com/video/BV1Ux411f7jd) |  |
+| 3 | [《堵沉》](orpheus://song/432430648) | 推荐 | [BV12x411f7tJ](https://www.bilibili.com/video/BV12x411f7tJ) |  |
+| 4 | [《水深》](orpheus://song/432430649) |  | [BV1mx411f7mr](https://www.bilibili.com/video/BV1mx411f7mr) | MV 尺度大有 DOI 情节 |
+| 5 | [《dear mama》](orpheus://song/432430650) |  |  |  |
+| 6 | [《我们恋爱吧》](orpheus://song/432430651) |  |  |  |
+| 7 | [《球星加一边》](orpheus://song/432430653) |  |  |  |
+| 8 | [《流光郎》](orpheus://song/432430654) |  |  |  |
+| 9 | [《老街的味》](orpheus://song/432430655) |  | [BV1mx411f7fk](https://www.bilibili.com/video/BV1mx411f7fk) |  |
+| 10 | [《沙码子》](orpheus://song/432430656) |  | [BV1mx411f74A](https://www.bilibili.com/video/BV1mx411f74A) |  |
+| 11 | [《Outro skit》](orpheus://song/432430657) |  |  |  |
 
 ---
 
@@ -286,7 +286,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 ![09-三千里封面](/images/kungfu-pen/09-three-thousand-miles-cover.webp "三千里封面")
 
-- **2016 年 12 月 7 日，功夫胖与西奥、刘聪合作单曲《三千里》（推荐收听）**
+- **2016 年 12 月 7 日，功夫胖与西奥、刘聪合作单曲[《三千里》](orpheus://song/445154882)（推荐收听）**
 
 备注：网易云 C-BLOCK 专辑列表曲目，网易云可观看有 MV
 
@@ -310,7 +310,7 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 ![10-以下范上封面](/images/kungfu-pen/10-yi-xia-fan-shang-cover.webp "以下范上封面")
 
-- **2017 年 1 月 23 日，C-BLOCK 第三张专辑《以下范上》**
+- **2017 年 1 月 23 日，C-BLOCK 第三张专辑[《以下范上》](orpheus://album/35139431)**
 
 《以下范上》专辑的诞生，是 C-Block 迸发崭新生命力的一道惊雷。用老道的话来说，《以下范上》是 C-Block 第一张合格的专辑。
 
@@ -324,22 +324,22 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 | 序号 | 歌曲名 | 收听建议 | MV | 备注 |
 | --- | --- | --- | --- | --- |
-| 1 | 《大闹天宫》 |  |  |  |
+| 1 | [《大闹天宫》](orpheus://song/454966908) |  |  |  |
 | 2 | 《小蜜蜂》 | 不建议收听 |  | 已下架，涉及政治敏感词汇 |
-| 3 | 《野家拳》 |  |  |  |
-| 4 | 《英雄钢笔》 |  | [BV1Ws411P7Qd](https://www.bilibili.com/video/BV1Ws411P7Qd) | 有 MV 不推荐看 |
-| 5 | 《女人花》 |  |  | 有消音，无消音有字幕版：[BV1kg4y187fQ](https://www.bilibili.com/video/BV1kg4y187fQ)  淘金怪盗：[BV15fc4zQEHT](https://www.bilibili.com/video/BV15fc4zQEHT) |
-| 6 | 《初来炸到》 |  |  |  |
-| 7 | 《小路》 |  |  |  |
-| 8 | 《江湖流》 |  | [BV1FW4y1B7cn](https://www.bilibili.com/video/BV1FW4y1B7cn) |  |
-| 9 | 《梦怡》 | 不建议收听 |  | 已下架，描写 DOI 的歌曲 淘金怪盗：[BV1BqeBz3E4C](https://www.bilibili.com/video/BV1BqeBz3E4C) |
-| 10 | 《停电夜》 |  | [油管 mv](https://www.youtube.com/watch?v=88xM3sduYP0&list=RD88xM3sduYP0&start_radio=1) | 油管 mv |
-| 11 | 《杀死忍者》 |  | [BV1rF411F7kj](https://www.bilibili.com/video/BV1rF411F7kj) | 已下架，涉及政治敏感词汇MV跳过 2:06——2:12  淘金怪盗：[BV1KwnRzAEkb](https://www.bilibili.com/video/BV1KwnRzAEkb) |
-| 12 | 《兵临城下》 |  |  | 消音严重，无消音有字幕版：[BV1FV411y7gx](https://www.bilibili.com/video/BV1FV411y7gx) |
-| 13 | 《以下范上》 | 推荐消音版 | [BV1ha411w7Gt](https://www.bilibili.com/video/BV1ha411w7Gt) | 最后一段 VERSE 涉及政治敏感词汇网易云版本已消音。 MV 跳过 3:50—4:10淘金怪盗：[BV1dAebzkErt](https://www.bilibili.com/video/BV1dAebzkErt) |
-| 14 | 《我的梦》 |  |  |  |
-| 15 | 《未来主人翁》 |  | [BV1PT4y1c7j2](https://www.bilibili.com/video/BV1PT4y1c7j2) |  |
-| 16 | 《火苗》 |  |  | 有消音，无消音有字幕版：[BV13B4y157Xj](https://www.bilibili.com/video/BV13B4y157Xj)淘金怪盗：[BV15Kp1zxExB](https://www.bilibili.com/video/BV15Kp1zxExB) |
+| 3 | [《野家拳》](orpheus://song/454966909) |  |  |  |
+| 4 | [《英雄钢笔》](orpheus://song/454966910) |  | [BV1Ws411P7Qd](https://www.bilibili.com/video/BV1Ws411P7Qd) | 有 MV 不推荐看 |
+| 5 | [《女人花》](orpheus://song/454966911) |  |  | 有消音，无消音有字幕版：[BV1kg4y187fQ](https://www.bilibili.com/video/BV1kg4y187fQ)  淘金怪盗：[BV15fc4zQEHT](https://www.bilibili.com/video/BV15fc4zQEHT) |
+| 6 | [《初来炸到》](orpheus://song/455345090) |  |  |  |
+| 7 | [《小路》](orpheus://song/454966912) |  |  |  |
+| 8 | [《江湖流》](orpheus://song/454966913) |  | [BV1FW4y1B7cn](https://www.bilibili.com/video/BV1FW4y1B7cn) |  |
+| 9 | [《梦怡》](orpheus://song/454966914) | 不建议收听 |  | 已下架，描写 DOI 的歌曲 淘金怪盗：[BV1BqeBz3E4C](https://www.bilibili.com/video/BV1BqeBz3E4C) |
+| 10 | [《停电夜》](orpheus://song/455345091) |  | [油管 mv](https://www.youtube.com/watch?v=88xM3sduYP0&list=RD88xM3sduYP0&start_radio=1) | 油管 mv |
+| 11 | [《杀死忍者》](orpheus://song/454966915) |  | [BV1rF411F7kj](https://www.bilibili.com/video/BV1rF411F7kj) | 已下架，涉及政治敏感词汇MV跳过 2:06——2:12  淘金怪盗：[BV1KwnRzAEkb](https://www.bilibili.com/video/BV1KwnRzAEkb) |
+| 12 | [《兵临城下》](orpheus://song/454966916) |  |  | 消音严重，无消音有字幕版：[BV1FV411y7gx](https://www.bilibili.com/video/BV1FV411y7gx) |
+| 13 | [《以下范上》](orpheus://song/455345092) | 推荐消音版 | [BV1ha411w7Gt](https://www.bilibili.com/video/BV1ha411w7Gt) | 最后一段 VERSE 涉及政治敏感词汇网易云版本已消音。 MV 跳过 3:50—4:10淘金怪盗：[BV1dAebzkErt](https://www.bilibili.com/video/BV1dAebzkErt) |
+| 14 | [《我的梦》](orpheus://song/454966917) |  |  |  |
+| 15 | [《未来主人翁》](orpheus://song/454966918) |  | [BV1PT4y1c7j2](https://www.bilibili.com/video/BV1PT4y1c7j2) |  |
+| 16 | [《火苗》](orpheus://song/454966919) |  |  | 有消音，无消音有字幕版：[BV13B4y157Xj](https://www.bilibili.com/video/BV13B4y157Xj)淘金怪盗：[BV15Kp1zxExB](https://www.bilibili.com/video/BV15Kp1zxExB) |
 
 - **【以下范上纪录片】**
 - 上：[BV1YvzyByEzC](https://www.bilibili.com/video/BV1YvzyByEzC)
@@ -379,27 +379,27 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 ### 《淘金日记》
 
-- **2018 年 4 月，C-BLOCK 第四张专辑《淘金日记》（全专推荐）**
+- **2018 年 4 月，C-BLOCK 第四张专辑[《淘金日记》](orpheus://album/38402011)（全专推荐）**
 
 （备注：网易云 C-BLOCK 专辑列表有全专，但存在消音问题）
 
 | 序号 | 歌曲名 | 收听建议 | MV | 备注 |
 | --- | --- | --- | --- | --- |
-| 1 | 《Black Hoodie》 |  |  | 有消音但不影响 |
-| 2 | 《同路人》 |  | 网易云可看 |  |
-| 3 | 《无涯》 |  |  |  |
-| 4 | [《淘金日记》](orpheus://song/507179079) |  | [BV1ux411x7Qn ](https://www.bilibili.com/video/BV1ux411x7Qn)没啥可看的 | 淘金怪盗：[BV12prhBAEJe](https://www.bilibili.com/video/BV12prhBAEJe) |
-| 5 | 《1More》 | 直播可收听消音版 | [BV1vZ4y1G7xw](https://www.bilibili.com/video/BV1vZ4y1G7xw) | 涉及政治敏感因素网易云已消音 MV 跳过 04:57—05:00淘金怪盗：[BV1iT4bzsEw8](https://www.bilibili.com/video/BV1iT4bzsEw8) |
-| 6 | 《离骚》 |  | [BV1mp4y1k7mK](https://www.bilibili.com/video/BV1mp4y1k7mK) | 网易云可看 没有歌词不建议观看 |
-| 7 | 《港口》 |  | [BV1dx411f7P3](https://www.bilibili.com/video/BV1dx411f7P3) | 纯歌词 MV 没必要看 有消音但不影响 |
-| 8 | [《百乐门》](orpheus://song/543841013) |  | [油管 mv](https://www.youtube.com/watch?v=LgwLxBcuYaA&list=RDLgwLxBcuYaA&start_radio=1) | 有消音但不影响 |
-| 9 | 《绿林好汉》 | 无功夫胖,可不听 |  |  |
-| 10 | 《醒来》 |  |  |  |
-| 11 | 《庐山》 |  | [BV1A94y127qG](https://www.bilibili.com/video/BV1A94y127qG) 网易云可看 | 淘金怪盗：[BV1TTzYBNEkg](https://www.bilibili.com/video/BV1TTzYBNEkg) |
-| 12 | 《长河》 | 无功夫胖,可不听 | [BV1AW411x7Tj](https://www.bilibili.com/video/BV1AW411x7Tj) | 淘金怪盗：[BV158bJziEiB](https://www.bilibili.com/video/BV158bJziEiB) |
-| 13 | 《蹦极》 | 推荐消音版 | [BV1di4y1b7ec](https://www.bilibili.com/video/BV1di4y1b7ec) 网易云可看（不推荐） | 有消音 淘金怪盗：[BV173eczeEMf](https://www.bilibili.com/video/BV173eczeEMf) |
-| 14 | 《行运一条龙》 | 无功夫胖,可不听 |  |  |
-| 15 | 《三人行》 |  |  | 有消音但不影响 |
+| 1 | [《Black Hoodie》](orpheus://song/553812272) |  |  | 有消音但不影响 |
+| 2 | [《同路人》](orpheus://song/553812273) |  | 网易云可看 |  |
+| 3 | [《无涯》](orpheus://song/553812274) |  |  |  |
+| 4 | [《淘金日记》](orpheus://song/553813239) |  | [BV1ux411x7Qn ](https://www.bilibili.com/video/BV1ux411x7Qn)没啥可看的 | 淘金怪盗：[BV12prhBAEJe](https://www.bilibili.com/video/BV12prhBAEJe) |
+| 5 | [《1More》](orpheus://song/553813240) | 直播可收听消音版 | [BV1vZ4y1G7xw](https://www.bilibili.com/video/BV1vZ4y1G7xw) | 涉及政治敏感因素网易云已消音 MV 跳过 04:57—05:00淘金怪盗：[BV1iT4bzsEw8](https://www.bilibili.com/video/BV1iT4bzsEw8) |
+| 6 | [《离骚》](orpheus://song/553813241) |  | [BV1mp4y1k7mK](https://www.bilibili.com/video/BV1mp4y1k7mK) | 网易云可看 没有歌词不建议观看 |
+| 7 | [《港口》](orpheus://song/553814249) |  | [BV1dx411f7P3](https://www.bilibili.com/video/BV1dx411f7P3) | 纯歌词 MV 没必要看 有消音但不影响 |
+| 8 | [《百乐门》](orpheus://song/553815242) |  | [油管 mv](https://www.youtube.com/watch?v=LgwLxBcuYaA&list=RDLgwLxBcuYaA&start_radio=1) | 有消音但不影响 |
+| 9 | [《绿林好汉》](orpheus://song/553815243) | 无功夫胖,可不听 |  |  |
+| 10 | [《醒来》](orpheus://song/553815244) |  |  |  |
+| 11 | [《庐山》](orpheus://song/553815245) |  | [BV1A94y127qG](https://www.bilibili.com/video/BV1A94y127qG) 网易云可看 | 淘金怪盗：[BV1TTzYBNEkg](https://www.bilibili.com/video/BV1TTzYBNEkg) |
+| 12 | [《长河》](orpheus://song/553815246) | 无功夫胖,可不听 | [BV1AW411x7Tj](https://www.bilibili.com/video/BV1AW411x7Tj) | 淘金怪盗：[BV158bJziEiB](https://www.bilibili.com/video/BV158bJziEiB) |
+| 13 | [《蹦极》](orpheus://song/553815247) | 推荐消音版 | [BV1di4y1b7ec](https://www.bilibili.com/video/BV1di4y1b7ec) 网易云可看（不推荐） | 有消音 淘金怪盗：[BV173eczeEMf](https://www.bilibili.com/video/BV173eczeEMf) |
+| 14 | [《行运一条龙》](orpheus://song/553815248) | 无功夫胖,可不听 |  |  |
+| 15 | [《三人行》](orpheus://song/553815249) |  |  | 有消音但不影响 |
 
 - **2018 年参加《中国新说唱》，发布[《再见 Hiphop》](orpheus://song/1306507665)**
 
@@ -415,7 +415,7 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 豆子芝麻茶——湖南特有茶，此茶在[《山歌王》](orpheus://song/3349945534)中亦有记载。
 
-- **2018 年 7 月，C-BLOCK 单曲《很高兴认识你》** （推荐收听）
+- **2018 年 7 月，C-BLOCK 单曲[《很高兴认识你》](orpheus://song/1318571230)** （推荐收听）
 
 ![13-很高兴认识你封面](/images/kungfu-pen/13-nice-to-meet-you-cover.webp "很高兴认识你封面")
 
@@ -425,7 +425,7 @@ Beef 期间，功夫胖只写了一首娱乐性质的《脱衣舞男》diss 海�
 
 而后，功夫胖在接受采访中，正式表达了 CB 三人独立发展的计划。"两张专辑说遍了对 HIPHOP 的看法"，成了他们对原计划四部曲中前两部的结语。伴随组合"单飞不解散"格局的形成，他的个人创作也翻开了新的篇章，C-BLOCK 时期就此告一段落。
 
-之后 C-BLOCK 保持着周期性团建，2019 年发布单曲《灯塔》、2021 年发布单曲《孤影》。
+之后 C-BLOCK 保持着周期性团建，2019 年发布单曲[《灯塔》](orpheus://song/1411328772)、2021 年发布单曲[《孤影》](orpheus://song/1844687784)。
 
 这个饱含无数回忆、过往、泪水汗水的组合是他们的胎胞，他们的音乐生涯中也将永远有一脉相同的血液。
 
