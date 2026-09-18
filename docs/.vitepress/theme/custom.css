@@ -1,3 +1,6 @@
+/* 引入思源黑体（简体中文）—— 国内用 jsdelivr 镜像，避免 Google Fonts 加载慢 */
+@import url('https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-sc@5.0.19/index.css');
+
 /* 强制平滑滚动，覆盖 VitePress 过渡动画中的 auto!important */
 html {
   scroll-behavior: smooth !important;
@@ -56,7 +59,12 @@ html {
   --vp-code-tab-active-text-color: #2b2117;
   --vp-code-tab-active-bar-color: #b78a35;
 
-  --vp-font-family-base: 'RS Numeric', Georgia, 'Times New Roman', 'Noto Serif SC',
+  /* 全站正文字体统一思源黑体（除主页大标题外） */
+  --vp-font-family-base: 'Noto Sans SC', 'RS Numeric', -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei',
+    sans-serif;
+  /* 主页大标题（hero name）专用：保留衬线唱片店风格 */
+  --vp-font-family-serif: 'RS Numeric', Georgia, 'Times New Roman', 'Noto Serif SC',
     'Source Han Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
   --vp-font-family-mono: Consolas, 'JetBrains Mono', 'Courier New', monospace;
 
@@ -80,6 +88,16 @@ html {
      随文字颜色走，不产生任何网络请求 */
   --rs-icon-headphone: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3'/%3E%3C/svg%3E");
   --rs-icon-video: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='2.5' y='5' width='19' height='14' rx='4'/%3E%3Cpath d='M10.2 9.3v5.4l4.8-2.7z' fill='black' stroke='none'/%3E%3C/svg%3E");
+}
+
+/* ---------- 主页大标题：保留衬线唱片店风格 ----------
+   仅首页 hero 的 name（如「中文说唱档案」）沿用原衬线字体栈，
+   其余全站文字（导航、侧栏、正文、表格、按钮等）一律思源黑体。 */
+.VPHero .name,
+.VPHomeHero .name,
+.hero .name {
+  font-family: var(--vp-font-family-serif);
+  font-weight: 700;
 }
 
 /* ---------- 顶栏：完整一条，不与左侧栏融合 ----------
@@ -161,6 +179,19 @@ html {
   text-justify: inter-ideograph;
 }
 
+/* 正文段落 / 列表 / 引文 / 表格：思源黑体 Medium，清晰不刺眼 */
+.vp-doc p,
+.vp-doc li,
+.vp-doc blockquote,
+.vp-doc blockquote p,
+.vp-doc table td,
+.vp-doc table th {
+  font-weight: 500;
+  line-height: 1.85;
+  letter-spacing: 0.005em;
+  word-break: break-word;
+}
+
 .vp-doc ::selection {
   background: rgba(162, 53, 37, 0.18);
 }
@@ -175,6 +206,7 @@ html {
   border-bottom: 3px double var(--rs-gold);
   color: var(--rs-vinyl);
   font-size: 2em;
+  font-weight: 700;
   line-height: 1.4;
   letter-spacing: 0.14em;
   text-align: center;
@@ -189,6 +221,7 @@ html {
   background: linear-gradient(90deg, rgba(183, 138, 53, 0.16), rgba(183, 138, 53, 0) 65%);
   color: var(--rs-vinyl);
   font-size: 1.45em;
+  font-weight: 700;
   line-height: 1.5;
 }
 
@@ -210,6 +243,7 @@ html {
   margin: 1.7em 0 0.7em;
   color: var(--rs-red);
   font-size: 1.17em;
+  font-weight: 600;
 }
 
 .vp-doc h3::before {
@@ -1143,4 +1177,47 @@ html {
 
 .rs-ncm-toast .rs-ncm-toast-btn:hover {
   opacity: 0.85;
+}
+
+/* ============================================================
+   正文响应式字号：移动端 17px，桌面端 18px
+   配合思源黑体 Medium，阅读更清晰饱满
+   ============================================================ */
+
+/* 移动端（<768px） */
+@media (max-width: 767px) {
+  .vp-doc {
+    font-size: 17px;
+  }
+
+  .vp-doc h1 {
+    font-size: 1.7em;
+  }
+
+  .vp-doc h2 {
+    font-size: 1.35em;
+  }
+
+  .vp-doc h3 {
+    font-size: 1.12em;
+  }
+}
+
+/* 桌面端（≥768px） */
+@media (min-width: 768px) {
+  .vp-doc {
+    font-size: 18px;
+  }
+
+  .vp-doc h1 {
+    font-size: 2em;
+  }
+
+  .vp-doc h2 {
+    font-size: 1.45em;
+  }
+
+  .vp-doc h3 {
+    font-size: 1.17em;
+  }
 }
