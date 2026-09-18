@@ -9,17 +9,23 @@ export default defineConfig({
   base: '/showMD/',
   cleanUrls: true,
   lastUpdated: true,
-  // 唱片店主题为纯浅色设计，禁用暗色模式避免两套变量打架
+  // 多主题为手动切换（10 套阅读主题），禁用 VitePress 自带深浅色开关
   appearance: false,
   // 模板文件仅作新建艺人时的脚手架，不参与构建发布
   srcExclude: ['artists/_template.md'],
 
   head: [
-    ['meta', { name: 'theme-color', content: '#f6efe1' }],
+    ['meta', { name: 'theme-color', content: '#FAFAFA' }],
     // SVG favicon 内嵌图形并跟随系统深浅色：浅色标签为黑色、深色标签反白；
     // PNG 回退给不支持 SVG favicon 的旧浏览器
     ['link', { rel: 'icon', href: '/showMD/images/favicon.svg', type: 'image/svg+xml' }],
-    ['link', { rel: 'icon', href: '/showMD/images/favicon.png', type: 'image/png', sizes: '128x128' }]
+    ['link', { rel: 'icon', href: '/showMD/images/favicon.png', type: 'image/png', sizes: '128x128' }],
+    // 首屏防闪烁：CSS 加载前就把 localStorage 里的主题写到 <html data-theme>；
+    // 无存储时默认 apple（Apple Books 风格）。键名与 theme-switcher.ts 保持一致。
+    ['script', {},
+      "(function(){try{var t=localStorage.getItem('rs-theme')||'apple';" +
+      "document.documentElement.setAttribute('data-theme',t)}catch(e){" +
+      "document.documentElement.setAttribute('data-theme','apple')}})()"]
   ],
 
   themeConfig: {
