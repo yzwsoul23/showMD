@@ -121,19 +121,19 @@ export function setupThemeSwitcher() {
   const toggle = createToggle()
   const panel = createPanel()
 
-  // 2. 挂到导航栏右侧（汉堡按钮之前，桌面端即最右侧）
-  //    enhanceApp 运行时导航栏尚未渲染，用 rAF 重试直到挂上；
-  //    导航栏 DOM 跨路由复用，挂载成功后无需再管。
+  // 2. 挂进顶栏最右侧的锚点（index.ts 通过 nav-bar-content-after 插槽渲染）。
+  //    锚点是 Vue 自己的节点，hydration 完成后才可靠存在，用 rAF 重试等待；
+  //    导航栏跨路由复用，挂载成功后无需再管。
   const wrap = document.createElement('div')
   wrap.className = 'rs-theme-wrap'
   wrap.append(toggle, panel)
 
   let mounted = false
-  const tryMount = (retries = 120) => {
+  const tryMount = (retries = 600) => {
     if (mounted && wrap.isConnected) return
-    const navBody = document.querySelector('.VPNavBar .content-body')
-    if (navBody) {
-      navBody.insertBefore(wrap, navBody.querySelector('.VPNavBarHamburger'))
+    const anchor = document.querySelector('.rs-theme-anchor')
+    if (anchor) {
+      anchor.append(wrap)
       mounted = true
       return
     }

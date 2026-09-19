@@ -1295,7 +1295,7 @@ html[data-theme='record'] .vp-doc .rs-table-wrap::-webkit-scrollbar-thumb:hover 
    图片：通用圆角卡片（边框 / 底色 / 圆角 / 阴影全部随主题变量）
    ============================================================ */
 
-.vp-doc img {
+.vp-doc img:not(.artist-avatar) {
   display: inline-block;
   max-width: 100%;
   height: auto;
@@ -1330,7 +1330,7 @@ html[data-theme='record'] .vp-doc .rs-table-wrap::-webkit-scrollbar-thumb:hover 
 }
 
 /* 唱片店：相纸白边框 + 悬停轻微倾斜；封面黑胶效果 */
-html[data-theme='record'] .vp-doc img {
+html[data-theme='record'] .vp-doc img:not(.artist-avatar) {
   padding: 5px;
 }
 
@@ -1452,7 +1452,7 @@ html[data-theme='record'] .vp-doc p.has-block-img > img[alt*='封面']:hover {
   max-height: 620px !important;
 }
 
-.vp-doc img[alt*='头像'] {
+.vp-doc img[alt*='头像']:not(.artist-avatar) {
   width: 130px !important;
   height: 130px !important;
   max-width: 130px !important;
@@ -1593,18 +1593,23 @@ html[data-theme='record'] .vp-doc table img[alt] {
 }
 
 /* ============================================================
-   主题切换器：导航栏右侧按钮 + 毛玻璃下拉面板
-   （按钮由 theme-switcher.ts 挂进 .VPNavBar .content-body）
+   主题切换器：顶栏最右侧按钮 + 毛玻璃下拉面板
+   （锚点 .rs-theme-anchor 由 index.ts 的 nav-bar-content-after 插槽渲染，
+    按钮/面板由 theme-switcher.ts 挂进锚点内部）
    ============================================================ */
 
+.rs-theme-anchor {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+/* 与 VitePress 原生外观按钮同规格：36px 圆形、悬停浅底 */
 .rs-theme-wrap {
   position: relative;
   display: flex;
   align-items: center;
-  margin-left: 6px;
 }
-
-/* 与 VitePress 原生外观按钮同规格：36px 圆形、悬停浅底 */
 .rs-theme-toggle {
   display: flex;
   align-items: center;
@@ -1953,7 +1958,7 @@ html[data-theme='record'].rs-reading-mode .vp-doc p.has-block-img:has(> img[alt*
    图片灯箱：正文缩略图点击查看高清原图
    ============================================================ */
 
-.vp-doc img {
+.vp-doc img:not(.artist-avatar) {
   cursor: zoom-in;
 }
 
@@ -2119,8 +2124,8 @@ html[data-theme='record'].rs-reading-mode .vp-doc p.has-block-img:has(> img[alt*
     --vp-nav-logo-height: 24px;
   }
 
-  /* 主题切换器：顶栏内收边，面板贴屏幕右缘 */
-  .rs-theme-wrap {
+  /* 主题切换器：贴汉堡按钮右侧，面板贴屏幕右缘 */
+  .rs-theme-anchor {
     margin-left: 2px;
   }
 

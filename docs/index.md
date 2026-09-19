@@ -25,22 +25,24 @@ import { artists } from './data/artists'
     :key="artist.id"
     class="artist-card"
     :href="withBase(`/artists/${artist.id}`)"
+    :aria-label="`查看 ${artist.name} 的档案`"
   >
-    <img
-      class="artist-avatar"
-      :src="withBase(artist.avatar)"
-      :alt="`${artist.name} 头像`"
-      loading="lazy"
-    />
-    <div class="artist-meta">
-      <h2 class="artist-name">{{ artist.name }}</h2>
-      <p class="artist-tags">
-        <span>{{ artist.region }}</span>
-        <template v-if="artist.label"> · {{ artist.label }}</template>
-        <template v-if="artist.debutYear"> · {{ artist.debutYear }} 出道</template>
-      </p>
-      <p class="artist-bio">{{ artist.bio }}</p>
-    </div>
+    <span class="artist-media">
+      <img
+        class="artist-avatar"
+        :src="withBase(artist.avatar)"
+        :alt="`${artist.name} 头像`"
+        loading="lazy"
+      />
+      <span class="artist-overlay">
+        <span class="artist-overlay-tags">
+          {{ artist.region }}<template v-if="artist.label"> · {{ artist.label }}</template><template v-if="artist.debutYear"> · {{ artist.debutYear }} 出道</template>
+        </span>
+        <span class="artist-overlay-bio">{{ artist.bio }}</span>
+        <span class="artist-overlay-cta">查看完整档案 →</span>
+      </span>
+      <span class="artist-name">{{ artist.name }}</span>
+    </span>
   </a>
 </div>
 
@@ -48,116 +50,146 @@ import { artists } from './data/artists'
 .artist-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 24px 20px;
-  padding: 8px 24px 56px;
+  gap: 28px 24px;
+  padding: 8px 24px 64px;
   max-width: 1152px;
   margin: 0 auto;
 }
 
 .artist-card {
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  padding: 0;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 14px;
-  background-color: var(--vp-c-bg-soft);
+  display: block;
   text-decoration: none;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
-.artist-card:hover {
-  transform: translateY(-3px);
-  border-color: var(--vp-c-brand-1);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+/* 卡片主体：一张撑满的正方形人像 */
+.artist-media {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  background-color: var(--vp-c-bg-alt);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease;
 }
 
-/* 桌面端：封面占满卡宽（1:1），信息收在下方，整列卡片高度一致 */
 .artist-avatar {
   display: block;
   width: 100%;
-  aspect-ratio: 1 / 1;
+  height: 100%;
   object-fit: cover;
-  background-color: var(--vp-c-bg-alt);
+  transition: transform 0.4s ease, filter 0.4s ease;
 }
 
-.artist-meta {
+/* 底部常驻暗渐变，保证压在图上的名字可读 */
+.artist-media::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: linear-gradient(180deg, transparent 55%, rgba(0, 0, 0, 0.58));
+  pointer-events: none;
+}
+
+/* 悬停浮层：图片模糊，简介浮现（名字保持可见） */
+.artist-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  flex: 1;
-  min-width: 0;
-  padding: 14px 16px 16px;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 18px 18px 56px;
+  color: #fff;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.12) 30%, rgba(0, 0, 0, 0.72));
+  opacity: 0;
+  transition: opacity 0.35s ease;
 }
 
-.artist-name {
-  margin: 0;
-  font-size: 17px;
-  line-height: 1.4;
-  border: none;
-  padding: 0;
+.artist-overlay-tags {
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  opacity: 0.85;
 }
 
-.artist-tags {
-  margin: 0;
-  font-size: 12.5px;
-  color: var(--vp-c-text-3);
-}
-
-.artist-bio {
-  margin: 0;
+.artist-overlay-bio {
   font-size: 13px;
-  line-height: 1.65;
-  color: var(--vp-c-text-2);
+  line-height: 1.7;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   overflow: hidden;
 }
 
-/* 移动端：单列紧凑横排——小方头像在左，文字在右 */
+.artist-overlay-cta {
+  font-size: 12.5px;
+  font-weight: 600;
+  opacity: 0.92;
+}
+
+/* 名字压在图片底部，白色加大加粗 */
+.artist-name {
+  position: absolute;
+  inset: auto 8px 14px;
+  z-index: 2;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6), 0 2px 10px rgba(0, 0, 0, 0.35);
+}
+
+/* 悬停效果只作用于有指针的设备；触屏点击直接进档案页 */
+@media (hover: hover) {
+  .artist-card:hover {
+    text-decoration: none;
+  }
+
+  .artist-card:hover .artist-media {
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16);
+  }
+
+  .artist-card:hover .artist-avatar {
+    transform: scale(1.05);
+    filter: blur(7px);
+  }
+
+  .artist-card:hover .artist-overlay {
+    opacity: 1;
+  }
+}
+
+.artist-card:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 4px;
+  border-radius: 14px;
+}
+
+.artist-card:focus-visible .artist-avatar {
+  filter: blur(7px);
+}
+
+.artist-card:focus-visible .artist-overlay {
+  opacity: 1;
+}
+
+/* 移动端：两列方形图网格，点击直接进档案 */
 @media (max-width: 640px) {
   .artist-grid {
-    grid-template-columns: 1fr;
-    gap: 12px;
-    padding: 4px 16px 40px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px 14px;
+    padding: 4px 16px 44px;
   }
 
-  .artist-card {
-    flex-direction: row;
-    align-items: center;
-    gap: 12px;
-    padding: 12px;
-    border-radius: 12px;
-  }
-
-  .artist-card:hover {
-    transform: none;
-  }
-
-  .artist-avatar {
-    width: 76px;
-    height: 76px;
-    flex-shrink: 0;
+  .artist-media {
     border-radius: 10px;
   }
 
-  .artist-meta {
-    gap: 4px;
-    padding: 0;
-  }
-
   .artist-name {
-    font-size: 15.5px;
-  }
-
-  .artist-tags {
-    font-size: 12px;
-  }
-
-  .artist-bio {
-    font-size: 12.5px;
-    -webkit-line-clamp: 2;
+    font-size: 15px;
+    inset: auto 6px 9px;
   }
 }
 </style>
