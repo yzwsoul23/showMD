@@ -177,7 +177,7 @@ GAI宣布退出厂牌第二天，海尔兄弟乘胜追击发布了《该挨》�
 
 | **序号** | **歌曲名** | **发布日期** | **视频链接** | **备注** |
 | --- | --- | --- | --- | --- |
-| 1 | 空城计 | 2016.7.24 | [QQ音乐可听](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002dZgkR2CY1iC","type":"0"}],"action":"play"}) | [BV1xxGPzNEYN](https://www.bilibili.com/video/BV1xxGPzNEYN)《空城计》的完整歌词解析，值得观看 |
+| 1 | [空城计](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002dZgkR2CY1iC","type":"0"}],"action":"play"}) | 2016.7.24 |   | [BV1xxGPzNEYN](https://www.bilibili.com/video/BV1xxGPzNEYN)《空城计》的完整歌词解析，值得观看 |
 | 2 | 苦行僧（摇滚版） | 2016.8.19 | [BV1Fx411q72r](https://www.bilibili.com/video/BV1Fx411q72r) |   |
 | 3 | 垃圾话 | 2016.9.2 | [BV1fx411t7AP](https://www.bilibili.com/video/BV1fx411t7AP) |   |
 | 4 | 天干物燥 | 2016.10.26 | [BV1DW411E7hr](https://www.bilibili.com/video/BV1DW411E7hr) | 可以在后面和新编版对比着听 |
@@ -193,7 +193,7 @@ GAI宣布退出厂牌第二天，海尔兄弟乘胜追击发布了《该挨》�
 | 5 | 套路 | 2016.12.27 | 合作JonyJ | [BV1MZ421h7iQ](https://www.bilibili.com/video/BV1MZ421h7iQ) |
 | 6 | 耍没耍过的 | 2017.3.4 | 合作雾都、bridge（这歌大部分现场都没有GAI） | [BV1XoTt6pEa7](https://www.bilibili.com/video/BV1XoTt6pEa7) |
 | 7 | 夕阳下 | 2017.4.13 | 合作夜叉乐队，17年初发的，3分34秒开始是GAI verse | [BV11oA9z9Evc](https://www.bilibili.com/video/BV11oA9z9Evc) |
-| 8 | Rainbow | 2017.4.27 | 合作Bridge ，17年初发的，但可以在这里一起听 | [QQ音乐可听](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004DJPc732vmCX","type":"0"}],"action":"play"}) |
+| 8 | [Rainbow](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004DJPc732vmCX","type":"0"}],"action":"play"}) | 2017.4.27 | 合作Bridge ，17年初发的，但可以在这里一起听 |   |
 
 ---
 
@@ -306,15 +306,15 @@ GAI夺冠后第二天就在采访中表示，要把奖金全部捐出去（[BV1A
 | **序号** | **歌曲名** | **歌手** | **备注 / 出处** | **发布时间** | **链接** |
 | --- | --- | --- | --- | --- | --- |
 | 1 | 王者降临 | GAI | 王者荣耀赛事主题曲 | 2017.8.17 | [BV1px411J7g8](https://www.bilibili.com/video/BV1px411J7g8) |
-| 2 | 没钱咋个整 | GAI | 51信用卡广告歌 | 2017.9.8 | [QQ音乐可听](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000CSdxX3wGIxz","type":"0"}],"action":"play"}) |
+| 2 | [没钱咋个整](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000CSdxX3wGIxz","type":"0"}],"action":"play"}) | GAI | 51信用卡广告歌 | 2017.9.8 |   |
 | 3 | 为梦打 Call | GAI | 中信卡广告歌 | 2017.9.9 | [BV1zx411s7bd](https://www.bilibili.com/video/BV1zx411s7bd) |
 | 4 | 好运来 | GAI/祖海 | 电影《羞羞的铁拳》推广曲 | 2017.9.29 | [BV1Mx411V7LM](https://www.bilibili.com/video/BV1Mx411V7LM) |
-| 5 | 风光超级行 | GAI | 汽车商业推广曲 | 2017.11.14 | [QQ音乐可听](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002vBBuX0F3Jen","type":"0"}],"action":"play"}) |
+| 5 | [风光超级行](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002vBBuX0F3Jen","type":"0"}],"action":"play"}) | GAI | 汽车商业推广曲 | 2017.11.14 |   |
 | 6 | 大师 | GAI | 丰田凯美瑞主题曲 | 2017.11.15 | [BV1gx411L7ML](https://www.bilibili.com/video/BV1gx411L7ML) |
 | 7 | 菜商卡头和车手 | GAI | 电影《巨额来电》主题曲 | 2017.11.21 | [BV1Sx411V7ZG](https://www.bilibili.com/video/BV1Sx411V7ZG) |
-| 8 | 凡人修仙 | GAI | 游戏主题曲（酒干倘卖无verse） | 2017.11.29 | [QQ音乐可听](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004HQ4093IT3V4","type":"0"}],"action":"play"}) |
+| 8 | [凡人修仙](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004HQ4093IT3V4","type":"0"}],"action":"play"}) | GAI | 游戏主题曲（酒干倘卖无verse） | 2017.11.29 |   |
 | 9 | 都市惊奇夜 | GAI/双笙 | 游戏主题曲 | 2018.1.15 | [BV1gW411v7Kx](https://www.bilibili.com/video/BV1gW411v7Kx) |
-| 10 | 盖世英雄 | GAI | 盖世英雄游戏主题曲 | 2018.1.22 | [QQ音乐可听](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003SHKTJ2tt412","type":"0"}],"action":"play"}) |
+| 10 | [盖世英雄](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003SHKTJ2tt412","type":"0"}],"action":"play"}) | GAI | 盖世英雄游戏主题曲 | 2018.1.22 |   |
 | 11 | 萤火虫 | GAI | 综艺主题曲 | 2018.2.28 | [BV1uW411t7vs](https://www.bilibili.com/video/BV1uW411t7vs) |
 | 12 | 长河 | GAI/Bridge/盛宇 | 江小白广告歌 | 2018.3.2 | [BV1AW411x7Tj](https://www.bilibili.com/video/BV1AW411x7Tj) |
 | / |   |   | 长河的一个现场 | / | [BV17m4y1y741](https://www.bilibili.com/video/BV17m4y1y741) |
@@ -325,7 +325,7 @@ GAI夺冠后第二天就在采访中表示，要把奖金全部捐出去（[BV1A
 | 17 | 大人物 | GAI | 电影《"大"人物》片尾曲，推荐 | 2019.1.10 | [BV13W97BuEZu](https://www.bilibili.com/video/BV13W97BuEZu) |
 | 18 | 在下霍元甲 | GAI | 电影宣传曲 | 2019.1.18 | [BV1Tt411h73v](https://www.bilibili.com/video/BV1Tt411h73v) |
 | 19 | 混江湖 | GAI | 游戏《逆水寒》周年推广曲 | 2019.6.25 | [BV1Rx411o7Yk](https://www.bilibili.com/video/BV1Rx411o7Yk) |
-| 20 | 天龙十二门 | GAI | 游戏《天龙八部》主题曲 | 2019.7.4 | [QQ音乐可听](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002QV8Gd41OK6K","type":"0"}],"action":"play"}) |
+| 20 | [天龙十二门](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002QV8Gd41OK6K","type":"0"}],"action":"play"}) | GAI | 游戏《天龙八部》主题曲 | 2019.7.4 |   |
 | 21 | 哪吒 | GAI/大痒痒 | 大爆电影《哪吒之魔童降世》主题曲 | 2019.7.13 | [BV1Wt411V7Ye](https://www.bilibili.com/video/BV1Wt411V7Ye) |
 
 2018年1月的武汉YOLO音乐节对于GAI很重要。事业上，他和好兄弟盛宇、Bridge的经典合作曲《长河》在音乐节的舞台上首次亮相。其中有一句歌词，“孤独时候也经常，直到遇到我的新娘。”在音乐节的后台，GAI完成了他的求婚。（求婚回顾，来自后面的一个生活综艺 [BV1RuUZBGEy3](https://www.bilibili.com/video/BV1RuUZBGEy3)）
@@ -355,7 +355,7 @@ GAI夺冠后第二天就在采访中表示，要把奖金全部捐出去（[BV1A
 | **序号** | **歌曲名称** | **发布时间** | **备注 / 出处** | **视频链接** |
 | --- | --- | --- | --- | --- |
 | **1** | 虎山行 | 2017.10.13 | 合作功夫胖/艾福杰尼，这个视频主动消音了一些句子 | [BV19K6NY1EQL](https://www.bilibili.com/video/BV19K6NY1EQL) |
-| **2** | Ding Ling Ding | 2017.10.27 | 合作蜜妞（也是当时刘洲厂牌的成员） | [QQ音乐可听](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002la7Nx4cEgu0","type":"0"}],"action":"play"}) |
+| **2** | [Ding Ling Ding](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002la7Nx4cEgu0","type":"0"}],"action":"play"}) | 2017.10.27 | 合作蜜妞（也是当时刘洲厂牌的成员） |   |
 | **3** | 饥饿游戏 | 2017.12.20 | 合作孔令奇 | QQ音乐可听 |
 | **4** | 2018 Gosh Cypher | 2018.6 | 受合约影响以金牌小密探形态出现 | [BV1zs41177hM](https://www.bilibili.com/video/BV1zs41177hM) |
 | **5** | 重庆魂 | 2018.11.9 | 只在微博发布，被一个在重庆拍摄的网络电影作为主题曲，但不算严格意义的广告歌 | [BV1gGByBqEnS](https://www.bilibili.com/video/BV1gGByBqEnS) |
@@ -364,7 +364,7 @@ GAI夺冠后第二天就在采访中表示，要把奖金全部捐出去（[BV1A
 | 8 | 投名状 | 2019.7.26 | 合作盛宇/RANZER单曲 | [BV1kv411r7jV](https://www.bilibili.com/video/BV1kv411r7jV) |
 | / |   |   | 投名状的一个现场 | [BV1zE411r7ie](https://www.bilibili.com/video/BV1zE411r7ie) |
 | 9 | BIG BRO | 2019.7.29 | 个人单曲 | [BV1mt411w76m](https://www.bilibili.com/video/BV1mt411w76m) |
-| 10 | 中！国！万！岁！ | 2019.8.22 | 公益/主旋律单曲（这歌的音乐节现场非常high，听完再来看 [BV1mE411D7Ab](https://www.bilibili.com/video/BV1mE411D7Ab)） | [QQ音乐可听](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004aktwz3phjK7","type":"0"}],"action":"play"}) |
+| 10 | [中！国！万！岁！](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004aktwz3phjK7","type":"0"}],"action":"play"}) | 2019.8.22 | 公益/主旋律单曲（这歌的音乐节现场非常high，听完再来看 [BV1mE411D7Ab](https://www.bilibili.com/video/BV1mE411D7Ab)） |   |
 | 11 | 保险柜 | 2019.11.26 | 合作顽童小春 | [BV1iJ411q7EL](https://www.bilibili.com/video/BV1iJ411q7EL) |
 | 12 | 有空一起吃饭 | 2019.12.19 | 合作新裤子乐队 | QQ音乐可听 |
 
@@ -695,8 +695,8 @@ GAI的公司DMG种梦娱乐与优酷合作举办了属于自己的说唱综艺�
 | 7 | 诺言 | 2024.6.21 | 《天赐的声音》合作陈冰，今年只飞去了一期 | [BV11f421Q7iv](https://www.bilibili.com/video/BV11f421Q7iv) |
 | 8 | 说唱故事 | 2024.6.29 | 给bridge的feat，收录于bridge《023%》 |   |
 | 9 | 莱 | 2024.8.2 | 华莱士官方品牌歌 | [BV1NeYTezEvD](https://www.bilibili.com/video/BV1NeYTezEvD) |
-| 10 | 一半一半 | 2024.9.3 | 流行EP先行曲，后来整张发行计划取消了，因为不习惯唱别人写的词 | [QQ音乐可听](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001JbC3R2VBMgt","type":"0"}],"action":"play"}) |
-| 11 | 我的兄弟 | 2024.9.22 | feat王齐铭，[QQ音乐有音源](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002sqxiP2VoIwp","type":"0"}],"action":"play"})，右侧链接是北京演唱会首唱官摄 | [BV1cztSeBEAa](https://www.bilibili.com/video/BV1cztSeBEAa) |
+| 10 | [一半一半](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001JbC3R2VBMgt","type":"0"}],"action":"play"}) | 2024.9.3 | 流行EP先行曲，后来整张发行计划取消了，因为不习惯唱别人写的词 |   |
+| 11 | [我的兄弟](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002sqxiP2VoIwp","type":"0"}],"action":"play"}) | 2024.9.22 | feat王齐铭，QQ音乐有音源，右侧链接是北京演唱会首唱官摄 | [BV1cztSeBEAa](https://www.bilibili.com/video/BV1cztSeBEAa) |
 | 12 | 我本俗人 | 2024.12.26 | 电视剧《大奉打更人》片头曲 | [BV13VkQY5EjJ](https://www.bilibili.com/video/BV13VkQY5EjJ) |
 
 ---

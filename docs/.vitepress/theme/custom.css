@@ -1614,18 +1614,24 @@ html[data-theme='record'] .vp-doc table img[alt] {
 .vp-doc a[href*='bilibili.com/video/'] {
   display: inline-flex;
   align-items: center;
-  gap: 0.4em;
+  gap: 0.35em;
   margin: 0 0.12em;
-  padding: 0.06em 0.62em 0.06em 0.5em;
+  /* 垂直方向零内边距：胶囊高度只由文字行高 + 边框决定，
+     不超过同行文字行高，避免在表格里把行高撑大、上下凸出 */
+  padding: 0 0.5em;
   border: 1px solid rgba(var(--rs-accent-rgb), 0.35);
   border-bottom: 1px solid rgba(var(--rs-accent-rgb), 0.35);
   border-radius: 999px;
   background: rgba(var(--rs-accent-rgb), 0.08);
   color: var(--rs-accent);
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.4;
   white-space: nowrap;
   word-break: normal;
+  /* 胶囊文字（如歌名）允许选中复制：桌面端鼠标拖选、移动端长按选择 */
+  -webkit-user-select: text;
+  user-select: text;
+  -webkit-touch-callout: default;
   transition:
     background-color 0.2s,
     border-color 0.2s;
@@ -1643,8 +1649,8 @@ html[data-theme='record'] .vp-doc table img[alt] {
 .vp-doc a[href*='bilibili.com/video/']::before {
   content: '';
   flex: 0 0 auto;
-  width: 1.08em;
-  height: 1.08em;
+  width: 1em;
+  height: 1em;
   background-color: currentColor;
 }
 

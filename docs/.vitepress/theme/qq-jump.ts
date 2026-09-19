@@ -167,6 +167,15 @@ export function setupQqJump() {
     )
     if (!link) return
 
+    // 拖选（桌面）或长按选择（移动端）选中了胶囊文字时，属于复制歌名场景：
+    // 只阻止 qqmusic:// 协议的默认跳转、不唤起客户端，保留用户选区；
+    // 普通单击时 mousedown 会先把选区折叠，这里读到的是空选区，正常唤起
+    const selection = window.getSelection()
+    if (selection && !selection.isCollapsed && selection.toString().length > 0) {
+      e.preventDefault()
+      return
+    }
+
     const songmid = parseSongmid(link.getAttribute('href') ?? '')
     if (!songmid) return
 
