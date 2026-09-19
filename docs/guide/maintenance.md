@@ -41,6 +41,7 @@ showMD/
 | `npm run thumbs -- --force` | 全部重新生成缩略图 | 换了原图或改了压缩参数 |
 | `npm run images:compress` | 原地压缩 images 目录 | 只有散图、不走 originals 时 |
 | `npm run ncm:songs` | 网易云歌单/歌手/专辑导出按发行时间排序的 CSV | 核对作品年表、挑 RE 素材时，见[网易云歌曲批量导出](#网易云歌曲批量导出ncm-songs) |
+| `npm run qq:songs` | QQ 音乐歌单/歌手/专辑导出按发行时间排序的 CSV（免登录） | 网易云没有版权、只能在 QQ 音乐核对时，见[QQ音乐歌曲批量导出](#qq-音乐歌曲批量导出qq-songs) |
 | `npm run validate` | 校验艺人数据完整性 | 提交前必跑，CI 也会跑 |
 | `npm run docs:build` | 构建产物到 `docs/.vitepress/dist/` | 一般不用手动跑，见[发布](#发布与构建什么时候需要手动-build) |
 | `npm run docs:preview` | 本地预览构建结果 | 想复查和线上完全一致的效果时 |
@@ -306,7 +307,7 @@ node scripts/ncm-songs.mjs "http://music.163.com/album/140566771/" GALI-亚特�
 也可用 npm 脚本：`npm run ncm:songs -- "<链接>" <输出文件> [asc|desc]`。
 
 - 链接支持完整分享链（如 `/m/playlist?id=xxx&creatorId=xxx&uiPlaylistType=UGC`）、地址栏短链、`/album/140566771/` 路径式三种形态；
-- 输出 CSV 带 UTF-8 BOM，Excel 直接双击打开不乱码；
+- 输出纯 UTF-8（无 BOM）编码；
 - 歌手模式会逐张请求其全部专辑（每张间隔 200ms），几十张专辑约 1-2 分钟，属正常速度。
 
 ### CSV 列说明
@@ -346,6 +347,58 @@ node scripts/ncm-songs.mjs "http://music.163.com/album/140566771/" GALI-亚特�
 | 全部导出 0 首但无报错 | cookie 失效，重新复制 `MUSIC_U` |
 | 某些歌 `publishDate` 为空且排在最后 | 源头就没有发行时间（DJ 电台、外带资源），脚本自动沉底，不要硬按 id 补 |
 | `接口未找到 / 参数错误` | 网易云接口改版，检查 `scripts/ncm-songs.mjs` 里的 API 路径是否需要更新 |
+| Excel 双击打开中文乱码 | 无 BOM 的 UTF-8 会被 Excel 误按 GBK 读；用「数据 → 从文本/CSV 导入」并选 Unicode UTF-8 查看。**切勿在 Excel 里直接「保存」**，它会把 CSV 重写成 GBK 编码 |
+
+## QQ 音乐歌曲批量导出（qq-songs）
+
+`scripts/qq-songs.mjs` 把 QQ 音乐的**歌单 / 歌手 / 专辑**批量导出为 CSV：自动补全专辑发行时间（`aDate` / `publicTime`），按发行日期排序，`publishDate`/`publishMs` 两列直接可用来核对作品年表。走公开 fcgi 接口，**免登录、免 cookie**。
+
+### 基本用法
+
+```powershell
+# 第一个参数是链接，第二个是输出文件，第三个 asc 升序（默认）/ desc 降序
+node scripts/qq-songs.mjs "https://y.qq.com/n/ryqq/playlist/9485452162" qq歌单.csv asc
+node scripts/qq-songs.mjs "https://y.qq.com/n/ryqq/album/002LiyZW27dGjC" 中国有嘻哈12期.csv asc
+node scripts/qq-songs.mjs "https://y.qq.com/n/ryqq/singer/0025NhlN2yWrP4" 周杰伦全部歌曲.csv desc
+```
+
+也可用 npm 脚本：`npm run qq:songs -- "<链接>" <输出文件> [asc|desc]`。
+
+- 链接直接复制浏览器地址栏的 `y.qq.com/n/ryqq/...`；分享页带 `id` / `albummid` / `singermid` 参数的链接也能识别；
+- 专辑链接末尾是字母混合串（albummid）或纯数字（albumid）都支持，脚本自动选择参数；
+- **歌手链接必须是地址栏里字母数字混合的 singermid**（如 `0025NhlN2yWrP4`），纯数字歌手 ID 无法直接取数；
+- 输出纯 UTF-8（无 BOM）编码；
+- 歌手模式逐张拉取全部专辑（每张间隔 200ms），40 张专辑约 30-60 秒，属正常速度。
+
+### CSV 列说明
+
+| 列 | 含义 |
+| :--- | :--- |
+| `publishDate` / `publishMs` | 发行日期（本地时区 YYYY-MM-DD）/ 毫秒时间戳 |
+| `songmid` / `songId` / `title` / `artists` | 歌曲 mid / 数字 ID / 歌名 / 歌手（多人 `/` 分隔） |
+| `albummid` / `albumId` / `album` | 专辑 mid / 数字 ID / 专辑名 |
+| `durationSec` | 时长（秒） |
+| `webUrl` | 网页版链接 `y.qq.com/n/ryqq/songDetail/<mid>`，**可直接粘进正文**，渲染为绿色胶囊 |
+| `qqmusic` | `qqmusic://` 客户端深链（PC 客户端自动播放不稳定，仅备用） |
+
+### 三种链接的取数方式
+
+| 链接类型 | 取数链路 | 说明 |
+| :--- | :--- | :--- |
+| 歌单 | `fcg_ucc_getcdinfo_byids_cp` 拿全量 songlist（JSONP，自动解包）→ 按专辑去重回查 `aDate` | QQ 音乐歌单只有添加顺序、没有单曲发行时间，用所属专辑发行日近似；大歌单回查较慢 |
+| 专辑 | `fcg_v8_album_info_cp` 直接取专辑详情 | mid 查不到时自动回退 albumid |
+| 歌手 | `fcg_v8_singer_album`（`order=time`）拿专辑列表 → 逐专辑取歌 | 同一首歌分属多张专辑时各自保留一行 |
+
+### 异常排查
+
+| 现象 | 原因与处理 |
+| :--- | :--- |
+| 报「返回内容不是 JSON」 | fcgi 被限流或返回验证页，脚本已带 Referer 和请求间隔，重跑一次即可；反复失败可换网络环境 |
+| 歌单导出很慢 | 正常：要为每张不重复专辑回查一次发行时间（约 200-400ms/张），800 首的歌单可能要数分钟 |
+| 歌手报「纯数字 ID 不支持」 | 用了老式数字歌手 ID，打开歌手主页复制地址栏里 `/n/ryqq/singer/` 后面那串字母数字 mid |
+| 某些歌 `publishDate` 为空且排在最后 | 专辑源头没有发行时间，脚本自动沉底；QQ 音乐用 1899 年表示「未知日期」的占位记录也按无日期沉底 |
+| 个别专辑拉取告警但不中断 | 单张专辑失败只跳过并打 `[warn]`，其余继续导出 |
+| Excel 双击打开中文乱码 | 无 BOM 的 UTF-8 会被 Excel 误按 GBK 读；用「数据 → 从文本/CSV 导入」并选 Unicode UTF-8 查看。**切勿在 Excel 里直接「保存」**，它会把 CSV 重写成 GBK 编码 |
 
 ## 批处理工具（不装 Node 也能用）
 
@@ -388,6 +441,7 @@ npm run docs:preview  # 打开 http://localhost:4173/showMD/ 复查生产效果
 
 | 日期 | 更新内容 |
 | :--- | :--- |
+| 2026-09-19 | 新增 QQ 音乐歌曲批量导出工具 `qq-songs`（歌单/歌手/专辑 → 补专辑发行时间、按发行时间排序的 CSV，免登录）；`ncm-songs`/`qq-songs` 导出统一改为纯 UTF-8（无 BOM），默认升序（从早到晚） |
 | 2026-09-17 | 新增 QQ 音乐跳转播放链接：正文直接粘贴 QQ 音乐单曲 / 专辑 / 歌单网页或分享链接，自动渲染绿色胶囊，点击先唤起客户端、失败回网页版，微信内直接走网页 |
 | 2026-09-15 | 新增网易云歌曲批量导出工具 `ncm-songs`（歌单/歌手/专辑 → 补 `al.publishTime`、按发行时间排序的 CSV）；新增网易云跳转播放链接写法（`orpheus://song/album/playlist/<ID>`，唤起客户端自动播放、未安装回退网页版） |
 | 2026-09-14 | 补全「新增艺人」七步流程与「修改已有文档」工作流；新增图片文件命名规范（禁止 `%` 等特殊字符）、表格表头规范、本地构建时机说明 |

@@ -3,7 +3,7 @@
  *
  * 输入一个歌单 / 专辑链接，批量拉取歌曲，
  * 补全专辑发行时间 al.publishTime，按发行时间排序，
- * 输出带 publishDate / publishMs 的 CSV（UTF-8 BOM，Excel 直接打开不乱码）。
+ * 输出带 publishDate / publishMs 的 CSV（纯 UTF-8 无 BOM）。
  *
  * 用法：
  *   node scripts/ncm-songs.mjs "https://music.163.com/playlist?id=3778678" out.csv asc
@@ -172,7 +172,7 @@ function toCSV(tracks) {
       `https://music.163.com/song?id=${t.id}`
     ].map(csvField).join(','))
   }
-  return '\uFEFF' + lines.join('\r\n')
+  return lines.join('\r\n')
 }
 
 /* ---------- 入口 ---------- */

@@ -12,6 +12,7 @@
     "thumbs": "node scripts/make-thumbs.mjs",
     "new-artist": "node scripts/new-artist.mjs",
     "ncm:songs": "node scripts/ncm-songs.mjs",
+    "qq:songs": "node scripts/qq-songs.mjs",
     "validate": "node scripts/validate-data.mjs"
   },
   "devDependencies": {
