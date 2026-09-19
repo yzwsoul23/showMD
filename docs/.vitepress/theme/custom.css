@@ -732,12 +732,20 @@ html {
   background-color: var(--vp-c-bg);
 }
 
-/* 渐变主题的侧栏补一层毛玻璃，透出底色渐变 */
+/* 雾面统一处理（全主题 / 桌面+移动）：悬浮面下穿过的内容只留朦胧光影，
+   文字不可辨认。底色在消费点用 color-mix 往实底方向加浓，无需逐主题改变量 */
+.VPNavBar,
+.VPLocalNav {
+  -webkit-backdrop-filter: blur(22px) saturate(1.4);
+  backdrop-filter: blur(22px) saturate(1.4);
+}
+
+/* 渐变主题的侧栏补一层雾玻璃，透出底色渐变但看不清穿过的高亮 */
 html[data-theme='sunset'] .VPSidebar,
 html[data-theme='gradient'] .VPSidebar,
 html[data-theme='space'] .VPSidebar {
-  backdrop-filter: blur(22px) saturate(1.5);
-  -webkit-backdrop-filter: blur(22px) saturate(1.5);
+  -webkit-backdrop-filter: blur(32px) saturate(1.5);
+  backdrop-filter: blur(32px) saturate(1.5);
 }
 
 .VPContent,
@@ -760,11 +768,11 @@ html[data-theme='space'] .VPSidebar {
 
 @media (min-width: 960px) {
   .VPNavBar.VPNavBar.has-sidebar {
-    background-color: var(--vp-nav-bg-color);
+    background-color: color-mix(in srgb, var(--vp-nav-bg-color) 32%, var(--vp-c-bg) 68%);
   }
 
   .VPSidebar.VPSidebar .curtain {
-    background-color: var(--vp-nav-bg-color);
+    background-color: color-mix(in srgb, var(--vp-nav-bg-color) 32%, var(--vp-c-bg) 68%);
   }
 
   .VPNavBar.VPNavBar.has-sidebar .wrapper {
@@ -780,7 +788,7 @@ html[data-theme='space'] .VPSidebar {
     width: auto;
     height: calc(var(--vp-nav-height) - 1px);
     padding: 0;
-    background-color: var(--vp-nav-bg-color);
+    background-color: color-mix(in srgb, var(--vp-nav-bg-color) 32%, var(--vp-c-bg) 68%);
   }
 
   .VPNavBar.VPNavBar.has-sidebar .content {
@@ -1779,9 +1787,9 @@ html[data-theme='record'] .vp-doc table img[alt] {
   overscroll-behavior: contain;
   border: 1px solid var(--rs-panel-border);
   border-radius: 18px;
-  background: var(--rs-panel-bg);
-  -webkit-backdrop-filter: blur(24px) saturate(1.8);
-  backdrop-filter: blur(24px) saturate(1.8);
+  background: color-mix(in srgb, var(--rs-panel-bg) 45%, var(--vp-c-bg) 55%);
+  -webkit-backdrop-filter: blur(32px) saturate(1.8);
+  backdrop-filter: blur(32px) saturate(1.8);
   box-shadow:
     0 20px 50px -12px rgba(0, 0, 0, 0.28),
     0 4px 12px rgba(0, 0, 0, 0.08);
@@ -2090,8 +2098,8 @@ html[data-theme='record'].rs-reading-mode .vp-doc p.has-block-img:has(> img[alt*
   overflow: hidden;
   touch-action: none;
   background: rgba(15, 12, 8, .94);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   animation: img-lightbox-fade .18s ease;
   overscroll-behavior: contain;
 }
