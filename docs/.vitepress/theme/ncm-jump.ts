@@ -19,6 +19,9 @@
  * - 检测不到唤起时不再自动跳网页版，而是弹一个 5 秒的确认气泡，点击
  *   「转到网页版」才会跳，不点过时自动消失——把跳不跳的选择权交给用户，
  *   也兜住「客户端其实已唤起、只是焦点检测误判」的场景。
+ * - 提示收起：从 App 返回浏览器时部分安卓 WebView（微信 X5 等）不触发
+ *   visibilitychange，只触发 pageshow/focus，回页信号三件套任一到达即
+ *   收起；「正在唤起…」纯提示另带兜底自灭定时器，信号全丢也不会永驻。
  *
  * 事件委托挂在 document 上（与灯箱同一套思路），SPA 路由切换无需重绑。
  */
@@ -34,6 +37,9 @@ const MOBILE_DETECT_MS = 2500
 const DESKTOP_DETECT_MS = 4000
 /** 网页版确认气泡停留时长：不点「转到网页版」就自动消失 */
 const FALLBACK_TOAST_MS = 5000
+/** 「正在唤起…」纯提示的兜底自灭时长，须大于最长检测窗口（桌面 4s），
+ *  避免自灭定时器与检测回调竞态；回页信号正常时会提前收起 */
+const LAUNCHING_TOAST_MS = 6000
 
 /** 各类型的网页版回退地址与中文叫法 */
 const KIND_META: Record<NcmKind, { webPath: string; label: string }> = {
@@ -43,14 +49,27 @@ const KIND_META: Record<NcmKind, { webPath: string; label: string }> = {
 }
 
 let lastLaunchAt = 0
-/** 网页版确认气泡的自动消失定时器（新气泡顶掉旧气泡前先清掉） */
-let fallbackTimer: ReturnType<typeof setTimeout> | undefined
+/** 当前提示（正在唤起 / 确认气泡共用）的自动消失定时器 */
+let autoHideTimer: ReturnType<typeof setTimeout> | undefined
+/** 上一次唤起尝试注册的页面信号解绑函数，新尝试开始前先清场防泄漏/误伤 */
+let teardownSignals: (() => void) | undefined
 
-function clearFallbackTimer() {
-  if (fallbackTimer !== undefined) {
-    clearTimeout(fallbackTimer)
-    fallbackTimer = undefined
+function clearAutoHideTimer() {
+  if (autoHideTimer !== undefined) {
+    clearTimeout(autoHideTimer)
+    autoHideTimer = undefined
   }
+}
+
+/** 安排提示在 ms 后自动消失（同时解绑页面信号） */
+function armAutoHide(ms: number) {
+  clearAutoHideTimer()
+  autoHideTimer = setTimeout(() => {
+    autoHideTimer = undefined
+    teardownSignals?.()
+    teardownSignals = undefined
+    hideToast()
+  }, ms)
 }
 
 function isMobile() {
@@ -71,7 +90,6 @@ function buildDesktopUri(kind: NcmKind, id: string) {
 }
 
 function showToast(text: string) {
-  clearFallbackTimer()
   let toast = document.getElementById(TOAST_ID)
   if (!toast) {
     toast = document.createElement('div')
@@ -92,9 +110,9 @@ function hideToast() {
 /**
  * 「未检测到客户端」确认气泡：不自动跳转，点按钮才去网页版，
  * FALLBACK_TOAST_MS 内不点就自动消失。
+ * onOpen：用户点「转到网页版」时回调，用于解绑唤起阶段注册的页面信号。
  */
-function showFallbackToast(webUrl: string) {
-  clearFallbackTimer()
+function showFallbackToast(webUrl: string, onOpen?: () => void) {
   let toast = document.getElementById(TOAST_ID)
   if (!toast) {
     toast = document.createElement('div')
@@ -111,29 +129,37 @@ function showFallbackToast(webUrl: string) {
   btn.textContent = '转到网页版'
   btn.addEventListener('click', (e) => {
     e.stopPropagation()
-    clearFallbackTimer()
+    clearAutoHideTimer()
+    onOpen?.()
     window.location.href = webUrl
   })
   toast.append(msg, btn)
   // 强制一次重排后再加类，保证进场上浮动画能触发
   void toast.offsetHeight
   toast.classList.add('is-show')
-  fallbackTimer = setTimeout(hideToast, FALLBACK_TOAST_MS)
+  armAutoHide(FALLBACK_TOAST_MS)
 }
 
 /**
  * 唤起客户端并做网页版回退。
- * - 页面失焦/隐藏 = 系统弹出了「打开网易云音乐？」对话框或已切到 App；
  * - PC 客户端冷启动要数秒才夺走浏览器焦点，桌面端检测窗口放宽到 4s，
  *   移动端切 App 很快，保持 2.5s；
- * - 判定时除事件标志外，再用 document.hidden / hasFocus() 实时兜底
- *   （blur 可能因浏览器差异延迟或不触发）；判定为未安装时也不自动跳
- *   网页版，而是弹确认气泡让用户决定，误判场景下不点即可。
+ * - 判定「是否已离开」只信 document.hidden：浏览器弹外部协议确认条时
+ *   window blur / hasFocus 都会误报，切到客户端时 document.hidden 才可靠；
+ * - 收起提示的回页信号则三件套都监听（visible / pageshow / focus），
+ *   因为微信 X5、部分安卓 WebView 拉起 App 返回时不触发 visibilitychange；
+ * - 判定为未安装时不自动跳网页版，弹确认气泡让用户决定，误判场景下
+ *   不点即可；所有信号都丢失时兜底自灭定时器也会把提示收掉。
  */
 function launch(kind: NcmKind, id: string) {
   const now = Date.now()
   if (now - lastLaunchAt < LAUNCH_LOCK_MS) return
   lastLaunchAt = now
+
+  // 清掉上一次尝试残留的页面信号监听与自灭定时器
+  teardownSignals?.()
+  teardownSignals = undefined
+  clearAutoHideTimer()
 
   const meta = KIND_META[kind]
   const appUrl = isMobile()
@@ -142,46 +168,52 @@ function launch(kind: NcmKind, id: string) {
   const webUrl = `https://music.163.com/#/${meta.webPath}?id=${id}`
 
   showToast('正在唤起网易云音乐客户端…')
-  let hasLeft = false
-  const markLeft = () => {
-    hasLeft = true
-  }
-  window.addEventListener('blur', markLeft)
-  document.addEventListener('visibilitychange', markLeft)
+  armAutoHide(LAUNCHING_TOAST_MS)
 
-  const cleanup = () => {
-    window.removeEventListener('blur', markLeft)
-    document.removeEventListener('visibilitychange', markLeft)
+  // 回到页面的三类信号：visibilitychange=visible / pageshow / window focus。
+  // 部分安卓 WebView（微信 X5 等）拉起外部 App 返回时不触发
+  // visibilitychange，只触发 pageshow/focus，只监听前者提示会永驻
+  const onVisible = () => {
+    if (document.visibilityState === 'visible') dismiss()
   }
+  const onReturn = () => dismiss()
 
-  /** 实时兜底判断：只用 document.hidden，不用 hasFocus——浏览器弹外部协议
-     对话框时 hasFocus 会返回 false，会把未唤起误判为已唤起，导致回退气泡
-     不出现。切到客户端时 document.hidden 才为 true。 */
-  const leftNow = () => document.hidden
+  const unbind = () => {
+    document.removeEventListener('visibilitychange', onVisible)
+    window.removeEventListener('pageshow', onReturn)
+    window.removeEventListener('focus', onReturn)
+  }
+  const dismiss = () => {
+    clearAutoHideTimer()
+    teardownSignals = undefined
+    unbind()
+    hideToast()
+  }
+  teardownSignals = unbind
+
+  document.addEventListener('visibilitychange', onVisible)
+  window.addEventListener('pageshow', onReturn)
+  window.addEventListener('focus', onReturn)
 
   window.location.href = appUrl
 
   window.setTimeout(() => {
-    cleanup()
-    // 「从客户端切回浏览器」时收起提示/气泡。两种情形共用：
-    // ① 已切到 App（此刻页面 hidden）：用户回来时收起「正在唤起」；
-    // ② 判定未安装、气泡已显示：客户端若冷启动较慢、用户稍后切走又回来，
-    //    顺手收起气泡；一直停在页面则由 fallbackTimer 5 秒后自动消失。
-    const onVisible = () => {
-      if (document.visibilityState === 'visible') {
-        hideToast()
-        clearFallbackTimer()
-        document.removeEventListener('visibilitychange', onVisible)
-      }
-    }
-    if (leftNow()) {
-      document.addEventListener('visibilitychange', onVisible)
+    // 回页信号已触发、或已被新一次点击清场：不再操作提示
+    if (teardownSignals === undefined) return
+    // 先取消「正在唤起」的兜底自灭，按判定结果重新安排计时
+    clearAutoHideTimer()
+    if (document.hidden) {
+      // 已切到客户端：等回页信号收起；信号全丢时再由兜底自灭收尾
+      armAutoHide(LAUNCHING_TOAST_MS)
       return
     }
-    // 不自动跳网页版：弹 5 秒确认气泡，点击才转；若客户端其实刚被
-    // 唤起、稍后才夺走焦点，用户切回浏览器时气泡会被自动收起
-    showFallbackToast(webUrl)
-    document.addEventListener('visibilitychange', onVisible)
+    // 不自动跳网页版：弹 5 秒确认气泡，点击才转；用户点按钮时解绑信号。
+    // 若客户端其实刚被唤起、稍后才夺走焦点，用户切回浏览器时回页信号
+    // 会自动收起气泡
+    showFallbackToast(webUrl, () => {
+      teardownSignals = undefined
+      unbind()
+    })
   }, isMobile() ? MOBILE_DETECT_MS : DESKTOP_DETECT_MS)
 }
 

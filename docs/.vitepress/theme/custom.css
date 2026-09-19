@@ -749,6 +749,37 @@ html[data-theme='space'] .VPSidebar {
   backdrop-filter: blur(32px) saturate(1.5);
 }
 
+/* 移动端三类悬浮面的雾面玻璃（全主题统一）：
+   1. 汉堡按钮的全屏菜单 .VPNavScreen 默认吃 --vp-nav-bg-color，
+      sunset/gradient/space/record 只有 0.58~0.6 且组件本身不带模糊；
+   2. 「目录导航」下拉 .items 默认吃 --vp-c-gutter，record/space 里
+      仅 0.12~0.14，几乎全透明，正文直接透到面板里；
+   3. 阅读主题面板在手机上沿用 45% 稀释底色，移动浏览器 backdrop-filter
+      渲染偏弱时也会透。
+   统一换用最浓的 --rs-panel-bg（0.72 起）+ 大半径模糊：blur 正常时
+   是毛玻璃，blur 失效时浓底色也只留下朦胧色块，文字不可辨认。
+   双类/属性选择器用于压过 VitePress 组件的 scoped 样式特异性。 */
+@media (max-width: 959px) {
+  .VPLocalNavOutlineDropdown .items[class] {
+    background-color: var(--rs-panel-bg);
+    -webkit-backdrop-filter: blur(28px) saturate(1.5);
+    backdrop-filter: blur(28px) saturate(1.5);
+  }
+}
+
+@media (max-width: 767px) {
+  .VPNavScreen.VPNavScreen {
+    background-color: var(--rs-panel-bg);
+    -webkit-backdrop-filter: blur(28px) saturate(1.5);
+    backdrop-filter: blur(28px) saturate(1.5);
+  }
+
+  /* 主题面板：桌面端的 color-mix 45% 稀释在手机上加浓为完整面板色 */
+  .rs-theme-panel {
+    background: var(--rs-panel-bg);
+  }
+}
+
 .VPContent,
 .VPSidebar,
 .VPNavBar .wrapper,
