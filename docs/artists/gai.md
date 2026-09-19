@@ -100,11 +100,11 @@ GAI为了维生，这几年也一直作为歌手去婚礼等场合表演。网�
 | 6 | 4X4 | 2015.7.21 | ICE杨长青/Sub/GAI | [BV1as4y177ea](https://www.bilibili.com/video/BV1as4y177ea) |
 | 7 | 5812freestyle | 2015.8.1 | 5812是工作室的门牌号 | [BV1re4y197sP](https://www.bilibili.com/video/BV1re4y197sP) |
 | 8 | 富贵在天 | 2015.8.27 | 合作嫩桃/Shine-G<br>后续有收录（MV有点超，可以副屏欣赏，也可以网易云听） | [BV1pPzSB3E2H](https://www.bilibili.com/video/BV1pPzSB3E2H) |
-| 9 | 白日梦想家 | 2015.9.15 | 正式版 | [BV1wV411r7A6](https://www.bilibili.com/video/BV1wV411r7A6) |
+| 9 | [白日梦想家](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004duleL0cfGGL","type":"0"}],"action":"play"}) | 2015.9.15 | 正式版 | [BV1wV411r7A6](https://www.bilibili.com/video/BV1wV411r7A6) |
 | 10 | 钢铁侠 | 2015.10.8 | 合作梦徐MX<br>后续有收录 | [BV1Gx41187zL](https://www.bilibili.com/video/BV1Gx41187zL) |
 | 11 | 只手遮天 | 2015.10.18 | 合作贝贝<br>GAI的部分后面重新编进了《重庆魂》，贝贝的verse全网下架，因此不用听 | [BV1hVxRzpE8s](https://www.bilibili.com/video/BV1hVxRzpE8s) |
 | 12 | 你爸我真不爽 | 2015.11.1 | 合作MJ116顽童小春<br>后续有收录 | [BV1z7411575E](https://www.bilibili.com/video/BV1z7411575E) |
-| 13 | 可爱女孩 | 2015.11.10 | 合作3bangzi/Chace<br>只唱了HOOK（35秒开始） | [BV1px411i7v7](https://www.bilibili.com/video/BV1px411i7v7) |
+| 13 | [可爱女孩](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001g4sfl3ws5sD","type":"0"}],"action":"play"}) | 2015.11.10 | 合作3bangzi/Chace<br>只唱了HOOK（35秒开始） | [BV1px411i7v7](https://www.bilibili.com/video/BV1px411i7v7) |
 | 14 | 颜如玉 | 2015.12.12 | 后续有收录 | [BV12x41117Nj](https://www.bilibili.com/video/BV12x41117Nj) |
 
 **【重要转折点】川渝大战：GAI vs 马思唯**
@@ -187,11 +187,11 @@ GAI宣布退出厂牌第二天，海尔兄弟乘胜追击发布了《该挨》�
 | **序号** | **歌曲名** | **发布时间** | **说明** | **链接** |
 | --- | --- | --- | --- | --- |
 | 1 | 留老根儿 | 未公开发行 | 合作Bridge | [BV11k4y1i79p](https://www.bilibili.com/video/BV11k4y1i79p) |
-| 2 | 鹳雀楼 | 2016.9.7 | 合作Blow Fever | [BV1ix411s7BP](https://www.bilibili.com/video/BV1ix411s7BP) |
+| 2 | [鹳雀楼](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000vg64g23WJpX","type":"0"}],"action":"play"}) | 2016.9.7 | 合作Blow Fever | [BV1ix411s7BP](https://www.bilibili.com/video/BV1ix411s7BP) |
 | 3 | Paper | 2016.10.11 | 合作希介 | [BV1Gq4y157pL](https://www.bilibili.com/video/BV1Gq4y157pL) |
 | 4 | 日天 | 2016.12.18 | 合作昊昊（现在是GAI音乐节的backup）推荐 | [BV1jx41137Rw](https://www.bilibili.com/video/BV1jx41137Rw) |
 | 5 | 套路 | 2016.12.27 | 合作JonyJ | [BV1MZ421h7iQ](https://www.bilibili.com/video/BV1MZ421h7iQ) |
-| 6 | 耍没耍过的 | 2017.3.4 | 合作雾都、bridge（这歌大部分现场都没有GAI） | [BV1XoTt6pEa7](https://www.bilibili.com/video/BV1XoTt6pEa7) |
+| 6 | [耍没耍过的](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002RPWP346DD1K","type":"0"}],"action":"play"}) | 2017.3.4 | 合作雾都、bridge（这歌大部分现场都没有GAI） | [BV1XoTt6pEa7](https://www.bilibili.com/video/BV1XoTt6pEa7) |
 | 7 | 夕阳下 | 2017.4.13 | 合作夜叉乐队，17年初发的，3分34秒开始是GAI verse | [BV11oA9z9Evc](https://www.bilibili.com/video/BV11oA9z9Evc) |
 | 8 | [Rainbow](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004DJPc732vmCX","type":"0"}],"action":"play"}) | 2017.4.27 | 合作Bridge ，17年初发的，但可以在这里一起听 |   |
 
@@ -226,17 +226,17 @@ GAI宣布退出厂牌第二天，海尔兄弟乘胜追击发布了《该挨》�
 | 1 | 火锅底料 | 海选 | GAI |
 | 2 | 天干物燥 | 60s初舞台 | GAI |
 | 3 | freestyle | freestyle | GAI |
-| 4 | 只听自己的歌 | 1vs1挑战赛 | GAI/赵涛 |
+| 4 | [只听自己的歌](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0045tpsF2ef1zp","type":"0"}],"action":"play"}) | 1vs1挑战赛 | GAI/赵涛 |
 | 5 | 遥远不远 | 5进4淘汰赛 | GAI/黄旭/艾福杰尼/孙八一/大笑 |
-| 6 | street fighter | 4进3淘汰赛 | GAI/黄旭/艾福杰尼/大笑 |
+| 6 | [street fighter](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003SdZkE0VnxIB","type":"0"}],"action":"play"}) | 4进3淘汰赛 | GAI/黄旭/艾福杰尼/大笑 |
 | 7 | 海啸 | 战队秀 | GAI/黄旭/艾福杰尼 |
-| 8 | 凡人歌 | 导师合作赛 | GAI/黄旭/热狗/张震岳（虎山行andTYNMLP） |
-| 9 | 苦行僧 | 半决赛 | GAI |
-| 10 | Papillon | 帮唱合作赛 | GAI/王嘉尔 |
+| 8 | [凡人歌](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0045YdtG4FSRLN","type":"0"}],"action":"play"}) | 导师合作赛 | GAI/黄旭/热狗/张震岳（虎山行andTYNMLP） |
+| 9 | [苦行僧](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000yw7ED4bPPL8","type":"0"}],"action":"play"}) | 半决赛 | GAI |
+| 10 | [Papillon](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001IJtB91Yyruv","type":"0"}],"action":"play"}) | 帮唱合作赛 | GAI/王嘉尔 |
 | 11 | 酒干倘卖无 | 总决赛第一轮 | GAI/热狗/张震岳 |
 | 12 | 空城计 | 总决赛第二轮 | GAI |
-| 13 | 重庆魂 | 总决赛第三轮 | GAI |
-| 14 | 一佰零八 | 总决赛第四轮 | GAI |
+| 13 | [重庆魂](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003qlAVJ0ykrKY","type":"0"}],"action":"play"}) | 总决赛第三轮 | GAI |
+| 14 | [一佰零八](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0040uMKB2A2oH2","type":"0"}],"action":"play"}) | 总决赛第四轮 | GAI |
 
 节目结束第二天，GAI接受采访（3:55-3:57、8:13-8:17关画面，有故人）。[BV1xW411n7sZ](https://www.bilibili.com/video/BV1xW411n7sZ)
 
@@ -266,7 +266,7 @@ GAI夺冠后第二天就在采访中表示，要把奖金全部捐出去（[BV1A
 | 2 | 天干物燥 | 新版 | [BV1ox411H7Nc](https://www.bilibili.com/video/BV1ox411H7Nc) |
 | 3 | 火锅底料 | 茶馆cypher（1分37秒开始是GAI的part，前面是Tory和Bridge） | [BV1ppUQBuE5q](https://www.bilibili.com/video/BV1ppUQBuE5q) |
 | 4 | 火锅底料 | 新版 | （视频素材） |
-| 5 | 你猜我猜不猜 | GAI/Bridge为电影《心理罪》创作的推广曲 | [BV1zx411p7rQ](https://www.bilibili.com/video/BV1zx411p7rQ) |
+| 5 | [你猜我猜不猜](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003hYNWq2WY4Gk","type":"0"}],"action":"play"}) | GAI/Bridge为电影《心理罪》创作的推广曲 | [BV1zx411p7rQ](https://www.bilibili.com/video/BV1zx411p7rQ) |
 
 ### 初登音综，遗憾离场
 
@@ -283,13 +283,13 @@ GAI夺冠后第二天就在采访中表示，要把奖金全部捐出去（[BV1A
 | **序号** | **歌曲名** | **歌手** | **说明** | **播放链接** |
 | --- | --- | --- | --- | --- |
 | 1 | 找自己 | GAI/陈梓童 | 蒙面歌王翻唱 | [BV1eLeHzHETF](https://www.bilibili.com/video/BV1eLeHzHETF) |
-| 2 | 勇敢一点 | GAI | 蒙面歌王翻唱 | [BV1jgeHzRE1V](https://www.bilibili.com/video/BV1jgeHzRE1V) |
-| 3 | 不要说话 | GAI/雪村 | 蒙面歌王翻唱 | [BV19R4y1F7kL](https://www.bilibili.com/video/BV19R4y1F7kL) |
-| 4 | 思念是一种病 | GAI/王心凌 | 蒙面歌王翻唱 | [BV1v8eEz5EMw](https://www.bilibili.com/video/BV1v8eEz5EMw) |
-| 5 | 爱如潮水 | GAI | 蒙面歌王，改编自《颜如玉》**推荐**，有音源 | [BV1H34y1D7qw](https://www.bilibili.com/video/BV1H34y1D7qw) |
-| 6 | 沧海一声笑 | GAI | 歌手第一期 | [BV1Y1YyedEsA](https://www.bilibili.com/video/BV1Y1YyedEsA) |
+| 2 | [勇敢一点](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002yl8Vj1Sv3F7","type":"0"}],"action":"play"}) | GAI | 蒙面歌王翻唱 | [BV1jgeHzRE1V](https://www.bilibili.com/video/BV1jgeHzRE1V) |
+| 3 | [不要说话](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002Zo9kj3wvU55","type":"0"}],"action":"play"}) | GAI/雪村 | 蒙面歌王翻唱 | [BV19R4y1F7kL](https://www.bilibili.com/video/BV19R4y1F7kL) |
+| 4 | [思念是一种病](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003Z0z6743Lq2a","type":"0"}],"action":"play"}) | GAI/王心凌 | 蒙面歌王翻唱 | [BV1v8eEz5EMw](https://www.bilibili.com/video/BV1v8eEz5EMw) |
+| 5 | [爱如潮水](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001OkO4N2XAlzW","type":"0"}],"action":"play"}) | GAI | 蒙面歌王，改编自《颜如玉》**推荐**，有音源 | [BV1H34y1D7qw](https://www.bilibili.com/video/BV1H34y1D7qw) |
+| 6 | [沧海一声笑](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"00280Zus1Edlgy","type":"0"}],"action":"play"}) | GAI | 歌手第一期 | [BV1Y1YyedEsA](https://www.bilibili.com/video/BV1Y1YyedEsA) |
 | 7 | 难念的经 | GAI | 歌手第二期曲目彩排泄露版，据正式录制观众repo说正式版换了词更炸，但已无从考证 | [BV1khJPzjEFx](https://www.bilibili.com/video/BV1khJPzjEFx) |
-| 8 | 漫步人生路 | GAI/邓紫棋 | 跨年演唱会 | [BV1ee6DBYE1y](https://www.bilibili.com/video/BV1ee6DBYE1y) |
+| 8 | [漫步人生路](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0049Cxru3uLO9W","type":"0"}],"action":"play"}) | GAI/邓紫棋 | 跨年演唱会 | [BV1ee6DBYE1y](https://www.bilibili.com/video/BV1ee6DBYE1y) |
 
 ---
 
@@ -305,28 +305,28 @@ GAI夺冠后第二天就在采访中表示，要把奖金全部捐出去（[BV1A
 
 | **序号** | **歌曲名** | **歌手** | **备注 / 出处** | **发布时间** | **链接** |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 王者降临 | GAI | 王者荣耀赛事主题曲 | 2017.8.17 | [BV1px411J7g8](https://www.bilibili.com/video/BV1px411J7g8) |
+| 1 | [王者降临](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001sGqrO1jYAyf","type":"0"}],"action":"play"}) | GAI | 王者荣耀赛事主题曲 | 2017.8.17 | [BV1px411J7g8](https://www.bilibili.com/video/BV1px411J7g8) |
 | 2 | [没钱咋个整](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000CSdxX3wGIxz","type":"0"}],"action":"play"}) | GAI | 51信用卡广告歌 | 2017.9.8 |   |
-| 3 | 为梦打 Call | GAI | 中信卡广告歌 | 2017.9.9 | [BV1zx411s7bd](https://www.bilibili.com/video/BV1zx411s7bd) |
-| 4 | 好运来 | GAI/祖海 | 电影《羞羞的铁拳》推广曲 | 2017.9.29 | [BV1Mx411V7LM](https://www.bilibili.com/video/BV1Mx411V7LM) |
+| 3 | [为梦打 Call](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000PYR0M2UUQYY","type":"0"}],"action":"play"}) | GAI | 中信卡广告歌 | 2017.9.9 | [BV1zx411s7bd](https://www.bilibili.com/video/BV1zx411s7bd) |
+| 4 | [好运来](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001VdTJl4Ckvds","type":"0"}],"action":"play"}) | GAI/祖海 | 电影《羞羞的铁拳》推广曲 | 2017.9.29 | [BV1Mx411V7LM](https://www.bilibili.com/video/BV1Mx411V7LM) |
 | 5 | [风光超级行](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002vBBuX0F3Jen","type":"0"}],"action":"play"}) | GAI | 汽车商业推广曲 | 2017.11.14 |   |
-| 6 | 大师 | GAI | 丰田凯美瑞主题曲 | 2017.11.15 | [BV1gx411L7ML](https://www.bilibili.com/video/BV1gx411L7ML) |
-| 7 | 菜商卡头和车手 | GAI | 电影《巨额来电》主题曲 | 2017.11.21 | [BV1Sx411V7ZG](https://www.bilibili.com/video/BV1Sx411V7ZG) |
+| 6 | [大师](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000RvnlZ1zEI9B","type":"0"}],"action":"play"}) | GAI | 丰田凯美瑞主题曲 | 2017.11.15 | [BV1gx411L7ML](https://www.bilibili.com/video/BV1gx411L7ML) |
+| 7 | [菜商卡头和车手](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002XHFqB0q6H08","type":"0"}],"action":"play"}) | GAI | 电影《巨额来电》主题曲 | 2017.11.21 | [BV1Sx411V7ZG](https://www.bilibili.com/video/BV1Sx411V7ZG) |
 | 8 | [凡人修仙](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004HQ4093IT3V4","type":"0"}],"action":"play"}) | GAI | 游戏主题曲（酒干倘卖无verse） | 2017.11.29 |   |
-| 9 | 都市惊奇夜 | GAI/双笙 | 游戏主题曲 | 2018.1.15 | [BV1gW411v7Kx](https://www.bilibili.com/video/BV1gW411v7Kx) |
+| 9 | [都市惊奇夜](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003YMaxM2L7svY","type":"0"}],"action":"play"}) | GAI/双笙 | 游戏主题曲 | 2018.1.15 | [BV1gW411v7Kx](https://www.bilibili.com/video/BV1gW411v7Kx) |
 | 10 | [盖世英雄](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003SHKTJ2tt412","type":"0"}],"action":"play"}) | GAI | 盖世英雄游戏主题曲 | 2018.1.22 |   |
 | 11 | 萤火虫 | GAI | 综艺主题曲 | 2018.2.28 | [BV1uW411t7vs](https://www.bilibili.com/video/BV1uW411t7vs) |
-| 12 | 长河 | GAI/Bridge/盛宇 | 江小白广告歌 | 2018.3.2 | [BV1AW411x7Tj](https://www.bilibili.com/video/BV1AW411x7Tj) |
+| 12 | [长河](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001gRhhw3nwjDf","type":"0"}],"action":"play"}) | GAI/Bridge/盛宇 | 江小白广告歌 | 2018.3.2 | [BV1AW411x7Tj](https://www.bilibili.com/video/BV1AW411x7Tj) |
 | / |   |   | 长河的一个现场 | / | [BV17m4y1y741](https://www.bilibili.com/video/BV17m4y1y741) |
-| 13 | 炽热少年 | GAI/许魏洲 | 电视剧《荣耀乒乓》插曲 | 2018.4.8 | [BV1oy4y1q7W5](https://www.bilibili.com/video/BV1oy4y1q7W5) |
-| 14 | 爱难脱身 | GAI/谭维维 | 电视剧主题曲 | 2018.6.11 | [BV1TW411w7ue](https://www.bilibili.com/video/BV1TW411w7ue) |
-| 15 | 山外青山楼外楼 | GAI/李嘉格 | 电影《幕后玩家》主题曲 | 2018.8.15 | [BV1BW411R7c8](https://www.bilibili.com/video/BV1BW411R7c8) |
-| 16 | 永不独行 | GAI/艾热 | 球球大作战赛事主题曲 | 2019.1.5 | [BV12t411W7Qj](https://www.bilibili.com/video/BV12t411W7Qj) |
-| 17 | 大人物 | GAI | 电影《"大"人物》片尾曲，推荐 | 2019.1.10 | [BV13W97BuEZu](https://www.bilibili.com/video/BV13W97BuEZu) |
-| 18 | 在下霍元甲 | GAI | 电影宣传曲 | 2019.1.18 | [BV1Tt411h73v](https://www.bilibili.com/video/BV1Tt411h73v) |
-| 19 | 混江湖 | GAI | 游戏《逆水寒》周年推广曲 | 2019.6.25 | [BV1Rx411o7Yk](https://www.bilibili.com/video/BV1Rx411o7Yk) |
+| 13 | [炽热少年](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000O8u993oAHDk","type":"0"}],"action":"play"}) | GAI/许魏洲 | 电视剧《荣耀乒乓》插曲 | 2018.4.8 | [BV1oy4y1q7W5](https://www.bilibili.com/video/BV1oy4y1q7W5) |
+| 14 | [爱难脱身](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000k7mCu4ClgM8","type":"0"}],"action":"play"}) | GAI/谭维维 | 电视剧主题曲 | 2018.6.11 | [BV1TW411w7ue](https://www.bilibili.com/video/BV1TW411w7ue) |
+| 15 | [山外青山楼外楼](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004HOyMz2rtKLv","type":"0"}],"action":"play"}) | GAI/李嘉格 | 电影《幕后玩家》主题曲 | 2018.8.15 | [BV1BW411R7c8](https://www.bilibili.com/video/BV1BW411R7c8) |
+| 16 | [永不独行](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004Zcko906HL1r","type":"0"}],"action":"play"}) | GAI/艾热 | 球球大作战赛事主题曲 | 2019.1.5 | [BV12t411W7Qj](https://www.bilibili.com/video/BV12t411W7Qj) |
+| 17 | [大人物](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"00283eMo3HFcQ8","type":"0"}],"action":"play"}) | GAI | 电影《"大"人物》片尾曲，推荐 | 2019.1.10 | [BV13W97BuEZu](https://www.bilibili.com/video/BV13W97BuEZu) |
+| 18 | [在下霍元甲](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0035K4Y43mPQA0","type":"0"}],"action":"play"}) | GAI | 电影宣传曲 | 2019.1.18 | [BV1Tt411h73v](https://www.bilibili.com/video/BV1Tt411h73v) |
+| 19 | [混江湖](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001iLut449jEvs","type":"0"}],"action":"play"}) | GAI | 游戏《逆水寒》周年推广曲 | 2019.6.25 | [BV1Rx411o7Yk](https://www.bilibili.com/video/BV1Rx411o7Yk) |
 | 20 | [天龙十二门](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002QV8Gd41OK6K","type":"0"}],"action":"play"}) | GAI | 游戏《天龙八部》主题曲 | 2019.7.4 |   |
-| 21 | 哪吒 | GAI/大痒痒 | 大爆电影《哪吒之魔童降世》主题曲 | 2019.7.13 | [BV1Wt411V7Ye](https://www.bilibili.com/video/BV1Wt411V7Ye) |
+| 21 | [哪吒](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002AsrO40MCS5d","type":"0"}],"action":"play"}) | GAI/大痒痒 | 大爆电影《哪吒之魔童降世》主题曲 | 2019.7.13 | [BV1Wt411V7Ye](https://www.bilibili.com/video/BV1Wt411V7Ye) |
 
 2018年1月的武汉YOLO音乐节对于GAI很重要。事业上，他和好兄弟盛宇、Bridge的经典合作曲《长河》在音乐节的舞台上首次亮相。其中有一句歌词，“孤独时候也经常，直到遇到我的新娘。”在音乐节的后台，GAI完成了他的求婚。（求婚回顾，来自后面的一个生活综艺 [BV1RuUZBGEy3](https://www.bilibili.com/video/BV1RuUZBGEy3)）
 
@@ -338,15 +338,15 @@ GAI夺冠后第二天就在采访中表示，要把奖金全部捐出去（[BV1A
 
 | **序号** | **歌曲名** | **歌手** | **MV** | **备注** |
 | --- | --- | --- | --- | --- |
-| 1 | 光宗耀祖 | GAI |   |   |
-| 2 | 万里长城 | GAI | [BV1VE411f7qi](https://www.bilibili.com/video/BV1VE411f7qi) |   |
-| 3 | 圆周率 | GAI | [BV1TCTi6NETp](https://www.bilibili.com/video/BV1TCTi6NETp) |   |
-| 4 | 见字如面 | GAI | [BV1Us411N7L7](https://www.bilibili.com/video/BV1Us411N7L7) |   |
-| 5 | 豁得凶 | GAI |   |   |
-| 6 | 红旗车 | GAI |   |   |
-| 7 | 垃圾话 | GAI |   | 新编曲版本 |
-| 8 | 包间 | GAI |   |   |
-| 9 | 我爱王斯然 | GAI |   |   |
+| 1 | [光宗耀祖](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003k7hrN3GyWTs","type":"0"}],"action":"play"}) | GAI |   |   |
+| 2 | [万里长城](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004ByrC73IynVn","type":"0"}],"action":"play"}) | GAI | [BV1VE411f7qi](https://www.bilibili.com/video/BV1VE411f7qi) |   |
+| 3 | [圆周率](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004OL3iS11TMr2","type":"0"}],"action":"play"}) | GAI | [BV1TCTi6NETp](https://www.bilibili.com/video/BV1TCTi6NETp) |   |
+| 4 | [见字如面](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001tt9i238tTLS","type":"0"}],"action":"play"}) | GAI | [BV1Us411N7L7](https://www.bilibili.com/video/BV1Us411N7L7) |   |
+| 5 | [豁得凶](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004etHJ235cocj","type":"0"}],"action":"play"}) | GAI |   |   |
+| 6 | [红旗车](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003BdfNQ0pvu75","type":"0"}],"action":"play"}) | GAI |   |   |
+| 7 | [垃圾话](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004BJRQj2cwglL","type":"0"}],"action":"play"}) | GAI |   | 新编曲版本 |
+| 8 | [包间](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004fKGMb0lUHRL","type":"0"}],"action":"play"}) | GAI |   |   |
+| 9 | [我爱王斯然](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0032RIz111FTCp","type":"0"}],"action":"play"}) | GAI |   |   |
 
 ### 对主流价值观叙事的探索及同时期其他单曲
 
@@ -359,14 +359,14 @@ GAI夺冠后第二天就在采访中表示，要把奖金全部捐出去（[BV1A
 | **3** | 饥饿游戏 | 2017.12.20 | 合作孔令奇 | QQ音乐可听 |
 | **4** | 2018 Gosh Cypher | 2018.6 | 受合约影响以金牌小密探形态出现 | [BV1zs41177hM](https://www.bilibili.com/video/BV1zs41177hM) |
 | **5** | 重庆魂 | 2018.11.9 | 只在微博发布，被一个在重庆拍摄的网络电影作为主题曲，但不算严格意义的广告歌 | [BV1gGByBqEnS](https://www.bilibili.com/video/BV1gGByBqEnS) |
-| 6 | 华夏 | 2019.4.22 | 个人单曲，中华精气神三部曲 | [BV1GQ4y1P7hz](https://www.bilibili.com/video/BV1GQ4y1P7hz) |
+| 6 | [华夏](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001vXU9x30O7px","type":"0"}],"action":"play"}) | 2019.4.22 | 个人单曲，中华精气神三部曲 | [BV1GQ4y1P7hz](https://www.bilibili.com/video/BV1GQ4y1P7hz) |
 | 7 | 不劳不获 | 2019.5.20 | 合作黄子韬 | QQ音乐可听 |
-| 8 | 投名状 | 2019.7.26 | 合作盛宇/RANZER单曲 | [BV1kv411r7jV](https://www.bilibili.com/video/BV1kv411r7jV) |
+| 8 | [投名状](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000tyOR048mMVg","type":"0"}],"action":"play"}) | 2019.7.26 | 合作盛宇/RANZER单曲 | [BV1kv411r7jV](https://www.bilibili.com/video/BV1kv411r7jV) |
 | / |   |   | 投名状的一个现场 | [BV1zE411r7ie](https://www.bilibili.com/video/BV1zE411r7ie) |
-| 9 | BIG BRO | 2019.7.29 | 个人单曲 | [BV1mt411w76m](https://www.bilibili.com/video/BV1mt411w76m) |
+| 9 | [BIG BRO](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003qX6MQ3PFgSa","type":"0"}],"action":"play"}) | 2019.7.29 | 个人单曲 | [BV1mt411w76m](https://www.bilibili.com/video/BV1mt411w76m) |
 | 10 | [中！国！万！岁！](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004aktwz3phjK7","type":"0"}],"action":"play"}) | 2019.8.22 | 公益/主旋律单曲（这歌的音乐节现场非常high，听完再来看 [BV1mE411D7Ab](https://www.bilibili.com/video/BV1mE411D7Ab)） |   |
 | 11 | 保险柜 | 2019.11.26 | 合作顽童小春 | [BV1iJ411q7EL](https://www.bilibili.com/video/BV1iJ411q7EL) |
-| 12 | 有空一起吃饭 | 2019.12.19 | 合作新裤子乐队 | QQ音乐可听 |
+| 12 | [有空一起吃饭](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000WxV1V3E0Huy","type":"0"}],"action":"play"}) | 2019.12.19 | 合作新裤子乐队（纯净版） |   |
 
 ### 种梦音乐（D.M.G）
 
@@ -396,15 +396,15 @@ GAI夺冠后第二天就在采访中表示，要把奖金全部捐出去（[BV1A
 
 | **序号** | 歌曲名称 | **歌手** | **备注 / 出处** | **视频链接** |
 | --- | --- | --- | --- | --- |
-| 1 | 烈火战马 | GAI | 主流价值观歌曲，致敬抗疫英雄，后面也上了一大堆卫视晚会 | [BV15g3E6BEcf](https://www.bilibili.com/video/BV15g3E6BEcf) |
-| 2 | 极乐 | GAI | 摇滚+说唱歌曲，郑钧评价“一个人干了林肯公园两个人的事” | [BV1x43E6oEDW](https://www.bilibili.com/video/BV1x43E6oEDW) |
-| 3 | 蒙着眼睛走 | GAI | 是GAI经典的BoomBap作品 | [BV1P83E6RE3r](https://www.bilibili.com/video/BV1P83E6RE3r) |
-| 4 | 兰花草 | GAI | 讲述GAI人生至暗时刻，带着才华被迫远走他乡时的心境，他被锁在命运的房间里，就算打不开锁，他也不认命，哪怕玉石俱焚、把房子烧掉，也要冲出桎梏。<br>节目中GAI自己讲解创作背景[BV1YpgE6iEFw](https://www.bilibili.com/video/BV1YpgE6iEFw) 。后续其他版本、场景下的讲解，会在对应时期列出。 | [BV1Tx3E6tELw](https://www.bilibili.com/video/BV1Tx3E6tELw) |
-| 5 | 别留 | GAI | 流行歌曲 | [BV1GV3E6iETP](https://www.bilibili.com/video/BV1GV3E6iETP) |
-| 6 | untitled 3.30 | GAI |   | [BV1vu3E6uEGb](https://www.bilibili.com/video/BV1vu3E6uEGb) |
-| 7 | 没对 | GAI | GAI式笼罩感TRAP | [BV1Tx3E6tEFC](https://www.bilibili.com/video/BV1Tx3E6tEFC) |
-| 8 | 莲花 | GAI | 哪吒电影OST二选一弃曲，猜测因为这首歌写得太深，电影出品方怕孩子们听不懂。很佛的一首歌 | [BV1VG3E6TEbA](https://www.bilibili.com/video/BV1VG3E6TEbA) |
-| 9 | 这就是生活 | GAI | 演出必演曲目，属于GAI少有的西海岸轻快风 | [BV1TW3E6fEVG](https://www.bilibili.com/video/BV1TW3E6fEVG) |
+| 1 | [烈火战马](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0012M4CU3VlyCe","type":"0"}],"action":"play"}) | GAI | 主流价值观歌曲，致敬抗疫英雄，后面也上了一大堆卫视晚会 | [BV15g3E6BEcf](https://www.bilibili.com/video/BV15g3E6BEcf) |
+| 2 | [极乐](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000Rv4zR0LRedR","type":"0"}],"action":"play"}) | GAI | 摇滚+说唱歌曲，郑钧评价“一个人干了林肯公园两个人的事” | [BV1x43E6oEDW](https://www.bilibili.com/video/BV1x43E6oEDW) |
+| 3 | [蒙着眼睛走](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003p45A40yJUX8","type":"0"}],"action":"play"}) | GAI | 是GAI经典的BoomBap作品 | [BV1P83E6RE3r](https://www.bilibili.com/video/BV1P83E6RE3r) |
+| 4 | [兰花草](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002LZQd40X5aK7","type":"0"}],"action":"play"}) | GAI | 讲述GAI人生至暗时刻，带着才华被迫远走他乡时的心境，他被锁在命运的房间里，就算打不开锁，他也不认命，哪怕玉石俱焚、把房子烧掉，也要冲出桎梏。<br>节目中GAI自己讲解创作背景[BV1YpgE6iEFw](https://www.bilibili.com/video/BV1YpgE6iEFw) 。后续其他版本、场景下的讲解，会在对应时期列出。 | [BV1Tx3E6tELw](https://www.bilibili.com/video/BV1Tx3E6tELw) |
+| 5 | [别留](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001KXvfq0QJVLd","type":"0"}],"action":"play"}) | GAI | 流行歌曲 | [BV1GV3E6iETP](https://www.bilibili.com/video/BV1GV3E6iETP) |
+| 6 | [untitled 3.30](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0011D0jH1oW8HX","type":"0"}],"action":"play"}) | GAI |   | [BV1vu3E6uEGb](https://www.bilibili.com/video/BV1vu3E6uEGb) |
+| 7 | [没对](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000xHWxU1MIDgN","type":"0"}],"action":"play"}) | GAI | GAI式笼罩感TRAP | [BV1Tx3E6tEFC](https://www.bilibili.com/video/BV1Tx3E6tEFC) |
+| 8 | [莲花](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003PM62v4FyOqS","type":"0"}],"action":"play"}) | GAI | 哪吒电影OST二选一弃曲，猜测因为这首歌写得太深，电影出品方怕孩子们听不懂。很佛的一首歌 | [BV1VG3E6TEbA](https://www.bilibili.com/video/BV1VG3E6TEbA) |
+| 9 | [这就是生活](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002RQtWD1EePDj","type":"0"}],"action":"play"}) | GAI | 演出必演曲目，属于GAI少有的西海岸轻快风 | [BV1TW3E6fEVG](https://www.bilibili.com/video/BV1TW3E6fEVG) |
 
 untitled3.30有个MV [BV1gt4y1X72p](https://www.bilibili.com/video/BV1gt4y1X72p)
 
@@ -431,15 +431,15 @@ untitled3.30有个MV [BV1gt4y1X72p](https://www.bilibili.com/video/BV1gt4y1X72p)
 
 | **期数** | **表演曲目** | **合作歌手** | 备注 |
 | --- | --- | --- | --- |
-| 第 3 期 | 给自己的歌 | GAI 个人独唱（推荐），在GAI的盖·世演唱会中也有演唱 | [BV1cQGc66ESR](https://www.bilibili.com/video/BV1cQGc66ESR) |
-| 第 3 期 | 不让我的眼泪陪我过夜 | 孙楠 | [BV1ocGw6YEnT](https://www.bilibili.com/video/BV1ocGw6YEnT) |
-| 第 4 期 | 没那种命 | 陈小春 | [BV1wDGc63EEt](https://www.bilibili.com/video/BV1wDGc63EEt) |
-| 第 4 期 | 友情岁月 | 陈小春 | [BV1HQGc66Exk](https://www.bilibili.com/video/BV1HQGc66Exk) |
+| 第 3 期 | [给自己的歌](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002aP5LU0l52rD","type":"0"}],"action":"play"}) | GAI 个人独唱（推荐），在GAI的盖·世演唱会中也有演唱 | [BV1cQGc66ESR](https://www.bilibili.com/video/BV1cQGc66ESR) |
+| 第 3 期 | [不让我的眼泪陪我过夜](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0003Uiss3O5yg5","type":"0"}],"action":"play"}) | 孙楠 | [BV1ocGw6YEnT](https://www.bilibili.com/video/BV1ocGw6YEnT) |
+| 第 4 期 | [没那种命](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0017U3pE4ZdzHU","type":"0"}],"action":"play"}) | 陈小春 | [BV1wDGc63EEt](https://www.bilibili.com/video/BV1wDGc63EEt) |
+| 第 4 期 | [友情岁月](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003hyXNu4AiKqN","type":"0"}],"action":"play"}) | 陈小春 | [BV1HQGc66Exk](https://www.bilibili.com/video/BV1HQGc66Exk) |
 | 第 7 期 | 乱世巨星 | 陈小春、王源、常石磊 | [BV1FRGc6BEA5](https://www.bilibili.com/video/BV1FRGc6BEA5) |
-| 第 8 期 | 侧面 | 陈小春 | [BV16RGc6BEbd](https://www.bilibili.com/video/BV16RGc6BEbd) |
+| 第 8 期 | [侧面](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0016YtLV2KRGNx","type":"0"}],"action":"play"}) | 陈小春 | [BV16RGc6BEbd](https://www.bilibili.com/video/BV16RGc6BEbd) |
 | 第 8 期 | 岁月留声 (串烧) | 陈小春、王源、常石磊 | [BV1c9Gc6uE75](https://www.bilibili.com/video/BV1c9Gc6uE75) |
-| 第 11 期 | 神啊，救救我吧 | 陈小春 | [BV1n9Gc6uEJb](https://www.bilibili.com/video/BV1n9Gc6uEJb) |
-| 第 12 期 (总决赛) | 万里长城永不倒 | 陈小春 | [BV1XgGw64E5U](https://www.bilibili.com/video/BV1XgGw64E5U) |
+| 第 11 期 | [神啊，救救我吧](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0029cipi2tWMW5","type":"0"}],"action":"play"}) | 陈小春 | [BV1n9Gc6uEJb](https://www.bilibili.com/video/BV1n9Gc6uEJb) |
+| 第 12 期 (总决赛) | [万里长城永不倒](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001AGqzU3a3aHj","type":"0"}],"action":"play"}) | 陈小春 | [BV1XgGw64E5U](https://www.bilibili.com/video/BV1XgGw64E5U) |
 | 第 12 期 (总决赛) | 朋友 | 全体嘉宾 | [BV1GMGw6fESy](https://www.bilibili.com/video/BV1GMGw6fESy) |
 
 ### 20年其他发行
@@ -448,16 +448,16 @@ untitled3.30有个MV [BV1gt4y1X72p](https://www.bilibili.com/video/BV1gt4y1X72p)
 
 | **序号** | **曲目** | **歌手** | **备注** | **发布时间** | **视频链接** |
 | --- | --- | --- | --- | --- | --- |
-| 1 | 乾坤暴躁 | GAI/潘粤明 | 鬼吹灯龙岭迷窟主题曲 | 2020.4.1 | [BV1gi4y1n7j2](https://www.bilibili.com/video/BV1gi4y1n7j2) |
-| 2 | 当潮不让 | GAI | 天猫510主题曲 | 2020.5.4 | [BV17z411q782](https://www.bilibili.com/video/BV17z411q782) |
-| 3 | Open The Night | GAI | 乐堡开躁主题曲 | 2020.7.24 | [BV1ep4y1q7Zh](https://www.bilibili.com/video/BV1ep4y1q7Zh) |
-| 4 | 一念永恒 | GAI | 动画《一念永恒》主题曲 | 2020.8.9 | [BV1HD4y127H3](https://www.bilibili.com/video/BV1HD4y127H3) |
-| 5 | 任逍遥 | GAI | 腾讯音乐娱乐集团（TME）特别翻唱企划「返场」，GAI受邀参与 | 2020.8.13 |   |
-| 6 | 反伍 | GAI | 李宁BADFIVE主题曲 | 2020.8.18 | [BV11C4y1t7BC](https://www.bilibili.com/video/BV11C4y1t7BC) |
-| 7 | 脏班子 | GAI/GOSH全员 | GOSH厂牌CYPHER | 2020.9.8 | [BV1eE411s7qE](https://www.bilibili.com/video/BV1eE411s7qE) |
-| 8 | 凡人歌 | GAI/威尔 |   | 2020.11.30 |   |
-| 9 | Let’s GO | GAI/VAVA |   | 2020.12.5 |   |
-| 10 | 爱江山更爱美人 | GAI/VAVA/威尔 | 经典金曲改编说唱 | 2020.12.28 |   |
+| 1 | [乾坤暴躁](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001ZSjVM27Gfem","type":"0"}],"action":"play"}) | GAI/潘粤明 | 鬼吹灯龙岭迷窟主题曲 | 2020.4.1 | [BV1gi4y1n7j2](https://www.bilibili.com/video/BV1gi4y1n7j2) |
+| 2 | [当潮不让](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002u4xA63Q0ZhL","type":"0"}],"action":"play"}) | GAI | 天猫510主题曲 | 2020.5.4 | [BV17z411q782](https://www.bilibili.com/video/BV17z411q782) |
+| 3 | [Open The Night](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002w9RbX4QQR5G","type":"0"}],"action":"play"}) | GAI | 乐堡开躁主题曲 | 2020.7.24 | [BV1ep4y1q7Zh](https://www.bilibili.com/video/BV1ep4y1q7Zh) |
+| 4 | [一念永恒](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003wIYwA4e9p4l","type":"0"}],"action":"play"}) | GAI | 动画《一念永恒》主题曲 | 2020.8.9 | [BV1HD4y127H3](https://www.bilibili.com/video/BV1HD4y127H3) |
+| 5 | [任逍遥](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002jD2Q83NmcPJ","type":"0"}],"action":"play"}) | GAI | 腾讯音乐娱乐集团（TME）特别翻唱企划「返场」，GAI受邀参与 | 2020.8.13 |   |
+| 6 | [反伍](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002PfOT02jp9on","type":"0"}],"action":"play"}) | GAI | 李宁BADFIVE主题曲 | 2020.8.18 | [BV11C4y1t7BC](https://www.bilibili.com/video/BV11C4y1t7BC) |
+| 7 | [脏班子](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002PbeD412DFh0","type":"0"}],"action":"play"}) | GAI/GOSH全员 | GOSH厂牌CYPHER | 2020.9.8 | [BV1eE411s7qE](https://www.bilibili.com/video/BV1eE411s7qE) |
+| 8 | [凡人歌](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0002xeJS0Xy636","type":"0"}],"action":"play"}) | GAI/威尔 |   | 2020.11.30 |   |
+| 9 | [Let’s GO](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"00400NRp40t3z8","type":"0"}],"action":"play"}) | GAI/VAVA |   | 2020.12.5 |   |
+| 10 | [爱江山更爱美人](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004XBbwO32NmLI","type":"0"}],"action":"play"}) | GAI/VAVA/威尔 | 经典金曲改编说唱 | 2020.12.28 |   |
 | 11 | 黑卡 | GAI/黄子韬 | K11制作 | 2020.12.30 |   |
 
 另外2020年11月17日，GOSH发布厂牌专辑《OH MY GOSH!》,GAI参与其中两首歌曲《名曲》和《血书》。但不知为何（可能是由于GAI的合同和GOSH当年的实体公司力拔山兮有版权冲突），在最终发行的版本中GAI的verse被消音留白。《名曲》 [BV14y4y1z76J](https://www.bilibili.com/video/BV14y4y1z76J)  /《血书》 [BV1D5411V7rD](https://www.bilibili.com/video/BV1D5411V7rD)
@@ -471,14 +471,14 @@ untitled3.30有个MV [BV1gt4y1X72p](https://www.bilibili.com/video/BV1gt4y1X72p)
 | **序号** | **歌曲名** | **歌手** | **舞台阶段** | **视频链接** |
 | --- | --- | --- | --- | --- |
 | 1 | 沧海一声笑 | GAI | 初舞台 |   |
-| 2 | 站在高岗上 | GAI/布瑞吉/瑞奇 | 一公 |   |
-| 3 | 往事只能回味 | GAI/大湾区哥哥/布瑞吉 | 二公 |   |
-| 4 | 你要如何，我们就如何 | GAI/陈小春/梁文汉/林晓峰/谢天华/布瑞吉 | 二公（推荐） | [BV19jR9BkE2i](https://www.bilibili.com/video/BV19jR9BkE2i) |
+| 2 | [站在高岗上](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004anuKA4D9N1W","type":"0"}],"action":"play"}) | GAI/布瑞吉/瑞奇 | 一公 |   |
+| 3 | [往事只能回味](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003lKIWa2IBXwL","type":"0"}],"action":"play"}) | GAI/大湾区哥哥/布瑞吉 | 二公 |   |
+| 4 | [你要如何，我们就如何](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003pBaR64TsAoy","type":"0"}],"action":"play"}) | GAI/陈小春/梁文汉/林晓峰/谢天华/布瑞吉 | 二公（推荐） | [BV19jR9BkE2i](https://www.bilibili.com/video/BV19jR9BkE2i) |
 | 5 | 摇滚怎么了！！ | GAI/陈小春/谢天华/布瑞吉 | 三公 |   |
 | 6 | 无名之辈 | GAI/梁汉文 | 四公 |   |
 | 7 | 当年情 | GAI/大湾区哥哥/布瑞吉 | 四公 |   |
-| 8 | See You Again | GAI/白举纲/林志炫/陈辉/热狗 | 五公 |   |
-| 9 | 海阔天空 | GAI/多位哥哥 | 总决赛 |   |
+| 8 | [See You Again](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0013Dxp54JWwjX","type":"0"}],"action":"play"}) | GAI/白举纲/林志炫/陈辉/热狗 | 五公 |   |
+| 9 | [海阔天空](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001Xu7dV1RHnCl","type":"0"}],"action":"play"}) | GAI/多位哥哥 | 总决赛 |   |
 | 10 | 存在 | GAI/多位哥哥 | 总决赛 |   |
 
 ### 少年说唱企划
@@ -488,8 +488,8 @@ untitled3.30有个MV [BV1gt4y1X72p](https://www.bilibili.com/video/BV1gt4y1X72p)
 | **序号** | **歌曲名** | **歌手** | **舞台阶段** | **视频链接** |
 | --- | --- | --- | --- | --- |
 | 1 | 《无畏》 | GAI/TT/盛宇/王以太/VAVA | 导师cypher | [BV1M64y1e75h](https://www.bilibili.com/video/BV1M64y1e75h) |
-| 2 | 《山岚》 | GAI/等一下就回家 | 导师新人合作 | [BV1ZQ4y1k7Dx](https://www.bilibili.com/video/BV1ZQ4y1k7Dx) |
-| 3 | 《赤子心》 | GAI |   |   |
+| 2 | [《山岚》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000ozuIu0nPQsb","type":"0"}],"action":"play"}) | GAI/等一下就回家 | 导师新人合作 | [BV1ZQ4y1k7Dx](https://www.bilibili.com/video/BV1ZQ4y1k7Dx) |
+| 3 | [《赤子心》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003Iexyr3kUg5n","type":"0"}],"action":"play"}) | GAI |   |   |
 
 ### 2021年其他的一些单曲、合作曲与广告歌
 
@@ -497,16 +497,16 @@ untitled3.30有个MV [BV1gt4y1X72p](https://www.bilibili.com/video/BV1gt4y1X72p)
 
 | **序号** | **歌曲名** | **发布时间** | **说明** | **视频链接** |
 | --- | --- | --- | --- | --- |
-| 1 | 赤子心 | 2021.1.7 | 方文山亲自操刀监制 |   |
-| 2 | 没有人在乎 | 2021.1.31 | 合作张艺兴/汪峰单曲 |   |
-| 3 | 蒙着眼睛走 | 2021.2.9 | 功夫胖合作版 |   |
-| 4 | 刺 | 2021.2.16 | 电影《刺杀小说家》片尾曲 | [BV1fv411Y7g8](https://www.bilibili.com/video/BV1fv411Y7g8) |
+| 1 | [赤子心](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"00370xbi3qXgmH","type":"0"}],"action":"play"}) | 2021.1.7 | 方文山亲自操刀监制 |   |
+| 2 | [没有人在乎](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000tjmKy2KZi8G","type":"0"}],"action":"play"}) | 2021.1.31 | 合作张艺兴/汪峰单曲 |   |
+| 3 | [蒙着眼睛走](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0033BR6N4LytGG","type":"0"}],"action":"play"}) | 2021.2.9 | 功夫胖合作版 |   |
+| 4 | [刺](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000JYuCC1lSu9a","type":"0"}],"action":"play"}) | 2021.2.16 | 电影《刺杀小说家》片尾曲 | [BV1fv411Y7g8](https://www.bilibili.com/video/BV1fv411Y7g8) |
 | 5 | 我们十年 | 2021.3.16 | 电视剧《荣耀乒乓》推广曲 | [BV1dPQMBVEck](https://www.bilibili.com/video/BV1dPQMBVEck) |
-| 6 | Get Together | 2021.8.19 | 合作David Guetta乐堡啤酒主题曲 |   |
-| 7 | 理·想 | 2021.8.28 | 电视剧《扫黑风暴》插曲 |   |
-| 8 | 共同梦想 | 2021.12.31 | 种梦音乐公司CYPHER | [BV1tL411L7pr](https://www.bilibili.com/video/BV1tL411L7pr) |
-| 9 | 投名状（双唢呐版） | 2021年综艺 | 《中国潮音》现场 | [BV1pZ4y197Cm](https://www.bilibili.com/video/BV1pZ4y197Cm) |
-| 10 | 恭喜恭喜，吉时行乐 | 2022.1.1 | 合作VAVA，乐堡啤酒主题曲 |   |
+| 6 | [Get Together](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003qG8GQ3ltB6b","type":"0"}],"action":"play"}) | 2021.8.19 | 合作David Guetta乐堡啤酒主题曲 |   |
+| 7 | [理·想](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0012N9Wj4eFSG3","type":"0"}],"action":"play"}) | 2021.8.28 | 电视剧《扫黑风暴》插曲 |   |
+| 8 | [共同梦想](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004aiptz1SUoBh","type":"0"}],"action":"play"}) | 2021.12.31 | 种梦音乐公司CYPHER | [BV1tL411L7pr](https://www.bilibili.com/video/BV1tL411L7pr) |
+| 9 | [投名状（双唢呐版）](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003xzED13g9eYj","type":"0"}],"action":"play"}) | 2021年综艺 | 《中国潮音》现场 | [BV1pZ4y197Cm](https://www.bilibili.com/video/BV1pZ4y197Cm) |
+| 10 | [恭喜恭喜，吉时行乐](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002R4yqQ40NGf5","type":"0"}],"action":"play"}) | 2022.1.1 | 合作VAVA，乐堡啤酒主题曲 |   |
 
 ![乐堡啤酒重庆线下打卡点照片](/images/gai/11-tuborg-chongqing-checkpoint.webp)
 
@@ -520,9 +520,9 @@ GAI参与浙江卫视**天赐的声音**第三季录制，留下三个舞台，�
 
 | **歌曲** | **歌手组合** | **期数** | **备注** | **视频链接** |
 | --- | --- | --- | --- | --- |
-| 《问风》 | GAI/吉克隽逸 | 第 1 期 | 2022年大爆单 | [BV1kS4y1S7yt](https://www.bilibili.com/video/BV1kS4y1S7yt) |
-| 《秘密》 | GAI/康姆士乐团 | 第 2 期 |   | [BV1ES4y1g7MS](https://www.bilibili.com/video/BV1ES4y1g7MS) |
-| 《玫瑰少年》 | GAI/周深 | 第 3 期 | 第一阶段荣耀金曲 | [BV1xr4y1s7rr](https://www.bilibili.com/video/BV1xr4y1s7rr) |
+| [《问风》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003WftUn1UBz7R","type":"0"}],"action":"play"}) | GAI/吉克隽逸 | 第 1 期 | 2022年大爆单 | [BV1kS4y1S7yt](https://www.bilibili.com/video/BV1kS4y1S7yt) |
+| [《秘密》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004NpgyK2y4b4U","type":"0"}],"action":"play"}) | GAI/康姆士乐团 | 第 2 期 |   | [BV1ES4y1g7MS](https://www.bilibili.com/video/BV1ES4y1g7MS) |
+| [《玫瑰少年》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000hBf9000XCGz","type":"0"}],"action":"play"}) | GAI/周深 | 第 3 期 | 第一阶段荣耀金曲 | [BV1xr4y1s7rr](https://www.bilibili.com/video/BV1xr4y1s7rr) |
 
 其中，玫瑰少年虽然在节目上取得成功，但在网络上遭受了大量的质疑与非议。
 
@@ -534,10 +534,10 @@ GAI参与浙江卫视**天赐的声音**第三季录制，留下三个舞台，�
 
 | **序号** | **歌曲名** | **发布时间** | **说明** | **视频链接** |
 | --- | --- | --- | --- | --- |
-| 1 | 天明 | 2022.1.10 | 受中国警察网邀请为中国警察节献礼歌曲 | [BV1KS4y1j7Eq](https://www.bilibili.com/video/BV1KS4y1j7Eq) |
-| 2 | 剑拔弩张 | 2022.6.1 | 和谭维维合作，永劫无间广告曲 | Q音可听 |
-| 3 | 重庆得行 | 2022.8.21 | 重庆北碚区、南岸区发生山火，全民救火的画面刷爆网络，GAI与布瑞吉/张颜齐/王鹤棣合作公益歌曲致敬山火前线的军民。 | [BV1ja411G7RF](https://www.bilibili.com/video/BV1ja411G7RF) |
-| 4 | 嘿 做个人吧 | 2022.8.27 | 和胡海泉合作 | [BV1ye4y1W7N5](https://www.bilibili.com/video/BV1ye4y1W7N5) |
+| 1 | [天明](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000HHtcK3MxTtC","type":"0"}],"action":"play"}) | 2022.1.10 | 受中国警察网邀请为中国警察节献礼歌曲 | [BV1KS4y1j7Eq](https://www.bilibili.com/video/BV1KS4y1j7Eq) |
+| 2 | [剑拔弩张](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002ZISjc3vyiOy","type":"0"}],"action":"play"}) | 2022.6.1 | 和谭维维合作，永劫无间广告曲 |   |
+| 3 | [重庆得行](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002Sm3tg1j8rpI","type":"0"}],"action":"play"}) | 2022.8.21 | 重庆北碚区、南岸区发生山火，全民救火的画面刷爆网络，GAI与布瑞吉/张颜齐/王鹤棣合作公益歌曲致敬山火前线的军民。 | [BV1ja411G7RF](https://www.bilibili.com/video/BV1ja411G7RF) |
+| 4 | [嘿 做个人吧](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001NETBO2iMs3j","type":"0"}],"action":"play"}) | 2022.8.27 | 和胡海泉合作 | [BV1ye4y1W7N5](https://www.bilibili.com/video/BV1ye4y1W7N5) |
 
 ### 2022年5月6日发布第三张录音室专辑《杜康》
 
@@ -547,19 +547,19 @@ GAI直播浅谈新专辑杜康[BV1mT4y1r7JR](https://www.bilibili.com/video/BV1m
 
 | **序号** | **歌曲名** | **MV** | **备注** |
 | --- | --- | --- | --- |
-| 1 | Intro 归巢 |   |   |
-| 2 | 威远故事 | [BV1mS4y1C793](https://www.bilibili.com/video/BV1mS4y1C793) | 四川方言叙事，家乡主题，全专核心单曲 |
-| 3 | Richard Mille Life |   | ft.Ranzer,炫技+江湖气Trap |
-| 4 | 江湖中人 |   | 经典GAI式江湖说唱 |
-| 5 | Skit 踏云 |   |   |
-| 6 | 山岚 |   | 先行主打，国风Trap，获最佳作词奖 |
-| 7 | 没败 |   | 硬核态度，不服输宣言 |
-| 8 | 杜康 |   | 同名主打，国风+旋律说唱，专辑核心概念曲 |
-| 9 | 传奇 |   | 叙事+江湖感，致敬过往 |
-| 10 | Not Friendly | [BV1B44y1u7Z4](https://www.bilibili.com/video/BV1B44y1u7Z4) | 狠货Trap，锋芒毕露，现场必演歌曲之一 |
-| 11 | 蓝色极光 |   | 温柔旋律情歌 |
-| 12 | 亢龙有悔 |   | 武侠意象 |
-| 13 | Outro 如龙 |   |   |
+| 1 | [Intro 归巢](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003ZTU682aKZdP","type":"0"}],"action":"play"}) |   |   |
+| 2 | [威远故事](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000DOk491JABSS","type":"0"}],"action":"play"}) | [BV1mS4y1C793](https://www.bilibili.com/video/BV1mS4y1C793) | 四川方言叙事，家乡主题，全专核心单曲 |
+| 3 | [Richard Mille Life](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000cRwj63EUFde","type":"0"}],"action":"play"}) |   | ft.Ranzer,炫技+江湖气Trap |
+| 4 | [江湖中人](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001usKMJ4YJdqK","type":"0"}],"action":"play"}) |   | 经典GAI式江湖说唱 |
+| 5 | [Skit 踏云](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0028K7QZ37BCIj","type":"0"}],"action":"play"}) |   |   |
+| 6 | [山岚](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0039AxbV3iNDET","type":"0"}],"action":"play"}) |   | 先行主打，国风Trap，获最佳作词奖 |
+| 7 | [没败](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001bLOom4QPmHC","type":"0"}],"action":"play"}) |   | 硬核态度，不服输宣言 |
+| 8 | [杜康](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003CsWFE0jYRRn","type":"0"}],"action":"play"}) |   | 同名主打，国风+旋律说唱，专辑核心概念曲 |
+| 9 | [传奇](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003jm6Nx4IMdYL","type":"0"}],"action":"play"}) |   | 叙事+江湖感，致敬过往 |
+| 10 | [Not Friendly](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003Chn172mpFc9","type":"0"}],"action":"play"}) | [BV1B44y1u7Z4](https://www.bilibili.com/video/BV1B44y1u7Z4) | 狠货Trap，锋芒毕露，现场必演歌曲之一 |
+| 11 | [蓝色极光](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"00468Sx834T0n4","type":"0"}],"action":"play"}) |   | 温柔旋律情歌 |
+| 12 | [亢龙有悔](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002TZunu08M6H2","type":"0"}],"action":"play"}) |   | 武侠意象 |
+| 13 | [Outro 如龙](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002ljq9A1Mlrus","type":"0"}],"action":"play"}) |   |   |
 
 ### 中国说唱巅峰对决2022
 
@@ -571,18 +571,18 @@ GAI直播浅谈新专辑杜康[BV1mT4y1r7JR](https://www.bilibili.com/video/BV1m
 
 | **序号** | **歌曲名** | **歌手** | **视频链接** |
 | --- | --- | --- | --- |
-| 1 | Not Friendly | GAI | [BV1Qt3P6fEbv](https://www.bilibili.com/video/BV1Qt3P6fEbv) |
-| 2 | 蒙着眼睛走+虎山行 | GAI | [BV1Y63d6kEtE](https://www.bilibili.com/video/BV1Y63d6kEtE) |
-| 3 | 凯旋 | GAI/功夫胖 | [BV1D83P6tEQU](https://www.bilibili.com/video/BV1D83P6tEQU) |
-| 4 | Untitled 3.30 | GAI | [BV1Yv3J6gEdf](https://www.bilibili.com/video/BV1Yv3J6gEdf) |
-| 5 | 江湖儿女 | GAI/功夫胖/布瑞吉 | [BV1Bu3o6XEdT](https://www.bilibili.com/video/BV1Bu3o6XEdT) |
+| 1 | [Not Friendly](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001jhIw00tl0P8","type":"0"}],"action":"play"}) | GAI | [BV1Qt3P6fEbv](https://www.bilibili.com/video/BV1Qt3P6fEbv) |
+| 2 | [蒙着眼睛走+虎山行](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003JbKxD4SHEH6","type":"0"}],"action":"play"}) | GAI | [BV1Y63d6kEtE](https://www.bilibili.com/video/BV1Y63d6kEtE) |
+| 3 | [凯旋](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0019TA3n4g8rcq","type":"0"}],"action":"play"}) | GAI/功夫胖 | [BV1D83P6tEQU](https://www.bilibili.com/video/BV1D83P6tEQU) |
+| 4 | [Untitled 3.30](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0020rR9M1NY9Mh","type":"0"}],"action":"play"}) | GAI | [BV1Yv3J6gEdf](https://www.bilibili.com/video/BV1Yv3J6gEdf) |
+| 5 | [江湖儿女](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000Zw6GR3TPWR2","type":"0"}],"action":"play"}) | GAI/功夫胖/布瑞吉 | [BV1Bu3o6XEdT](https://www.bilibili.com/video/BV1Bu3o6XEdT) |
 | 6 | 啥子声音 | GAI/功夫胖/布瑞吉 | [BV1Td3A6QEr3](https://www.bilibili.com/video/BV1Td3A6QEr3) |
-| 7 | 飞跃经济舱 | GAI/功夫胖/布瑞吉 （经典互换改编赛） | [BV1Ma41157xd](https://www.bilibili.com/video/BV1Ma41157xd) |
-| 8 | 朝天门 | GAI | [BV1CFCMBqEPi](https://www.bilibili.com/video/BV1CFCMBqEPi) |
-| 9 | 威远故事 | GAI | [BV1XV4y1W7Cp](https://www.bilibili.com/video/BV1XV4y1W7Cp) |
-| 10 | 山岚Flow杜康韵 | GAI | [BV11d3d6aERD](https://www.bilibili.com/video/BV11d3d6aERD) |
-| 11 | 亢龙有悔 | GAI/张艺兴 | [BV1Rd4y1X7yB](https://www.bilibili.com/video/BV1Rd4y1X7yB) |
-| 12 | 三滴血 | GAI/功夫胖/布瑞吉 | [BV1CT411M7JN](https://www.bilibili.com/video/BV1CT411M7JN) |
+| 7 | [飞跃经济舱](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000cCpR62IlM3A","type":"0"}],"action":"play"}) | GAI/功夫胖/布瑞吉 （经典互换改编赛） | [BV1Ma41157xd](https://www.bilibili.com/video/BV1Ma41157xd) |
+| 8 | [朝天门](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003GAc1c3N5z1b","type":"0"}],"action":"play"}) | GAI | [BV1CFCMBqEPi](https://www.bilibili.com/video/BV1CFCMBqEPi) |
+| 9 | [威远故事](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0031wJRl23jKuW","type":"0"}],"action":"play"}) | GAI | [BV1XV4y1W7Cp](https://www.bilibili.com/video/BV1XV4y1W7Cp) |
+| 10 | [山岚Flow杜康韵](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004SchH4126HtH","type":"0"}],"action":"play"}) | GAI | [BV11d3d6aERD](https://www.bilibili.com/video/BV11d3d6aERD) |
+| 11 | [亢龙有悔](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003L42l60ya3t3","type":"0"}],"action":"play"}) | GAI/张艺兴 | [BV1Rd4y1X7yB](https://www.bilibili.com/video/BV1Rd4y1X7yB) |
+| 12 | [三滴血](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000bT9Vz287MZg","type":"0"}],"action":"play"}) | GAI/功夫胖/布瑞吉 | [BV1CT411M7JN](https://www.bilibili.com/video/BV1CT411M7JN) |
 | 13 | 一代 | 全体 | [BV1zXLQ6DESC](https://www.bilibili.com/video/BV1zXLQ6DESC) |
 
 **【2023年】**
@@ -595,18 +595,18 @@ GAI直播浅谈新专辑杜康[BV1mT4y1r7JR](https://www.bilibili.com/video/BV1m
 
 | **序号** | **演唱歌曲** | **歌手** | **备注** | **视频链接** |
 | --- | --- | --- | --- | --- |
-| 1 | 想太多 | GAI/张靓颖 |   | [BV1vm4y117e9](https://www.bilibili.com/video/BV1vm4y117e9) |
-| 2 | 人生何处不相逢 | GAI/伯远 |   | [BV1Bh4y1J7kS](https://www.bilibili.com/video/BV1Bh4y1J7kS) |
-| 3 | 爱江山更爱美人 | GAI/汪苏泷 |   | [BV1gm4y1a7NL](https://www.bilibili.com/video/BV1gm4y1a7NL) |
-| 4 | 三国恋 | GAI/刘柏辛Lexie |   | [BV1rL41167gX](https://www.bilibili.com/video/BV1rL41167gX) |
-| 5 | 来自世界的晚安 | GAI/张碧晨 | 当期推荐金曲 | [BV1Uu411W7X3](https://www.bilibili.com/video/BV1Uu411W7X3) |
+| 1 | [想太多](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002LWF8p2QkWyE","type":"0"}],"action":"play"}) | GAI/张靓颖 |   | [BV1vm4y117e9](https://www.bilibili.com/video/BV1vm4y117e9) |
+| 2 | [人生何处不相逢](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004HphNO3BbdiZ","type":"0"}],"action":"play"}) | GAI/伯远 |   | [BV1Bh4y1J7kS](https://www.bilibili.com/video/BV1Bh4y1J7kS) |
+| 3 | [爱江山更爱美人](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0027T7QY0g1YHC","type":"0"}],"action":"play"}) | GAI/汪苏泷 |   | [BV1gm4y1a7NL](https://www.bilibili.com/video/BV1gm4y1a7NL) |
+| 4 | [三国恋](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004OZ7gQ1BtREL","type":"0"}],"action":"play"}) | GAI/刘柏辛Lexie |   | [BV1rL41167gX](https://www.bilibili.com/video/BV1rL41167gX) |
+| 5 | [来自世界的晚安](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001HO1AP3daba6","type":"0"}],"action":"play"}) | GAI/张碧晨 | 当期推荐金曲 | [BV1Uu411W7X3](https://www.bilibili.com/video/BV1Uu411W7X3) |
 | 6 | Sorry | GAI/吉克隽逸 |   | [BV1zh4y1s7wP](https://www.bilibili.com/video/BV1zh4y1s7wP) |
-| 7 | 一念之间 | GAI/王赫野 | 当期推荐金曲 | [BV1Sz4y1v7QV](https://www.bilibili.com/video/BV1Sz4y1v7QV) |
-| 8 | 狼 | GAI/希林娜依高 | 当期推荐金曲 | [BV1R14y1S79J](https://www.bilibili.com/video/BV1R14y1S79J) |
-| 9 | 麒麟&沧海一声笑 | GAI/早安 |   | [BV1Lu41187JJ](https://www.bilibili.com/video/BV1Lu41187JJ) |
+| 7 | [一念之间](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003Z0Tti31EyNg","type":"0"}],"action":"play"}) | GAI/王赫野 | 当期推荐金曲 | [BV1Sz4y1v7QV](https://www.bilibili.com/video/BV1Sz4y1v7QV) |
+| 8 | [狼](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003soaJ10Dimxy","type":"0"}],"action":"play"}) | GAI/希林娜依高 | 当期推荐金曲 | [BV1R14y1S79J](https://www.bilibili.com/video/BV1R14y1S79J) |
+| 9 | [麒麟&沧海一声笑](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0019G5yh3DxnGW","type":"0"}],"action":"play"}) | GAI/早安 |   | [BV1Lu41187JJ](https://www.bilibili.com/video/BV1Lu41187JJ) |
 | 10 | 法兰西多士 | GAI/告五人 |   | [BV1Ts4y1F79X](https://www.bilibili.com/video/BV1Ts4y1F79X) |
-| 11 | 用情 | GAI/戴佩妮 | 演唱会合作两次 | [BV1G14y1R7tD](https://www.bilibili.com/video/BV1G14y1R7tD) |
-| 12 | 牧马城市 | GAI/胡彦斌 | 天赐金曲 | [BV1RV411T7u8](https://www.bilibili.com/video/BV1RV411T7u8) |
+| 11 | [用情](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003x5VGI4TsH7j","type":"0"}],"action":"play"}) | GAI/戴佩妮 | 演唱会合作两次 | [BV1G14y1R7tD](https://www.bilibili.com/video/BV1G14y1R7tD) |
+| 12 | [牧马城市](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003SzMWJ497y0n","type":"0"}],"action":"play"}) | GAI/胡彦斌 | 天赐金曲 | [BV1RV411T7u8](https://www.bilibili.com/video/BV1RV411T7u8) |
 
 在节目结束后节目编导发布视频（[BV1iP411B79K](https://www.bilibili.com/video/BV1iP411B79K)）爆夸GAI（14分钟可以倍速看，正片看还是娱乐直播看都行）。GAI这几年的舆论情况就是，在主流音综受到很高的评价，而在说唱节目被骂被攻击。
 
@@ -616,10 +616,10 @@ GAI直播浅谈新专辑杜康[BV1mT4y1r7JR](https://www.bilibili.com/video/BV1m
 
 | **序号** | **歌曲名** | **歌手** |
 | --- | --- | --- |
-| 1 | 《钢铁丛林》 | GAI |
-| 2 | 《如意》 | GAI |
-| 3 | 《三滴血》 | GAI/功夫胖/布瑞吉 |
-| 4 | 《冲动的惩罚2023》 | GAI/功夫胖/Ranzer |
+| 1 | [《钢铁丛林》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001u0vKa3T2lfS","type":"0"}],"action":"play"}) | GAI |
+| 2 | [《如意》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000rudBQ0Nso7m","type":"0"}],"action":"play"}) | GAI |
+| 3 | [《三滴血》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0018wZ4U0dEUXA","type":"0"}],"action":"play"}) | GAI/功夫胖/布瑞吉 |
+| 4 | [《冲动的惩罚2023》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000aCE6p1APAeD","type":"0"}],"action":"play"}) | GAI/功夫胖/Ranzer |
 
 Q音可听。
 
@@ -629,22 +629,22 @@ Q音可听。
 
 | **序号** | **歌曲名** | **歌手** | **链接** |
 | --- | --- | --- | --- |
-| 1 | 《如意》 | GAI | [BV1yo4y1x7UX](https://www.bilibili.com/video/BV1yo4y1x7UX) |
-| 2 | 《钢铁丛林》 | GAI | [BV1Uy3J6PEjj](https://www.bilibili.com/video/BV1Uy3J6PEjj) |
+| 1 | [《如意》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002LAjeI2IchWy","type":"0"}],"action":"play"}) | GAI | [BV1yo4y1x7UX](https://www.bilibili.com/video/BV1yo4y1x7UX) |
+| 2 | [《钢铁丛林》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001DJqQj1iL66y","type":"0"}],"action":"play"}) | GAI | [BV1Uy3J6PEjj](https://www.bilibili.com/video/BV1Uy3J6PEjj) |
 | 3 | 《光宗耀祖》 | GAI | [BV17GeLeSETS](https://www.bilibili.com/video/BV17GeLeSETS) |
 
 ### 2023年单曲与广告歌
 
 | **序号** | **歌曲名** | **备注** | **发布时间** | **链接** |
 | --- | --- | --- | --- | --- |
-| 1 | 心愿清单 | 广东卫视 2023 春晚，很反差的一个现场 | 2023.1.22 | [BV1UT411Z7m5](https://www.bilibili.com/video/BV1UT411Z7m5) |
-| 2 | 中国梦・我的梦 | 群星（廖昌永、谭维维等非常多人，不用听） | 2023.1.23 | / |
-| 3 | 朝天门 | 录音室版本 | 2023.2.6 |   |
-| 4 | 猎手 | 网剧《尘封十三载》主题曲 | 2023.4.14 | [BV1tjDFBuEHE](https://www.bilibili.com/video/BV1tjDFBuEHE) |
-| 5 | 比肩而战 | 电影《变形金刚：超能勇士崛起》中文主题曲 | 2023.4.28 | [BV1ewDuB6Eyq](https://www.bilibili.com/video/BV1ewDuB6Eyq) |
-| 6 | 生如野草 | 电影《八角笼中》主题曲，RANZER词曲，Q音是完整音源，视频稍短一些 | 2023.7.8 | [BV15M4y1j7yS](https://www.bilibili.com/video/BV15M4y1j7yS) |
-| 7 | 敬自己不为谁 | 与胡彦斌合作单曲 | 2023.8.18 | Q音可听 |
-| 8 | 至高使命 | 使命召唤手游 4 周年主题曲 | 2023.11.4 | [BV1Nu4y1a7wJ](https://www.bilibili.com/video/BV1Nu4y1a7wJ) |
+| 1 | [心愿清单](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004U6HZp1eTQuI","type":"0"}],"action":"play"}) | 广东卫视 2023 春晚，很反差的一个现场 | 2023.1.22 | [BV1UT411Z7m5](https://www.bilibili.com/video/BV1UT411Z7m5) |
+| 2 | [中国梦・我的梦](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000C7fp50DnK1U","type":"0"}],"action":"play"}) | 群星（廖昌永、谭维维等非常多人，不用听） | 2023.1.23 | / |
+| 3 | [朝天门](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0042n7zi0n3p0z","type":"0"}],"action":"play"}) | 录音室版本 | 2023.2.6 |   |
+| 4 | [猎手](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002AWzWn0A8AhT","type":"0"}],"action":"play"}) | 网剧《尘封十三载》主题曲 | 2023.4.14 | [BV1tjDFBuEHE](https://www.bilibili.com/video/BV1tjDFBuEHE) |
+| 5 | [比肩而战](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000Ju9Mm3UhXjX","type":"0"}],"action":"play"}) | 电影《变形金刚：超能勇士崛起》中文主题曲 | 2023.4.28 | [BV1ewDuB6Eyq](https://www.bilibili.com/video/BV1ewDuB6Eyq) |
+| 6 | [生如野草](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002MGADM0risMy","type":"0"}],"action":"play"}) | 电影《八角笼中》主题曲，RANZER词曲，Q音是完整音源，视频稍短一些 | 2023.7.8 | [BV15M4y1j7yS](https://www.bilibili.com/video/BV15M4y1j7yS) |
+| 7 | [敬自己不为谁](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0042xZRO4X4mTA","type":"0"}],"action":"play"}) | 与胡彦斌合作单曲 | 2023.8.18 |   |
+| 8 | [至高使命](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003TGzzR3jvgRX","type":"0"}],"action":"play"}) | 使命召唤手游 4 周年主题曲 | 2023.11.4 | [BV1Nu4y1a7wJ](https://www.bilibili.com/video/BV1Nu4y1a7wJ) |
 | 9 | Boss of Boss | 和KnowKnow、谢帝破冰合作 | 2023.11.15 | Q音可听 |
 | 10 | 于斯为盛 | 给盛宇首专同名主打的feat，但其实可以在宇哥开荒时再听 | 2023.12.9 | [BV1tC4y1N7hE](https://www.bilibili.com/video/BV1tC4y1N7hE) |
 
@@ -660,17 +660,17 @@ Q音可听。
 
 | **序号** | **歌曲名** | **歌手** | **MV链接** |
 | --- | --- | --- | --- |
-| 1 | Intro | GAI |   |
-| 2 | 招财进宝 | GAI |   |
-| 3 | 龍 | GAI/雾都 |   |
-| 4 | Rich的安静 | GAI |   |
-| 5 | 温酒斩华雄 | GAI/功夫胖 |   |
-| 6 | 茉莉 | GAI | [BV1eF4m1A7MG](https://www.bilibili.com/video/BV1eF4m1A7MG) |
-| 7 | 街上的 | GAI/布瑞吉 | [BV13K421e7qL](https://www.bilibili.com/video/BV13K421e7qL) |
-| 8 | 丰碑 | GAI |   |
-| 9 | 盖哥调 | GAI | [BV1Hz421S7aN](https://www.bilibili.com/video/BV1Hz421S7aN) |
-| 10 | 街坊邻居 | GAI |   |
-| 11 | Outro混蛋 | GAI |   |
+| 1 | [Intro](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001cpOqA15U5x9","type":"0"}],"action":"play"}) | GAI |   |
+| 2 | [招财进宝](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"00165ZML0mWTKC","type":"0"}],"action":"play"}) | GAI |   |
+| 3 | [龍](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003GI6nP3BDRCS","type":"0"}],"action":"play"}) | GAI/雾都 |   |
+| 4 | [Rich的安静](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001Nvt3X0pW4sS","type":"0"}],"action":"play"}) | GAI |   |
+| 5 | [温酒斩华雄](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001lWvdo2CfToJ","type":"0"}],"action":"play"}) | GAI/功夫胖 |   |
+| 6 | [茉莉](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003xiEtQ0qJlp7","type":"0"}],"action":"play"}) | GAI | [BV1eF4m1A7MG](https://www.bilibili.com/video/BV1eF4m1A7MG) |
+| 7 | [街上的](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004Px3E13dLzBc","type":"0"}],"action":"play"}) | GAI/布瑞吉 | [BV13K421e7qL](https://www.bilibili.com/video/BV13K421e7qL) |
+| 8 | [丰碑](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000fdfrn3Ywp7E","type":"0"}],"action":"play"}) | GAI |   |
+| 9 | [盖哥调](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000NiTou3GIkuO","type":"0"}],"action":"play"}) | GAI | [BV1Hz421S7aN](https://www.bilibili.com/video/BV1Hz421S7aN) |
+| 10 | [街坊邻居](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0020cH0014s1lG","type":"0"}],"action":"play"}) | GAI |   |
+| 11 | [Outro混蛋](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002j35Ul0GOEoZ","type":"0"}],"action":"play"}) | GAI |   |
 
 ### 2024年5月说唱梦工厂
 
@@ -678,26 +678,26 @@ GAI的公司DMG种梦娱乐与优酷合作举办了属于自己的说唱综艺�
 
 | **序号** | **演唱歌曲** | **舞台类型** | **歌手** | **建议** |
 | --- | --- | --- | --- | --- |
-| 1 | 龙Loong | 导师cypher | GAI、布瑞吉、盛宇、VAVA、艾热、早安、欧阳靖、小鬼 | [BV1Pf42197zp](https://www.bilibili.com/video/BV1Pf42197zp) |
-| 2 | 飘絮 | 导师帮唱 | GAI/加木 | [BV131421k7V2](https://www.bilibili.com/video/BV131421k7V2) |
+| 1 | [龙Loong](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003HLww51XAIBT","type":"0"}],"action":"play"}) | 导师cypher | GAI、布瑞吉、盛宇、VAVA、艾热、早安、欧阳靖、小鬼 | [BV1Pf42197zp](https://www.bilibili.com/video/BV1Pf42197zp) |
+| 2 | [飘絮](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001FEB6I3rNDd8","type":"0"}],"action":"play"}) | 导师帮唱 | GAI/加木 | [BV131421k7V2](https://www.bilibili.com/video/BV131421k7V2) |
 | 3 | 街上的 | 厂牌导师秀 | GAI/布瑞吉 | [BV19i421D7w2](https://www.bilibili.com/video/BV19i421D7w2) |
 
 ### 2024年其他发行
 
 | **序号** | **歌曲名** | **发布时间** | **合作 / 归属** | **链接** |
 | --- | --- | --- | --- | --- |
-| 1 | 逆魂 | 2024.2.26 | 动画《仙逆》主题曲 |   |
-| 2 | PHUKET FREESTYLE | 2024.2.28 | DMG新年泰国团建cypher | [BV1Y1421f7Mh](https://www.bilibili.com/video/BV1Y1421f7Mh) |
-| 3 | ONE | 2024.4.19 | 电影《中国车手周冠宇》主题曲 | [BV18p421X7LT](https://www.bilibili.com/video/BV18p421X7LT) |
-| 4 | 成名作cypher | 2024.5.4 | 乐堡出品，GAI带领八大说唱新血共创 | [BV1ET421976z](https://www.bilibili.com/video/BV1ET421976z) |
-| 5 | 将进酒 | 2024.5.15 | 功夫胖/GAI 收录于功夫胖《林童》 |   |
-| 6 | 老板 | 2024.6.14 | Bridge/GAI/早安 |   |
-| 7 | 诺言 | 2024.6.21 | 《天赐的声音》合作陈冰，今年只飞去了一期 | [BV11f421Q7iv](https://www.bilibili.com/video/BV11f421Q7iv) |
+| 1 | [逆魂](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003BgJwB4Zuwi3","type":"0"}],"action":"play"}) | 2024.2.26 | 动画《仙逆》主题曲 |   |
+| 2 | [PHUKET FREESTYLE](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004dqt6v3pOiJ1","type":"0"}],"action":"play"}) | 2024.2.28 | DMG新年泰国团建cypher | [BV1Y1421f7Mh](https://www.bilibili.com/video/BV1Y1421f7Mh) |
+| 3 | [ONE](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003gReZf1myAGu","type":"0"}],"action":"play"}) | 2024.4.19 | 电影《中国车手周冠宇》主题曲 | [BV18p421X7LT](https://www.bilibili.com/video/BV18p421X7LT) |
+| 4 | [成名作cypher](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001MQtr12nWmzb","type":"0"}],"action":"play"}) | 2024.5.4 | 乐堡出品，GAI带领八大说唱新血共创 | [BV1ET421976z](https://www.bilibili.com/video/BV1ET421976z) |
+| 5 | [将进酒](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0011MSRk0TD0KA","type":"0"}],"action":"play"}) | 2024.5.15 | 功夫胖/GAI 收录于功夫胖《林童》 |   |
+| 6 | [老板](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004XUpeV4YMm1v","type":"0"}],"action":"play"}) | 2024.6.14 | Bridge/GAI/早安 |   |
+| 7 | [诺言](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000IbRpF1VQRgn","type":"0"}],"action":"play"}) | 2024.6.21 | 《天赐的声音》合作陈冰，今年只飞去了一期 | [BV11f421Q7iv](https://www.bilibili.com/video/BV11f421Q7iv) |
 | 8 | 说唱故事 | 2024.6.29 | 给bridge的feat，收录于bridge《023%》 |   |
-| 9 | 莱 | 2024.8.2 | 华莱士官方品牌歌 | [BV1NeYTezEvD](https://www.bilibili.com/video/BV1NeYTezEvD) |
+| 9 | [莱](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"00187Iv23uCXsT","type":"0"}],"action":"play"}) | 2024.8.2 | 华莱士官方品牌歌 | [BV1NeYTezEvD](https://www.bilibili.com/video/BV1NeYTezEvD) |
 | 10 | [一半一半](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001JbC3R2VBMgt","type":"0"}],"action":"play"}) | 2024.9.3 | 流行EP先行曲，后来整张发行计划取消了，因为不习惯唱别人写的词 |   |
-| 11 | [我的兄弟](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002sqxiP2VoIwp","type":"0"}],"action":"play"}) | 2024.9.22 | feat王齐铭，QQ音乐有音源，右侧链接是北京演唱会首唱官摄 | [BV1cztSeBEAa](https://www.bilibili.com/video/BV1cztSeBEAa) |
-| 12 | 我本俗人 | 2024.12.26 | 电视剧《大奉打更人》片头曲 | [BV13VkQY5EjJ](https://www.bilibili.com/video/BV13VkQY5EjJ) |
+| 11 | [我的兄弟](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002sqxiP2VoIwp","type":"0"}],"action":"play"}) | 2024.9.22 | feat王齐铭，右侧链接是北京演唱会首唱官摄 | [BV1cztSeBEAa](https://www.bilibili.com/video/BV1cztSeBEAa) |
+| 12 | [我本俗人](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0012BOtC1NcbOy","type":"0"}],"action":"play"}) | 2024.12.26 | 电视剧《大奉打更人》片头曲 | [BV13VkQY5EjJ](https://www.bilibili.com/video/BV13VkQY5EjJ) |
 
 ---
 
@@ -716,22 +716,22 @@ GAI的公司DMG种梦娱乐与优酷合作举办了属于自己的说唱综艺�
 | **序号** | **演唱歌曲** | **排名** | **备注** | **链接** |
 | --- | --- | --- | --- | --- |
 | **/** | 炁前采 |   |   | [BV1ok8e6iEwR](https://www.bilibili.com/video/BV1ok8e6iEwR) |
-| 1 | 炁 | 第四名 | 用GB的logo命名，改编自投名状，首秀说唱圈过年 | [BV1GNE8zTEYa](https://www.bilibili.com/video/BV1GNE8zTEYa) |
+| 1 | [炁](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003Xr40Q04qOUI","type":"0"}],"action":"play"}) | 第四名 | 用GB的logo命名，改编自投名状，首秀说唱圈过年 | [BV1GNE8zTEYa](https://www.bilibili.com/video/BV1GNE8zTEYa) |
 | 2 | 万里长城 | 第四名 | 临时换歌，几乎原版端上来，传说原定曲目是《潇洒走一回》 | [BV1sm376WE7w](https://www.bilibili.com/video/BV1sm376WE7w) |
-| 3 | 北京北京 | 第四名 | GAI驻唱期间唱过的经典曲目，加入了浮萍的verse | [BV121376REEV](https://www.bilibili.com/video/BV121376REEV) |
+| 3 | [北京北京](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000qyiJu3q95WK","type":"0"}],"action":"play"}) | 第四名 | GAI驻唱期间唱过的经典曲目，加入了浮萍的verse | [BV121376REEV](https://www.bilibili.com/video/BV121376REEV) |
 | / |   |   | 如果你想听他驻唱的版本... | [BV14x411x78K](https://www.bilibili.com/video/BV14x411x78K) |
 | 4 | 西湖 | 第七名 | 王斯然和GAI自己都很喜欢的歌，来自摇滚乐队痛仰 | [BV1ZB8e6uEBC](https://www.bilibili.com/video/BV1ZB8e6uEBC) |
-| 5 | 白鸽 | 第一名 | 《Outro混蛋》结合《白鸽》改编，说唱圈再次过年 | [BV111376REvE](https://www.bilibili.com/video/BV111376REvE) |
+| 5 | [白鸽](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000aMCRI4aBQ78","type":"0"}],"action":"play"}) | 第一名 | 《Outro混蛋》结合《白鸽》改编，说唱圈再次过年 | [BV111376REvE](https://www.bilibili.com/video/BV111376REvE) |
 | / | 芒果TV背后 |   | 单集夺冠后，张泉灵对GAI的采访 | [BV1CCN9znEus](https://www.bilibili.com/video/BV1CCN9znEus) |
 | 6 | 黄种人 | 第四名 | 新单曲《唐装》结合《黄种人》改编，可以再听下原曲 | [BV1tk376oE5B](https://www.bilibili.com/video/BV1tk376oE5B) |
 | / | 兰花草前采 |   |   | [BV1mi8Y6QEyd](https://www.bilibili.com/video/BV1mi8Y6QEyd) |
-| 7 | 兰花草 | 第五名 | 经典再现，重新编曲 | [BV1AWK6zDEVD](https://www.bilibili.com/video/BV1AWK6zDEVD) |
+| 7 | [兰花草](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000ZJpXZ1g7zHz","type":"0"}],"action":"play"}) | 第五名 | 经典再现，重新编曲 | [BV1AWK6zDEVD](https://www.bilibili.com/video/BV1AWK6zDEVD) |
 | / | 兰花草创作背景 |   | （这个采访后面一半是讲江湖流的，在前面的开荒里已经看过了） | [BV11m376WEqN](https://www.bilibili.com/video/BV11m376WEqN) |
-| 8 | 长路漫漫任我闯 | 第五名 | 几乎全部重新写词，走心之作 | [BV1Ny3Jz5Ev4](https://www.bilibili.com/video/BV1Ny3Jz5Ev4) |
+| 8 | [长路漫漫任我闯](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002Hu6pi2ZsgRr","type":"0"}],"action":"play"}) | 第五名 | 几乎全部重新写词，走心之作 | [BV1Ny3Jz5Ev4](https://www.bilibili.com/video/BV1Ny3Jz5Ev4) |
 | / | 长路改编背景 |   |   | [BV1sm376WELz](https://www.bilibili.com/video/BV1sm376WELz) |
 | 9 | 山城棒棒军 | 第六名 | 最HIPHOP的一次，朝天门原词吓坏节目组，直接拉低现场麦 | [BV1bNuVzfEQG](https://www.bilibili.com/video/BV1bNuVzfEQG) |
 | / | 故湘风前采 |   |   | [BV11m376WExe](https://www.bilibili.com/video/BV11m376WExe) |
-| 10 | 故湘，风 | 第七名淘汰 | RANZER词曲编，唱完风评前三但最终淘汰，引发巨大争议 | [BV1UYuUz4EKy](https://www.bilibili.com/video/BV1UYuUz4EKy) |
+| 10 | [故湘，风](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"002UMqX304sBBQ","type":"0"}],"action":"play"}) | 第七名淘汰 | RANZER词曲编，唱完风评前三但最终淘汰，引发巨大争议 | [BV1UYuUz4EKy](https://www.bilibili.com/video/BV1UYuUz4EKy) |
 
 ### 2025年6月8日零点，GBlock Mixtape正式发布
 
@@ -739,20 +739,20 @@ GAI的公司DMG种梦娱乐与优酷合作举办了属于自己的说唱综艺�
 
 | **序号** | **歌曲名** | **歌手** | **MV** | **备注** |
 | --- | --- | --- | --- | --- |
-| 1 | 《G-BLOCK INTRO》 | GAI/功夫胖/刘聪 |   |   |
-| 2 | 《三个字》 | GAI/功夫胖/刘聪 |   | 有1on9解析 |
-| 3 | 《人海》 | 全体 | [BV1S8jqzLEEP](https://www.bilibili.com/video/BV1S8jqzLEEP) | 有1on9解析 |
-| 4 | 《仁义茶楼》 | 全体 |   | 有1on9解析 |
-| 5 | 《神仙》 | GAI/刘聪 |   | 有1on9解析 |
-| 6 | 《一夜》 | GAI/刘聪 |   |   |
-| 7 | 《站台》 | GAI/功夫胖/刘聪 |   |   |
-| 8 | 《浮萍》 | GAI/盛宇/功夫胖 |   |   |
-| 9 | 《如剑》 | 全体 |   |   |
-| 10 | 《吊二两》 | GAI/功夫胖/刘聪 |   |   |
-| 11 | 《无期》 | 全体 |   |   |
-| 12 | 《愚人码头》 | 全体 | [BV1vbGEzbEBC](https://www.bilibili.com/video/BV1vbGEzbEBC) |   |
-| 13 | 《我们的歌》 | 全体 |   |   |
-| 14 | 《G-BLOCK cypher》 | 全体 | [BV1M4EfzyEFS](https://www.bilibili.com/video/BV1M4EfzyEFS) |   |
+| 1 | [《G-BLOCK INTRO》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004RHpW32ed1ZJ","type":"0"}],"action":"play"}) | GAI/功夫胖/刘聪 |   |   |
+| 2 | [《三个字》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000dT9KJ1KfSvF","type":"0"}],"action":"play"}) | GAI/功夫胖/刘聪 |   | 有1on9解析 |
+| 3 | [《人海》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003vRyVW4ZCyvv","type":"0"}],"action":"play"}) | 全体 | [BV1S8jqzLEEP](https://www.bilibili.com/video/BV1S8jqzLEEP) | 有1on9解析 |
+| 4 | [《仁义茶楼》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001nWXq21kvoge","type":"0"}],"action":"play"}) | 全体 |   | 有1on9解析 |
+| 5 | [《神仙》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"00063mmh1ZAHZY","type":"0"}],"action":"play"}) | GAI/刘聪 |   | 有1on9解析 |
+| 6 | [《一夜》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003BU7YS3mW3tA","type":"0"}],"action":"play"}) | GAI/刘聪 |   |   |
+| 7 | [《站台》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000yIJzh3mL3GU","type":"0"}],"action":"play"}) | GAI/功夫胖/刘聪 |   |   |
+| 8 | [《浮萍》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003M70nV0N8Bjs","type":"0"}],"action":"play"}) | GAI/盛宇/功夫胖 |   |   |
+| 9 | [《如剑》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000qPqOW1lCG2q","type":"0"}],"action":"play"}) | 全体 |   |   |
+| 10 | [《吊二两》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004DzWnG3Paq5c","type":"0"}],"action":"play"}) | GAI/功夫胖/刘聪 |   |   |
+| 11 | [《无期》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001m6JGl0B6ZyR","type":"0"}],"action":"play"}) | 全体 |   |   |
+| 12 | [《愚人码头》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003cbMZc34hPzF","type":"0"}],"action":"play"}) | 全体 | [BV1vbGEzbEBC](https://www.bilibili.com/video/BV1vbGEzbEBC) |   |
+| 13 | [《我们的歌》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003Yzqzq0eXnKz","type":"0"}],"action":"play"}) | 全体 |   |   |
+| 14 | [《G-BLOCK cypher》](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001uX8kj3RA7t9","type":"0"}],"action":"play"}) | 全体 | [BV1M4EfzyEFS](https://www.bilibili.com/video/BV1M4EfzyEFS) |   |
 
 9月17日，B站发起对GAI的采访“「音乐保质期」对话GAI周延 - 刻板说唱”，采访中主要提到了对于歌手节目、创作、生活等等的态度。 [BV1SRp1zQEEF](https://www.bilibili.com/video/BV1SRp1zQEEF)
 
@@ -760,20 +760,20 @@ GAI的公司DMG种梦娱乐与优酷合作举办了属于自己的说唱综艺�
 
 | **序号** | **歌曲名** | **发布时间** | **合作 / 归属** | **视频链接** |
 | --- | --- | --- | --- | --- |
-| 1 | 故湘，风 | 2025.2.10 | 收录于Ranzer《湖湘浪子》，同时还有盛宇和功夫胖参与，GAI只演唱了半段副歌 | [BV1FhNZeiE4F](https://www.bilibili.com/video/BV1FhNZeiE4F) |
-| 2 | 酒歌 | 2025.4.21 | 给Ranzer的ft，收录于Ranzer《湖湘浪子》 |   |
+| 1 | [故湘，风](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004Oi6rW1513A2","type":"0"}],"action":"play"}) | 2025.2.10 | 收录于Ranzer《湖湘浪子》，同时还有盛宇和功夫胖参与，GAI只演唱了半段副歌 | [BV1FhNZeiE4F](https://www.bilibili.com/video/BV1FhNZeiE4F) |
+| 2 | [酒歌](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003pX2QB1YuOXp","type":"0"}],"action":"play"}) | 2025.4.21 | 给Ranzer的ft，收录于Ranzer《湖湘浪子》 |   |
 | 3 | 第一现场 | 2025.5.8 | 给Bridge的ft，收录于Bridge《一脉相承》 |   |
-| 4 | 炁 | 2025.5.17 | 歌手上《炁》的录音室版 |   |
-| 5 | 唐装 | 2025.6.20 | 歌手上《黄种人》原版 |   |
-| 6 | 故湘，风 | 2025.8.16 | 单人录音室版 |   |
-| 7 | 钟楼 | 2025.8.21 | 给谢帝的ft，收录于谢帝的mixtape，推荐 |   |
+| 4 | [炁](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004BgupG2zs7iu","type":"0"}],"action":"play"}) | 2025.5.17 | 歌手上《炁》的录音室版 |   |
+| 5 | [唐装](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000wzQBa2GPUVA","type":"0"}],"action":"play"}) | 2025.6.20 | 歌手上《黄种人》原版 |   |
+| 6 | [故湘，风](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0020HEmL3RNpfe","type":"0"}],"action":"play"}) | 2025.8.16 | 单人录音室版 |   |
+| 7 | [钟楼](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001KWaUm3NGFUR","type":"0"}],"action":"play"}) | 2025.8.21 | 给谢帝的ft，收录于谢帝的mixtape，推荐 |   |
 | 8 | 历历万乡 | 2025.12.6 | 陈粒演唱会合作曲，不算新发布，翻唱陈粒老歌，纯流行演唱 | [BV17FrYBoEy1](https://www.bilibili.com/video/BV17FrYBoEy1) |
-| 9 | 明知山 | 2025.12.22 | 与戴佩妮合作，流行+一小段说唱verse |   |
-| 10 | 铺天盖棣 | 2026.1.16 | 与王鹤棣合作 |   |
-| 11 | 罪 | 2026.2.10 | 电视剧《唐宫奇案》主题曲 |   |
-| 12 | 重庆忠勇 | 2026.2.10 | 重庆中超球队铜梁龙助威曲，视频为26年在重庆主场龙兴足球场赛前义演，前半段是第一现场，后半段是重庆忠勇 | [BV1eCw4zREoc](https://www.bilibili.com/video/BV1eCw4zREoc) |
+| 9 | [明知山](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001xBbLO3ohTfQ","type":"0"}],"action":"play"}) | 2025.12.22 | 与戴佩妮合作，流行+一小段说唱verse |   |
+| 10 | [铺天盖棣](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003q9YtV1xcS7B","type":"0"}],"action":"play"}) | 2026.1.16 | 与王鹤棣合作 |   |
+| 11 | [罪](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000nnDz44PUMyo","type":"0"}],"action":"play"}) | 2026.2.10 | 电视剧《唐宫奇案》主题曲 |   |
+| 12 | [重庆忠勇](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000Kr0CQ08z4Vp","type":"0"}],"action":"play"}) | 2026.2.10 | 重庆中超球队铜梁龙助威曲，视频为26年在重庆主场龙兴足球场赛前义演，前半段是第一现场，后半段是重庆忠勇 | [BV1eCw4zREoc](https://www.bilibili.com/video/BV1eCw4zREoc) |
 | 13 | 玉兰 | 2026.2.26 | 收录于功夫胖《全家福》专辑 |   |
-| 14 | 山歌王 | 2026.2.26 | 收录于功夫胖《全家福》专辑 |   |
+| 14 | [山歌王](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000k7nXt0VKQ8C","type":"0"}],"action":"play"}) | 2026.2.26 | 收录于功夫胖《全家福》专辑 |   |
 
 ### 《GAI进化论》世界巡回演唱会
 
@@ -820,22 +820,22 @@ GAI的公司DMG种梦娱乐与优酷合作举办了属于自己的说唱综艺�
 
 | **序号** | **歌曲名** | **MV** | **备注** |
 | --- | --- | --- | --- |
-| 1 | Prelude |   | Disc1 |
-| 2 | 宾士 |   |   |
-| 3 | 牌子货 | [BV1hhLJ6mEMD](https://www.bilibili.com/video/BV1hhLJ6mEMD) |   |
-| 4 | 冰红茶 |   |   |
-| 5 | Interlude |   |   |
-| 6 | 家和万事兴 |   | Feat.Bridge |
-| 7 | 钱 |   |   |
-| 8 | 我的小芳 |   |   |
-| 9 | Break |   |   |
-| 10 | 赢 |   | 这首开始是Disc2 |
-| 11 | 我的哥 |   |   |
-| 12 | 星梦 | [BV15AdgB4Ejb](https://www.bilibili.com/video/BV15AdgB4Ejb) | 专辑先行曲 |
-| 13 | 华佗 | [BV1z15X6pECd](https://www.bilibili.com/video/BV1z15X6pECd) |   |
-| 14 | 不换 |   | Ranzer参与词曲制作 |
-| 15 | 梦话 | [BV1G55z6TEbE](https://www.bilibili.com/video/BV1G55z6TEbE) | 不完全是MV，先听歌再看 |
-| 16 | 安安 |   |   |
+| 1 | [Prelude](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"003zrVri16fMEP","type":"0"}],"action":"play"}) |   | Disc1 |
+| 2 | [宾士](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000Vf5Gk4auBD7","type":"0"}],"action":"play"}) |   |   |
+| 3 | [牌子货](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001C9EVo2Oatw3","type":"0"}],"action":"play"}) | [BV1hhLJ6mEMD](https://www.bilibili.com/video/BV1hhLJ6mEMD) |   |
+| 4 | [冰红茶](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001perWz4dymsS","type":"0"}],"action":"play"}) |   |   |
+| 5 | [Interlude](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004PajhB1SDkpD","type":"0"}],"action":"play"}) |   |   |
+| 6 | [家和万事兴](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001nPszB2eium0","type":"0"}],"action":"play"}) |   | Feat.Bridge |
+| 7 | [钱](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0039bl1Q1Gco0O","type":"0"}],"action":"play"}) |   |   |
+| 8 | [我的小芳](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001WykL31OImwY","type":"0"}],"action":"play"}) |   |   |
+| 9 | [Break](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001jg6ZD3Gr7a8","type":"0"}],"action":"play"}) |   |   |
+| 10 | [赢](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001CA1Hf0zxPsY","type":"0"}],"action":"play"}) |   | 这首开始是Disc2 |
+| 11 | [我的哥](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001WJBKi1SRtHx","type":"0"}],"action":"play"}) |   |   |
+| 12 | [星梦](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000OuMC947ow10","type":"0"}],"action":"play"}) | [BV15AdgB4Ejb](https://www.bilibili.com/video/BV15AdgB4Ejb) | 专辑先行曲 |
+| 13 | [华佗](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"000oZIId4QH4eF","type":"0"}],"action":"play"}) | [BV1z15X6pECd](https://www.bilibili.com/video/BV1z15X6pECd) |   |
+| 14 | [不换](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"0038RhRb1Mr2q9","type":"0"}],"action":"play"}) |   | Ranzer参与词曲制作 |
+| 15 | [梦话](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"004QDSMF0izGAq","type":"0"}],"action":"play"}) | [BV1G55z6TEbE](https://www.bilibili.com/video/BV1G55z6TEbE) | 不完全是MV，先听歌再看 |
+| 16 | [安安](qqmusic://qq.com/media/playSonglist?p={"song":[{"songmid":"001uDuzI321pOR","type":"0"}],"action":"play"}) |   |   |
 
 **【关于REAL G，先听再看】**
 
