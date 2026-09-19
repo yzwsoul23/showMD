@@ -1593,46 +1593,43 @@ html[data-theme='record'] .vp-doc table img[alt] {
 }
 
 /* ============================================================
-   主题切换器：左下角浮动按钮 + 毛玻璃下拉面板
+   主题切换器：导航栏右侧按钮 + 毛玻璃下拉面板
+   （按钮由 theme-switcher.ts 挂进 .VPNavBar .content-body）
    ============================================================ */
 
+.rs-theme-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+}
+
+/* 与 VitePress 原生外观按钮同规格：36px 圆形、悬停浅底 */
 .rs-theme-toggle {
-  position: fixed;
-  left: 22px;
-  bottom: 22px;
-  z-index: 1900;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
+  width: 36px;
+  height: 36px;
   padding: 0;
-  border: 1px solid var(--rs-panel-border);
+  border: none;
   border-radius: 50%;
-  background: var(--rs-panel-bg);
-  -webkit-backdrop-filter: blur(20px) saturate(1.8);
-  backdrop-filter: blur(20px) saturate(1.8);
-  box-shadow:
-    0 8px 24px -8px rgba(0, 0, 0, 0.28),
-    0 2px 6px rgba(0, 0, 0, 0.1);
+  background: transparent;
   color: var(--rs-ink);
   cursor: pointer;
   transition:
-    transform 0.25s cubic-bezier(0.22, 0.9, 0.26, 1),
-    box-shadow 0.25s ease,
     background-color 0.3s ease,
-    border-color 0.3s ease;
+    color 0.3s ease,
+    transform 0.25s cubic-bezier(0.22, 0.9, 0.26, 1);
 }
 
-.rs-theme-toggle:hover {
-  transform: translateY(-2px);
-  box-shadow:
-    0 12px 28px -8px rgba(0, 0, 0, 0.3),
-    0 2px 8px rgba(0, 0, 0, 0.12);
+.rs-theme-toggle:hover,
+.rs-theme-toggle.is-open {
+  background: var(--vp-c-bg-soft);
 }
 
 .rs-theme-toggle:active {
-  transform: translateY(0) scale(0.94);
+  transform: scale(0.92);
 }
 
 .rs-theme-toggle:focus-visible {
@@ -1641,7 +1638,7 @@ html[data-theme='record'] .vp-doc table img[alt] {
 }
 
 .rs-theme-toggle__icon {
-  font-size: 22px;
+  font-size: 17px;
   line-height: 1;
   transition: transform 0.35s cubic-bezier(0.22, 0.9, 0.26, 1);
 }
@@ -1651,12 +1648,13 @@ html[data-theme='record'] .vp-doc table img[alt] {
 }
 
 .rs-theme-panel {
-  position: fixed;
-  left: 22px;
-  bottom: 84px;
-  z-index: 1901;
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  z-index: 60;
   box-sizing: border-box;
   width: 276px;
+  max-width: calc(100vw - 24px);
   max-height: min(72vh, 580px);
   margin: 0;
   padding: 8px;
@@ -1676,8 +1674,8 @@ html[data-theme='record'] .vp-doc table img[alt] {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transform: translateY(14px) scale(0.96);
-  transform-origin: bottom left;
+  transform: translateY(8px) scale(0.97);
+  transform-origin: top right;
   transition:
     opacity 0.22s ease,
     transform 0.3s cubic-bezier(0.22, 0.9, 0.26, 1),
@@ -2121,16 +2119,18 @@ html[data-theme='record'].rs-reading-mode .vp-doc p.has-block-img:has(> img[alt*
     --vp-nav-logo-height: 24px;
   }
 
-  /* 主题切换器收边 */
+  /* 主题切换器：顶栏内收边，面板贴屏幕右缘 */
+  .rs-theme-wrap {
+    margin-left: 2px;
+  }
+
   .rs-theme-toggle {
-    left: 16px;
-    bottom: 16px;
+    width: 34px;
+    height: 34px;
   }
 
   .rs-theme-panel {
-    left: 16px;
-    bottom: 78px;
-    width: min(276px, calc(100vw - 32px));
+    width: min(300px, calc(100vw - 32px));
   }
 
   .vp-doc .rs-table-wrap > table {

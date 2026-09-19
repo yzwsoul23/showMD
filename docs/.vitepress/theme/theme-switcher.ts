@@ -1,7 +1,7 @@
 /**
  * 多主题切换器
  *
- * 左下角浮动按钮 + 毛玻璃下拉面板，可切换 10 套阅读主题：
+ * 导航栏右侧按钮 + 毛玻璃下拉面板，可切换 10 套阅读主题：
  *   apple / record / medium / paper / kindle / wechat
  *   sunset / gradient / dark / space
  *
@@ -10,7 +10,7 @@
  * - localStorage 持久化，键名 'rs-theme'
  * - 悬停选项时临时预览（不写入存储），点击才确认；收起面板恢复已选
  * - 同步 <meta name="theme-color">，移动端浏览器地址栏跟着变色
- * - 路由切换不重置主题（enhanceApp 只注册一次）
+ * - 路由切换不重置主题（enhanceApp 只注册一次；导航栏 DOM 跨路由复用）
  */
 
 const STORAGE_KEY = 'rs-theme'
@@ -51,7 +51,7 @@ function getCurrentTheme(): string {
   return document.documentElement.getAttribute('data-theme') || DEFAULT_THEME
 }
 
-/** 创建一个按钮（浮动圆形毛玻璃） */
+/** 创建一个按钮（导航栏圆形图标按钮） */
 function createToggle(): HTMLElement {
   const btn = document.createElement('button')
   btn.type = 'button'
@@ -120,7 +120,26 @@ export function setupThemeSwitcher() {
 
   const toggle = createToggle()
   const panel = createPanel()
-  document.body.append(toggle, panel)
+
+  // 2. 挂到导航栏右侧（汉堡按钮之前，桌面端即最右侧）
+  //    enhanceApp 运行时导航栏尚未渲染，用 rAF 重试直到挂上；
+  //    导航栏 DOM 跨路由复用，挂载成功后无需再管。
+  const wrap = document.createElement('div')
+  wrap.className = 'rs-theme-wrap'
+  wrap.append(toggle, panel)
+
+  let mounted = false
+  const tryMount = (retries = 120) => {
+    if (mounted && wrap.isConnected) return
+    const navBody = document.querySelector('.VPNavBar .content-body')
+    if (navBody) {
+      navBody.insertBefore(wrap, navBody.querySelector('.VPNavBarHamburger'))
+      mounted = true
+      return
+    }
+    if (retries > 0) requestAnimationFrame(() => tryMount(retries - 1))
+  }
+  tryMount()
 
   syncActive(panel, toggle)
 

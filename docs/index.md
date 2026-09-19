@@ -48,66 +48,116 @@ import { artists } from './data/artists'
 .artist-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 20px;
-  padding: 24px 24px 48px;
+  gap: 24px 20px;
+  padding: 8px 24px 56px;
   max-width: 1152px;
   margin: 0 auto;
 }
 
 .artist-card {
   display: flex;
-  gap: 16px;
-  padding: 20px;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0;
   border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
+  border-radius: 14px;
   background-color: var(--vp-c-bg-soft);
   text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .artist-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px);
   border-color: var(--vp-c-brand-1);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
+/* 桌面端：封面占满卡宽（1:1），信息收在下方，整列卡片高度一致 */
 .artist-avatar {
-  width: 88px;
-  height: 88px;
-  border-radius: 50%;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  flex-shrink: 0;
   background-color: var(--vp-c-bg-alt);
 }
 
 .artist-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
   min-width: 0;
+  padding: 14px 16px 16px;
 }
 
 .artist-name {
-  margin: 0 0 6px;
-  font-size: 18px;
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.4;
   border: none;
   padding: 0;
 }
 
 .artist-tags {
-  margin: 0 0 8px;
-  font-size: 13px;
-  color: var(--vp-c-text-2);
+  margin: 0;
+  font-size: 12.5px;
+  color: var(--vp-c-text-3);
 }
 
 .artist-bio {
   margin: 0;
   font-size: 13px;
-  line-height: 1.6;
+  line-height: 1.65;
   color: var(--vp-c-text-2);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
+/* 移动端：单列紧凑横排——小方头像在左，文字在右 */
 @media (max-width: 640px) {
   .artist-grid {
     grid-template-columns: 1fr;
-    padding: 16px 16px 32px;
+    gap: 12px;
+    padding: 4px 16px 40px;
+  }
+
+  .artist-card {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 12px;
+  }
+
+  .artist-card:hover {
+    transform: none;
+  }
+
+  .artist-avatar {
+    width: 76px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 10px;
+  }
+
+  .artist-meta {
+    gap: 4px;
+    padding: 0;
+  }
+
+  .artist-name {
+    font-size: 15.5px;
+  }
+
+  .artist-tags {
+    font-size: 12px;
+  }
+
+  .artist-bio {
+    font-size: 12.5px;
+    -webkit-line-clamp: 2;
   }
 }
 </style>
