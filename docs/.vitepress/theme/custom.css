@@ -900,6 +900,7 @@ html[data-theme='kindle'] .hero .name {
   font-weight: 700;
   line-height: 1.4;
   letter-spacing: -0.015em;
+  text-align: left;
 }
 
 .vp-doc h3 {
@@ -922,6 +923,110 @@ html[data-theme='kindle'] .hero .name {
 .vp-doc h5,
 .vp-doc h6 {
   color: var(--rs-ink-2);
+}
+
+/* ---------- 主题化标题：除唱片店外，h2/h3 基于各主题强调色做层级装饰 ----------
+   结构：h2 一条「层级线」，h3 一枚「小标记」，形状与色彩随主题气质走，
+   全部使用主题变量（--rs-accent / --rs-line / --rs-accent-rgb），换肤自动适配 */
+
+html:not([data-theme='record']) .vp-doc h2 {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid var(--rs-line);
+}
+
+/* 🍎 Apple（默认 / 未挂主题时）：干净细线 + 强调色小圆点 */
+html:not([data-theme='record']) .vp-doc h3::before {
+  content: '';
+  display: inline-block;
+  width: 0.34em;
+  height: 0.34em;
+  margin-right: 0.55em;
+  border-radius: 50%;
+  background: var(--rs-accent);
+  vertical-align: 0.14em;
+}
+
+/* ✍️ Medium：方形绿标，衬线标题配几何感 */
+html[data-theme='medium'] .vp-doc h3::before {
+  width: 0.28em;
+  height: 0.28em;
+  border-radius: 1px;
+  vertical-align: 0.1em;
+}
+
+/* 🌿 护眼纸：短横条，温和不抢眼 */
+html[data-theme='paper'] .vp-doc h3::before {
+  width: 0.72em;
+  height: 2px;
+  border-radius: 1px;
+  vertical-align: 0.18em;
+}
+
+/* 📖 Kindle：书卷式居中章节标题 */
+html[data-theme='kindle'] .vp-doc h2 {
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+html[data-theme='kindle'] .vp-doc h3 {
+  color: var(--rs-ink-2);
+}
+html[data-theme='kindle'] .vp-doc h3::before {
+  display: none;
+}
+
+/* 💬 微信读书：左侧绿条 + 淡色渐变底，公众号气质 */
+html[data-theme='wechat'] .vp-doc h2 {
+  padding: 0.18em 0.65em;
+  border-left: 4px solid var(--rs-accent);
+  border-bottom: none;
+  border-radius: 0 6px 6px 0;
+  background: linear-gradient(90deg, var(--rs-accent-soft), transparent 72%);
+}
+
+/* 🌅 暖阳：文字底部荧光笔晕染 */
+html[data-theme='sunset'] .vp-doc h2 {
+  width: fit-content;
+  max-width: 100%;
+  padding-bottom: 0.12em;
+  border-bottom: none;
+  background: linear-gradient(transparent 68%, rgba(var(--rs-accent-rgb), 0.24) 0);
+}
+
+/* 🌈 柔和渐变：强调色 → 金 渐变文字 */
+html[data-theme='gradient'] .vp-doc h2 {
+  background: linear-gradient(90deg, var(--rs-accent), var(--rs-gold));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  border-bottom-color: rgba(var(--rs-accent-rgb), 0.28);
+}
+html[data-theme='gradient'] .vp-doc h3 {
+  color: var(--rs-accent);
+}
+html[data-theme='gradient'] .vp-doc h3::before {
+  display: none;
+}
+
+/* 🌙 深色：左侧强调条 + 暗色细线 */
+html[data-theme='dark'] .vp-doc h2 {
+  padding-left: 0.55em;
+  border-left: 3px solid var(--rs-accent);
+}
+html[data-theme='dark'] .vp-doc h3::before {
+  width: 0.6em;
+  height: 2px;
+  border-radius: 1px;
+  vertical-align: 0.18em;
+}
+
+/* 🌌 深空：微字距 + 主题色微光底线，菱形标记 */
+html[data-theme='space'] .vp-doc h2 {
+  letter-spacing: 0.04em;
+  border-bottom-color: rgba(var(--rs-accent-rgb), 0.4);
+}
+html[data-theme='space'] .vp-doc h3::before {
+  transform: rotate(45deg);
+  border-radius: 1px;
 }
 
 /* ---------- 链接 / 强调 / 标注 ---------- */
@@ -1480,6 +1585,13 @@ html[data-theme='record'] .vp-doc table img,
 html[data-theme='record'] .vp-doc table img[alt] {
   padding: 3px !important;
   border-radius: 2px;
+}
+
+/* 含播放跳转胶囊的段落/列表/表格关闭两端对齐：
+   胶囊是不可断的整体块，落行尾换行时 justify 会把上一行字距拉得极宽 */
+.vp-doc :is(p, li, td):has(a[href^='orpheus://']),
+.vp-doc :is(p, li, td):has(a[href*='bilibili.com/video/']) {
+  text-align: left;
 }
 
 /* ============================================================
