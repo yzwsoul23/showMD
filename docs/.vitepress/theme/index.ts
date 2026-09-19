@@ -6,6 +6,7 @@ import { setupImgBlocks } from './doc-enhance'
 import { setupReadingMode } from './reading-mode'
 import { setupSidebarCollapse } from './sidebar-collapse'
 import { setupNcmJump } from './ncm-jump'
+import { setupQqJump } from './qq-jump'
 import { setupThemeSwitcher } from './theme-switcher'
 
 export default {
@@ -27,6 +28,7 @@ export default {
       setupReadingMode()
       setupSidebarCollapse(router)
       setupNcmJump()
+      setupQqJump()
     }
   }
 }

@@ -113,6 +113,7 @@ html {
   /* 外链胶囊图标：内联 SVG，配合 CSS mask + currentColor 着色，
      随文字颜色走，不产生任何网络请求 */
   --rs-icon-headphone: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3'/%3E%3C/svg%3E");
+  --rs-icon-qqmusic: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 18V5l12-2v13'/%3E%3Ccircle cx='6' cy='18' r='3'/%3E%3Ccircle cx='18' cy='16' r='3'/%3E%3C/svg%3E");
   --rs-icon-video: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='2.5' y='5' width='19' height='14' rx='4'/%3E%3Cpath d='M10.2 9.3v5.4l4.8-2.7z' fill='black' stroke='none'/%3E%3C/svg%3E");
 }
 
@@ -1598,6 +1599,7 @@ html[data-theme='record'] .vp-doc table img[alt] {
 /* 含播放跳转胶囊的段落/列表/表格关闭两端对齐：
    胶囊是不可断的整体块，落行尾换行时 justify 会把上一行字距拉得极宽 */
 .vp-doc :is(p, li, td):has(a[href^='orpheus://']),
+.vp-doc :is(p, li, td):has(a[href^='qqmusic://']),
 .vp-doc :is(p, li, td):has(a[href*='bilibili.com/video/']) {
   text-align: left;
 }
@@ -1608,6 +1610,7 @@ html[data-theme='record'] .vp-doc table img[alt] {
    ============================================================ */
 
 .vp-doc a[href^='orpheus://'],
+.vp-doc a[href^='qqmusic://'],
 .vp-doc a[href*='bilibili.com/video/'] {
   display: inline-flex;
   align-items: center;
@@ -1629,12 +1632,14 @@ html[data-theme='record'] .vp-doc table img[alt] {
 }
 
 .vp-doc a[href^='orpheus://']:hover,
+.vp-doc a[href^='qqmusic://']:hover,
 .vp-doc a[href*='bilibili.com/video/']:hover {
   border-color: var(--rs-accent);
   background: rgba(var(--rs-accent-rgb), 0.16);
 }
 
 .vp-doc a[href^='orpheus://']::before,
+.vp-doc a[href^='qqmusic://']::before,
 .vp-doc a[href*='bilibili.com/video/']::before {
   content: '';
   flex: 0 0 auto;
@@ -1646,6 +1651,17 @@ html[data-theme='record'] .vp-doc table img[alt] {
 .vp-doc a[href^='orpheus://']::before {
   -webkit-mask-image: var(--rs-icon-headphone);
   mask-image: var(--rs-icon-headphone);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+.vp-doc a[href^='qqmusic://']::before {
+  -webkit-mask-image: var(--rs-icon-qqmusic);
+  mask-image: var(--rs-icon-qqmusic);
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
@@ -2293,6 +2309,7 @@ html[data-theme='record'].rs-reading-mode .vp-doc p.has-block-img:has(> img[alt*
 
   /* 外链胶囊允许换行 */
   .vp-doc :is(p, li, td) > a[href^='orpheus://'],
+  .vp-doc :is(p, li, td) > a[href^='qqmusic://'],
   .vp-doc :is(p, li, td) > a[href*='bilibili.com/video/'] {
     white-space: normal;
     overflow-wrap: anywhere;
