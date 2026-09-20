@@ -13,7 +13,8 @@
     "new-artist": "node scripts/new-artist.mjs",
     "ncm:songs": "node scripts/ncm-songs.mjs",
     "qq:songs": "node scripts/qq-songs.mjs",
-    "validate": "node scripts/validate-data.mjs"
+    "validate": "node scripts/validate-data.mjs",
+    "maintain": "node scripts/maintenance.mjs"
   },
   "devDependencies": {
     "esbuild": "^0.21.5",

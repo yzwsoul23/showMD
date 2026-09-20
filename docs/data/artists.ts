@@ -31,6 +31,12 @@ export interface Artist {
   bio: string
   /** 代表作品列表 */
   songs: ArtistSong[]
+  /**
+   * 档案维护中标记。
+   * true 时：主页卡片禁用点击并叠加「档案维护中」角标（头像保持原色）；
+   * docs/artists/<id>.md 已由 `npm run maintain` 替换为占位页，原文加密存档于 _drafts/。
+   */
+  maintenance?: boolean
 }
 
 export const artists: Artist[] = [
