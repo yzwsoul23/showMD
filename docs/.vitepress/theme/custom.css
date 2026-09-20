@@ -1657,8 +1657,14 @@ html[data-theme='record'] .vp-doc table img[alt] {
   color: var(--rs-accent);
   font-weight: 400;
   line-height: 1.4;
-  white-space: nowrap;
+  /* 允许胶囊内文字换行：超长专辑名（如《出人头地 2025 Dreams Come True
+     Mixtape》）在移动端不再把页面撑出横向滚动；短歌名仍保持单行胶囊。
+     overflow-wrap: anywhere 兜底长英文单词，同时把 min-content 压到
+     单字宽度，保证 inline-flex 盒子能收缩到容器内 */
+  white-space: normal;
   word-break: normal;
+  overflow-wrap: anywhere;
+  max-width: 100%;
   /* 胶囊文字（如歌名）允许选中复制：桌面端鼠标拖选、移动端长按选择 */
   -webkit-user-select: text;
   user-select: text;
