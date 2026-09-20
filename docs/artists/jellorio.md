@@ -431,3 +431,17 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 抖子粉丝：果冻鸡尾酒、髙伊點、加拿大奔跑少年
 
 非常感谢以上粉丝朋友的付出！
+
+<div class="rs-author-card">
+  <div class="rs-author-card__head">
+    <span class="rs-author-card__tag">文稿作者</span>
+    <span class="rs-author-card__name">苹果气泡美式</span>
+  </div>
+  <p class="rs-author-card__desc">本次文稿由苹果气泡美式老师，为阿菲是 Afee 的李佳隆开荒栏目撰写。特别感谢 Afee。</p>
+  <div class="rs-author-card__links-title">感兴趣可以关注 Afee</div>
+  <div class="rs-author-card__links">
+    <a class="rs-author-card__link" href="https://v.douyin.com/iP4ScrNauM8" target="_blank" rel="noopener">抖音主页</a>
+    <a class="rs-author-card__link" href="https://space.bilibili.com/661242298" target="_blank" rel="noopener">B站主页</a>
+    <a class="rs-author-card__link" href="https://www.bilibili.com/video/BV1WKVD6EE5N/" target="_blank" rel="noopener">李佳隆开荒录播</a>
+  </div>
+</div>
