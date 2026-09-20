@@ -3,3 +3,6 @@ docs/.vitepress/dist/
 docs/.vitepress/cache/
 *.log
 .DS_Store
+
+# 封存档案的明文草稿（防止误提交；加密后的 .enc 密文允许提交）
+_drafts/*.md
