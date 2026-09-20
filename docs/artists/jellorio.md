@@ -365,7 +365,9 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 - 3-1 李佳隆在广州亚运城综合体育馆举办“出人头地”演唱会，成为中国第一个将弦乐团搬上现场舞台的说唱歌手 嘉宾 ASEN、王以太（b站有现场视频：BV1bk9fYoE5w 推荐开场OMG、林中游（和加拿大故人在2020年节目里合作的歌曲也是时隔很多年在节目外演唱，也有和ASEN合体版的GUOXIA和说唱钱）
 
-![2025DreamsComeTrueMixtape](/images/jellorio/2025DreamsComeTrueMixtape.webp)![2025DreamsComeTrueMixtape1](/images/jellorio/2025DreamsComeTrueMixtape1.webp)
+![2025DreamsComeTrueMixtape](/images/jellorio/2025DreamsComeTrueMixtape.webp)
+
+![2025DreamsComeTrueMixtape1](/images/jellorio/2025DreamsComeTrueMixtape1.webp)
 
 - 3-4 做SoulSense TWH Freestyle 演唱《加速 Freestyle》(b站有：[BV18r9iYFEEK](https://www.bilibili.com/video/BV18r9iYFEEK)）
 - 3-7 做客SoulSense TWH LIVE 演唱《我不是说唱歌手》《Top Talk》（b站有：[BV1pGRMYuEKa](https://www.bilibili.com/video/BV1pGRMYuEKa)）

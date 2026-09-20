@@ -102,7 +102,9 @@ C-BLOCK 的第一首歌曲，发布在 2008 年 1 月 1 日，和其他长沙音
 
 在队长盛宇眼中，功夫胖承担 了 C-BLOCK 的精神向标和导师的角色（来源：盛宇 2018 年个人纪录片）
 
-![03-C-BLOCK合影2](/images/kungfu-pen/03-c-block-group-photo-2.webp "C-BLOCK合影2")![03-C-BLOCK合影3](/images/kungfu-pen/03-c-block-group-photo-3.webp "C-BLOCK合影3")
+![03-C-BLOCK合影2](/images/kungfu-pen/03-c-block-group-photo-2.webp "C-BLOCK合影2")
+
+![03-C-BLOCK合影3](/images/kungfu-pen/03-c-block-group-photo-3.webp "C-BLOCK合影3")
 
 ---
 

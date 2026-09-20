@@ -2273,6 +2273,10 @@ html[data-theme='record'].rs-reading-mode .vp-doc p.has-block-img:has(> img[alt*
 }
 
 @media (max-width: 767px) {
+  html {
+    overflow-x: hidden;
+  }
+
   .vp-doc h1 {
     font-size: 1.7em;
   }
