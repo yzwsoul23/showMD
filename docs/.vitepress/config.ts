@@ -11,8 +11,8 @@ export default defineConfig({
   lastUpdated: true,
   // 多主题为手动切换（10 套阅读主题），禁用 VitePress 自带深浅色开关
   appearance: false,
-  // 模板文件仅作新建艺人时的脚手架，不参与构建发布
-  srcExclude: ['artists/_template.md'],
+  // _template.md 为新建艺人脚手架，_maintenance.md 为封存占位页模板，均不参与构建发布
+  srcExclude: ['artists/_template.md', 'artists/_maintenance.md'],
 
   head: [
     ['meta', { name: 'theme-color', content: '#FAFAFA' }],

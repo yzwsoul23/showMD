@@ -17,13 +17,28 @@ hero:
 <script setup>
 import { withBase } from 'vitepress'
 import { artists } from './data/artists'
+
+// 封存状态不入库任何字段：构建时直接扫描各艺人 md 原文，
+// 含 rs:maintenance 标记（docs/artists/_maintenance.md 占位页）即视为维护中。
+// 封存=原文移到本地 _drafts/、占位页改名顶上；解封=把原文拖回覆盖，角标自动消失。
+const MAINTENANCE_MARKER = '<!-- rs:maintenance -->'
+const artistMdMap = import.meta.glob('./artists/*.md', {
+  query: '?raw',
+  import: 'default',
+  eager: true
+})
+const maintenanceIds = new Set(
+  Object.entries(artistMdMap)
+    .filter(([, raw]) => typeof raw === 'string' && raw.includes(MAINTENANCE_MARKER))
+    .map(([path]) => path.match(/\.\/artists\/(.+)\.md$/)?.[1])
+)
 </script>
 
 <div class="artist-grid">
   <template v-for="artist in artists" :key="artist.id">
     <!-- 维护中：禁用点击，叠加角标，头像保持原色 -->
     <div
-      v-if="artist.maintenance"
+      v-if="maintenanceIds.has(artist.id)"
       class="artist-card artist-card--maintenance"
       :aria-label="`${artist.name} 档案维护中`"
       role="img"
