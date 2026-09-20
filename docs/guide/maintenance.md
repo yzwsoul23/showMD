@@ -203,6 +203,76 @@ npm run new-artist wang-mou 王某某 湖南 某厂牌 2019
 
 ---
 
+## 封存 / 解封档案
+
+某位歌手档案需要文档老师重新编写时，用 `npm run maintain` 封存：网站主页头像叠加「档案维护中」角标且禁用点击，直接访问该歌手链接只显示维护中占位页，原文明文经 AES-256-GCM 加密成 `_drafts/<id>.md.enc` 密文提交（外人无法直接阅读），老师用密码解密后本地编辑。
+
+### 设置密码
+
+每次新开 PowerShell 设置一次（窗口内一直有效，勿提交）：
+
+```powershell
+$env:ARCHIVE_KEY="你的密码"
+```
+
+密码只存在本地环境变量里，**仓库里不入库任何地方**——这同时意味着密码丢失后无法找回，AES-256-GCM 没有后门可暴力破解。所以：
+
+- 密码私下告知负责重写的老师，并用密码管理器或离线便签长期保存；
+- **封存前先提交原版** `docs/artists/<id>.md` 到 git（`git add docs/artists/<id>.md && git commit`），作为最后保险——即使密码丢了，原版仍能从 git 历史恢复（见下方[密码丢失补救](#密码丢失补救)）。
+
+### 封存
+
+```powershell
+npm run maintain -- <id>
+# 示例：npm run maintain -- gali
+```
+
+脚本自动完成三步：
+
+1. 读 `docs/artists/<id>.md` 原文，AES-256-GCM 加密写入 `_drafts/<id>.md.enc`（密文 base64 JSON）；
+2. `docs/artists/<id>.md` 替换为「档案维护中」占位页（保留歌手名 title）；
+3. `docs/data/artists.ts` 给该歌手数据项加 `maintenance: true`（主页据此显示角标并禁用点击）。
+
+封存后**手动同步**：`docs/.vitepress/config.ts` 的 nav 与 sidebar 里给该歌手的 `text` 加「（维护中）」（脚本不自动改 config，封存/解封时各同步一次）。
+
+### 解封
+
+老师写完原文后，在本地解封恢复原文再编辑：
+
+```powershell
+npm run maintain -- <id> unseal
+# 示例：npm run maintain -- gali unseal
+```
+
+脚本从 `.enc` 解密恢复 `docs/artists/<id>.md` 原文，删除 `.enc`，去掉 `artists.ts` 的 `maintenance` 标记。之后老师可直接编辑 `docs/artists/<id>.md`，写完若需再次封存就重新 `npm run maintain -- <id>`。解封后**手动同步**：config.ts nav/sidebar 去掉「（维护中）」。
+
+### 密码丢失补救
+
+如果忘记 `ARCHIVE_KEY`：`.enc` 解不开，但只要封存前原版 `.md` 已经提交到 git，就可以从 git 历史直接恢复，等价于解封：
+
+```powershell
+# 1. 从 git HEAD 恢复原版 .md（把 <id> 换成歌手 id）
+git restore --source=HEAD -- docs/artists/<id>.md
+
+# 2. 删除无用的密文
+Remove-Item _drafts/<id>.md.enc
+
+# 3. 编辑 docs/data/artists.ts，删掉该歌手的 `maintenance: true,` 行
+# 4. 编辑 docs/.vitepress/config.ts，nav/sidebar 里把「<name>（维护中）」改回「<name>」
+# 5. 跑 npm run validate 确认数据完整
+```
+
+代价：封存前未提交的修改会丢（所以[设置密码](#设置密码)里强调先 commit）。恢复后 `npm run validate` 应通过。
+
+### 说明
+
+- 封存期间仓库里只有占位 `.md` 和密文 `.enc`，GitHub 搜不到原文明文；
+- 密码错误时解封报「解密失败」，密文不会被破坏，重设正确密码即可重试；
+- `.gitignore` 已排除 `_drafts/*.md`（明文草稿），但 `.enc` 密文允许提交；
+- 封存不影响 `npm run validate`（maintenance 字段不参与校验，占位 `.md` 文件仍存在）。
+
+---
+
 ## 图片参考
 
 ### 标准入库流程与灯箱原理

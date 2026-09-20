@@ -20,30 +20,54 @@ import { artists } from './data/artists'
 </script>
 
 <div class="artist-grid">
-  <a
-    v-for="artist in artists"
-    :key="artist.id"
-    class="artist-card"
-    :href="withBase(`/artists/${artist.id}`)"
-    :aria-label="`查看 ${artist.name} 的档案`"
-  >
-    <span class="artist-media">
-      <img
-        class="artist-avatar"
-        :src="withBase(artist.avatar)"
-        :alt="`${artist.name} 头像`"
-        loading="lazy"
-      />
-      <span class="artist-overlay">
-        <span class="artist-overlay-tags">
-          {{ artist.region }}<template v-if="artist.label"> · {{ artist.label }}</template><template v-if="artist.debutYear"> · {{ artist.debutYear }} 出道</template>
+  <template v-for="artist in artists" :key="artist.id">
+    <!-- 维护中：禁用点击，叠加角标，头像保持原色 -->
+    <div
+      v-if="artist.maintenance"
+      class="artist-card artist-card--maintenance"
+      :aria-label="`${artist.name} 档案维护中`"
+      role="img"
+    >
+      <span class="artist-media">
+        <img
+          class="artist-avatar"
+          :src="withBase(artist.avatar)"
+          :alt="`${artist.name} 头像`"
+          loading="lazy"
+        />
+        <span class="artist-maintenance-badge">档案维护中</span>
+        <span class="artist-overlay">
+          <span class="artist-overlay-bio">{{ artist.bio }}</span>
+          <span class="artist-overlay-cta">档案正在重新编写中，敬请期待</span>
         </span>
-        <span class="artist-overlay-bio">{{ artist.bio }}</span>
-        <span class="artist-overlay-cta">查看完整档案 →</span>
+        <span class="artist-name">{{ artist.name }}</span>
       </span>
-      <span class="artist-name">{{ artist.name }}</span>
-    </span>
-  </a>
+    </div>
+    <!-- 正常：可点击进档案页 -->
+    <a
+      v-else
+      class="artist-card"
+      :href="withBase(`/artists/${artist.id}`)"
+      :aria-label="`查看 ${artist.name} 的档案`"
+    >
+      <span class="artist-media">
+        <img
+          class="artist-avatar"
+          :src="withBase(artist.avatar)"
+          :alt="`${artist.name} 头像`"
+          loading="lazy"
+        />
+        <span class="artist-overlay">
+          <span class="artist-overlay-tags">
+            {{ artist.region }}<template v-if="artist.label"> · {{ artist.label }}</template><template v-if="artist.debutYear"> · {{ artist.debutYear }} 出道</template>
+          </span>
+          <span class="artist-overlay-bio">{{ artist.bio }}</span>
+          <span class="artist-overlay-cta">查看完整档案 →</span>
+        </span>
+        <span class="artist-name">{{ artist.name }}</span>
+      </span>
+    </a>
+  </template>
 </div>
 
 <style scoped>
@@ -159,6 +183,27 @@ import { artists } from './data/artists'
   .artist-card:hover .artist-overlay {
     opacity: 1;
   }
+}
+
+/* 维护中卡片：禁用点击，鼠标变禁止符；头像保持原色，仅叠加角标 */
+.artist-card--maintenance {
+  cursor: not-allowed;
+}
+
+.artist-maintenance-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 3;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: rgba(180, 30, 30, 0.92);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  pointer-events: none;
 }
 
 .artist-card:focus-visible {
