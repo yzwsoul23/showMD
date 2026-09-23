@@ -1627,68 +1627,54 @@ html[data-theme='record'] .vp-doc table img[alt] {
   border-radius: 2px;
 }
 
-/* 含播放跳转胶囊的段落/列表/表格关闭两端对齐：
-   胶囊是不可断的整体块，落行尾换行时 justify 会把上一行字距拉得极宽 */
-.vp-doc :is(p, li, td):has(a[href^='orpheus://']),
-.vp-doc :is(p, li, td):has(a[href^='qqmusic://']),
-.vp-doc :is(p, li, td):has(a[href*='bilibili.com/video/']) {
-  text-align: left;
-}
-
 /* ============================================================
-   外链胶囊：网易云（耳机图标）/ B站（视频图标）
-   边框底色随当前主题强调色走
+   外链链接：网易云（耳机图标）/ B站（视频图标）
+   内联文字流：图标 + 歌名作为正文文字一起流动换行，
+   不再用胶囊样式喧宾夺主
    ============================================================ */
 
 .vp-doc a[href^='orpheus://'],
 .vp-doc a[href^='qqmusic://'],
 .vp-doc a[href*='bilibili.com/video/'] {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35em;
-  margin: 0 0.12em;
-  /* 垂直方向零内边距：胶囊高度只由文字行高 + 边框决定，
-     不超过同行文字行高，避免在表格里把行高撑大、上下凸出 */
-  padding: 0 0.5em;
-  border: 1px solid rgba(var(--rs-accent-rgb), 0.35);
-  border-bottom: 1px solid rgba(var(--rs-accent-rgb), 0.35);
-  border-radius: 999px;
-  background: rgba(var(--rs-accent-rgb), 0.08);
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid currentColor;
+  border-radius: 0;
+  background: none;
   color: var(--rs-accent);
-  font-weight: 400;
-  line-height: 1.4;
-  /* 允许胶囊内文字换行：超长专辑名（如《出人头地 2025 Dreams Come True
-     Mixtape》）在移动端不再把页面撑出横向滚动；短歌名仍保持单行胶囊。
-     overflow-wrap: anywhere 兜底长英文单词，同时把 min-content 压到
-     单字宽度，保证 inline-flex 盒子能收缩到容器内 */
+  font-weight: 500;
+  text-decoration: none;
+  /* keep-all：CJK 词不拆、英文按空格分词整体不拆；
+     长专辑名（如《出人头地 2025 Dreams Come True Mixtape》）
+     在中文之间、中英文之间、英文单词之间自然断行，
+     不再像胶囊那样在任意字符处断字 */
   white-space: normal;
-  word-break: normal;
-  overflow-wrap: anywhere;
-  max-width: 100%;
-  /* 胶囊文字（如歌名）允许选中复制：桌面端鼠标拖选、移动端长按选择 */
+  word-break: keep-all;
+  overflow-wrap: normal;
   -webkit-user-select: text;
   user-select: text;
   -webkit-touch-callout: default;
-  transition:
-    background-color 0.2s,
-    border-color 0.2s;
+  transition: color 0.2s, border-color 0.2s;
 }
 
 .vp-doc a[href^='orpheus://']:hover,
 .vp-doc a[href^='qqmusic://']:hover,
 .vp-doc a[href*='bilibili.com/video/']:hover {
-  border-color: var(--rs-accent);
-  background: rgba(var(--rs-accent-rgb), 0.16);
+  border-bottom-width: 2px;
 }
 
 .vp-doc a[href^='orpheus://']::before,
 .vp-doc a[href^='qqmusic://']::before,
 .vp-doc a[href*='bilibili.com/video/']::before {
   content: '';
-  flex: 0 0 auto;
+  display: inline-block;
   width: 1em;
   height: 1em;
+  margin-right: 0.25em;
   background-color: currentColor;
+  vertical-align: -0.15em;
 }
 
 .vp-doc a[href^='orpheus://']::before {
@@ -2462,12 +2448,12 @@ html[data-theme='record'].rs-reading-mode .vp-doc p.has-block-img:has(> img[alt*
     display: none;
   }
 
-  /* 外链胶囊允许换行 */
+  /* 外链链接：移动端保持与桌面端一致的词间换行规则 */
   .vp-doc :is(p, li, td) > a[href^='orpheus://'],
   .vp-doc :is(p, li, td) > a[href^='qqmusic://'],
   .vp-doc :is(p, li, td) > a[href*='bilibili.com/video/'] {
-    white-space: normal;
-    overflow-wrap: anywhere;
+    word-break: keep-all;
+    overflow-wrap: normal;
   }
 
   .img-lightbox {
