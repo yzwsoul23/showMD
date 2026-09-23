@@ -4,5 +4,5 @@ docs/.vitepress/cache/
 *.log
 .DS_Store
 
-# 封存档案的明文草稿（防止误提交；加密后的 .enc 密文允许提交）
-_drafts/*.md
+# 封存档案的原文仅保留在本机（封存时由 docs/artists/ 移入，解封时拖回覆盖）
+_drafts/
