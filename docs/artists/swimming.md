@@ -375,6 +375,7 @@ CQC头的败类不要继续犯罪
 
 同年，坚决定回到成都继续说唱事业。Sasi 也在合约到期之后离开了声闻聚将厂牌。二人和 RICHNOMADIC 在成都八里阳光小区租了间房子，开始没日没夜地钻研作品。
 11 月 13 号，6 点零 9 分，星曜五，四人没钱开锁被锁在了门外。
+
 3 天后的 11 月 16 号，团队专辑《冰冷热带鱼》问世。
 
 ![blrdy-Cover](/images/swimming/blrdy-Cover.webp)
@@ -582,3 +583,17 @@ B站可看：[BV1YWKrzzEi7](https://www.bilibili.com/video/BV1YWKrzzEi7)
 ![longlongdy](/images/swimming/longlongdy.webp)
 
 [AFEE“赐座”中文说唱歌单](orpheus://playlist/17422019298)
+
+<div class="rs-author-card">
+  <div class="rs-author-card__head">
+    <span class="rs-author-card__tag">文稿作者</span>
+    <span class="rs-author-card__name">龙龙 Sivin</span>
+  </div>
+  <p class="rs-author-card__desc">本次文稿由龙龙 Sivin老师，为阿菲是 Afee 的连麻开荒栏目撰写。特别感谢 Afee。</p>
+  <div class="rs-author-card__links-title">感兴趣可以关注 Afee</div>
+  <div class="rs-author-card__links">
+    <a class="rs-author-card__link" href="https://v.douyin.com/iP4ScrNauM8" target="_blank" rel="noopener">抖音主页</a>
+    <a class="rs-author-card__link" href="https://space.bilibili.com/661242298" target="_blank" rel="noopener">B站主页</a>
+    <a class="rs-author-card__link" href="https://www.bilibili.com/video/BV1FELY6PEio/" target="_blank" rel="noopener">连麻开荒录播</a>
+  </div>
+</div>

@@ -792,3 +792,17 @@ solo 单曲[《杨过 FREESTYLE》](orpheus://song/2013467122)[《过节》](orp
 最后！特别感谢 dy：闪光变态菇老师、煎菠萝片老师、呼噜水巫师老师、我在电视里老师。
 
 感谢这四位粉丝老师自发主动地梳理此次文档，向四位老师表达由衷的感谢！
+
+<div class="rs-author-card">
+  <div class="rs-author-card__head">
+    <span class="rs-author-card__tag">文稿作者</span>
+    <span class="rs-author-card__name">闪光变态菇</span>
+  </div>
+  <p class="rs-author-card__desc">本次文稿由闪光变态菇老师，为阿菲是 Afee 的功夫胖开荒栏目撰写。特别感谢 Afee。</p>
+  <div class="rs-author-card__links-title">感兴趣可以关注 Afee</div>
+  <div class="rs-author-card__links">
+    <a class="rs-author-card__link" href="https://v.douyin.com/iP4ScrNauM8" target="_blank" rel="noopener">抖音主页</a>
+    <a class="rs-author-card__link" href="https://space.bilibili.com/661242298" target="_blank" rel="noopener">B站主页</a>
+    <a class="rs-author-card__link" href="https://www.bilibili.com/video/BV15CQ4B8Eum/" target="_blank" rel="noopener">功夫胖开荒录播</a>
+  </div>
+</div>

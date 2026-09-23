@@ -659,3 +659,17 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 ![Special Thank You](/images/gali/Special-Thank-You.webp)
 ![Special thanks to bili](/images/gali/Special-thanks-to-bili.webp)
+
+<div class="rs-author-card">
+  <div class="rs-author-card__head">
+    <span class="rs-author-card__tag">文稿作者</span>
+    <span class="rs-author-card__name">此方</span>
+  </div>
+  <p class="rs-author-card__desc">本次文稿由此方老师，为阿菲是 Afee 的 GALI 开荒栏目撰写。特别感谢 Afee。</p>
+  <div class="rs-author-card__links-title">感兴趣可以关注 Afee</div>
+  <div class="rs-author-card__links">
+    <a class="rs-author-card__link" href="https://v.douyin.com/iP4ScrNauM8" target="_blank" rel="noopener">抖音主页</a>
+    <a class="rs-author-card__link" href="https://space.bilibili.com/661242298" target="_blank" rel="noopener">B站主页</a>
+    <a class="rs-author-card__link" href="https://www.bilibili.com/video/BV1kNRcBgEw1/" target="_blank" rel="noopener">GALI 开荒录播</a>
+  </div>
+</div>
