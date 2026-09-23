@@ -1657,8 +1657,14 @@ html[data-theme='record'] .vp-doc table img[alt] {
   color: var(--rs-accent);
   font-weight: 400;
   line-height: 1.4;
-  white-space: nowrap;
+  /* 允许胶囊内文字换行：超长专辑名（如《出人头地 2025 Dreams Come True
+     Mixtape》）在移动端不再把页面撑出横向滚动；短歌名仍保持单行胶囊。
+     overflow-wrap: anywhere 兜底长英文单词，同时把 min-content 压到
+     单字宽度，保证 inline-flex 盒子能收缩到容器内 */
+  white-space: normal;
   word-break: normal;
+  overflow-wrap: anywhere;
+  max-width: 100%;
   /* 胶囊文字（如歌名）允许选中复制：桌面端鼠标拖选、移动端长按选择 */
   -webkit-user-select: text;
   user-select: text;
@@ -1716,6 +1722,114 @@ html[data-theme='record'] .vp-doc table img[alt] {
   mask-repeat: no-repeat;
   -webkit-mask-position: center;
   mask-position: center;
+}
+
+/* ---------- 文稿作者 / 鸣谢卡片 ---------- */
+.vp-doc .rs-author-card {
+  margin: 2.2em 0 1em;
+  padding: 1.5em 1.5em 1.4em;
+  border: 1px solid var(--rs-line);
+  border-radius: var(--rs-radius-card, 14px);
+  background: var(--rs-card);
+  box-shadow: var(--rs-shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+/* 顶部强调色细条 */
+.vp-doc .rs-author-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 1.5em;
+  right: 1.5em;
+  height: 3px;
+  border-radius: 0 0 3px 3px;
+  background: var(--rs-accent);
+  opacity: 0.85;
+}
+
+.vp-doc .rs-author-card__head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6em;
+  flex-wrap: wrap;
+  margin-bottom: 0.55em;
+}
+
+.vp-doc .rs-author-card__tag {
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--rs-accent);
+}
+
+.vp-doc .rs-author-card__name {
+  font-size: 1.06em;
+  font-weight: 600;
+  color: var(--rs-ink);
+}
+
+.vp-doc .rs-author-card__desc {
+  margin: 0 0 1em;
+  color: var(--rs-ink-2);
+  font-size: 0.94em;
+  line-height: 1.75;
+}
+
+.vp-doc .rs-author-card__links-title {
+  margin: 0 0 0.6em;
+  font-size: 0.85em;
+  color: var(--rs-ink-2);
+  font-weight: 500;
+}
+
+.vp-doc .rs-author-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+/* 与外链胶囊保持一致的药丸外观，hover 高亮强调色 */
+.vp-doc .rs-author-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  padding: 0.3em 0.75em;
+  border-radius: 999px;
+  border: 1px solid var(--rs-line);
+  background: var(--rs-card);
+  color: var(--rs-ink-2);
+  font-size: 0.88em;
+  line-height: 1.4;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    border-color 0.2s,
+    background 0.2s,
+    color 0.2s;
+}
+
+.vp-doc .rs-author-card__link:hover {
+  border-color: var(--rs-accent);
+  background: var(--rs-accent-soft);
+  color: var(--rs-accent);
+}
+
+/* bilibili 视频链接会命中胶囊规则，统一 hover 态 */
+.vp-doc .rs-author-card__link[href*='bilibili.com/video/']:hover {
+  background: var(--rs-accent-soft);
+  color: var(--rs-accent);
+}
+
+@media (max-width: 640px) {
+  .vp-doc .rs-author-card {
+    padding: 1.2em 1.1em 1.15em;
+  }
+  .vp-doc .rs-author-card::before {
+    left: 1.1em;
+    right: 1.1em;
+  }
 }
 
 /* 唤起客户端时的提示条 */
