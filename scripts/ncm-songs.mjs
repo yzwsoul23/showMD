@@ -1,9 +1,11 @@
 /**
  * 网易云音乐歌曲批量导出工具
  *
- * 输入一个歌单 / 专辑链接，批量拉取歌曲，
+ * 输入一个歌单 / 歌手 / 专辑链接，批量拉取歌曲，
  * 补全专辑发行时间 al.publishTime，按发行时间排序，
  * 输出带 publishDate / publishMs 的 CSV（纯 UTF-8 无 BOM）。
+ *
+ * 歌手链接直接走「全部歌曲」分页接口（免登录，单页 100），不再遍历专辑。
  *
  * 用法：
  *   node scripts/ncm-songs.mjs "https://music.163.com/playlist?id=3778678" out.csv asc
@@ -11,7 +13,7 @@
  *   node scripts/ncm-songs.mjs "https://music.163.com/album?id=12345"      out.csv desc
  *
  * 参数：
- *   link     歌单或专辑链接（必填）
+ *   link     歌单 / 歌手 / 专辑链接（必填）
  *   outFile  输出 CSV 路径（默认 songs_by_time.csv）
  *   order    asc 升序 / desc 降序（默认 asc）
  *
@@ -70,21 +72,7 @@ async function playlistTracks(pid) {
   return out
 }
 
-/** 判断当前是否带登录态（cookie）。专辑详情接口 -462 表示需要绑定手机 */
-let authChecked = false
-let hasAuth = false
-async function checkAuth() {
-  if (authChecked) return hasAuth
-  authChecked = true
-  try {
-    const d = await getJSON(`/api/album/1?ext=true&limit=1`)
-    hasAuth = d.code !== -462
-  } catch {
-    hasAuth = false
-  }
-  return hasAuth
-}
-
+/** 专辑曲目。专辑详情接口 -462 表示需要绑定手机（cookie） */
 async function albumTracks(aid) {
   try {
     const d = await getJSON(`/api/album/${aid}?ext=true&limit=1000`)
@@ -99,36 +87,19 @@ async function albumTracks(aid) {
   }
 }
 
-/** 歌手热门歌曲（免登录，最多 50 首）：/api/artist/{uid} 返回 hotSongs */
-async function artistHotSongs(uid) {
-  const d = await getJSON(`/api/artist/${uid}`)
-  return d.hotSongs || []
-}
-
-/** 歌手全部歌曲：遍历所有专辑再逐专辑取歌（最全，需登录态）。
- *  无登录态时回退到热门 50 首。 */
-async function artistTracks(uid) {
-  const authed = await checkAuth()
-  if (!authed) {
-    console.log('[info] 未检测到登录态，回退到歌手热门 50 首（全量需 NCM_COOKIE）')
-    return artistHotSongs(uid)
-  }
-
-  let albums = []
+/** 歌手全部歌曲（免登录）：直接分页「全部歌曲」接口，单页上限 100。
+ *  返回项自带 artists / album(id,name,publishTime) / duration / fee，
+ *  无需再遍历专辑逐张取歌，也不依赖需要登录的专辑详情接口。 */
+async function artistAllSongs(uid) {
+  const out = []
   let offset = 0
   let guard = 0
-  while (guard++ < 50) {
-    const d = await getJSON(`/api/artist/albums/${uid}?offset=${offset}&limit=50`)
-    const list = d.hotAlbums || []
-    if (!list.length) break
-    albums = albums.concat(list)
-    offset += 50
-    await sleep(200)
-  }
-  const out = []
-  for (const al of albums) {
-    const s = await albumTracks(al.id)
-    out.push(...s)
+  while (guard++ < 200) {
+    const d = await getJSON(`/api/v1/artist/songs?id=${uid}&order=time&limit=100&offset=${offset}`)
+    const list = d.songs || []
+    out.push(...list)
+    if (!list.length || out.length >= d.total) break
+    offset += 100
     await sleep(200)
   }
   return out
@@ -191,7 +162,7 @@ async function main(link, outFile, desc) {
   if (/playlist/.test(link)) {
     tracks = await playlistTracks(pickId(link, 'playlist'))
   } else if (/artist/.test(link)) {
-    tracks = await artistTracks(pickId(link, 'artist'))
+    tracks = await artistAllSongs(pickId(link, 'artist'))
   } else if (/album/.test(link)) {
     tracks = await albumTracks(pickId(link, 'album'))
   } else {

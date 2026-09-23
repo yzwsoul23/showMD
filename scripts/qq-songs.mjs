@@ -4,7 +4,10 @@
  * 输入一个歌单 / 专辑 / 歌手链接，批量拉取歌曲，
  * 补全专辑发行时间 publicTime，按发行时间排序，
  * 输出带 publishDate / publishMs 的 CSV（纯 UTF-8 无 BOM）。
- * 公开 fcgi 接口，免登录、免 cookie。
+ * 公开接口，免登录、免 cookie。
+ *
+ * 歌手链接直接走 musicu.fcg「全部歌曲」分页接口（单曲自带 time_public），
+ * 不再拉专辑列表逐张取歌。
  *
  * 用法：
  *   node scripts/qq-songs.mjs "https://y.qq.com/n/ryqq/playlist/9485452162" out.csv asc
@@ -45,19 +48,21 @@ async function getJSON(url) {
 // 专辑接口 singer 是对象数组，歌单接口 singer 是字符串数组，两种都兼容
 const singerNames = (arr) => (arr || []).map((s) => (typeof s === 'string' ? s : s && s.name) || '').join('/')
 
-/** 统一曲目结构；部分接口把字段嵌在 track_info 里 */
+/** 统一曲目结构；部分接口把字段嵌在 track_info 里，
+ *  歌手全部歌曲接口的单曲自带 album 对象，一并兼容 */
 function normalizeSong(s, album = {}) {
   const t = s.track_info || s
+  const inlineAlbum = t.album && typeof t.album === 'object' ? t.album : {}
   return {
     songmid: t.songmid || t.mid || '',
     songid: t.songid || t.id || '',
     songname: t.songname || t.name || '',
     singers: singerNames(t.singer),
-    albumname: album.name || t.albumname || '',
-    albummid: album.mid || t.albummid || '',
-    albumid: album.id || t.albumid || '',
+    albumname: album.name || inlineAlbum.name || t.albumname || '',
+    albummid: album.mid || inlineAlbum.mid || t.albummid || '',
+    albumid: album.id || inlineAlbum.id || t.albumid || '',
     interval: toSeconds(t.interval),
-    publishRaw: t.time_public || album.aDate || album.publicTime || album.publishTime || ''
+    publishRaw: t.time_public || inlineAlbum.time_public || album.aDate || album.publicTime || album.publishTime || ''
   }
 }
 
@@ -130,36 +135,46 @@ async function albumTracks(id, byMid) {
   return list.map((s) => normalizeSong(s, al))
 }
 
-/** 歌手：singermid -> 专辑列表(order=time) -> 逐专辑取歌 */
-async function singerTracks(singermid) {
-  let albums = []
-  let begin = 0
-  let guard = 0
-  while (guard++ < 50) {
-    const url = `https://c.y.qq.com/v8/fcg-bin/fcg_v8_singer_album.fcg?singermid=${singermid}&order=time&begin=${begin}&num=50&${COMMON}`
-    const d = await getJSON(url)
-    const list = (d.data && d.data.list) || d.list || []
-    if (!list.length) break
-    albums = albums.concat(list)
-    if (list.length < 50) break
-    begin += 50
-    await sleep(200)
-  }
+/** musicu.fcg POST RPC（免登录） */
+async function postMusicu(body) {
+  const r = await fetch('https://u.y.qq.com/cgi-bin/musicu.fcg', {
+    method: 'POST',
+    headers: { ...H, 'Content-Type': 'application/json' },
+    body: JSON.stringify(body)
+  })
+  if (!r.ok) throw new Error(`HTTP ${r.status} musicu.fcg`)
+  return r.json()
+}
+
+/** 歌手全部歌曲（免登录）：musicu.fcg -> musichall.song_list_server.GetSingerSongList。
+ *  单曲自带 time_public / album，直接分页拿全量，
+ *  无需再拉专辑列表、逐张专辑取歌和回查发行时间。 */
+async function singerAllTracks(singermid) {
   const out = []
-  for (const a of albums) {
-    const mid = a.albumMID || a.album_mid || a.mid
-    if (!mid) continue
-    try {
-      const tr = await albumTracks(mid)
-      // 专辑列表本身也带 pubTime/aDate，专辑接口没给时兜底
-      if (!tr[0] || !tr[0].publishRaw) {
-        const pub = a.pubTime || a.publicTime || a.aDate || ''
-        tr.forEach((t) => { if (!t.publishRaw) t.publishRaw = pub })
+  const num = 100
+  let begin = 0
+  let total = Infinity
+  let guard = 0
+  while (begin < total && guard++ < 200) {
+    const body = {
+      comm: { ct: 24, cv: 0 },
+      singer_song: {
+        module: 'musichall.song_list_server',
+        method: 'GetSingerSongList',
+        param: { singerMid: singermid, order: 1, begin, num }
       }
-      out.push(...tr)
-    } catch (e) {
-      console.warn(`  [warn] 专辑 ${mid} 拉取失败：${e.message}`)
     }
+    const d = await postMusicu(body)
+    const node = d.singer_song
+    const data = node && node.data
+    if (!data) {
+      throw new Error(`歌手歌曲列表返回异常 code=${node && node.code} subcode=${node && node.subcode}`)
+    }
+    total = data.totalNum
+    for (const item of data.songList || []) {
+      out.push(normalizeSong(item.songInfo || item))
+    }
+    begin += num
     await sleep(200)
   }
   return out
@@ -284,7 +299,7 @@ async function main(link, outFile, desc) {
       console.warn('歌手链接需要地址栏里字母数字混合的 singermid（如 /n/ryqq/singer/0025NhlN2yWrP4），纯数字 ID 不支持')
       process.exit(1)
     }
-    rows = await singerTracks(p.id)
+    rows = await singerAllTracks(p.id)
   }
   rows = sortByPublish(rows, desc)
   writeFileSync(outFile, toCSV(rows), 'utf8')
