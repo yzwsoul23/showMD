@@ -5,17 +5,22 @@
  * 补全专辑发行时间 al.publishTime，按发行时间排序，
  * 输出带 publishDate / publishMs 的 CSV（纯 UTF-8 无 BOM）。
  *
- * 歌手链接直接走「全部歌曲」分页接口（免登录，单页 100），不再遍历专辑。
+ * 歌手链接默认走「全部歌曲」分页接口（免登录，单页 100）：歌手名下所有单曲，
+ * 含只挂在合辑名下的歌和别人专辑里的客串 feat。
+ * 加 --albums 改走「专辑页」模式：分页拉歌手全部专辑再逐张取歌，
+ * 只收歌手自己专辑/EP/单曲里的版本；网易云专辑详情接口需登录（-462），需设置 NCM_COOKIE。
  *
  * 用法：
  *   node scripts/ncm-songs.mjs "https://music.163.com/playlist?id=3778678" out.csv asc
  *   node scripts/ncm-songs.mjs "https://music.163.com/artist?id=12345"     out.csv desc
+ *   node scripts/ncm-songs.mjs "https://music.163.com/artist?id=12345"     out.csv asc --albums
  *   node scripts/ncm-songs.mjs "https://music.163.com/album?id=12345"      out.csv desc
  *
  * 参数：
- *   link     歌单 / 歌手 / 专辑链接（必填）
- *   outFile  输出 CSV 路径（默认 songs_by_time.csv）
- *   order    asc 升序 / desc 降序（默认 asc）
+ *   link      歌单 / 歌手 / 专辑链接（必填）
+ *   outFile   输出 CSV 路径（默认 songs_by_time.csv）
+ *   order     asc 升序 / desc 降序（默认 asc）
+ *   --albums  歌手链接改走专辑页遍历模式（网易云需 NCM_COOKIE）
  *
  * 环境变量：
  *   NCM_BASE  自定义 API 基址（默认 https://music.163.com）
@@ -105,6 +110,44 @@ async function artistAllSongs(uid) {
   return out
 }
 
+/** 歌手「专辑页」模式：分页拉歌手全部专辑，再逐张专辑取歌。
+ *  与全部歌曲模式的区别：只收歌手自己专辑/EP/单曲里的版本，
+ *  不含只挂在合辑名下的歌和别人专辑里的客串 feat。
+ *  注意：-462（需登录）按专辑逐个出现，部分专辑无 cookie 也能拉，
+ *  因此逐张容错并在末尾汇总失败数，提示补 NCM_COOKIE。 */
+async function artistAlbumsTracks(uid) {
+  const albums = []
+  let offset = 0
+  let guard = 0
+  while (guard++ < 100) {
+    const d = await getJSON(`/api/artist/albums/${uid}?offset=${offset}&limit=50`)
+    const list = d.hotAlbums || []
+    if (!list.length) break
+    albums.push(...list)
+    offset += 50
+    await sleep(200)
+  }
+  const out = []
+  let failed = 0
+  for (let i = 0; i < albums.length; i++) {
+    try {
+      const d = await getJSON(`/api/album/${albums[i].id}?ext=true&limit=1000`)
+      if (d.code === -462) throw new Error('需要登录（-462）')
+      const s = d.songs || (d.album && d.album.songs) || []
+      console.log(`  [${i + 1}/${albums.length}] ${albums[i].name}（${s.length} 首）`)
+      out.push(...s)
+    } catch (e) {
+      failed++
+      console.warn(`  [warn] 专辑「${albums[i].name}」拉取失败：${e.message}`)
+    }
+    await sleep(200)
+  }
+  if (failed) {
+    console.warn(`[warn] ${failed}/${albums.length} 张专辑拉取失败：网易云部分专辑详情需登录，可设置 NCM_COOKIE 环境变量后重试`)
+  }
+  return out
+}
+
 /* ---------- 排序 / CSV ---------- */
 
 function sortByPublish(tracks, desc = false) {
@@ -162,7 +205,9 @@ async function main(link, outFile, desc) {
   if (/playlist/.test(link)) {
     tracks = await playlistTracks(pickId(link, 'playlist'))
   } else if (/artist/.test(link)) {
-    tracks = await artistAllSongs(pickId(link, 'artist'))
+    tracks = byAlbum
+      ? await artistAlbumsTracks(pickId(link, 'artist'))
+      : await artistAllSongs(pickId(link, 'artist'))
   } else if (/album/.test(link)) {
     tracks = await albumTracks(pickId(link, 'album'))
   } else {
@@ -174,9 +219,11 @@ async function main(link, outFile, desc) {
   console.log(`已保存 ${outFile}，共 ${tracks.length} 首（按发行时间${desc ? '降序' : '升序'}）`)
 }
 
-const [, , link, outFile = 'songs_by_time.csv', order = 'asc'] = process.argv
+const argv = process.argv.slice(2)
+const byAlbum = argv.includes('--albums') || argv.includes('--by-album')
+const [link, outFile = 'songs_by_time.csv', order = 'asc'] = argv.filter((a) => !a.startsWith('--'))
 if (!link) {
-  console.error('用法: node scripts/ncm-songs.mjs <歌单/歌手/专辑链接> [输出文件] [asc|desc]')
+  console.error('用法: node scripts/ncm-songs.mjs <歌单/歌手/专辑链接> [输出文件] [asc|desc] [--albums]')
   process.exit(1)
 }
 main(link, outFile, order === 'desc').catch((e) => {

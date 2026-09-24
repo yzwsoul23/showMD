@@ -6,18 +6,22 @@
  * 输出带 publishDate / publishMs 的 CSV（纯 UTF-8 无 BOM）。
  * 公开接口，免登录、免 cookie。
  *
- * 歌手链接直接走 musicu.fcg「全部歌曲」分页接口（单曲自带 time_public），
- * 不再拉专辑列表逐张取歌。
+ * 歌手链接默认走 musicu.fcg「全部歌曲」分页接口（单曲自带 time_public，免登录）：
+ * 歌手名下所有单曲，含只挂在合辑名下的歌和别人专辑里的客串 feat。
+ * 加 --albums 改走「专辑页」模式：分页拉歌手专辑列表再逐张取歌，
+ * 只收歌手自己专辑/EP/单曲里的版本（不含别人专辑里的客串）。
  *
  * 用法：
  *   node scripts/qq-songs.mjs "https://y.qq.com/n/ryqq/playlist/9485452162" out.csv asc
  *   node scripts/qq-songs.mjs "https://y.qq.com/n/ryqq/album/002LiyZW27dGjC"   out.csv asc
  *   node scripts/qq-songs.mjs "https://y.qq.com/n/ryqq/singer/0025NhlN2yWrP4"  out.csv desc
+ *   node scripts/qq-songs.mjs "https://y.qq.com/n/ryqq/singer/0025NhlN2yWrP4"  out.csv asc --albums
  *
  * 参数：
- *   link     歌单 / 专辑 / 歌手链接（必填，地址栏链接或分享链接均可）
- *   outFile  输出 CSV 路径（默认 qq_songs_by_time.csv）
- *   order    asc 升序 / desc 降序（默认 asc）
+ *   link      歌单 / 专辑 / 歌手链接（必填，地址栏链接或分享链接均可）
+ *   outFile   输出 CSV 路径（默认 qq_songs_by_time.csv）
+ *   order     asc 升序 / desc 降序（默认 asc）
+ *   --albums  歌手链接改走专辑页遍历模式
  */
 
 import { writeFileSync } from 'node:fs'
@@ -180,6 +184,45 @@ async function singerAllTracks(singermid) {
   return out
 }
 
+/** 歌手「专辑页」模式：singermid -> 专辑列表(order=time) -> 逐专辑取歌。
+ *  与全部歌曲模式的区别：只收歌手自己专辑/EP/单曲里的版本，
+ *  不含只挂在合辑名下的歌和别人专辑里的客串 feat。免登录。 */
+async function singerAlbumTracks(singermid) {
+  const albums = []
+  let begin = 0
+  let guard = 0
+  while (guard++ < 100) {
+    const url = `https://c.y.qq.com/v8/fcg-bin/fcg_v8_singer_album.fcg?singermid=${singermid}&order=time&begin=${begin}&num=50&${COMMON}`
+    const d = await getJSON(url)
+    const list = (d.data && d.data.list) || d.list || []
+    if (!list.length) break
+    albums.push(...list)
+    if (list.length < 50) break
+    begin += 50
+    await sleep(200)
+  }
+  const out = []
+  for (let i = 0; i < albums.length; i++) {
+    const a = albums[i]
+    const mid = a.albumMID || a.album_mid || a.mid
+    if (!mid) continue
+    try {
+      const tr = await albumTracks(mid)
+      // 专辑列表本身也带 pubTime/aDate，专辑接口没给时兜底
+      if (!tr[0] || !tr[0].publishRaw) {
+        const pub = a.pubTime || a.publicTime || a.aDate || ''
+        tr.forEach((t) => { if (!t.publishRaw) t.publishRaw = pub })
+      }
+      console.log(`  [${i + 1}/${albums.length}] ${a.name || mid}（${tr.length} 首）`)
+      out.push(...tr)
+    } catch (e) {
+      console.warn(`  [warn] 专辑 ${mid} 拉取失败：${e.message}`)
+    }
+    await sleep(200)
+  }
+  return out
+}
+
 /** 歌单没有单曲发行时间：按专辑去重，回查每张专辑的 publicTime */
 async function fillPlaylistPublish(rows) {
   const cache = new Map()
@@ -299,16 +342,18 @@ async function main(link, outFile, desc) {
       console.warn('歌手链接需要地址栏里字母数字混合的 singermid（如 /n/ryqq/singer/0025NhlN2yWrP4），纯数字 ID 不支持')
       process.exit(1)
     }
-    rows = await singerAllTracks(p.id)
+    rows = byAlbum ? await singerAlbumTracks(p.id) : await singerAllTracks(p.id)
   }
   rows = sortByPublish(rows, desc)
   writeFileSync(outFile, toCSV(rows), 'utf8')
   console.log(`已保存 ${outFile}，共 ${rows.length} 首（按发行时间${desc ? '降序' : '升序'}）`)
 }
 
-const [, , link, outFile = 'qq_songs_by_time.csv', order = 'asc'] = process.argv
+const argv = process.argv.slice(2)
+const byAlbum = argv.includes('--albums') || argv.includes('--by-album')
+const [link, outFile = 'qq_songs_by_time.csv', order = 'asc'] = argv.filter((a) => !a.startsWith('--'))
 if (!link) {
-  console.error('用法: node scripts/qq-songs.mjs <歌单/专辑/歌手链接> [输出文件] [asc|desc]')
+  console.error('用法: node scripts/qq-songs.mjs <歌单/专辑/歌手链接> [输出文件] [asc|desc] [--albums]')
   process.exit(1)
 }
 main(link, outFile, order === 'desc').catch((e) => {

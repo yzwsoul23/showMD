@@ -40,8 +40,8 @@ showMD/
 | `npm run thumbs` | 原图 → 缩略图（增量，跳过已生成） | 每次往 originals 放了新图 |
 | `npm run thumbs -- --force` | 全部重新生成缩略图 | 换了原图或改了压缩参数 |
 | `npm run images:compress` | 原地压缩 images 目录 | 只有散图、不走 originals 时 |
-| `npm run ncm:songs` | 网易云歌单/歌手/专辑导出按发行时间排序的 CSV | 核对作品年表、挑 RE 素材时，见[网易云歌曲批量导出](#网易云歌曲批量导出ncm-songs) |
-| `npm run qq:songs` | QQ 音乐歌单/歌手/专辑导出按发行时间排序的 CSV（免登录） | 网易云没有版权、只能在 QQ 音乐核对时，见[QQ音乐歌曲批量导出](#qq-音乐歌曲批量导出qq-songs) |
+| `npm run ncm:songs` | 网易云歌单/歌手/专辑导出按发行时间排序的 CSV（歌手默认全部歌曲接口，`--albums` 遍历专辑，后者部分需登录） | 核对作品年表、挑 RE 素材时，见[网易云歌曲批量导出](#网易云歌曲批量导出ncm-songs) |
+| `npm run qq:songs` | QQ 音乐歌单/歌手/专辑导出按发行时间排序的 CSV（免登录，歌手支持 `--albums` 两种模式） | 网易云没有版权、只能在 QQ 音乐核对时，见[QQ音乐歌曲批量导出](#qq-音乐歌曲批量导出qq-songs) |
 | `npm run validate` | 校验艺人数据完整性 | 提交前必跑，CI 也会跑 |
 | `npm run docs:build` | 构建产物到 `docs/.vitepress/dist/` | 一般不用手动跑，见[发布](#发布与构建什么时候需要手动-build) |
 | `npm run docs:preview` | 本地预览构建结果 | 想复查和线上完全一致的效果时 |
@@ -338,20 +338,21 @@ npm run maintain -- <id>
 ### 基本用法
 
 ```powershell
-# ① 先设置登录 cookie（每次新开 PowerShell 设置一次，窗口内一直有效）
+# ① （可选）设置登录 cookie：仅私密歌单、歌手 --albums 专辑模式需要，公开内容默认模式无需登录
 $env:NCM_COOKIE="MUSIC_U=你的MUSIC_U值"
 
 # ② 导出。第一个参数是链接，第二个是输出文件，第三个 asc 升序（默认）/ desc 降序
 node scripts/ncm-songs.mjs "https://music.163.com/m/playlist?id=17422019298&creatorId=594729410" 中文说唱歌单.csv asc
 node scripts/ncm-songs.mjs "http://music.163.com/artist?id=12453329" 功夫胖全歌曲.csv desc
+node scripts/ncm-songs.mjs "http://music.163.com/artist?id=12127362" GALI仅专辑.csv asc --albums
 node scripts/ncm-songs.mjs "http://music.163.com/album/140566771/" GALI-亚特兰蒂斯.csv asc
 ```
 
-也可用 npm 脚本：`npm run ncm:songs -- "<链接>" <输出文件> [asc|desc]`。
+也可用 npm 脚本：`npm run ncm:songs -- "<链接>" <输出文件> [asc|desc] [--albums]`。
 
 - 链接支持完整分享链（如 `/m/playlist?id=xxx&creatorId=xxx&uiPlaylistType=UGC`）、地址栏短链、`/album/140566771/` 路径式三种形态；
 - 输出纯 UTF-8（无 BOM）编码；
-- 歌手模式会逐张请求其全部专辑（每张间隔 200ms），几十张专辑约 1-2 分钟，属正常速度。
+- **歌手链接有两种模式**：默认走「全部歌曲」分页接口（免登录、快、单页 100 首）；加 `--albums` 改为遍历歌手全部专辑逐张取歌（每张间隔 200ms，几十张专辑约 1-2 分钟），两种模式的差异见下表。
 
 ### CSV 列说明
 
@@ -370,10 +371,13 @@ node scripts/ncm-songs.mjs "http://music.163.com/album/140566771/" GALI-亚特�
 | 链接类型 | 取数链路 | 无 cookie | 带 cookie |
 | :--- | :--- | :--- | :--- |
 | 歌单 | `v6/playlist/detail` 拿全量 trackIds → 500 首一批拉详情 | 公开歌单可用 | 私密歌单也可用 |
-| 歌手 | 遍历全部专辑逐张取歌（最全） | 回退热门 50 首 | 全量可用 |
-| 专辑 | 直接取专辑详情 | 不可用 | 可用 |
+| 歌手（默认） | `v1/artist/songs` 全部歌曲分页接口，含只挂合辑的歌和别人专辑里的客串 | 全量可用 | 同左 |
+| 歌手（`--albums`） | 遍历全部专辑逐张取歌，只含歌手自己专辑/EP/单曲里的版本 | 部分专辑报 -462 跳过（末尾汇总失败数） | 全量可用 |
+| 专辑 | 直接取专辑详情 | 部分专辑可用，部分报 -462 | 可用 |
 
 ### 获取 cookie
+
+只有两种情况需要 cookie：**私密歌单**、**歌手 `--albums` 专辑模式**（网易云部分专辑详情要登录态）；公开歌单、歌手默认模式、大部分专辑无需登录。
 
 1. 浏览器登录 music.163.com → F12 → Application（应用）→ Cookies → `https://music.163.com`；
 2. 复制 `MUSIC_U` 的值（一长串十六进制），拼成 `MUSIC_U=xxx` 填进 `$env:NCM_COOKIE`；
@@ -403,15 +407,16 @@ node scripts/ncm-songs.mjs "http://music.163.com/album/140566771/" GALI-亚特�
 node scripts/qq-songs.mjs "https://y.qq.com/n/ryqq/playlist/9485452162" qq歌单.csv asc
 node scripts/qq-songs.mjs "https://y.qq.com/n/ryqq/album/002LiyZW27dGjC" 中国有嘻哈12期.csv asc
 node scripts/qq-songs.mjs "https://y.qq.com/n/ryqq/singer/0025NhlN2yWrP4" 周杰伦全部歌曲.csv desc
+node scripts/qq-songs.mjs "https://y.qq.com/n/ryqq/singer/0025NhlN2yWrP4" 周杰伦仅专辑.csv asc --albums
 ```
 
-也可用 npm 脚本：`npm run qq:songs -- "<链接>" <输出文件> [asc|desc]`。
+也可用 npm 脚本：`npm run qq:songs -- "<链接>" <输出文件> [asc|desc] [--albums]`。
 
 - 链接直接复制浏览器地址栏的 `y.qq.com/n/ryqq/...`；分享页带 `id` / `albummid` / `singermid` 参数的链接也能识别；
 - 专辑链接末尾是字母混合串（albummid）或纯数字（albumid）都支持，脚本自动选择参数；
 - **歌手链接必须是地址栏里字母数字混合的 singermid**（如 `0025NhlN2yWrP4`），纯数字歌手 ID 无法直接取数；
 - 输出纯 UTF-8（无 BOM）编码；
-- 歌手模式逐张拉取全部专辑（每张间隔 200ms），40 张专辑约 30-60 秒，属正常速度。
+- **歌手链接有两种模式**：默认走「全部歌曲」分页接口（单曲自带发行时间，快）；加 `--albums` 改为遍历全部专辑逐张取歌（每张间隔 200ms，40 张专辑约 30-60 秒），差异见下表。
 
 ### CSV 列说明
 
@@ -430,7 +435,8 @@ node scripts/qq-songs.mjs "https://y.qq.com/n/ryqq/singer/0025NhlN2yWrP4" 周杰
 | :--- | :--- | :--- |
 | 歌单 | `fcg_ucc_getcdinfo_byids_cp` 拿全量 songlist（JSONP，自动解包）→ 按专辑去重回查 `aDate` | QQ 音乐歌单只有添加顺序、没有单曲发行时间，用所属专辑发行日近似；大歌单回查较慢 |
 | 专辑 | `fcg_v8_album_info_cp` 直接取专辑详情 | mid 查不到时自动回退 albumid |
-| 歌手 | `fcg_v8_singer_album`（`order=time`）拿专辑列表 → 逐专辑取歌 | 同一首歌分属多张专辑时各自保留一行 |
+| 歌手（默认） | `musicu.fcg GetSingerSongList` 全部歌曲分页接口，单曲自带 `time_public` | 含只挂合辑的歌和别人专辑里的客串；同一首歌只保留一行 |
+| 歌手（`--albums`） | `fcg_v8_singer_album`（`order=time`）拿专辑列表 → 逐专辑取歌 | 只含歌手自己专辑/EP/单曲里的版本；同一首歌分属多张专辑时各自保留一行 |
 
 ### 异常排查
 
@@ -484,6 +490,7 @@ npm run docs:preview  # 打开 http://localhost:4173/showMD/ 复查生产效果
 
 | 日期 | 更新内容 |
 | :--- | :--- |
+| 2026-09-24 | `ncm-songs`/`qq-songs` 歌手导出默认改走「全部歌曲」分页接口（免登录、更快、含合辑歌曲与客串 feat）；原「遍历专辑取歌」方案保留为 `--albums` 参数，只收歌手自己专辑里的版本；本教程两节同步更新 |
 | 2026-09-19 | 修复播放跳转胶囊换行导致上一行两端对齐字距拉大的问题（含胶囊的段落/列表/表格单元格改左对齐）；除唱片店外 9 套主题的 h2/h3 增加基于各自强调色的层级装饰（细线/圆点/短横条/居中章节/左竖条/荧光晕染/渐变文字/菱形等），唱片店原有样式不变 |
 | 2026-09-19 | 主题切换器移入顶栏最右侧：锚点改由 `nav-bar-content-after` 插槽渲染（修复生产环境 hydration 把外来 DOM 移除导致按钮消失的问题），面板随按钮弹出；首页歌手卡片重设计：方形人像撑满卡片、名字以白色大字压图展示，悬停模糊浮层展示简介，触屏点击直接进档案页 |
 | 2026-09-19 | 新增 QQ 音乐歌曲批量导出工具 `qq-songs`（歌单/歌手/专辑 → 补专辑发行时间、按发行时间排序的 CSV，免登录）；`ncm-songs`/`qq-songs` 导出统一改为纯 UTF-8（无 BOM），默认升序（从早到晚） |

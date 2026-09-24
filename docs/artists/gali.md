@@ -60,9 +60,9 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 7月21日，GALI发布歌曲 [《RAMBO》](orpheus://song/492076300)​ **，** 也拍摄了[MV](https://www.bilibili.com/video/BV1Rx411i7aK)。
 
-7月27日，GALI合作吴壹发布歌曲 **《Future Star》** 。\*可直接在网易云内搜索并收听。
+7月27日，GALI合作吴壹发布歌曲 **[《Future Star》](orpheus://song/493310685)** 。\*可直接在网易云内搜索并收听。
 
-9月22日，GALI合作KUAN发布歌曲 **《Obey》** 。\*可在网易云搜索收听。
+9月22日，GALI合作KUAN发布歌曲 **[《Obey》](orpheus://song/1825882180)** 。\*可在网易云搜索收听。
 
 10月11日，GALI发布歌曲 **[《信任问题(Trust Issues)》](orpheus://song/512301530)** 。
 
@@ -84,7 +84,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 1月15日，GALI合作mFindme发布歌曲 **[《Might Be》](orpheus://song/530817488)** 。\*网易云可观看歌词视频，可以不看。
 
-4月19日，GALI合作KUAN发布歌曲 **《For You》** 。\*网易云搜索“KUAN For You”可收听，蓝色封面。歌曲貌似之前也在虾米的寻光计划，后来才在网易云上架。网易云无歌词，没有关联GALI的名字。
+4月19日，GALI合作KUAN发布歌曲 **[《For You》](orpheus://song/1825882197)** 。\*网易云搜索“KUAN For You”可收听，蓝色封面。歌曲貌似之前也在虾米的寻光计划，后来才在网易云上架。网易云无歌词，没有关联GALI的名字。
 
 ### 《VINTAGE》
 
@@ -121,7 +121,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 8月7日，GALI参与了廖效浓专辑中的歌曲 **[《降落》](orpheus://song/1297747296)** 。\*可在网易云搜索收听。
 
-8月22日， **GALI合作KenRobb、mac ova seas** 发布歌曲 **《Get Dat(prod.AYNJO)》** 。
+8月22日， **GALI合作KenRobb、mac ova seas** 发布歌曲 **[《Get Dat(prod.AYNJO)》](orpheus://song/1304401067)** 。
 
 当时， **GALI、KenRobb和macovaseas** 都是 **永力兄弟会** 的成员。
 
@@ -161,7 +161,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 | 6 | [航线](orpheus://song/1441214374) | GALI/HAMA |  |  |
 
 
-4月11日，GALI参与了Gibb-Z黄泽专辑中的歌曲 **《Muchlove》** 。
+4月11日，GALI参与了Gibb-Z黄泽专辑中的歌曲 **[《Muchlove》](orpheus://song/1357816681)** 。
 
 \*可在网易云搜索收听。
 
@@ -175,7 +175,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 5月15日，BASE厂牌的GALI、CATI2（2018年，经朋友GALI推荐签约BASE）、俞天时合作发布Cypher [《U.M.F》](orpheus://song/1365209928)​ 以及MV（[BV18f4y1x7Cw](https://www.bilibili.com/video/BV18f4y1x7Cw)）
 
-5月19日，GALI发布了歌曲 **《Jaguar (猎豹)》** 。该歌曲收录于一张集结了19位中文说唱歌手的中文说唱音乐合集《壹九》中，可在网易云搜索收听。
+5月19日，GALI发布了歌曲 **[《Jaguar (猎豹)》](orpheus://song/1359398930)** 。该歌曲收录于一张集结了19位中文说唱歌手的中文说唱音乐合集《壹九》中，可在网易云搜索收听。
 
 6月8日，GALI与栾卓忻发布歌曲 **[《Trust Issues (栾卓忻 Remix)》](orpheus://song/1369739982)** ，原曲即GALI的《Trust Issues》，主要是在编曲上与原曲不同。\*可在网易云搜索收听。可跳。
 
@@ -237,7 +237,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 \*可以跳过或直接听gali部分（4:41～5:10）。
 
-12月14日，GALI合作小蓝blue发布歌曲 **《24hour》** 。
+12月14日，GALI合作小蓝blue发布歌曲 **[《24hour》](orpheus://song/1409329111)** 。
 
 \*可在网易云搜索收听。
 
@@ -247,7 +247,7 @@ GlodChild：[BV1Dx41147WY](https://www.bilibili.com/video/BV1Dx41147WY)
 
 ## 2020年
 
-2月8日，GALI参与了JACKWAVY的Beat Tape，合作歌曲 **《"No Chance"// with hook(Prod.JACKWAVY)》** 献唱了hook（剩余部分无人声）。
+2月8日，GALI参与了JACKWAVY的Beat Tape，合作歌曲 **[《"No Chance"// with hook(Prod.JACKWAVY)》](orpheus://song/1427292699)** 献唱了hook（剩余部分无人声）。
 
 4月1日，GALI合作阿克江Akin、Robins Lu发布歌曲 **[《u know i'll do》](orpheus://song/1436383857)** 。
 
@@ -277,17 +277,17 @@ GALI在节目中的自我介绍视频：[BV1X54y1U7ti](https://www.bilibili.com/
 
 |  | 歌名 | 合作歌手 | 现场视频 | 备注 |
 | --- | --- | --- | --- | --- |
-| 1 | 水晶(Live) |  | [链接](https://www.bilibili.com/video/BV1Bt4y1u7QU/?t=1) | 无录音室版本;节目播出后爆火; |
+| 1 | [水晶(Live)](orpheus://song/1474621496) |  | [链接](https://www.bilibili.com/video/BV1Bt4y1u7QU/?t=1) | 无录音室版本;节目播出后爆火; |
 | 2 | [无人深空(Live)](orpheus://song/1476449983) | REGI 陈彦希 | [链接](https://www.bilibili.com/video/BV1qm4y1c7ym/?t=534) | "GALI 唱完这首歌被淘汰后 | 被导师张靓颖复活" |
-| 3 | 70%(live) |  | [链接](https://www.bilibili.com/video/BV1jkfJBaEq5/?t=1) |  |
-| 4 | What Is Love (Live) | Saber 梁维嘉/ODD 陈思键/万妮达 | [链接](https://www.bilibili.com/video/BV1qm4y1c7ym/?t=746) | 不太推荐收听 |
+| 3 | [70%(live)](orpheus://song/1481100310) |  | [链接](https://www.bilibili.com/video/BV1jkfJBaEq5/?t=1) |  |
+| 4 | [What Is Love (Live)](orpheus://song/1482148851) | Saber 梁维嘉/ODD 陈思键/万妮达 | [链接](https://www.bilibili.com/video/BV1qm4y1c7ym/?t=746) | 不太推荐收听 |
 | 5 | [Liber Tango(Live)](orpheus://song/1484055543) | 张靓颖/万妮达 | [链接](https://www.bilibili.com/video/BV1Bt4y1u7QU/?t=402) |  |
-| 6 | 偏执猎豹(live) |  | [链接](https://www.bilibili.com/video/BV1je4y1t7zM/?t=511) | 原曲为《Paranoid.》+《Jaguar》 |
-| 7 | 珍珠幻象(live) |  | [链接](https://www.bilibili.com/video/BV1Bt4y1u7QU/?t=628) | 即此前 GALI 对有嘻哈节目的 diss《Illusion Freestyle》 |
-| 8 | 琥珀(live) |  | [链接](https://www.bilibili.com/video/BV1je4y1t7zM/?t=1) |  |
-| 9 | 1992(live) |  | [链接](https://www.bilibili.com/video/BV1qm4y1c7ym/?t=1) |  |
+| 6 | [偏执猎豹(live)](orpheus://song/1485814456) |  | [链接](https://www.bilibili.com/video/BV1je4y1t7zM/?t=511) | 原曲为《Paranoid.》+《Jaguar》 |
+| 7 | [珍珠幻象(live)](orpheus://song/1487527157) |  | [链接](https://www.bilibili.com/video/BV1Bt4y1u7QU/?t=628) | 即此前 GALI 对有嘻哈节目的 diss《Illusion Freestyle》 |
+| 8 | [琥珀(live)](orpheus://song/1489267058) |  | [链接](https://www.bilibili.com/video/BV1je4y1t7zM/?t=1) |  |
+| 9 | [1992(live)](orpheus://song/1491237340) |  | [链接](https://www.bilibili.com/video/BV1qm4y1c7ym/?t=1) |  |
 | 10 | Fighting Shadows | 张靓颖等人 | [链接](https://www.bilibili.com/video/BV1qm4y1c7ym/?t=290) | 网易云无音源;不太推荐收听 |
-| 11 | 天选之子(live) |  | [链接](https://www.bilibili.com/video/BV1je4y1t7zM/?t=220) | 这段 verse 后来被用在 GALI 于 2022 年发布的专辑《亚特兰蒂斯》中 |
+| 11 | [天选之子(live)](orpheus://song/1491237390) |  | [链接](https://www.bilibili.com/video/BV1je4y1t7zM/?t=220) | 这段 verse 后来被用在 GALI 于 2022 年发布的专辑《亚特兰蒂斯》中 |
 
 这一年的冠军李佳隆和亚军王齐铭，都因为各种因素在 **当时** 被很多观众称为“最弱冠军”和“最弱亚军”（现在认同这个说法的人变得很少了），作为季军的GALI是很多人心中的无冕之王。参加完节目的GALI粉丝暴涨，人气直线上升。
 
@@ -301,7 +301,7 @@ GALI在节目中的自我介绍视频：[BV1X54y1U7ti](https://www.bilibili.com/
 
 21年的GALI发布了很多合作，但基本没有发布自己的个人单曲，可能是在准备下一年将要发布的专辑。
 
-1月22日，GALI发布歌曲 **《“PhoneCall”》** ，该歌曲收录于他在新说唱节目中所属战队的合辑。\*可在网易云搜索收听。
+1月22日，GALI发布歌曲 **[《“PhoneCall”》](orpheus://song/1814041301)** ，该歌曲收录于他在新说唱节目中所属战队的合辑。\*可在网易云搜索收听。
 
 4月3日，GALI参与了艾志恒Asen专辑中的歌曲 **[《Legendary》](orpheus://song/1832633321)** 。
 
@@ -319,7 +319,7 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 
 10月10日，GALI、ICE杨长青合作美国说唱歌手smokepurpp发布歌曲 **[《Stand Up》](orpheus://song/1871148760)** 。
 
-这一年，GALI也作为嘉宾参加了几档节目，如《说唱少年企划》《我的音乐你听吗》，歌曲（合作米诺斯《70%(live)》，合作阿达娃《YOU'RE REALLY HOT (Live)》，网易云可听）可跳过。
+这一年，GALI也作为嘉宾参加了几档节目，如《说唱少年企划》《我的音乐你听吗》，歌曲（合作米诺斯《70%(live)》，合作阿达娃[《YOU'RE REALLY HOT (Live)》](orpheus://song/1891169812)，网易云可听）可跳过。
 
 12月13日，Complex 中文发布GALI \*\* 51分钟\*\* 采访（电台）“哈圈男模Gali来做客：其实蛮烦《70%》！-《黑泡泡电台》第三十集 完整版”[BV1vu411S7hg​](https://www.bilibili.com/video/BV1vu411S7hg/)
 
@@ -382,17 +382,17 @@ LEGGO来自浙江杭州，在2018年创立了说唱音乐团体APEX，成员主�
 
 |  | 歌名 | 合作歌手 | 现场视频 | 备注 |
 | --- | --- | --- | --- | --- |
-| 1 | 亚特兰蒂斯之心(LIVE版) |  | [链接](https://www.bilibili.com/video/BV1sg411m7Zq/?t=1) |  |
+| 1 | [亚特兰蒂斯之心(LIVE版)](orpheus://song/1960729495) |  | [链接](https://www.bilibili.com/video/BV1sg411m7Zq/?t=1) |  |
 | 2 | [晒(LIVE版)](orpheus://song/1962368708) | TizzyT | [链接](https://www.bilibili.com/video/BV1ZW4y1Y7xJ/?t=1) | GALI忘词失误 |
 | 3 | [礼拜日Life goes on(LIVE版)](orpheus://song/1966263877) | Capper/MCHotDog热狗 | [链接](https://www.bilibili.com/video/BV1sg411m7Zq/?t=217) |  |
 | 4 | [神奇宝贝的Cypher(LIVE版)](orpheus://song/1968156124) | Capper/热狗/TizzyT | [链接](https://www.bilibili.com/video/BV1sg411m7Zq/?t=463) |  |
-| 5 | 悬浮术II(LIVE版) |  | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=7) |  |
+| 5 | [悬浮术II(LIVE版)](orpheus://song/1969925751) |  | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=7) |  |
 | 6 | [达摩克利斯之剑(LIVE版)](orpheus://song/1975802984) | Capper | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=526) | 原曲是Capper、CREAMD合作的《达摩克利斯之剑》 |
 | 7 | [够了够了(LIVE版)](orpheus://song/1971816935) | 黑豹乐队/热狗 | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=292) | 改编自黑豹乐队《够了够了》 |
 | 8 | [我只在乎你2.0(LIVE版)](orpheus://song/1980392063) | 热狗/Capper/刘炫廷/TizzyT | [链接](https://www.bilibili.com/video/BV1ZW4y1Y7xJ/?t=220) | 最终联盟排名第二 |
-| 9 | BackPack(LIVE版) |  | 未找到搬运视频 |  |
-| 10 | [DROPTOP!(LIVE版)](orpheus://song/1976485113) | Capper/刘炫廷/TizzyT | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=740) |  |
-| 11 | 玛瑙/The House(暗室)(LIVE版) |  | [链接](https://www.bilibili.com/video/BV1WR4y1y756/?t=1) |  |
+| 9 | [BackPack(LIVE版)](orpheus://song/1978173964) |  | 未找到搬运视频 |  |
+| 10 | [DROPTOP!(LIVE版)](orpheus://song/1975800434) | Capper/刘炫廷/TizzyT | [链接](https://www.bilibili.com/video/BV1UP411G7yY/?t=740) |  |
+| 11 | [玛瑙/The House(暗室)(LIVE版)](orpheus://song/1980027690) |  | [链接](https://www.bilibili.com/video/BV1WR4y1y756/?t=1) |  |
 
 同年12月5日，小强蜀熟发布GALI 21分钟采访：我好像不适合综艺节目（[BV1FG4y137Jb​](https://www.bilibili.com/video/BV1FG4y137Jb%E2%80%8B)）。访谈中讨论了节目、《亚特兰蒂斯》、上海说唱等话题。
 
@@ -533,7 +533,7 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 \*可在网易云搜索收听。
 
-8月26日，GALI参与了HEAT J专辑中的歌曲 **《PICK A SIDE（interlude）》** 。
+8月26日，GALI参与了HEAT J专辑中的歌曲 **[《PICK A SIDE（interlude）》](orpheus://song/2619810977)** 。
 
 \*可在网易云搜索收听。
 
@@ -649,7 +649,7 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 **2026年**
 
-3月11日，GALI参与了Brofa专辑中的歌曲 **《熊猫邮局（Geek）》** 。
+3月11日，GALI参与了Brofa专辑中的歌曲 **[《熊猫邮局（Geek）》](orpheus://song/3355972100)** 。
 
 4月1日，GALI参与了CHOCKEY有三专辑中的歌曲 **[《潜入你的梦》](orpheus://song/3362972099)** 。
 
