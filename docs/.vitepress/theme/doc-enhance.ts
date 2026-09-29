@@ -174,11 +174,30 @@ function enableDragScroll(root: ParentNode) {
   })
 }
 
+/**
+ * 导航栏 logo 双保险：<img src="logo.svg"> 加载失败时回退到 logo.png。
+ *
+ * 现代浏览器都能渲染 SVG，但极旧浏览器 / 某些内嵌 WebView 不支持，
+ * 此时 onerror 把 src 换成同名 PNG（黑色实心图，深色主题同样靠
+ * CSS filter:invert(1) 反白）。
+ */
+function attachLogoFallback(root: ParentNode) {
+  const logo = root.querySelector<HTMLImageElement>('.VPNavBar .logo')
+  if (!logo || logo.dataset.fallbackBound) return
+  logo.dataset.fallbackBound = '1'
+  if (logo.src.endsWith('.svg')) {
+    logo.addEventListener('error', () => {
+      logo.src = logo.src.replace(/\.svg(?:\?.*)?$/, '.png')
+    })
+  }
+}
+
 function enhance(root: ParentNode) {
   markImgBlocks(root)
   wrapTables(root)
   markTableColumns(root)
   enableDragScroll(root)
+  attachLogoFallback(root)
 }
 
 export function setupImgBlocks() {
@@ -203,6 +222,9 @@ export function setupImgBlocks() {
       })
     }
     scopes.forEach(enhance)
+    // 导航栏 logo 不在 .vp-doc 内，每批变动后兜底挂一次 onerror
+    // （attachLogoFallback 内部有 data-fallbackBound 去重，幂等安全）
+    attachLogoFallback(document.body)
   })
   observer.observe(document.body, { childList: true, subtree: true })
 }
