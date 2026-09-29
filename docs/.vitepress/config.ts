@@ -29,7 +29,7 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: '/images/logo.png',
+    logo: '/images/logo.svg',
     siteTitle: '中文说唱档案',
     outline: {
       level: [2, 3],
