@@ -6,7 +6,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: '中文说唱档案',
   description: '中文说唱歌手开荒文稿、人物生涯与音乐作品目录',
-  base: '/showMD/',
+  base: '/',
   cleanUrls: true,
   lastUpdated: true,
   // 多主题为手动切换（10 套阅读主题），禁用 VitePress 自带深浅色开关
