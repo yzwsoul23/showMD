@@ -18,8 +18,9 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#FAFAFA' }],
     // SVG favicon 内嵌图形并跟随系统深浅色：浅色标签为黑色、深色标签反白；
     // PNG 回退给不支持 SVG favicon 的旧浏览器
-    ['link', { rel: 'icon', href: '/showMD/images/favicon.svg', type: 'image/svg+xml' }],
-    ['link', { rel: 'icon', href: '/showMD/images/favicon.png', type: 'image/png', sizes: '128x128' }],
+    // 注意：head 里的 href 不会自动拼 base 前缀，base 改动时这里要同步修改
+    ['link', { rel: 'icon', href: '/images/favicon.svg', type: 'image/svg+xml' }],
+    ['link', { rel: 'icon', href: '/images/favicon.png', type: 'image/png', sizes: '128x128' }],
     // 首屏防闪烁：CSS 加载前就把 localStorage 里的主题写到 <html data-theme>；
     // 无存储时默认 apple（Apple Books 风格）。键名与 theme-switcher.ts 保持一致。
     ['script', {},

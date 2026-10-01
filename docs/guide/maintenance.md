@@ -475,7 +475,7 @@ node scripts/qq-songs.mjs "https://y.qq.com/n/ryqq/singer/0025NhlN2yWrP4" 周杰
 ```powershell
 npm run validate      # 先过数据校验
 npm run docs:build    # 构建到 docs/.vitepress/dist/
-npm run docs:preview  # 打开 http://localhost:4173/showMD/ 复查生产效果
+npm run docs:preview  # 打开 http://localhost:4173/ 复查生产效果
 ```
 
 1. 推送前想做一次完整验证（dev 宽松、build 严格，能查出死链等 dev 不报的问题）；
@@ -484,7 +484,7 @@ npm run docs:preview  # 打开 http://localhost:4173/showMD/ 复查生产效果
 
 > 注意 dev 和 build 暴露的问题互不相同：死链、SSR 错误只有 build 报；个别资源问题（如文件名含 `%`）只在 dev 炸。两者不能互相替代。
 
-站点 base 为 `/showMD/`，仓库改名时需同步修改 `config.ts` 里的 `base`。
+站点部署在自定义域名 `rapper.958263.xyz`（根路径），base 为 `/`。`config.ts` 的 `head` 里的 favicon 链接不会自动拼 base 前缀，若改 base 需同步修改 `head` 里的 `/images/favicon.*` 路径。
 
 ## 更新记录
 
