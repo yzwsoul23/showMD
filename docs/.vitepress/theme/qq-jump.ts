@@ -287,7 +287,7 @@ export function setupQqJump() {
       autoHideTimer = setTimeout(() => {
         autoHideTimer = undefined
         hideToast()
-      }, 2500)
+      }, 3000)
     })
   })
 

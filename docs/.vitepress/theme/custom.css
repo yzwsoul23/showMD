@@ -1835,15 +1835,19 @@ html[data-theme='record'] .vp-doc table img[alt] {
   left: 50%;
   bottom: 48px;
   z-index: 99;
+  max-width: 90vw;
   padding: 10px 22px;
-  border: 1px solid var(--rs-line);
+  border: 1px solid var(--rs-accent);
   border-radius: 999px;
-  background: var(--rs-card);
-  box-shadow: var(--rs-shadow);
-  color: var(--rs-ink);
+  background: rgba(20, 20, 24, 0.92);
+  box-shadow:
+    0 8px 28px rgba(0, 0, 0, 0.35),
+    0 0 0 1px var(--rs-accent) inset;
+  color: #fff;
   font-family: var(--vp-font-family-base);
   font-size: 14px;
   line-height: 1.4;
+  text-align: center;
   opacity: 0;
   pointer-events: none;
   transform: translate(-50%, 12px);
@@ -1857,14 +1861,15 @@ html[data-theme='record'] .vp-doc table img[alt] {
   transform: translate(-50%, 0);
 }
 
-/* QQ 音乐复制提示：用深底白字+强调色描边，确保在明暗主题下都清晰可见 */
-#rs-qq-toast {
-  background: rgba(20, 20, 24, 0.92);
-  border-color: var(--rs-accent);
-  color: #fff;
-  box-shadow:
-    0 8px 28px rgba(0, 0, 0, 0.35),
-    0 0 0 1px var(--rs-accent) inset;
+/* 移动端：放宽宽度、加大字号与内边距，避免长文案换行后过窄 */
+@media (max-width: 768px) {
+  .rs-ncm-toast {
+    bottom: 32px;
+    max-width: calc(100vw - 24px);
+    padding: 12px 20px;
+    font-size: 15px;
+    border-radius: 16px;
+  }
 }
 
 .rs-ncm-toast .rs-ncm-toast-btn {
