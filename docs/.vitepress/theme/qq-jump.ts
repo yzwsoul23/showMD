@@ -204,6 +204,28 @@ function launch(songmid: string) {
   }, MOBILE_DETECT_MS)
 }
 
+function copyToClipboard(text: string): Promise<void> {
+  if (navigator.clipboard?.writeText) {
+    return navigator.clipboard.writeText(text)
+  }
+  // 老浏览器兜底：textarea + execCommand
+  return new Promise((resolve) => {
+    const ta = document.createElement('textarea')
+    ta.value = text
+    ta.style.position = 'fixed'
+    ta.style.opacity = '0'
+    document.body.appendChild(ta)
+    ta.select()
+    try {
+      document.execCommand('copy')
+    } catch {
+      /* 忽略 */
+    }
+    document.body.removeChild(ta)
+    resolve()
+  })
+}
+
 export function setupQqJump() {
   if (typeof document === 'undefined') return
 
@@ -231,6 +253,37 @@ export function setupQqJump() {
     launch(songmid)
   })
 
+  // QQ 音乐网页短链（c6.y.qq.com）点击策略：
+  // - 桌面端：无法唤起 App，点击后复制 data-qq-copy 里的「歌名+歌手」，
+  //   弹提示引导用户去 QQ 音乐搜索；
+  // - 移动端：c6.y.qq.com 短链可直接唤起 QQ 音乐 App，不阻止默认跳转。
+  document.addEventListener('click', (e) => {
+    if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return
+    const link = (e.target as HTMLElement | null)?.closest<HTMLAnchorElement>(
+      'a[data-qq-copy]'
+    )
+    if (!link) return
+
+    const copyText = link.getAttribute('data-qq-copy') ?? ''
+    if (!copyText) return
+
+    if (isMobile()) {
+      // 移动端交给浏览器处理 c6.y.qq.com 短链，唤起 QQ 音乐 App
+      return
+    }
+
+    e.preventDefault()
+    void copyToClipboard(copyText).then(() => {
+      showToast(`已复制歌名请前往qq音乐搜索：${copyText}`)
+      // 2.5 秒后自动收起，复用已有的 hideToast
+      clearAutoHideTimer()
+      autoHideTimer = setTimeout(() => {
+        autoHideTimer = undefined
+        hideToast()
+      }, 2500)
+    })
+  })
+
   // 悬停时补一个说明 title（不想把提示写死进每个 markdown 链接）
   document.addEventListener('mouseover', (e) => {
     const link = (e.target as HTMLElement | null)?.closest<HTMLAnchorElement>(
@@ -239,5 +292,16 @@ export function setupQqJump() {
     if (!link || link.title) return
     if (!parseSongmid(link.getAttribute('href') ?? '')) return
     link.title = '在QQ音乐客户端播放（未检测到客户端时提示跳网页版）'
+  })
+
+  // data-qq-copy 链接的悬停提示
+  document.addEventListener('mouseover', (e) => {
+    const link = (e.target as HTMLElement | null)?.closest<HTMLAnchorElement>(
+      'a[data-qq-copy]'
+    )
+    if (!link || link.title) return
+    link.title = isMobile()
+      ? '点击在QQ音乐中播放'
+      : '点击复制歌名，前往QQ音乐搜索'
   })
 }
