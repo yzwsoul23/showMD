@@ -593,13 +593,13 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 4月22日，GALI合作黄之仪Kyra Zilver发布乐堡广告曲[《不塑之客》](orpheus://song/2695993024)​（[BV1CQ5QzzEw9](https://www.bilibili.com/video/BV1CQ5QzzEw9)）。
 
-5月8日，GALI参与了俞天时KOZAY专辑中的歌曲 **<a href="https://c6.y.qq.com/base/fcgi-bin/u?__=QHB9GKwV9bL5" data-qq-copy="《人工降雨》俞天时KOZAY/GALI《人工降雨》">《人工降雨》</a>** 。
+5月8日，GALI参与了俞天时KOZAY专辑中的歌曲 **<a href="https://c6.y.qq.com/base/fcgi-bin/u?__=QHB9GKwV9bL5" data-qq-copy="《人工降雨》俞天时KOZAY/GALI" data-qq-title="《人工降雨》" data-songmid="001iuMS84cJ1Uz">《人工降雨》</a>** 。
 
 \*网易云无版权，点击歌名复制后前往QQ音乐搜索。
 
 5月21日，GALI参与了马伯骞的EP合作发布了歌曲 **[《HOLY WATER》](orpheus://song/2705348965)** 。
 
-6月10日，GALI合作Sbazzo发布歌曲 **<a href="https://c6.y.qq.com/base/fcgi-bin/u?__=LUwFcSwV9bJV" data-qq-copy="《魔法士》Sbazzo/GALI《魔法士》">《魔法士》</a>** 。
+6月10日，GALI合作Sbazzo发布歌曲 **<a href="https://c6.y.qq.com/base/fcgi-bin/u?__=LUwFcSwV9bJV" data-qq-copy="《魔法士》Sbazzo/GALI" data-qq-title="《魔法士》" data-songmid="00061ShE3PzUKZ">《魔法士》</a>** 。
 
 \*网易云无版权，点击歌名复制后前往QQ音乐搜索。
 
@@ -617,7 +617,7 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 ![Star-Crossing-Night-Cover](/images/gali/Star-Crossing-Night-Cover.webp)
 
-10月15日，GALI、Ro1、Rapeter参与了派克特专辑中的歌曲 **<a href="https://c6.y.qq.com/base/fcgi-bin/u?__=6tZPaowV9lOi" data-qq-copy="《So What》派克特/GALI/Ro1/Rapeter《So What》">《So What》</a>** 。
+10月15日，GALI、Ro1、Rapeter参与了派克特专辑中的歌曲 **<a href="https://c6.y.qq.com/base/fcgi-bin/u?__=6tZPaowV9lOi" data-qq-copy="《So What》派克特/GALI/Ro1/Rapeter" data-qq-title="《So What》" data-songmid="001L9id01v4xfg">《So What》</a>** 。
 
 \*网易云无版权，点击歌名复制后前往QQ音乐搜索。
 
@@ -627,7 +627,7 @@ GALI也是其中的成员，参与了部分歌曲：\
 
 11月3日，GALI发布歌曲 [《BLACKBIRRRD》](orpheus://song/3312738881)​ **。MV** [BV1egkXByEMF](https://www.bilibili.com/video/BV1egkXByEMF)
 
-11月15日，GALI、JonyJ参与了制作人 **也是福** 专辑中的歌曲 **<a href="https://c6.y.qq.com/base/fcgi-bin/u?__=zvc6CRwV9fiu" data-qq-copy="《未命名》也是福/Jony J/GALI《未命名》">《未命名》</a>** 。
+11月15日，GALI、JonyJ参与了制作人 **也是福** 专辑中的歌曲 **<a href="https://c6.y.qq.com/base/fcgi-bin/u?__=zvc6CRwV9fiu" data-qq-copy="《未命名》也是福/Jony J/GALI" data-qq-title="《未命名》" data-songmid="0016GyKt0IHH8d">《未命名》</a>** 。
 
 \*网易云无版权，点击歌名复制后前往QQ音乐搜索。
 

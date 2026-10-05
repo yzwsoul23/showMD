@@ -1857,6 +1857,16 @@ html[data-theme='record'] .vp-doc table img[alt] {
   transform: translate(-50%, 0);
 }
 
+/* QQ 音乐复制提示：用深底白字+强调色描边，确保在明暗主题下都清晰可见 */
+#rs-qq-toast {
+  background: rgba(20, 20, 24, 0.92);
+  border-color: var(--rs-accent);
+  color: #fff;
+  box-shadow:
+    0 8px 28px rgba(0, 0, 0, 0.35),
+    0 0 0 1px var(--rs-accent) inset;
+}
+
 .rs-ncm-toast .rs-ncm-toast-btn {
   pointer-events: auto;
   margin-left: 14px;

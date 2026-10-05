@@ -265,16 +265,23 @@ export function setupQqJump() {
     if (!link) return
 
     const copyText = link.getAttribute('data-qq-copy') ?? ''
+    const titleText = link.getAttribute('data-qq-title') ?? copyText
+    const songmid = link.getAttribute('data-songmid') ?? ''
     if (!copyText) return
 
     if (isMobile()) {
-      // 移动端交给浏览器处理 c6.y.qq.com 短链，唤起 QQ 音乐 App
+      // 移动端：直接用 qqmusic:// 协议唤起 QQ 音乐 App 播放，不走短链
+      if (songmid) {
+        e.preventDefault()
+        launch(songmid)
+      }
+      // 没有 songmid 时交给浏览器走 c6 短链兜底
       return
     }
 
     e.preventDefault()
     void copyToClipboard(copyText).then(() => {
-      showToast(`已复制歌名请前往qq音乐搜索：${copyText}`)
+      showToast(`已复制歌名请前往qq音乐搜索：${titleText}`)
       // 2.5 秒后自动收起，复用已有的 hideToast
       clearAutoHideTimer()
       autoHideTimer = setTimeout(() => {
