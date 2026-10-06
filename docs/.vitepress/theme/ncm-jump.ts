@@ -8,14 +8,16 @@
  *   旧写法 orpheus://song/123/?autoplay=1 也兼容，自动归一化
  *
  * 原理（参考 https://github.com/a2942/163MusicJump 与网易云 PC Scheme 研究）：
- * - 手机端：orpheus://<类型>/<id> 即可唤起 App；
+ * - 移动端：不再手写 scheme 与定时器探测，直接导航到官方落地页
+ *   music.163.com/<类型>?id=<id>——装了 App 由官方页唤起，没装
+ *   落地页本身就是可听的网页版，「装没装、怎么回退」全交给官方；
  * - PC 客户端不认 ?autoplay=1，能打开但不播放。自动播放要下发
  *   Base64 JSON 指令：orpheus://<base64({type,id,cmd:'play'})>。
  *   song / playlist 已被实测支持；album 指令为同构推断，个别客户端版本
  *   若不支持自动播放也会正常打开专辑详情页；
- * - 未安装客户端时用 blur / visibilitychange 心跳检测。桌面端窗口放宽到
- *   4s：协议已被「始终允许」时客户端冷启动要数秒才夺走浏览器焦点，窗口
- *   太短会把已唤起误判为未安装；
+ * - PC 端检测是否唤起用 document.hidden 心跳，窗口放宽到 4s：协议
+ *   已被「始终允许」时客户端冷启动要数秒才夺走浏览器焦点，窗口太短
+ *   会把已唤起误判为未安装；
  * - 检测不到唤起时不再自动跳网页版，而是弹一个 5 秒的确认气泡，点击
  *   「转到网页版」才会跳，不点过时自动消失——把跳不跳的选择权交给用户，
  *   也兜住「客户端其实已唤起、只是焦点检测误判」的场景。
@@ -32,8 +34,8 @@ const LINK_RE = /^orpheus:\/\/(song|album|playlist)\/(\d+)/i
 const TOAST_ID = 'rs-ncm-toast'
 const LAUNCH_LOCK_MS = 3000
 
-/** 唤起检测窗口：期间页面没失焦就视为未安装，弹网页版确认气泡 */
-const MOBILE_DETECT_MS = 2500
+/** PC 唤起检测窗口：期间页面没失焦就视为未安装，弹网页版确认气泡。
+ *  移动端无此概念——直接导航官方落地页，探测与回退由官方页面负责 */
 const DESKTOP_DETECT_MS = 4000
 /** 网页版确认气泡停留时长：不点「转到网页版」就自动消失 */
 const FALLBACK_TOAST_MS = 5000
@@ -141,9 +143,8 @@ function showFallbackToast(webUrl: string, onOpen?: () => void) {
 }
 
 /**
- * 唤起客户端并做网页版回退。
- * - PC 客户端冷启动要数秒才夺走浏览器焦点，桌面端检测窗口放宽到 4s，
- *   移动端切 App 很快，保持 2.5s；
+ * 移动端直接导航官方落地页；PC 唤起客户端并做网页版回退。
+ * - PC 客户端冷启动要数秒才夺走浏览器焦点，检测窗口放宽到 4s；
  * - 判定「是否已离开」只信 document.hidden：浏览器弹外部协议确认条时
  *   window blur / hasFocus 都会误报，切到客户端时 document.hidden 才可靠；
  * - 收起提示的回页信号则三件套都监听（visible / pageshow / focus），
@@ -156,16 +157,24 @@ function launch(kind: NcmKind, id: string) {
   if (now - lastLaunchAt < LAUNCH_LOCK_MS) return
   lastLaunchAt = now
 
-  // 清掉上一次尝试残留的页面信号监听与自灭定时器
+  const meta = KIND_META[kind]
+  const webUrl = `https://music.163.com/${meta.webPath}?id=${id}`
+
+  // 移动端：官方落地页自带 UA 探测与唤起逻辑，装了 App 就唤起、
+  // 没装它本身就是可听的网页版——比手写定时器猜「装没装」可靠，
+  // toast 与页面信号那套在跳转后也无意义，直接导航
+  if (isMobile()) {
+    window.location.href = webUrl
+    return
+  }
+
+  // 以下为 PC 流程：官方网页版不能自动播放，用 Base64 指令唤起客户端。
+  // 先清掉上一次尝试残留的页面信号监听与自灭定时器
   teardownSignals?.()
   teardownSignals = undefined
   clearAutoHideTimer()
 
-  const meta = KIND_META[kind]
-  const appUrl = isMobile()
-    ? `orpheus://${kind}/${id}`
-    : buildDesktopUri(kind, id)
-  const webUrl = `https://music.163.com/#/${meta.webPath}?id=${id}`
+  const appUrl = buildDesktopUri(kind, id)
 
   showToast('正在唤起网易云音乐客户端…')
   armAutoHide(LAUNCHING_TOAST_MS)
@@ -214,7 +223,7 @@ function launch(kind: NcmKind, id: string) {
       teardownSignals = undefined
       unbind()
     })
-  }, isMobile() ? MOBILE_DETECT_MS : DESKTOP_DETECT_MS)
+  }, DESKTOP_DETECT_MS)
 }
 
 export function setupNcmJump() {
