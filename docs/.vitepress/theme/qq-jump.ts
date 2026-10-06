@@ -84,7 +84,8 @@ function showCopyToast(titleText: string, webUrl?: string) {
     btn.addEventListener('click', (e) => {
       e.stopPropagation()
       clearAutoHideTimer()
-      window.location.href = webUrl
+      hideToast()
+      window.open(webUrl, '_blank')
     })
     toast.append(btn)
   }
@@ -117,7 +118,8 @@ function showFallbackToast(webUrl: string) {
   btn.addEventListener('click', (e) => {
     e.stopPropagation()
     clearAutoHideTimer()
-    window.location.href = webUrl
+    hideToast()
+    window.open(webUrl, '_blank')
   })
   toast.append(msg, btn)
   // 强制一次重排后再加类，保证进场上浮动画能触发
