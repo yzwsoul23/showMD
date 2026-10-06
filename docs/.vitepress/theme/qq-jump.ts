@@ -59,7 +59,12 @@ function parseSongmid(href: string): string | null {
   return LINK_RE.exec(raw)?.[1] ?? null
 }
 
-function showToast(text: string) {
+function hideToast() {
+  document.getElementById(TOAST_ID)?.classList.remove('is-show')
+}
+
+/** 复制成功提示：有 songmid 时附「打开网页版」按钮，点击直达官方详情页 */
+function showCopyToast(titleText: string, webUrl?: string) {
   let toast = document.getElementById(TOAST_ID)
   if (!toast) {
     toast = document.createElement('div')
@@ -67,14 +72,27 @@ function showToast(text: string) {
     toast.className = 'rs-ncm-toast'
     document.body.appendChild(toast)
   }
-  toast.textContent = text
+  toast.textContent = ''
+  const msg = document.createElement('span')
+  msg.textContent = `已复制歌名请前往qq音乐搜索：${titleText}`
+  toast.append(msg)
+  if (webUrl) {
+    const btn = document.createElement('button')
+    btn.type = 'button'
+    btn.className = 'rs-ncm-toast-btn'
+    btn.textContent = '打开网页版'
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation()
+      clearAutoHideTimer()
+      window.location.href = webUrl
+    })
+    toast.append(btn)
+  }
   // 强制一次重排后再加类，保证进场上浮动画能触发
   void toast.offsetHeight
   toast.classList.add('is-show')
-}
-
-function hideToast() {
-  document.getElementById(TOAST_ID)?.classList.remove('is-show')
+  // 带按钮时与确认气泡同长（5s），给用户留点击时间
+  armAutoHide(FALLBACK_TOAST_MS)
 }
 
 /**
@@ -206,13 +224,10 @@ export function setupQqJump() {
 
     e.preventDefault()
     void copyToClipboard(copyText).then(() => {
-      showToast(`已复制歌名请前往qq音乐搜索：${titleText}`)
-      // 2.5 秒后自动收起，复用已有的 hideToast
-      clearAutoHideTimer()
-      autoHideTimer = setTimeout(() => {
-        autoHideTimer = undefined
-        hideToast()
-      }, 3000)
+      showCopyToast(
+        titleText,
+        songmid ? `https://y.qq.com/n/ryqq/songDetail/${songmid}` : undefined
+      )
     })
   })
 
