@@ -5,7 +5,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 # 李佳隆音乐生涯 & 作品目录
 
-![jelloRio-live](/images/jellorio/jelloRio-live.webp)
+![jelloRio1](/images/jellorio/jelloRio1.webp)
 
 **李佳隆**，1997年1月9日出生于四川省南充市蓬安县；初中开始接触说唱音乐，高中尝试创作，大学就读于四川文化艺术学院美术系。英文名 **JelloRio**，Jello 是佳隆的谐音，Rio 意为 Real。是个十分内向的游戏宅男。
 
@@ -95,7 +95,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 封面：
 
-![3-JELLO-Cover-angel](/images/jellorio/3-JELLO-Cover-angel.webp "JELLO/REAL 封面（天使/网易云）")![3-JELLO-Cover-real](/images/jellorio/3-JELLO-Cover-real.webp "JELLO/REAL 封面（恶魔/QQ音乐）")
+![3-JELLO-Cover](/images/jellorio/3-JELLO-Cover.webp)
 
 | 歌曲名称 | 备注 |
 | --- | --- |
@@ -197,7 +197,7 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 离开出人头地回到成都，和女友恶恶以及经纪人 vb 一起成立了 BornLegend Music 音乐工作室和 BornLegend 的服装品牌。logo：
 
-![BornLegend-logo2](/images/jellorio/BornLegend-logo2.webp)
+![BornLegend-logo](/images/jellorio/BornLegend-logo.webp)
 
 - 1-30 单曲[《JELLO FEAT.REAL》](orpheus://song/1915640213)，这首歌讲了自己从上节目爆火后的心境，在迎合市场和自我之间反复拉扯，最后还是选择了离开出人头地组建自己的音乐工作室（后面有发《JELLO FEAT.REAL + 绝》的 mv）
 
@@ -364,7 +364,9 @@ description: 李佳隆（JelloRio）的音乐生涯、早期经历与代表作�
 
 - 3-1 李佳隆在广州亚运城综合体育馆举办"出人头地"演唱会，成为中国第一个将弦乐团搬上现场舞台的说唱歌手 嘉宾 ASEN、王以太（b站有现场视频：[BV1bk9fYoE5w](https://www.bilibili.com/video/BV1bk9fYoE5w) 推荐开场OMG、林中游（和加拿大故人在2020年节目里合作的歌曲 也是时隔很多年在节目外演唱，也有和ASEN合体版的GUOXIA和说唱钱）
 
-![2025-concert-poster](/images/jellorio/2025-concert-poster.webp "2025 出人头地演唱会海报")
+![2025DreamsComeTrueMixtape](/images/jellorio/2025DreamsComeTrueMixtape.webp)
+
+![2025DreamsComeTrueMixtape1](/images/jellorio/2025DreamsComeTrueMixtape1.webp)
 
 - 3-4 做SoulSense TWH Freestyle 演唱《加速 Freestyle》(b站有：[BV18r9iYFEEK](https://www.bilibili.com/video/BV18r9iYFEEK)）
 - 3-7 做客SoulSense TWH LIVE 演唱《我不是说唱歌手》《Top Talk》（b站有：[BV1pGRMYuEKa](https://www.bilibili.com/video/BV1pGRMYuEKa)）
